@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*- 
+ 
+
+import pln_inco.bioscope.scripts
+import pln_inco.bioscope as bioscope
+import pln_inco.bioscope.util
+import os.path
+import time
+import sys
+
+# Seteo las variables
+# $GENIA_EVENT: lugar donde estﻓn los archivos del corpus GENIA Event
+# $STANFORD_PARSER_HOME: directorio donde estﺃ­ instalado el parser
+# $GENIA_TAGGER_HOME: directorio donde estﺃ­ instalado el Genia Tagger
+# $GRAPHVIZ: directorio donde estﺃ­ el ejecutable dot de Graphviz
+
+corpus_type=sys.argv[1]
+
+# Ubicación de algunos binarios/corpus
+genia_event_corpus_dir=os.path.expandvars('$GENIA_EVENT')
+parser_grammar_file=os.path.join(os.path.expandvars('$STANFORD_PARSER_HOME'),'englishPCFG.ser.gz')
+genia_tagger_dir=os.path.expandvars('$GENIA_TAGGER_HOME')
+graphviz_dir=os.path.expandvars('$GRAPHVIZ_HOME')
+crf_corpus_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'crf_corpus')
+
+# Genero el corpus de entrenamiento 
+print "Loading original  corpus..."
+
+if corpus_type=='TEST':
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_test')
+	bioscope_xml_file='abstracts_test.xml'
+elif corpus_type=='TRAIN':
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_train')
+	bioscope_xml_file='abstracts_train.xml'
+else:
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_devel')
+	bioscope_xml_file='abstracts_devel.xml'
+	
+
+dbname=os.path.join(working_dir,'attributes.db')
+
+# Levanto el corpus correspondiente
+bcp=bioscope.util.BioscopeCorpusProcessor(working_dir, bioscope_xml_file,genia_event_corpus_dir,parser_grammar_file,genia_tagger_dir)
+
+t0=time.clock()
+bc=bioscope.BioscopeCorpus(bcp,'.*')
+print "Elapsed time...", time.clock()-t0, "seconds..."
+t0=time.clock()
+print "Generating corpus DB..."
+pln_inco.bioscope.scripts.save_basic_attributes(bc,dbname)
+print "Done"

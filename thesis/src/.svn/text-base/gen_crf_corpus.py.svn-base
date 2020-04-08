@@ -1,0 +1,45 @@
+# -*- coding: utf-8 -*- 
+# Script que toma la base de datos y genera los archivos de entrenamiento/testeo
+# Opcionalmente, permite repartir el corpus de entrenamiento en 80/20 
+# Uso: gen_crf_corpus.py corpus_type training_file testing_file resplit xs y 
+
+import pln_inco.bioscope.scripts
+import pln_inco.bioscope as bioscope
+import pln_inco.bioscope.util
+import os.path
+import time
+import sys
+import yaml
+
+
+corpus_type=sys.argv[1]
+print "Corpus type:",corpus_type
+resplit=sys.argv[4]
+print "Resplit:",resplit
+
+config_file=open(sys.argv[5])
+conf=yaml.load(config_file)
+xs=conf['xs']
+y=conf['y'] 
+
+if corpus_type=='TEST':
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_test')
+elif corpus_type=='TRAIN':
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_train')
+else:
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_devel')
+
+dbname=os.path.join(working_dir,'attributes.db')
+training_file=os.path.join(os.path.expandvars('$BIOSCOPE'),'crf_corpus',sys.argv[2])
+test_file=os.path.join(os.path.expandvars('$BIOSCOPE'),'crf_corpus',sys.argv[3])
+
+
+if resplit == "yes":
+	print "Resplitting database..."
+	print dbname
+	pln_inco.bioscope.scripts.split_training_corpus(dbname)
+print "Generating training file…",training_file
+pln_inco.bioscope.scripts.gen_conll_file(dbname,'bioscope80',training_file,xs,y,False)
+print "Generating test file…",test_file
+pln_inco.bioscope.scripts.gen_conll_file(dbname,'bioscope20',test_file,xs,y,False)
+print "Done"

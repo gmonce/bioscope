@@ -1,0 +1,212 @@
+Código:
+Proceso general
+---------------
+
+1. Generación del corpus a partir de los fuentes
+------------------------------------------------
+
+- Este proceso recibe como entrada un archivo xml con el corpus (está en $BIOSCOPE/train, $BIOSCOPE/test, $BIOSCOPE/devel, y se llama abstracts_train.xml, abstracts_test.xml, abstracts_develop.xml). El archivo de develop se usa para hacer las pruebas, train es el corpus de entrenamiento y abstracts_test.xml el de texto (que no se va a usar hasta el final).
+
+- Lo primero que se hace es setear todas las variables de ambiente, creando una instancia de bioscope.util.BioscopeCorpusProcessor, que va a hacer toda la comunicación con el ambiente. En particular working_dir es el directorio donde se van a genera los archivos.
+
+- pln_inco.bioscope.scripts.gen_text_files(bcp), crea los archivos de texto para cada uno de los documentos del corpus. Se van a llamar 'a'+docId+'.txt' y van a estar en working_dir/txt y se van a usar luego para pasarle las herramientas de análisis de textos.
+
+- pln_inco.bioscope.scripts.gen_bioscope_files(bcp): crea los archivos xml partiendo el corpus bioscope en xml, uno por documento. Se llaman a+doc_id+.xml y no me acuerdo para que se usan.
+
+- 
+- pln_inco.bioscope.scripts.copy_genia_event_files(bcp): Copia los archivos de genia event correspondientes al corpus que estoy procesando.	
+
+- pln_inco.bioscope.scripts.create_single_text_file(bcp,'a*.txt'): junta todos los archivos de texto y los procesa con el tagger genia. Deja el resultado en el directorio genia_temp_results_dir, con el nombre genia_temp_file. A este archivo le aplica el pln_inco.bioscope.scripts.genia_tag(bcp) y genera un archivo de análisis de genia por cada documento y oración. Lo generado por cada documento es un archivo en formato lema/POS, listo para ser proceado directamente por el Stanford Parser, corrigiendo algunos problemas en la salida del tagger de GENIA y cambiando algunos formados para el PennTreeBank (queda en el directorio genia_articles, uno por artículo). También genera un archivo con los atributos de GENIA (ademﺃ­s del POS, NER y chunking), por cada oración, en un formato igual al que larga GENIA (en el directorio genia, uno por oración, con formato a+docId+sentenceId).genia
+
+- Analizo cada uno de los .genia de los artículos, y parseo con el parser de stanford, generando los .parsed correspondientes, en el directorio parsed. Utilizo para eso el pln_inco.bioscope.scripts.gen_parsed_files
+
+
+2. Levantar el corpus a memoria
+--------------------------------
+
+bc=bioscope.BioscopeCorpus(bcp,'.*'). Esto lo que hace es recorrer los documentos y para cada uno crear un objeto  bioscope.BioscopeDocument (que a su vez crea objetos bioscope.BioscopeSentence). En la clase BioscopeDocument, al inicializarla, se crean las instancias y se levanta la información del árbol de parsing. usando bcp.load_parsed_sentences, y luego se les agrega la información de genia y bioscope (usando BioscopeDocument.add_genia_and_bioscope_info). Y voila, tenemos el corpus en memoria.
+
+
+3. Mostrar para el análisis
+---------------------------
+
+- Levanto el corpus y luego...
+
+- Dibujo las oraciones y creo la tabla de atributos básicos, para poder mostrar: pln_inco.bioscope.scripts.draw_sentences(bc,bcp,only_hedge_and_negation_sentences=True) y pln_inco.bioscope.scripts.print_attribute_table(bc,bcp). Quedan en los directorios img y attributes, respectivamente.
+
+- Después de esto, leyendo el archivo xml con mozilla, muestra bastante prolijamente el corpus, como para analizarlo
+
+4. Análisis 
+------------
+
+Todo este proceso está controlado por $SRC/analisis.sh. El parámetro tipo indica si es DEVELOP o WORK.
+
+**Paso 1** (generate_tables): crea las tablas necesarias para el análisis. Ejecuta los sql para crear las tablas de entramiento y testeo. La única tabla que crea es la principal, bioscope. Sus campos son: document_id, sentence_id,sentence_typetoken_num,word,lemma, POS, CHUNK, NER, hedge_cue, hedge_cue1, hedge_cue2, hedge_cue3 (los hedge_cue? permiten indicar que la HC está anidada), hedge_scope[1-3], indicando el alcance de la marca correspondiente. Los valores que toma hedge_cue son (B-SPECCUE,I-SPECCUE,O), mientras que los scopes son (B-SPECXCOPE, I-SPECXCOPE,O). Este proceso lo hace pasándole un .sql a sqlite3. Hay una base de datos por cada tipo de datos (entrenamiento, testeo, develop), por lo que la tabla BIOSCOPE tendrá diferentes cosas según la base en la que se encuentre. El sentence_type indica si la oración va a usarse como corpus heldout de evaluación (si el campo vale TEST) o se va a entrenar en ellos (si vale TRAIN), y es un valor que se carga al hacer split del corpus
+Producto: Tabla BIOSCOPE creada.
+
+**Paso2** (populate_tables) : carga las tablas a partir de la estructura. Para eso utiliza el gen_corpus_db.py, que levanta el corpus a memoria y ejecuta el pln_inco.bioscope.scripts.save_basic_attributes(bc,dbname) para grabar en la base de datos. Según el parámetro que reciba
+Producto: BIOSCOPE cargada, con los atributos de scope y hedge cue. 
+ 
+** Paso 3** (split_corpus): divide el corpus de entrenamiento separando un corpus held out. Para esto, marca el campo SENTENCE_TYPE en BIOSCOPE con el valor correspondiente
+
+Producto: 
+- el campo SENTENCE_TYPE refleja la separación en TRAIN y TEST.  
+
+**Paso 4** (gen_hc_corpus): genera el corpus de entrenamiento y testeo para la hedge cue. Para esto, a partir de la tabla original (BIOSCOPE), genera el de entrenamiento para aquellos tokens con ssentence_type=TRAIN y el de testeo para los que tienen TEST (held out corpus). Genera los archivos $BIOSCOPE/crf_corpus/hc/$run/train.data y $BIOSCOPE/crf_corpus/hc/test.data, en el formato CoNLL, con las columnas del escenario. El escenario ($SRC/scenarios/scenario.$scenario.yaml) es un archivo yaml que indica qué campos se van a utilizar, y son sólo esos los que se copian. Por ejemplo, un escenario sería:
+
+Insumos:
+- $SRC/scenarios/scenario.$scenario.yaml
+
+Productos: 
+- $BIOSCOPE/crf_corpus/hc/1/train.data tiene los atributos. La columna de la derecha es la HC (vale B-SPECCUE)
+- $BIOSCOPE/crf_corpus/hc/1/test.data tiene los atributos. La columna de la derecha es la HC (vale B-SPECCUE)
+
+
+# Escenario 0: se aprende hedge cue
+xs: [word,lemma,POS,CHUNK] 
+y: hedge_cue
+
+Al final se corre un script clean_data.sh que limpia unos casos patológicos de GENIA, que no pone un valor de atributo y eso hace que falle el CRF. Son poquitos. 
+
+**Paso 5** (learn_hc): entrena con el 80% del corpus y evalua sobre el 20%, intentando aprender las hedge cues
+
+Insumos:
+- $BIOSCOPE/crf_corpus/hc/$run/train.data
+- $SRC/crf/crf_template_hc.$template_hc
+
+Productos: 
+- $SRC/logs/log.1  (debería dar alrededor de 80 de medida F).
+- $BIOSCOPE/crf_corpus/hc/$run/test.data.crf_results (las dos últimas columnas son, respectivamente, la HC original y la aprendida) <= EVAL
+- $BIOSCOPE/crf_corpus/hc/$run/test.data.errors
+
+
+Aprende con crf, utilizando el  $BIOSCOPE/crf_corpus/hc/$run/train.data. Para eso utiliza un template ($SRC/crf/crf_template_hc.$template_hc) que indica las features a utilizar para el aprendizaje. Un template de ejemplo:
+
+# Template para crf
+# Número de template:0
+# Usado para aprender hedge cues
+# Las columnas son: document(0) sentence_id(1), token_num(2) word(3), lemma(4), pos(5), chunk(6), hedge_cue (7)
+
+
+# Unigramas: 
+# Palabras en una ventana de más menos 2
+U00:%x[-2,3]
+U01:%x[-1,3]
+U02:%x[0,3]
+U03:%x[1,3]
+U04:%x[2,3]
+
+# Para palabra anterior/actual y actual/siguiente
+U05:%x[-1,3]/%x[0,3]
+U06:%x[0,3]/%x[1,3]
+
+# POS en una ventana de más menos 2
+U10:%x[-2,5] 
+U11:%x[-1,5]
+U12:%x[0,5]
+U13:%x[1,5]
+U14:%x[2,5]
+
+# Pares de pos
+U15:%x[-2,5]/%x[-1,5]
+U16:%x[-1,5]/%x[0,5]
+U17:%x[0,5]/%x[1,5]
+U18:%x[1,5]/%x[2,5]
+
+# Ternas de POS
+U20:%x[-2,5]/%x[-1,5]/%x[0,5]
+U21:%x[-1,5]/%x[0,5]/%x[1,5]
+U22:%x[0,5]/%x[1,5]/%x[2,5]
+
+# Bigram
+B
+
+Luego evalua sobre test.data, utilizando el modelo construido. Los resultados quedan en  $BIOSCOPE/crf_corpus/hc/$run/test.data.crf_results, en un archivo que puede evaluarse con el script conll. También aplica el script error_filtering.py a los resultados para generar los errores cometidos en >$BIOSCOPE/crf_corpus/hc/$run/test.data.errors
+
+**Paso 6** (gen_scope_corpus): genera el corpus para aprender scopes. Para esto utiliza el gen_scope_corpus.py.
+
+Insumos: 
+- BIOSCOPE
+- $BIOSCOPE/crf_corpus/hc/$run/test.data.crf_results
+- $SRC/scenarios/scenariox.$scenariox.yaml
+
+Productos: 
+
+- BIOSCOPE20_SCOPE 
+- BIOSCOPE80_SCOPE 
+- BIOSCOPE20_GHC_SCOPE  
+- $BIOSCOPE/crf_corpus/scope/$runx/trainx.data
+- $BIOSCOPE/crf_corpus/scope/$runx/testx.data
+- $BIOSCOPE/crf_corpus/scope/$runx/testx_ghc.data
+
+
+Los campos hc_start,hc_token deben estar cargados, así como la guessed_hedge_cue, el scope, y el scope resultado de la aplicación de las reglas.
+
+(generate_learning_instances) Lo primero que hace es llamar a pln_inco.bioscope.scripts.generate_scope_analysis_table, que a partir de la tabla BIOSCOPE genera BIOSCOPE80_SCOPE, una tabla que tiene los tokens de cada instancia (document_id,sentence_id,hc_start) por cada hedge cue que hay en la oración (hc_start indica el comienzo de la hedge cue en la oración), con los atributos de BIOSCOPE (para aquellas que tienen sentence_type=TRAIN. A partir de esta información se genera el scope, que es igual a uno de los hedge_scope[1-3], el que corresponda, pero que toma valores [F,L,O] porque cambia el formato. También se agrega un campo hc_token que tiene la hedge cue que dio origen a la instancia (si tiene más de un token, los concatena con _, por ejemplo indicate_that.
+
+(apply_sr?): Luego aplica la o las reglas que se le indiquen. Las reglas están en el package pln_inco.bioscope.scope_rules, y tienen siempre la forma apply_sr?(dbname,tabla,columna de scope). Lo que hacen es agregar a la tabla la columna que tendrá el resultado de la aplicación de la regla, y llenarla de acuerdo al criterio que corresponda. Esto siempre se hace sobre la tabla, por lo que si  no tenemos el atributo en la tabla (o no se puede obtener de una fuente externa), no se puede. Si hay algún atributo que se deduce del análisis original, debería reflejarse siempre en la tabla BIOSCOPE, aquí solamente se generan los valores de aplicación de la regla. Siempre son formatos (F,O,L).
+
+A partir de BIOSCOPE80_SCOPE se genera el archivo $BIOSCOPE/crf_corpus/scope/$runx/trainx.data.
+
+Luego se hace lo mismo con la parte de evaluación, generando  la tabla BIOSCOPE20_SCOPE y el archivo $BIOSCOPE/crf_corpus/scope/$runx/testx.data. Previamente, agrega a la tabla BIOSCOPE la hedge cue aprendida (leyando de $BIOSCOPE/crf_corpus/hc/$run/test.data.crf_results, generado en el paso anterior, utilizando el procedimiento pln_inco.bioscope.scripts.add_guessed_hedge_cue), para las instancias de testeo. 
+
+(generate_testing_instances_ghc) Finalmente, se generan instancias de evaluación, pero utilizando las hedge cues aprendidas (no las originales). Se genera una nueva versión de BIOSCOPE20_SCOPE, llamada BIOSCOPE20_GHC_SCOPE, a partir de BIOSCOPE: el proceso es el mismo (pln_inco.bioscope.scripts.generate_scope_analysis_table), pero la hedge_cue utilizada es la guessed_hedge_cue, y el scope es el original (si existía), que queda en el campo scope. Para esto, si la guessed_hedge_cue es igual a alguna de las originales, utiliza ese scope. Sino, genera instancias con todo el scope en O. Por lo tanto, esto sirve para evaluar cómo nos fue: si aprendimos bien la HC Y el scope, entonces va a coincidir el scope; si aprendimos bien la HC y no el scope, falla; si introdujimos una HC que no estaba siempre el scope va a ser O, por lo que va a fallar siempre, no importa lo que calculemos. Nos faltan los casos en los que no aprendimos la HC: esos casos los vamos a resolver en un paso posterior.  
+
+(apply_sr?) Al igual que en el caso anterior, se aplican las reglas. 
+
+El archivo que se genera en esta instancia (a partir de BIOSCOPE20_GHC_SCOPE) es $BIOSCOPE/crf_corpus/scope/$runx/testx_ghc.data
+
+Finalmente se limpian los datos con el clean_data.sh
+
+
+** Paso 7 **  (evaluar_crf_scope): evalúa el aprendizaje del scope.
+Insumos:
+- $SRC/crf/crf_template_scope.$template_scope
+- $BIOSCOPE/crf_corpus/scope/$runx/trainx.data
+- $BIOSCOPE/crf_corpus/scope/$runx/testx.data
+
+Productos:
+- $BIOSCOPE/crf_corpus/scope/$runx/testx.data.crf_results_pp
+- $BIOSCOPE/crf_corpus/scope/$runx/testx_ghc.data.crf_results_pp
+
+El resultado queda en logs/log.${run}-$runx (El valor del medio tiene que ser más o menos 65).
+
+Utiliza un template CRF diferente al anterior, $SRC/crf/crf_template_scope.$template_scope. Entrena sobre $BIOSCOPE/crf_corpus/scope/$runx/trainx.data.
+
+Primero evalúa sobre el propio corpus de entrenamiento, luego sobre el de evaluación ($BIOSCOPE/crf_corpus/scope/$runx/testx.data) y finalmente sobre el de evaluación pero con las HC aprendidas ($BIOSCOPE/crf_corpus/scope/$runx/testx_ghc.data). En todos los casos, postprocesa la salida (utilizando el script scope_postprocess.py) para ajustar los scopes según las reglas de Roser Morante. Los archivos de evaluación se llaman respectivamente: $BIOSCOPE/crf_corpus/scope/$runx/trainx.data.crf_results, $BIOSCOPE/crf_corpus/scope/$runx/testx.data.crf_results, $BIOSCOPE/crf_corpus/scope/$runx/testx_ghc.data.crf_results, y a sus versiones postprocesadas se les agrega el sufijo _pp.
+
+En todos los casos se usa el conlleval.pl para evaluar. La evaluación sobre el ghc no es muy útil, porque faltan casos (está hecho solamente sobre aquellos casos en los que se aprendió una HC, y si no se aprendió, debería considerarse un error que se arrastra), es lo que se intenta solucionar en el siguiente paso.
+
+Todo esto queda en el archivo de log logs/log.${run}-$runx
+
+** Paso 8 ** (update_guessed_scope):
+
+Insumos:
+- $BIOSCOPE/crf_corpus/scope/$runx/testx_ghc.data.crf_results
+
+Producto: 
+- $BIOSCOPE/crf_corpus/scope/$runx/testx_ghc.data.adjusted_results_pp
+- logs/log.${run}-$runx. La tabla BIOSCOPE20_GHC_SCOPE tiene el campo GHC_SCOPE cargado
+
+Primero utiliza el update_guessed_xcope.py para agregar primero a BIOSCOPE20_GHC_SCOPE el campo GHC_SCOPE, que es igual al scope si adiviné la hedge cue (es decir, si guessed_hedge_cue=hedge_cue), y luego agrega guessed_scope a partir de $BIOSCOPE/crf_corpus/scope/$runx/testx_ghc.data.crf_results (utiliza pln_inco.bioscope.scripts.add_guessed_xcope).
+
+Luego (dentro del mismo script anterior) llama a pln_inco.bioscope.scripts.generate_scope_guessing_results, que lo que hace es lo siguiente:
+
+1. Todas las tuplas de  BIOSCOPE20_GHC_SCOPE se copian a BIOSCOPE20_ALL_SCOPES
+2. Todas las tuplas de BIOSCOPE20_SCOPE que tienen hedge_cue pero no guessed_hedge_cue generan una instancia en BIOSCOPE20_ALL_SCOPES con el scope original, versus un guessed_scope vacío (van a fallar siempre.
+
+Finalmente el script update_guessed_xcope.py genera $BIOSCOPE/crf_corpus/scope/$runx/testx_ghc.data.adjusted_results solamente con los campos necesarios para identificar y evaluar los scopes. Este archivo se utiliza para evaluar los resultados (previamente se postprocesa con scope_postprocess.py), utilizando conll.pl. 
+
+
+
+** Paso 9 ** (update_bio_scope)
+
+Insumos:
+- $BIOSCOPE/crf_corpus/scope/$runx/testx_ghc.data.adjusted_results_pp
+
+Actualiza la tabla BIOSCOPE20_ALL_SCOPES, agregando los campos bio_scope, y guessed_bio_scope, que tienen los valores finales (igual que 
+en el archivo), y que pueden utilizarse para contar errores.
+
+También se filtran los errores a $BIOSCOPE/crf_corpus/scope/$runx/testx_ghc.data.errors
+
+

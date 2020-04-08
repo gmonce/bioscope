@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>pln_inco.bioscope.scripts</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pln_inco-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="pln_inco-module.html">Package&nbsp;pln_inco</a> ::
+        <a href="pln_inco.bioscope-module.html">Package&nbsp;bioscope</a> ::
+        Module&nbsp;scripts
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="pln_inco.bioscope.scripts-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module scripts</h1><p class="nomargin-top"><span class="codelink"><a href="pln_inco.bioscope.scripts-pysrc.html">source&nbsp;code</a></span></p>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Functions</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Functions"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pln_inco.bioscope.scripts-module.html#add_ghc_scope" class="summary-sig-name">add_ghc_scope</a>(<span class="summary-sig-arg">dbname</span>,
+        <span class="summary-sig-arg">tablename</span>)</span><br />
+      Agrega la columna ghc_scope que es igual a scope si aprend&#237; la 
+      hedge_cue</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pln_inco.bioscope.scripts-pysrc.html#add_ghc_scope">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pln_inco.bioscope.scripts-module.html#postprocess_scope_learning_results" class="summary-sig-name">postprocess_scope_learning_results</a>(<span class="summary-sig-arg">source_filename</span>,
+        <span class="summary-sig-arg">target_filename</span>)</span><br />
+      Dado un archivo resultado de un aprendizaje, transforma las dos 
+      columnas finales (que se asume son un scope original y otro 
+      aprendido, ambos en formato FOL) y le aplica las reglas de 
+      morante2009 y lo transforma a formato BIO.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pln_inco.bioscope.scripts-pysrc.html#postprocess_scope_learning_results">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pln_inco.bioscope.scripts-module.html#gen_conll_file_scope" class="summary-sig-name">gen_conll_file_scope</a>(<span class="summary-sig-arg">dbname</span>,
+        <span class="summary-sig-arg">tablename</span>,
+        <span class="summary-sig-arg">sentence_type</span>,
+        <span class="summary-sig-arg">filename</span>,
+        <span class="summary-sig-arg">xs</span>,
+        <span class="summary-sig-arg">y</span>,
+        <span class="summary-sig-arg">predicted_y</span>)</span><br />
+      Genera el archivo para el entrenamiento/evaluaci&#243;n de scopes con 
+      CRF++, a partir de la tabla de bioscope que se le indique 
+      (bioscope80_scope o bioscope20_scope) Este archivo est&#225; en formato 
+      CoNLL, tiene una l&#237;nea por token, los atributos est&#225;n separados por 
+      espacio, y el &#250;ltimo es el que vamos a usar para clasificar.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pln_inco.bioscope.scripts-pysrc.html#gen_conll_file_scope">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pln_inco.bioscope.scripts-module.html#gen_conll_file_hc" class="summary-sig-name">gen_conll_file_hc</a>(<span class="summary-sig-arg">dbname</span>,
+        <span class="summary-sig-arg">tablename</span>,
+        <span class="summary-sig-arg">sentence_type</span>,
+        <span class="summary-sig-arg">filename</span>,
+        <span class="summary-sig-arg">xs</span>,
+        <span class="summary-sig-arg">y</span>,
+        <span class="summary-sig-arg">predicted_y</span>)</span><br />
+      Genera el archivo para el entrenamiento/evaluaci&#243;n con CRF++, a 
+      partir de la tabla de bioscope que se le indique Este archivo est&#225; en
+      formato CoNLL, tiene una l&#237;nea por token, los atributos est&#225;n 
+      separados por espacio, y el &#250;ltimo es el que vamos a usar para 
+      clasificar.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pln_inco.bioscope.scripts-pysrc.html#gen_conll_file_hc">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Function Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-FunctionDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="add_ghc_scope"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_ghc_scope</span>(<span class="sig-arg">dbname</span>,
+        <span class="sig-arg">tablename</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pln_inco.bioscope.scripts-pysrc.html#add_ghc_scope">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Agrega la columna ghc_scope que es igual a scope si aprend&#237; la 
+  hedge_cue</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dbname</code></strong> (<code>string</code>) - nombre del archivo que tiene la base de datos</li>
+        <li><strong class="pname"><code>tablename</code></strong> (<code>string</code>) - nombre de la tabla a la que se le agrega la columna</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="postprocess_scope_learning_results"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">postprocess_scope_learning_results</span>(<span class="sig-arg">source_filename</span>,
+        <span class="sig-arg">target_filename</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pln_inco.bioscope.scripts-pysrc.html#postprocess_scope_learning_results">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Dado un archivo resultado de un aprendizaje, transforma las dos 
+  columnas finales (que se asume son un scope original y otro aprendido, 
+  ambos en formato FOL) y le aplica las reglas de morante2009 y lo 
+  transforma a formato BIO. Asume que los primeros cuatro atributos del 
+  archivos son: document, sentence, num_token, hc_start</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>source_filename</code></strong> (<code>string</code>) - nombre del archivo con el resultado del aprendizaje</li>
+        <li><strong class="pname"><code>target_filename</code></strong> (<code>string</code>) - nombre del archivo con el resultado del procesamiento</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="gen_conll_file_scope"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">gen_conll_file_scope</span>(<span class="sig-arg">dbname</span>,
+        <span class="sig-arg">tablename</span>,
+        <span class="sig-arg">sentence_type</span>,
+        <span class="sig-arg">filename</span>,
+        <span class="sig-arg">xs</span>,
+        <span class="sig-arg">y</span>,
+        <span class="sig-arg">predicted_y</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pln_inco.bioscope.scripts-pysrc.html#gen_conll_file_scope">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Genera el archivo para el entrenamiento/evaluaci&#243;n de scopes con 
+  CRF++, a partir de la tabla de bioscope que se le indique 
+  (bioscope80_scope o bioscope20_scope) Este archivo est&#225; en formato CoNLL,
+  tiene una l&#237;nea por token, los atributos est&#225;n separados por espacio, y 
+  el &#250;ltimo es el que vamos a usar para clasificar. Las oraciones est&#225;&#173;n 
+  separadas por l&#237;neas en blanco</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dbname</code></strong> (<code>string</code>) - nombre del archivo que tiene la base de datos</li>
+        <li><strong class="pname"><code>tablename</code></strong> (<code>string</code>) - nombre de la tabla a partir de la cual generar el archivo</li>
+        <li><strong class="pname"><code>sentence_type</code></strong> (<code>string</code>) - indica el string que deben tener las instancias en el campo 
+          SENTENCE_TYPE (solo tiene sentido si has_instances=False</li>
+        <li><strong class="pname"><code>xs</code></strong> (List) - lista de atributos a generar. Tienen que ser iguales a las 
+          columnas de la tabla de atributos de bioscope. No incluyen la 
+          clase a aprender.</li>
+        <li><strong class="pname"><code>y</code></strong> (List) - Clase a aprender (es uno de los atributos)</li>
+        <li><strong class="pname"><code>predicted_y</code></strong> (<code>string</code>) - Ya me pasan la clase aprendida (estoy generando directamente el 
+          archivo de evaluaci&#243;n)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="gen_conll_file_hc"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">gen_conll_file_hc</span>(<span class="sig-arg">dbname</span>,
+        <span class="sig-arg">tablename</span>,
+        <span class="sig-arg">sentence_type</span>,
+        <span class="sig-arg">filename</span>,
+        <span class="sig-arg">xs</span>,
+        <span class="sig-arg">y</span>,
+        <span class="sig-arg">predicted_y</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pln_inco.bioscope.scripts-pysrc.html#gen_conll_file_hc">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Genera el archivo para el entrenamiento/evaluaci&#243;n con CRF++, a partir
+  de la tabla de bioscope que se le indique Este archivo est&#225; en formato 
+  CoNLL, tiene una l&#237;nea por token, los atributos est&#225;n separados por 
+  espacio, y el &#250;ltimo es el que vamos a usar para clasificar. Las 
+  oraciones est&#225;n separadas por l&#237;neas en blanco</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>dbname</code></strong> (<code>string</code>) - nombre del archivo que tiene la base de datos</li>
+        <li><strong class="pname"><code>tablename</code></strong> (<code>string</code>) - nombre de la tabla a partir de la cual generar el archivo</li>
+        <li><strong class="pname"><code>sentence_type</code></strong> (<code>string</code>) - indica el string que deben tener las instancias en el campo 
+          SENTENCE_TYPE. Si vale ALL, entonces genera sobre todas las 
+          tuplas</li>
+        <li><strong class="pname"><code>xs</code></strong> (List) - lista de atributos a generar. Tienen que ser iguales a las 
+          columnas de la tabla de atributos de bioscope. No incluyen la 
+          clase a aprender.</li>
+        <li><strong class="pname"><code>y</code></strong> (List) - Clase a aprender (es uno de los atributos)</li>
+        <li><strong class="pname"><code>predicted_y</code></strong> (<code>string</code>) - Ya me pasan la clase aprendida (estoy generando directamente el 
+          archivo de evaluaci&#243;n)</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pln_inco-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Wed Mar 14 20:28:01 2012
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

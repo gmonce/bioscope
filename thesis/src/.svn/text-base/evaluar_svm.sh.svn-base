@@ -1,0 +1,15 @@
+run=$1
+
+if [ $run = 'develop' ]
+then
+	python $SRC/gen_crf_corpus.py train.data.$run test.data.$run DEVELOP
+else
+	python $SRC/gen_crf_corpus.py train.data.$run test.data.$run WORK
+fi
+
+
+$SRC/clean_data.sh $BIOSCOPE/crf_corpus/train.data.$run
+make -f $SRC/yamcha/Makefile CORPUS=$BIOSCOPE/crf_corpus/train.data.$run MODEL=$BIOSCOPE/yamcha_models/modelo.$run train
+yamcha -m $BIOSCOPE/yamcha_models/modelo.$run.model < $BIOSCOPE/crf_corpus/test.data.$run > $BIOSCOPE/crf_corpus/test.data.modelo.$run.results
+$SRC/conlleval.pl -d '\t'  < $BIOSCOPE/crf_corpus/test.data.modelo.$run.results
+

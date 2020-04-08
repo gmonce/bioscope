@@ -1,0 +1,9 @@
+# Genera archivos de evaluación
+WORKING_DIR=$BIOSCOPE
+CORPUS_TYPE=TOTAL
+HC_TYPE=HC_GUESSED
+SCOPE_TYPE=SCOPE_GUESSED
+XML_DESTINO=temp.xml
+
+python gen_evaluation_xml.py $WORKING_DIR/bioscope.db $CORPUS_TYPE $HC_TYPE $SCOPE_TYPE $XML_DESTINO 
+cat $XML_DESTINO

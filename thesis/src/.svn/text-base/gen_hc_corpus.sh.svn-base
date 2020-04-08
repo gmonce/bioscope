@@ -1,0 +1,24 @@
+# Genera el corpus de entrenamiento/testeo, partiendo en 80/20 lo que hay en la tabla bioscope
+# scenario es el número de escenario que utiliza para determinar las columnas de las que se aprende
+# y la clase que estamos aprendiendo
+
+run=0
+scenario=0
+resplit=yes
+
+set -x
+
+
+echo "Genero el corpus"
+if [ $run = '0' ]
+# Corrida de desarrollo
+then
+# Uso: gen_crf_corpus.py corpus_type training_file testing_file resplit xs y 
+
+	python $SRC/gen_hc_corpus.py DEVELOP train.data.$run test.data.$run $resplit $SRC/scenarios/scenario.$scenario.yaml
+else
+	python $SRC/gen_hc_corpus.py TRAIN train.data.$run test.data.$run $resplit $SRC/scenarios/scenario.$scenario.yaml
+fi
+$SRC/clean_data.sh $BIOSCOPE/crf_corpus/train.data.$run
+$SRC/clean_data.sh $BIOSCOPE/crf_corpus/test.data.$run
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>scripts</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<h1 class="toc">Module scripts</h1>
+<hr />
+  <h2 class="toc">Functions</h2>
+    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#add_guessed_hedge_cue"
+     >add_guessed_hedge_cue</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#copy_genia_event_files"
+     >copy_genia_event_files</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#create_single_text_file"
+     >create_single_text_file</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#draw_sentences"
+     >draw_sentences</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#gen_bioscope_files"
+     >gen_bioscope_files</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#gen_conll_file"
+     >gen_conll_file</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#gen_genia_files"
+     >gen_genia_files</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#gen_parsed_files"
+     >gen_parsed_files</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#gen_text_files"
+     >gen_text_files</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#generate_scope_analysis_table"
+     >generate_scope_analysis_table</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#genia_tag"
+     >genia_tag</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#print_attribute_table"
+     >print_attribute_table</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#save_basic_attributes"
+     >save_basic_attributes</a><br />    <a target="mainFrame" href="pln_inco.bioscope.scripts-module.html#split_training_corpus"
+     >split_training_corpus</a><br /><hr />
+<span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

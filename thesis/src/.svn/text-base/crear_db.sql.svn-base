@@ -1,0 +1,23 @@
+-- Comandos para SQlite
+-- cat $SRC/crear_db.sql  | sqlite3 $BIOSCOPE/bioscope_devel/attributes.db
+
+drop table if exists bioscope;
+create table bioscope (
+document_id text, -- identificador del documento
+sentence_id text, -- identificador de la oracion
+token_num integer, -- número de token dentro de la oración 
+word text, -- token
+lemma text, -- lemma del token, 
+POS text, 
+CHUNK text, --  resultado del chunker
+NER text, -- proteína, gen, etc., 
+hedge_cue text, -- marca de especulacion (B-SPECCUE, I_SPECCUE, O)
+hedge_cue1 text, -- marca de especulación, pero reflejando marcas anidadas
+hedge_cue2 text, 
+hedge_cue3 text, 
+primary key (document_id,sentence_id,token_num));
+alter table bioscope add  hedge_xcope1 text; -- alcance de la primer marca de especulación
+alter table bioscope add  hedge_xcope2 text; -- alcance de la segunda marca (si está anidadad)
+alter table bioscope add hedge_xcope3 text; -- alcance de la tercer marca (si está anidada)
+
+

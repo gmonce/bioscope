@@ -1,0 +1,107 @@
+Traceback (most recent call last):
+  File "main.py", line 6, in <module>
+    import pln_inco.bioscope.scripts
+  File "/media/KINGSTON/fing/work/src/pln_inco/bioscope/scripts.py", line 392
+    f.close()
+    ^
+IndentationError: expected an indented block
+Traceback (most recent call last):
+  File "main.py", line 61, in <module>
+    bc=bioscope.BioscopeCorpus(bcp,'.*')
+  File "/media/KINGSTON/fing/work/src/pln_inco/bioscope/__init__.py", line 37, in __init__
+    d=BioscopeDocument(docId,bcp)
+  File "/media/KINGSTON/fing/work/src/pln_inco/bioscope/__init__.py", line 76, in __init__
+    parsed_sentences=bcp.load_parsed_sentences(docId)
+  File "/media/KINGSTON/fing/work/src/pln_inco/bioscope/util.py", line 168, in load_parsed_sentences
+    return self.parsed_files_corpus.parsed_sents(docId+'.parsed')
+  File "/usr/lib/pymodules/python2.6/nltk/corpus/reader/api.py", line 380, in parsed_sents
+    for fileid, enc in self.abspaths(fileids, True)])
+  File "/usr/lib/pymodules/python2.6/nltk/corpus/reader/api.py", line 171, in abspaths
+    paths = [self._root.join(f) for f in fileids]
+  File "/usr/lib/pymodules/python2.6/nltk/data.py", line 171, in join
+    return FileSystemPathPointer(path)
+  File "/usr/lib/pymodules/python2.6/nltk/data.py", line 151, in __init__
+    raise IOError('No such file or directory: %r' % path)
+IOError: No such file or directory: '/home/gmoncecchi/bioscope/bioscope_train/parsed/a1851858.parsed'
+Traceback (most recent call last):
+  File "main.py", line 65, in <module>
+    pln_inco.bioscope.scripts.print_attribute_table(bc,bcp)
+NameError: name 'bc' is not defined
+Parseo...:a1557508.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_train/genia_articles/a1557508.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_train/genia_articles/a1557508.genia with 5 sentences.
+Parsing [sent. 1 len. 21]: [Glucocorticoid/NN, receptor/NN, binding/NN, in/IN, three/CD, different/JJ, cell/NN, types/NNS, in/IN, major/JJ, depressive/JJ, disorder/NN, :/:, lack/NN, of/IN, evidence/NN, of/IN, receptor/NN, binding/NN, defect/NN, ./.]
+Parsing [sent. 2 len. 52]: [1/LS, ./., In/IN, order/NN, to/TO, further/RB, understand/VB, the/DT, apparent/JJ, glucocorticoid/NN, resistance/NN, in/IN, major/JJ, depressive/JJ, disorder/NN, ,/,, circadian/JJ, variation/NN, in/IN, cortisol/NN, concentration/NN, ,/,, dexamethasone/NN, suppression/NN, and/CC, glucocorticoid/NN, receptor/NN, binding/NN, in/IN, mononuclear/JJ, leukocytes/NNS, ,/,, polymorphonuclear/JJ, leukocytes/NNS, and/CC, cultured/VBN, skin/NN, fibroblasts/NNS, were/VBD, measured/VBN, in/IN, rigidly/RB, defined/VBN, major/JJ, depressive/JJ, disorder/NN, patients/NNS, and/CC, non-depressed/JJ, psychiatric/JJ, controls/NNS, ./.]
+Parsing [sent. 3 len. 29]: [2/LS, ./., Mononuclear/JJ, leukocytes/NNS, binding/VBG, to/TO, glucocorticoid/NN, correlated/VBD, significantly/RB, with/IN, polymorphonuclear/JJ, leukocytes/NNS, binding/VBG, to/TO, glucocorticoid/NN, ,/,, but/CC, both/DT, determinations/NNS, failed/VBD, to/TO, differentiate/VB, major/JJ, depressive/JJ, disorder/NN, and/CC, control/NN, subjects/NNS, ./.]
+Parsing [sent. 4 len. 23]: [3/LS, ./., Initial/JJ, and/CC, post-dexamethasone/JJ, in/FW, vitro/FW, fibroblast/NN, binding/NN, to/TO, glucocorticoid/NN, was/VBD, not/RB, different/JJ, between/IN, major/JJ, depressive/JJ, disorder/NN, and/CC, non-depressed/JJ, control/NN, subjects/NNS, ./.]
+Parsing [sent. 5 len. 14]: [4/LS, ./., The/DT, phenomenon/NN, of/IN, glucocorticoid/NN, resistance/NN, in/IN, major/JJ, depressive/JJ, disorder/NN, remains/VBZ, unexplained/JJ, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_train/genia_articles/a1557508.genia [5 sentences].
+Parsed 139 words in 5 sentences (47,20 wds/sec; 1,70 sents/sec).
+Parseo...:a10454636.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,3 sec].
+/home/gmoncecchi/bioscope/bioscope_train/genia_articles/a10454636.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_train/genia_articles/a10454636.genia with 12 sentences.
+Parsing [sent. 1 len. 19]: [Dopamine/NN, stimulates/VBZ, expression/NN, of/IN, the/DT, human/JJ, immunodeficiency/NN, virus/NN, type/NN, 1/CD, via/IN, NF-kappaB/NN, in/IN, cells/NNS, of/IN, the/DT, immune/JJ, system/NN, ./.]
+Parsing [sent. 2 len. 16]: [Recent/JJ, studies/NNS, have/VBP, reported/VBN, that/IN, lymphocytes/NNS, produce/VBP, ,/,, transport/VBP, and/CC, bind/VBP, dopamine/NN, present/JJ, in/IN, plasma/NN, ./.]
+Parsing [sent. 3 len. 22]: [However/RB, ,/,, the/DT, action/NN, of/IN, dopamine/NN, on/IN, HIV-1/NN, gene/NN, expression/NN, in/IN, cells/NNS, of/IN, the/DT, immune/JJ, system/NN, has/VBZ, not/RB, yet/RB, been/VBN, examined/VBN, ./.]
+Parsing [sent. 4 len. 26]: [Here/RB, ,/,, we/PRP, have/VBP, investigated/VBN, the/DT, regulation/NN, of/IN, HIV-1/NN, expression/NN, by/IN, dopamine/NN, in/IN, Jurkat/NN, T/NN, cells/NNS, and/CC, in/IN, primary/JJ, blood/NN, mononuclear/JJ, cells/NNS, -LRB-/-LRB-, PBMC/NN, -RRB-/-RRB-, ./.]
+Parsing [sent. 5 len. 17]: [HIV-1/NN, replication/NN, was/VBD, increased/VBN, by/IN, dopamine/NN, ,/,, which/WDT, correlated/VBD, with/IN, the/DT, increased/VBN, levels/NNS, of/IN, HIV-1/NN, transactivation/NN, ./.]
+Parsing [sent. 6 len. 20]: [Our/PRP$, transient/JJ, expression/NN, data/NNS, revealed/VBD, that/IN, dopamine/NN, stimulated/VBD, transcription/NN, through/IN, the/DT, NF-kappaB/NN, element/NN, present/JJ, in/IN, the/DT, long/JJ, terminal/JJ, repeat/NN, ./.]
+Parsing [sent. 7 len. 21]: [The/DT, importance/NN, of/IN, NF-kappaB/NN, sites/NNS, was/VBD, confirmed/VBN, by/IN, using/VBG, vectors/NNS, containing/VBG, wild-type/JJ, or/CC, mutant/JJ, kappaB/NN, sites/NNS, in/IN, a/DT, heterologous/JJ, promoter/NN, ./.]
+Parsing [sent. 8 len. 20]: [Consistent/JJ, with/IN, the/DT, role/NN, of/IN, NF-kappaB/NN, in/IN, mediating/VBG, dopamine/NN, responsiveness/NN, ,/,, the/DT, proteasome/NN, inhibitor/NN, MG132/NN, abolished/VBD, dopamine-induced/JJ, transcriptional/JJ, activation/NN, ./.]
+Parsing [sent. 9 len. 25]: [We/PRP, further/RB, explored/VBD, the/DT, effect/NN, of/IN, dopamine/NN, in/IN, the/DT, presence/NN, of/IN, phorbol/NN, esters/NNS, or/CC, tumor/NN, necrosis/NN, factor-alpha/NN, -LRB-/-LRB-, TNF-alpha/NN, -RRB-/-RRB-, known/VBN, to/TO, activate/VB, NF-kappaB/NN, ./.]
+Parsing [sent. 10 len. 16]: [The/DT, combination/NN, of/IN, dopamine/NN, and/CC, TNF-alpha/NN, led/VBD, to/TO, a/DT, stimulation/NN, of/IN, HIV-1/NN, transcription/NN, and/CC, replication/NN, ./.]
+Parsing [sent. 11 len. 35]: [However/RB, ,/,, in/IN, contrast/NN, with/IN, TNF-alpha/NN, ,/,, dopamine/NN, treatment/NN, did/VBD, not/RB, affect/VB, NF-kappaB/NN, DNA/NN, binding/NN, activity/NN, nor/CC, the/DT, concentrations/NNS, of/IN, p50/NN, ,/,, p65/NN, and/CC, IkappaB-alpha/NN, proteins/NNS, ,/,, which/WDT, suggests/VBZ, a/DT, distinct/JJ, NF-kappaB/NN, activation/NN, mechanism/NN, ./.]
+Parsing [sent. 12 len. 30]: [These/DT, results/NNS, reveal/VBP, a/DT, new/JJ, link/NN, between/IN, the/DT, dopamine/NN, system/NN, ,/,, cytokine/NN, signaling/NN, pathway/NN, and/CC, regulation/NN, of/IN, gene/NN, expression/NN, via/IN, the/DT, involvement/NN, of/IN, NF-kappaB/NN, in/IN, T/NN, cells/NNS, and/CC, PBMC/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_train/genia_articles/a10454636.genia [12 sentences].
+Parsed 267 words in 12 sentences (107,32 wds/sec; 4,82 sents/sec).
+Parseo...:a10082473.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,4 sec].
+/home/gmoncecchi/bioscope/bioscope_train/genia_articles/a10082473.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_train/genia_articles/a10082473.genia with 12 sentences.
+Parsing [sent. 1 len. 11]: [Molecular/JJ, mechanisms/NNS, of/IN, neutrophil-endothelial/JJ, cell/NN, adhesion/NN, induced/VBN, by/IN, redox/NN, imbalance/NN, ./.]
+Parsing [sent. 2 len. 24]: [Previous/JJ, studies/NNS, have/VBP, implicated/VBN, a/DT, role/NN, for/IN, intracellular/JJ, thiols/NNS, in/IN, the/DT, activation/NN, of/IN, nuclear/JJ, factor-kappaB/NN, and/CC, transcriptional/JJ, regulation/NN, of/IN, endothelial/JJ, cell/NN, adhesion/NN, molecules/NNS, ./.]
+Parsing [sent. 3 len. 38]: [This/DT, study/NN, was/VBD, designed/VBN, to/TO, determine/VB, whether/IN, changes/NNS, in/IN, endothelial/JJ, cell/NN, glutathione/NN, -LRB-/-LRB-, GSH/NN, -RRB-/-RRB-, or/CC, oxidized/VBN, glutathione/NN, -LRB-/-LRB-, GSSG/NN, -RRB-/-RRB-, can/MD, alter/VB, neutrophil/NN, adhesivity/NN, and/CC, to/TO, define/VB, the/DT, molecular/JJ, mechanism/NN, that/WDT, underlies/VBZ, this/DT, GSSG\/GSH-induced/JJ, adhesion/NN, response/NN, ./.]
+Parsing [sent. 4 len. 41]: [Treatment/NN, of/IN, human/JJ, umbilical/JJ, vein/NN, endothelial/JJ, cell/NN, -LRB-/-LRB-, HUVEC/NN, -RRB-/-RRB-, monolayers/NNS, for/IN, 6/CD, hours/NNS, with/IN, 0.2/CD, mmol\/L/NN, diamide/NN, and/CC, 1/CD, mmol\/L/NN, buthionine/NN, sulfoximine/NN, -LRB-/-LRB-, BSO/NN, -RRB-/-RRB-, decreased/VBD, GSH/NN, levels/NNS, and/CC, increased/VBD, the/DT, ratio/NN, of/IN, GSSG/NN, to/TO, GSH/NN, without/IN, cell/NN, toxicity/NN, ./.]
+Parsing [sent. 5 len. 11]: [These/DT, redox/NN, changes/NNS, are/VBP, similar/JJ, to/TO, those/DT, observed/VBN, with/IN, anoxia\/reoxygenation/NN, ./.]
+Parsing [sent. 6 len. 35]: [Diamide/NN, plus/CC, BSO-induced/JJ, thiol\/disulfide/NN, imbalance/NN, was/VBD, associated/VBN, with/IN, a/DT, biphasic/JJ, increase/NN, in/IN, neutrophil/NN, adhesion/NN, to/TO, HUVECs/NNS, with/IN, peak/NN, responses/NNS, observed/VBN, at/IN, 15/CD, minutes/NNS, -LRB-/-LRB-, phase/NN, 1/CD, -RRB-/-RRB-, and/CC, 240/CD, minutes/NNS, -LRB-/-LRB-, phase/NN, 2/CD, -RRB-/-RRB-, ./.]
+Parsing [sent. 7 len. 20]: [N-Acetylcysteine/NN, treatment/NN, attenuated/VBD, neutrophil/NN, adhesion/NN, in/IN, both/DT, phases/NNS, ,/,, which/WDT, indicated/VBD, a/DT, role/NN, for/IN, GSH/NN, in/IN, the/DT, adhesion/NN, responses/NNS, ./.]
+Parsing [sent. 8 len. 35]: [Interestingly/RB, ,/,, phase/NN, 1/CD, adhesion/NN, was/VBD, inversely/RB, correlated/VBN, with/IN, GSH/NN, levels/NNS, but/CC, not/RB, with/IN, the/DT, GSSG\/GSH/NN, ratio/NN, ,/,, whereas/IN, phase/NN, 2/CD, neutrophil/NN, adhesion/NN, was/VBD, positively/RB, correlated/VBN, with/IN, GSSG\/GSH/NN, ratio/NN, but/CC, not/RB, with/IN, GSH/NN, levels/NNS, ./.]
+Parsing [sent. 9 len. 28]: [Intercellular/JJ, adhesion/NN, molecule-1/NN, and/CC, P-selectin-specific/JJ, monoclonal/JJ, antibodies/NNS, attenuated/VBD, the/DT, increased/VBN, neutrophil/NN, adhesion/NN, during/IN, both/DT, phases/NNS, ,/,, whereas/IN, an/DT, anti-E-selectin/JJ, monoclonal/JJ, antibody/NN, also/RB, attenuated/VBD, the/DT, phase/NN, 2/CD, response/NN, ./.]
+Parsing [sent. 10 len. 37]: [Pretreatment/NN, with/IN, actinomycin/NN, D/NN, and/CC, cycloheximide/NN, or/CC, with/IN, competing/VBG, ds-oligonucleotides/NNS, that/WDT, contained/VBD, nuclear/JJ, factor-kappaB/NN, or/CC, activator/NN, protein-1/NN, cognate/NN, DNA/NN, sequences/NNS, significantly/RB, attenuated/VBD, the/DT, phase/NN, 2/CD, response/NN, ,/,, which/WDT, implicated/VBD, a/DT, role/NN, for/IN, de/FW, novo/FW, protein/NN, synthesis/NN, ./.]
+Parsing [sent. 11 len. 24]: [Surface/NN, expression/NN, of/IN, intercellular/JJ, adhesion/NN, molecule-1/NN, ,/,, P-selectin/NN, ,/,, and/CC, E-selectin/NN, on/IN, HUVECs/NNS, correlated/VBD, with/IN, the/DT, phase/NN, 1/CD, and/CC, 2/CD, neutrophil/NN, adhesion/NN, responses/NNS, ./.]
+Parsing [sent. 12 len. 31]: [This/DT, study/NN, demonstrates/VBZ, that/IN, changes/NNS, in/IN, endothelial/JJ, cell/NN, GSSG\/GSH/NN, cause/VBP, transcription-independent/JJ, and/CC, transcription-dependent/JJ, surface/NN, expression/NN, of/IN, different/JJ, endothelial/JJ, cell/NN, adhesion/NN, molecules/NNS, ,/,, which/WDT, leads/VBZ, to/TO, a/DT, 2-phase/NN, neutrophil-endothelial/JJ, adhesion/NN, response/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_train/genia_articles/a10082473.genia [12 sentences].
+Parsed 335 words in 12 sentences (86,88 wds/sec; 3,11 sents/sec).
+Parseo...:a9011569.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_train/genia_articles/a9011569.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_train/genia_articles/a9011569.genia with 8 sentences.
+Parsing [sent. 1 len. 16]: [Glycation-dependent/JJ, ,/,, reactive/JJ, oxygen/NN, species-mediated/JJ, suppression/NN, of/IN, the/DT, insulin/NN, gene/NN, promoter/NN, activity/NN, in/IN, HIT/NN, cells/NNS, ./.]
+Parsing [sent. 2 len. 34]: [Prolonged/VBN, poor/JJ, glycemic/JJ, control/NN, in/IN, non-insulin-dependent/JJ, diabetes/NN, mellitus/NN, patients/NNS, often/RB, leads/VBZ, to/TO, a/DT, decline/NN, in/IN, insulin/NN, secretion/NN, from/IN, pancreatic/JJ, beta/NN, cells/NNS, ,/,, accompanied/VBN, by/IN, a/DT, decrease/NN, in/IN, the/DT, insulin/NN, content/NN, of/IN, the/DT, cells/NNS, ./.]
+Parsing [sent. 3 len. 43]: [As/IN, a/DT, step/NN, toward/IN, elucidating/VBG, the/DT, pathophysiological/JJ, background/NN, of/IN, the/DT, so-called/JJ, glucose/NN, toxicity/NN, to/TO, pancreatic/JJ, beta/NN, cells/NNS, ,/,, we/PRP, induced/VBD, glycation/NN, in/IN, HIT-T15/NN, cells/NNS, using/VBG, a/DT, sugar/NN, with/IN, strong/JJ, deoxidizing/NN, activity/NN, ,/,, D-ribose/NN, ,/,, and/CC, examined/VBD, the/DT, effects/NNS, on/IN, insulin/NN, gene/NN, transcription/NN, ./.]
+Parsing [sent. 4 len. 57]: [The/DT, results/NNS, of/IN, reporter/NN, gene/NN, analyses/NNS, revealed/VBD, that/IN, the/DT, insulin/NN, gene/NN, promoter/NN, is/VBZ, more/RBR, sensitive/JJ, to/TO, glycation/NN, than/IN, the/DT, control/NN, beta-actin/NN, gene/NN, promoter/NN, ;/:, approximately/RB, 50/CD, and/CC, 80/CD, %/NN, of/IN, the/DT, insulin/NN, gene/NN, promoter/NN, activity/NN, was/VBD, lost/VBN, when/WRB, the/DT, cells/NNS, were/VBD, kept/VBN, for/IN, 3/CD, d/NN, in/IN, the/DT, presence/NN, of/IN, 40/CD, and/CC, 60/CD, mM/NN, D-ribose/NN, ,/,, respectively/RB, ./.]
+Parsing [sent. 5 len. 20]: [In/IN, agreement/NN, with/IN, this/DT, ,/,, decrease/NN, in/IN, the/DT, insulin/NN, mRNA/NN, and/CC, insulin/NN, content/NN, was/VBD, observed/VBN, in/IN, the/DT, glycation-induced/JJ, cells/NNS, ./.]
+Parsing [sent. 6 len. 24]: [Also/RB, ,/,, gel/NN, mobility/NN, shift/NN, analyses/NNS, using/VBG, specific/JJ, antiserum/NN, revealed/VBD, decrease/NN, in/IN, the/DT, DNA-binding/JJ, activity/NN, of/IN, an/DT, insulin/NN, gene/NN, transcription/NN, factor/NN, ,/,, PDX-1\/IPF1\/STF-1/NN, ./.]
+Parsing [sent. 7 len. 44]: [These/DT, effects/NNS, of/IN, D-ribose/NN, seemed/VBD, almost/RB, irreversible/JJ, but/CC, could/MD, be/VB, prevented/VBN, by/IN, addition/NN, of/IN, 1/CD, mM/NN, aminoguanidine/NN, or/CC, 10/CD, mM/NN, N-acetylcysteine/NN, ,/,, thus/RB, suggesting/VBG, that/IN, glycation/NN, and/CC, reactive/JJ, oxygen/NN, species/NNS, ,/,, generated/VBN, through/IN, the/DT, glycation/NN, reaction/NN, ,/,, serve/VBP, as/IN, mediators/NNS, of/IN, the/DT, phenomena/NNS, ./.]
+Parsing [sent. 8 len. 35]: [These/DT, observations/NNS, suggest/VBP, that/IN, protein/NN, glycation/NN, in/IN, pancreatic/JJ, beta/NN, cells/NNS, ,/,, which/WDT, occurs/VBZ, in/FW, vivo/FW, under/IN, chronic/JJ, hyperglycemia/NN, ,/,, suppresses/VBZ, insulin/NN, gene/NN, transcription/NN, and/CC, thus/RB, can/MD, explain/VB, part/NN, of/IN, the/DT, beta/NN, cell/NN, glucose/NN, toxicity/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_train/genia_articles/a9011569.genia [8 sentences].
+Parsed 273 words in 8 sentences (52,69 wds/sec; 1,54 sents/sec).
+Parseo...:a8555489.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_train/genia_articles/a8555489.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_train/genia_articles/a8555489.genia with 12 sentences.
+Parsing [sent. 1 len. 13]: [The/DT, promoter/NN, and/CC, 5/CD, '/SYM, flanking/NN, sequences/NNS, controlling/VBG, human/JJ, B29/NN, gene/NN, expression/NN, ./.]
+Traceback (most recent call last):
+  File "main.py", line 58, in <module>
+    pln_inco.bioscope.scripts.gen_parsed_files('*.genia',bcp,regenerate=False)
+  File "/media/KINGSTON/fing/work/src/pln_inco/bioscope/scripts.py", line 269, in gen_parsed_files
+    result=stanford_parser.parse(os.path.join(bcp.genia_articles_dir,fileName),bcp.parser_grammar_file)
+  File "/media/KINGSTON/fing/work/src/pln_inco/stanford_parser.py", line 31, in parse
+    p.wait()
+  File "/usr/lib/python2.6/subprocess.py", line 1170, in wait
+    pid, sts = _eintr_retry_call(os.waitpid, self.pid, 0)
+  File "/usr/lib/python2.6/subprocess.py", line 465, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt

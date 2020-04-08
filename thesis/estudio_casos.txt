@@ -1,0 +1,20 @@
+Indicadores de especulación
+===========================
+
+could/MD dentro de un VP -> MD VP hace que el VP grande sea una especulación.
+"could mimic some differentiation/activation stimuli allowing nuclear NF-KB expression." S1.7
+"could suppress the basal-level activity of the conalbumin promoter in both Jurkat and HeLa cells."
+"could transactivate through its cognate motif."
+"could contribute to nuclear signaling mechanisms that regulate a specific program of monocyte differentiation."
+
+could/MD dentro de un VP, que está dentro de un S que dice "One explanation for", hace que el S sea la especulación.S24.6
+"One explanation for the perpetuation of virus infection in macrophages could be sustained nuclear NF-kappa B expression."
+
+
+could/MD dentro de un VP, que a su vez está dentro de un S que comienza con No/DT, no es especulación?
+"No relationship could be established between glucocorticoid receptor binding and antidepressant medication."
+
+
+(MD= Modal) 
+(DT=Determiner)
+

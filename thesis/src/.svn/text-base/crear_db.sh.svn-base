@@ -1,0 +1,31 @@
+# Script que crea las tablas y las carga a partir de los archivos
+
+# Parametros
+
+# Tipo: DEVELOP, TEST o TRAIN
+tipo=DEVELOP
+# Recrear las tablas?
+recrear=1
+
+# Recreo las tablas
+if [ $recrear = 1 ]
+then
+	# Genero las tablas vacías, borrándolas si existían
+	echo "Genero la estructura de las tablas…"
+	if [ $tipo = DEVELOP ]
+	then
+		cat $SRC/crear_db.sql  | sqlite3 $BIOSCOPE/bioscope_devel/attributes.db
+	else 
+		if [ $tipo = TRAIN ]
+		then
+			cat $SRC/crear_db.sql  | sqlite3 $BIOSCOPE/bioscope_train/attributes.db
+		else 
+			cat $SRC/crear_db.sql  | sqlite3 $BIOSCOPE/bioscope_test/attributes.db
+		fi
+	fi
+fi
+
+# Levanto de los archivos correspondientes a memoria, y grabo las tablas
+echo "Levanto el corpus a tablas…"
+python gen_corpus_db.py $tipo
+

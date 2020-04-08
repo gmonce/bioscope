@@ -1,0 +1,77 @@
+# -*- coding: utf-8 -*- 
+
+
+# Script principal
+import pln_inco.bioscope.scripts
+import pln_inco.bioscope as bioscope
+import pln_inco.bioscope.util
+import os.path
+import time
+
+# Seteo las variables
+# Según dónde esté
+# Variables de ambiente que necesito tener definidas:
+
+# $GENIA_EVENT: lugar donde estﻓn los archivos del corpus GENIA Event
+# $STANFORD_PARSER_HOME: directorio donde estﺃ­ instalado el parser
+# $GENIA_TAGGER_HOME: directorio donde estﺃ­ instalado el Genia Tagger
+# $GRAPHVIZ: directorio donde estﺃ­ el ejecutable dot de Graphviz
+
+tipo='develop'
+training_filename='test.data.1'
+
+
+# Ubicación de algunos binarios/corpus
+genia_event_corpus_dir=os.path.expandvars('$GENIA_EVENT')
+parser_grammar_file=os.path.join(os.path.expandvars('$STANFORD_PARSER_HOME'),'englishPCFG.ser.gz')
+genia_tagger_dir=os.path.expandvars('$GENIA_TAGGER_HOME')
+graphviz_dir=os.path.expandvars('$GRAPHVIZ_HOME')
+crf_corpus_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'crf_corpus')
+
+
+# Según la parte del corpus, configuro algunas variables
+if tipo=='develop':
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_devel')
+	bioscope_xml_file='abstracts_devel.xml'	
+elif tipo=='train':
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_train')
+	bioscope_xml_file='abstracts_train.xml'
+elif tipo=='test':
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_test')
+	bioscope_xml_file='abstracts_test.xml'
+	
+
+
+### Antes de empezar, debo tener el working dir un archivo abstracts.xml, 
+### mﺃ­s el bioscope.xsl y el bioscope.css
+
+t0=time.clock()
+ 
+# 1. Genero archivos de texto, archivos de bioscope, y el archivo para preprocesar con Genia. Ademﺃ­s, copio los archivos
+# que correspondan de genia Event
+bcp=bioscope.util.BioscopeCorpusProcessor(working_dir, bioscope_xml_file,genia_event_corpus_dir,parser_grammar_file,genia_tagger_dir)
+#pln_inco.bioscope.scripts.gen_text_files(bcp)
+#pln_inco.bioscope.scripts.gen_bioscope_files(bcp)
+#pln_inco.bioscope.scripts.create_single_text_file(bcp,'a*.txt')
+#pln_inco.bioscope.scripts.copy_genia_event_files(bcp)
+#pln_inco.bioscope.scripts.genia_tag(bcp)
+#pln_inco.bioscope.scripts.gen_genia_files(bcp)
+
+# 6. Genero archivos .parsed utilizando el parser de standford
+# Parser de stanford
+#pln_inco.bioscope.scripts.gen_parsed_files('*.genia',bcp,regenerate=False)
+
+#print "Cargo bc"
+t0=time.clock()
+#bc=bioscope.BioscopeCorpus(bcp,'.*')
+#print "Elapsed time...", time.clock()-t0, "seconds..."
+
+# 8. Levanto del archivo serializado y dibujo los grafos y los archivos de atributos solamente si tiene marca de hedging
+#pln_inco.bioscope.scripts.draw_sentences(bc,bcp,only_hedge_and_negation_sentences=True)
+#pln_inco.bioscope.scripts.print_attribute_table(bc,bcp)
+#pln_inco.bioscope.scripts.save_basic_attributes(bc,os.path.join(working_dir,'attributes.db'))
+#pln_inco.bioscope.scripts.split_training_corpus(os.path.join(working_dir,'attributes.db'));
+#pln_inco.bioscope.scripts.gen_conll_file(os.path.join(working_dir,'attributes.db'),'bioscope80','train.dat',['word','lemma','CHUNK'],'hedge_cue1')
+#pln_inco.bioscope.scripts.gen_conll_file(os.path.join(working_dir,'attributes.db'),'bioscope20','test.dat',['word','lemma','CHUNK'],'hedge_cue1')
+pln_inco.bioscope.scripts.generate_scope_analysis_table(os.path.join(working_dir,'attributes.db'),'bioscope80','bioscope80_scope')
+pln_inco.bioscope.scripts.gen_conll_file(os.path.join(working_dir,'attributes.db'),'bioscope80_scope','prueba.dat',['word','lemma','POS','CHUNK','hc_token'],'xcope',True)

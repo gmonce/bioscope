@@ -1,0 +1,19 @@
+# Genera el corpus de entrenamiento/testeo para evaluar los scopes
+# Primero genera, a partir de la tabla de entrenamiento (bioscope80) una tabla de instancias de evaluación de scopes (bioscope80_scope)
+# scenario es el número de escenario que utiliza para determinar las columnas de las que se aprende
+# y la clase que estamos aprendiendo
+
+run=0
+scenario=0
+
+set -x
+
+echo "Genero el corpus para scopes..."
+if [ $run = '0' ]
+# Corrida de desarrollo
+then
+	python $SRC/gen_scope_corpus.py DEVELOP trainx.data.$run testx.data.$run test.data.$run.crf_results testx_ghc.data.$run $SRC/scenarios/scenariox.$scenario.yaml
+else
+	python $SRC/gen_scope_corpus.py TRAIN trainx.data.$run testx.data.$run  test.data.$run.crf_results  testx_ghc.data.$run $SRC/scenarios/scenariox.$scenario.yaml
+fi
+

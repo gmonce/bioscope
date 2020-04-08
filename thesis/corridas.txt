@@ -1,0 +1,224 @@
+Corridas
+--------
+Para aprender HC: 
+
+run=1 [Aprendizaje de HC, atributos básicos]
+	scenario=0 [src/scenarios/scenario.0.yaml]
+	xs: [word,lemma,POS,CHUNK] 
+	template_hc=0 [src/crf/crf_template_hc.0]
+	Atributos: word(3), pos(5), hedge_cue (7)
+	# Unigramas
+		# Palabras en una ventana de más menos 2
+		# Par palabra anterior/actual y actual/siguiente
+		# POS en una ventana de más menos 2
+		# Pares de pos
+		# Ternas de POS
+	# Bigramas
+
+
+	CoNLL
+	Ev:precision:  95.33%; recall:  76.50%; FB1:  84.88  321
+	Ev total: precision:  97.03%; recall:  81.11%; FB1:  88.36  438
+	
+
+run=1.1 [Aprendizaje de scope, atributos básicos]
+	scenariox=0 [src/scenarios/scenariox.0.yaml]
+	xs: [wrod, lemma, POS, CHUNK,hedge_cue]
+	template_scope=0 [src/crf/crf_template_scope_0]
+	Atributos aprendizaje: word(4), pos(6),hc_token(8), scope(9)
+	# Unigramas
+		# Palabras en una ventana de más menos 2
+		# Par palabra anterior/actual y actual/siguiente
+		# POS en una ventana de más menos 2
+		# Pares de pos
+		# Ventana de más menos 2 para hedge cues
+
+	Gold Hedge cue
+		cue_TP: 400 cue_FP: 0 cue_FN: 0
+		cue_precision: 1.00000 cue_recall: 1.00000 cue_F-measure: 1.00000
+		TP: 268 FP: 125 FN: 125
+		precision: 0.681934 recall: 0.681934 F-measure: 0.681934	
+
+	Guessed HC
+		cue_TP: 305 cue_FP: 15 cue_FN: 95
+		cue_precision: 0.953125 cue_recall: 0.762500 cue_F-measure: 0.847222
+		TP: 229 FP: 91 FN: 164
+		precision: 0.715625 recall: 0.582697 F-measure: 0.642356
+
+
+runx=1.3 [Aprendizaje de scope, atributos básicos más el valor y alcance del padre de la hedge cue] [src/corridas/1.3.yaml]
+
+	scenariox=2 [src/scenarios/scenariox.2.yaml]
+	xs:[word,lemma,POS,CHUNK,hc_parent_POS,in_hc_parent_scope,scope_hc] 
+	template_scope=2 [src/crf/crf_template_scope_2]
+	Atributos: word(3), lemma(4), pos(5), hc_parent_POS(7), in_hc_parent_scope(8), scope_hc(9), scope 
+
+	# Unigramas
+		# Palabras en una ventana de más menos 2
+		# Par palabra anterior/actual y actual/siguiente
+		# POS en una ventana de más menos 2
+		# Pares de pos
+		# hedge_cue
+		# hc_parent_POS
+		# in_hc_parent_scope en una ventana de más menos 2	
+
+	Gold Hedge cue
+		cue_TP: 400 cue_FP: 0 cue_FN: 0
+		cue_precision: 1.00000 cue_recall: 1.00000 cue_F-measure: 1.00000
+		TP: 270 FP: 123 FN: 123
+		precision: 0.687023 recall: 0.687023 F-measure: 0.687023
+
+	Guessed HC
+		cue_TP: 305 cue_FP: 15 cue_FN: 95
+		cue_precision: 0.953125 cue_recall: 0.762500 cue_F-measure: 0.847222
+		TP: 236 FP: 84 FN: 157
+		precision: 0.737500 recall: 0.600509 F-measure: 0.661992
+
+
+
+run=2 [Aprendizaje de HC, atributos básicos mas las palabras de Hyland]
+	scenario=1 [src/scenarios/scenario.1.yaml]
+	xs: [word,lemma,POS,CHUNK, is_hyland_hedge] 
+	template_hc=1 [src/crf/crf_template_hc.1]
+	Atributos: word(3), pos(5), is_hyland_hedge(6), hedge_cue (7)
+	# Unigramas
+		# Palabras en una ventana de más menos 2
+		# is_hyland_hedge en una ventana de más menos 2
+		# Par palabra anterior/actual y actual/siguiente
+		# POS en una ventana de más menos 2
+		# Pares de pos
+		# Ternas de POS
+	# Bigramas
+	Ev:precision:  92.71%; recall:  79.50%; FB1:  85.60  343
+	Ev total: precision:  95.86%; recall:  83.97%; FB1:  89.52  459
+
+	Comentario: Baja 2/3 puntos las precisión, sube 3 puntos el recall
+	
+	
+    	
+run=3 [Aprendizaje de HC, atributos básicos mas las palabras de Hyland, más ventana de chunk]
+	scenario=1 [src/scenarios/scenario.1.yaml]
+	xs: [word,lemma,POS,CHUNK, is_hyland_hedge] 
+	template_hc=2 [src/crf/crf_template_hc.2]
+	Atributos: word(3), pos(5), chunk (6), is_hyland_hedge(7), hedge_cue (8)
+	# Unigramas
+		# Palabras en una ventana de más menos 2
+		# is_hyland_hedge en una ventana de más menos 2
+		# chunk en una ventana de más menos 2
+		# Par palabra anterior/actual y actual/siguiente
+		# POS en una ventana de más menos 2
+		# Pares de pos
+		# Ternas de POS
+	# Bigramas
+	Ev:precision:  92.98%; recall:  79.50%; FB1:  85.71  342
+	Ev total: precision:  95.89%; recall:  84.54%; FB1:  89.86  462
+	Comentarios: prácticamente igual que el escenario 2
+
+run=4 [Aprendizaje de HC, atributos básicos más las palabras de Hyland, más los campos de ocurrencia en el training corpus]
+	scenario=2 [src/scenarios/scenario.2.yaml]
+	xs: [word,lemma,POS,CHUNK,is_hyland_hedge,hc_candidate,cooccurs_with_hc_candidate]
+	template_hc=3 [src/crf/crf_template_hc.3]
+	Atributos: word(3), pos(5), is_hyland_hedge(6), hc_candidate(7), hedge_cue (8)
+	# Unigramas
+		# Palabras en una ventana de más menos 2
+		# is_hyland_hedge en una ventana de más menos 2
+		# hc_candidate en una ventana de más menos 2
+		# Par palabra anterior/actual y actual/siguiente
+		# POS en una ventana de más menos 2
+		# Pares de pos
+		# Ternas de POS
+	# Bigramas
+	Ev:precision:  88.80%; recall:  83.25%; FB1:  85.94  375
+	Ev total: precision:  94.53%; recall:  89.12%; FB1:  91.75  494
+
+	COMENTARIOS: lo que esperábamos, le pegó un palo a la precisión, pero subió el recall casi 4 puntos. La medida-F, agradecida
+	
+	
+run=5 [Aprendizaje de HC, atributos básicos más las palabras de Hyland, más los campos de ocurrencia y coocurrencia en el training corpus]
+	scenario=2 [src/scenarios/scenario.2.yaml]
+	xs: [word,lemma,POS,CHUNK,is_hyland_hedge,hc_candidate,cooccurs_with_hc_candidate]
+	template_hc=4 [src/crf/crf_template_hc.4]
+	Atributos: word(3), pos(5), is_hyland_hedge(6), hc_candidate(7), cooccurs_with_hc_candidate(8), hedge_cue (9)
+	# Unigramas
+		# Palabras en una ventana de más menos 2
+		# is_hyland_hedge en una ventana de más menos 2
+		# hc_candidate en una ventana de más menos 2
+		# indicador de si coocurre con otro hedge
+		# Par palabra anterior/actual y actual/siguiente
+		# POS en una ventana de más menos 2
+		# Pares de pos
+		# Ternas de POS
+	# Bigramas
+	Ev:precision:  89.76%; recall:  83.25%; FB1:  86.38  371
+	Total: precision:  94.46%; recall:  87.79%; FB1:  91.00  487
+	COMENTARIOS: bieeen, sin perder recall ganamos un poquito de precisión (lo esperado).
+	
+	run=5.1 [Aprendizaje de scope, atributos básicos]
+		scenariox=0 [src/scenarios/scenariox.0.yaml]
+		xs: [wrod, lemma, POS, CHUNK,hedge_cue]
+		template_scope=0 [src/crf/crf_template_scope_0]
+		Atributos aprendizaje: word(4), pos(6),hc_token(8), scope(9)
+		# Unigramas
+			# Palabras en una ventana de más menos 2
+			# Par palabra anterior/actual y actual/siguiente
+			# POS en una ventana de más menos 2
+			# Pares de pos
+			# Ventana de más menos 2 para hedge cues
+
+		Gold Hedge cue
+			cue_TP: 400 cue_FP: 0 cue_FN: 0
+			cue_precision: 1.00000 cue_recall: 1.00000 cue_F-measure: 1.00000
+			TP: 268 FP: 125 FN: 125
+	precision: 0.681934 recall: 0.681934 F-measure: 0.681934
+			
+			TP: 268 FP: 125 FN: 125
+			precision: 0.681934 recall: 0.681934 F-measure: 0.681934	
+
+		Guessed HC
+			cue_TP: 305 cue_FP: 15 cue_FN: 95
+			cue_precision: 0.953125 cue_recall: 0.762500 cue_F-measure: 0.847222
+			TP: 229 FP: 91 FN: 164
+			precision: 0.715625 recall: 0.582697 F-measure: 0.642356
+
+
+
+	
+
+	
+runx=1.2 [Aprendizaje de scope, atributos básicos más regla 0]
+
+	scenariox=1 [src/scenarios/scenariox.1.yaml]
+	xs: [word,lemma,POS,CHUNK,hc_token,scope_sr0] 
+	template_scope=1 [src/crf/crf_template_scope_1]
+	Atributos: word(4), pos(6), hc_token(8), scope_r0(9) scope(10)
+	# Unigramas
+		# Palabras en una ventana de más menos 2
+		# Par palabra anterior/actual y actual/siguiente
+		# POS en una ventana de más menos 2
+		# Pares de pos
+		# hedge_token
+		# scope_r0 en una ventana de más menos 2
+	# Bigramas
+	GS:precision:  67.86%; recall:  67.17%; FB1:  67.51 (found: 392 phrases; correct: 266)
+	GHC:precision:  71.06%; recall:  55.95%; FB1:  62.61 (found: 311 phrases; correct: 221)
+	
+runx=1.3 [Aprendizaje de scope, atributos básicos más el valor y alcance del padre de la hedge cue] [src/corridas/1.3.yaml]
+
+	scenariox=2 [src/scenarios/scenariox.2.yaml]
+	xs: [word,lemma,POS,CHUNK, hc_token,hc_parent_POS, in_hc_parent_scope]
+	template_scope=2 [src/crf/crf_template_scope_2]
+	Atributos: word(4), pos(6), hc_token(8), hc_parent_POS, in_hc_parent_scope, scope
+	# Unigramas
+		# Palabras en una ventana de más menos 2
+		# Par palabra anterior/actual y actual/siguiente
+		# POS en una ventana de más menos 2
+		# Pares de pos
+		# hedge_token
+		# hc_parent_POS
+		# in_hc_parent_scope en una ventana de más menos 2	
+	GS:precision:  71.54%; recall:  70.45%; FB1:  70.99 (found:390 phrases; correct: 279)
+	GHC:precision:  72.96%; recall:  56.71%; FB1:  63.82 (found: 307 phrases; correct: 224)
+ 
+Regla 0: La regla de scope 0 dice que si el lemma es suggest y es HC, entonces su scope va desde la palabra suggest hasta una palabra antes que el punto final.
+
+
