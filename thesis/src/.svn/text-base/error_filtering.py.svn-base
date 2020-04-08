@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*- 
+# Script que lee un archivo de resultados y lo devuelve solamente con las oraciones donde las dos últimas columnas son diferentes
+# Sirve para analizar los errores que se cometen al hacer la evaluación
+# Recibe en stdin y devuelve en stduot
+# Asume que las oraciones vienen separadas por un enter
+
+import sys
+
+# Proceso la entrada
+
+data=sys.stdin.readlines()
+buffer=''
+wrong_class=False
+for row in data:
+	#print "Proceso ",row
+	if row=='\n':
+		# Cambio de linea
+		# Imprimo si corresponde
+		if wrong_class:
+			print buffer
+		buffer=''
+		wrong_class=False
+	else:
+		palabras=row.rsplit('\t')
+		if palabras[-1].rstrip() != palabras[-2]:
+			#print palabras[-1], "es diferente a ",palabras[-2]
+			wrong_class=True
+		buffer=buffer+row
+				

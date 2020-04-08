@@ -1,0 +1,25 @@
+# Entrena sobre ciertos datos de entrenamiento, con un template crf definido
+# Evalua sobre otro conjunto y devuelve los resultados
+# Por temas de configuración de archivos de salida, funciona para aprender scopes
+# El archivo de entrenamiento se llama trainx.data.$run, y el de testeo testx.data.$run
+# El template es crf_template.$template
+# El resultado del análisis queda en testx.data.$run.crf_results
+# Los errores cometidos quedan en testx.data.$run.errors
+
+run=0
+template=1
+
+set -x
+
+echo "CRF train..."
+crf_learn $SRC/crf/crf_template.$template $BIOSCOPE/crf_corpus/trainx.data.$run $BIOSCOPE/crf_models/modelox.$run
+echo "CRF test, guessed hedge cue..."
+crf_test -m $BIOSCOPE/crf_models/modelo.$run $BIOSCOPE/crf_corpus/testx_ghc.data.$run > $BIOSCOPE/crf_corpus/testx_ghc.data.$run.crf_results
+echo "Update guessed xcope values..."
+python $SRC/update_guessed_xcope.py $run $BIOSCOPE/crf_corpus/testx_ghc.data.$run.crf_results
+
+#echo "Generating error file..."
+#python $SRC/error_filtering.py < $BIOSCOPE/crf_corpus/test.data.$run.crf_results >$BIOSCOPE/crf_corpus/test.data.$run.errors
+#echo "Evaluating results..."
+#$SRC/conlleval.pl -d '\t'  < $BIOSCOPE/crf_corpus/test.data.$run.crf_results
+

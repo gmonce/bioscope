@@ -1,0 +1,22 @@
+# Entrena sobre ciertos datos de entrenamiento, con un template crf definido
+# Evalua sobre otro conjunto y devuelve los resultados
+# Por temas de configuración de archivos de salida, funciona para aprender hedge cues
+# El archivo de entrenamiento se llama train.data.$run, y el de testeo test.data.$run
+# El modelo es modelo.$run
+# El resultado del análisis queda en test.data.$run.crf_results
+# Los errores cometidos quedan en test.data.$run.errors
+
+run=0
+template=0
+
+set -x
+
+echo "CRF train..."
+crf_learn $SRC/crf/crf_template.$template $BIOSCOPE/crf_corpus/train.data.$run $BIOSCOPE/crf_models/modelo.$run
+echo "CRF test..."
+crf_test -m $BIOSCOPE/crf_models/modelo.$run $BIOSCOPE/crf_corpus/test.data.$run > $BIOSCOPE/crf_corpus/test.data.$run.crf_results
+echo "Generating error file..."
+python $SRC/error_filtering.py < $BIOSCOPE/crf_corpus/test.data.$run.crf_results >$BIOSCOPE/crf_corpus/test.data.$run.errors
+echo "Evaluating results..."
+$SRC/conlleval.pl -d '\t'  < $BIOSCOPE/crf_corpus/test.data.$run.crf_results
+

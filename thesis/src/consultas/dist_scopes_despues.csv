@@ -1,0 +1,134 @@
+hedge_cue,pos,parent,gparent,ggparent,gggparent,ejemplos no scope
+proposed,VBN,1,0,0,2,0,
+hypothesized,VBN,2,0,0,1,0,
+hypothesized,VBD,1,0,0,0,0,
+implying,VBG,2,0,0,0,0,
+predicts,VBZ,1,0,0,0,0,
+seemed,VBD,0,1,0,0,1, S960.7
+suggests_or,VBZ,1,0,0,0,0,
+either_or_or,CC,0,0,0,0,1, S143.6
+consistent_with,JJ,1,0,0,0,0,
+hypothesize,VBP,1,0,0,0,0,
+seems,VBZ,4,12,1,0,0,
+should,MD,10,1,0,0,1, S894.5
+feel,VBP,1,0,0,0,0,
+raises_the_intriguing_possibility,VBZ,1,0,0,0,0,
+postulated,VBN,1,0,0,0,0,
+postulated,VBD,1,0,0,0,0,
+examined_for,VBN,1,0,0,0,0,
+might,MD,35,4,1,0,1, S653.8
+indicating,VBG,8,0,0,0,0,
+putative,JJ,13,1,0,0,13, S513.10 S643.3 S134.2 S72.1 S205.3 S199.1 S199.9 S245.11 S898.3 S427.9 S441.3
+propose,VBP,23,0,0,0,1, S851.8
+possible,JJ,11,5,2,0,11, S145.1 S145.2 S8.10 S319.7 S323.5 S315.12 S277.6 S257.9 S401.6 S410.17 S500.14
+possibly,RB,3,1,1,1,10, S518.10 S528.10 S73.6 S661.10 S733.7 S784.5 S791.6 S299.6 S201.7 S403.8
+not_clear,RB,0,2,0,0,2, S605.4 S250.4
+speculate,VB,0,0,0,0,1, S735.10
+speculate,VBP,4,0,0,0,0,
+issue_is_raised,NN,0,0,0,0,1, S4.5
+not_possible_to_ascertain,RB,0,0,0,0,1, S704.3
+investigate,VB,1,0,0,0,0,
+predicted,VBN,0,0,2,1,0,
+speculation,NN,0,0,0,0,1, S655.8
+indicates_that,VBZ,13,0,0,0,1, S152.5
+may_or,MD,0,0,0,0,1, S548.8
+idea,NN,0,0,0,0,1, S866.7
+potent,JJ,1,0,0,0,0,
+plausible,JJ,0,0,0,0,1, S805.4
+likely,RB,1,0,0,0,12, S644.8 S122.16 S68.5 S667.8 S788.4 S871.14 S298.2 S310.5 S263.8 S459.6 S447.9
+likely,JJ,2,5,6,3,8, S92.8 S93.7 S661.6 S282.8 S875.6 S915.11 S379.8 S949.4
+appear,VB,1,0,8,1,0,
+appear,VBP,3,12,3,0,1, S110.7
+suggesting,VBG,86,0,0,0,2, S43.8 S773.5
+probably,RB,0,2,1,1,8, S556.6 S571.11 S152.10 S126.7 S10.3 S2.11 S368.3 S481.4
+viable,JJ,1,0,0,0,0,
+supposed,VBN,1,0,0,0,0,
+possibility,NN,0,0,0,0,5, S15.11 S15.2 S339.9 S934.10 S939.12
+whether_or_not,IN,2,0,0,0,0,
+hypothesis,NN,0,0,0,0,10, S512.9 S547.11 S587.3 S177.2 S35.5 S719.3 S826.9 S830.12 S959.8 S988.4
+if_not,IN,2,0,0,0,0,
+raises_questions,VBZ,1,0,0,0,0,
+estimate,VBP,1,0,0,0,0,
+appears,VBZ,9,40,5,0,6, S583.10 S117.7 S152.3 S707.7 S223.9 S455.5
+suggested,VBN,7,0,6,6,2, S66.3 S19.8
+suggested,VBD,24,0,0,0,0,
+could,MD,29,6,1,0,5, S548.8 S138.11 S307.11 S214.6 S241.3
+suggests,VBZ,39,0,0,0,1, S611.9
+preferentially,RB,0,0,0,0,1, S117.7
+obscure,JJ,0,0,0,0,1, S758.7
+suggestion,NN,0,0,0,0,1, S827.8
+unknown,JJ,0,0,10,0,1, S819.6
+or,CC,32,2,0,1,33, S524.4 S524.4 S531.10 S531.6 S583.9 S586.11 S590.9 S621.11 S644.5 S152.16 S96.9
+presumably,RB,1,0,0,0,6, S578.4 S582.8 S590.9 S208.11 S314.4 S445.4
+unclear,JJ,0,0,5,1,1, S163.3
+can_not_be_excluded,MD,0,1,0,0,0,
+appeared,VBD,3,14,1,0,0,
+implicates,VBZ,1,0,0,0,0,
+proposing,VBG,1,0,0,0,0,
+indicated_that,VBD,24,0,0,0,5, S567.4 S644.8 S86.7 S824.5 S297.14
+raises_the_possibility,VBZ,3,0,0,0,0,
+addressed_the_question_of,VBD,1,0,0,0,0,
+would,MD,2,2,0,0,0,
+assumed,VBN,0,0,2,0,0,
+support,VBP,1,0,0,0,1, S517.10
+increasing_evidence,VBG,1,0,0,0,0,
+indicate,VB,1,0,0,0,0,
+indicate,VBP,2,0,0,0,0,
+assumption,NN,0,0,0,0,1, S299.14
+and\/or_might,CC,0,0,1,0,0,
+expected,VBN,0,1,0,0,0,
+proposal,NN,0,0,0,0,1, S387.10
+indicate_that,VBP,83,1,0,0,14, S579.7 S619.8 S721.7 S753.9 S789.11 S849.12 S315.12 S275.6 S932.9 S427.8 S448.10
+not_elucidated,RB,0,1,0,0,0,
+suggestions,NNS,0,1,0,0,0,
+not_known,RB,0,2,0,0,2, S752.4 S868.3
+apparent,JJ,4,0,0,0,1, S448.11
+suspected,VBN,0,0,1,0,0,
+believe,VBP,1,0,0,0,0,
+presumed,VBN,0,0,0,1,0,
+might_or,MD,0,1,0,0,0,
+indicates,VBZ,2,0,0,0,0,
+whether,IN,56,0,0,0,0,
+raising_the_possibility,VBG,0,0,0,0,1, S668.4
+considered,VBN,0,1,0,0,0,
+suggestive,JJ,2,0,0,0,0,
+suppose,VBP,1,0,0,0,0,
+can,MD,29,6,0,0,2, S79.12 S406.5
+believed,VBN,1,0,3,1,0,
+indicated,VBD,1,0,0,0,0,
+Perhaps,RB,0,0,1,0,1, S152.16
+Whether_unknown,IN,0,0,1,0,0,
+either_or,CC,15,0,0,0,4, S18.6 S741.9 S880.4 S949.13
+Hypothetically,RB,0,0,1,0,0,
+refer_to,VBP,1,0,0,0,0,
+unlikely,JJ,1,0,0,0,0,
+seem,VB,0,0,2,0,1, S583.6
+seem,VBP,1,1,0,0,0,
+apparently,RB,0,1,0,0,1, S659.10
+if,IN,9,0,0,0,1, S335.3
+perhaps,RB,1,1,0,0,3, S8.10 S735.10 S930.8
+suggest,VB,2,0,0,0,0,
+suggest,VBP,189,4,0,0,18, S516.10 S583.9 S191.5 S168.11 S73.11 S741.9 S336.7 S802.14 S842.12 S844.10 S319.7
+Possible,JJ,0,2,0,0,1, S145.7
+implicating,VBG,1,0,0,0,0,
+potential,NN,0,0,0,0,1, S585.11
+potential,JJ,18,1,0,0,5, S583.3 S114.3 S812.1 S928.5 S932.7
+potentially,RB,4,0,0,0,6, S14.1 S846.9 S292.14 S875.10 S933.8 S350.3
+raise_the_hypothesis,VBP,0,0,0,0,1, S937.9
+not_evident,RB,0,0,0,0,1, S985.2
+evaluated_for,VBN,0,0,0,0,1, S47.2
+conclusion,NN,0,0,0,0,1, S416.10
+raise_the_possibility,VBP,0,1,0,0,0,
+may,MD,283,28,1,0,23, S583.9 S605.11 S611.9 S649.3 S119.11 S185.8 S128.10 S43.8 S71.4 S688.10 S716.5
+raised_the_possibility,VBD,1,0,0,0,0,
+indicating_that,VBG,33,0,0,0,2, S280.6 S427.11
+probable,JJ,1,0,0,0,0,
+implies,VBZ,4,0,0,0,0,
+imply,VB,1,0,0,0,0,
+imply,VBP,8,0,0,0,0,
+and\/or,CC,1,0,0,0,4, S119.11 S191.5 S129.8 S297.3
+compelling_evidence,JJ,0,0,0,0,1, S530.11
+thought,VBN,2,7,6,2,5, S560.2 S45.7 S677.3 S289.3 S493.6
+implied,VBD,1,0,0,0,0,
+notion,NN,0,0,0,0,2, S798.9 S423.9
+hope,VBP,1,0,0,0,0,

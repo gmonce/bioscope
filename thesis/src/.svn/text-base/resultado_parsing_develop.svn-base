@@ -1,0 +1,820 @@
+Parseo...:a1899335.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1899335.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1899335.genia with 5 sentences.
+Parsing [sent. 1 len. 15]: [Expression/NN, of/IN, c-jun/NN, ,/,, jun/NN, B/NN, and/CC, jun/NN, D/NN, proto-oncogenes/NNS, in/IN, human/JJ, peripheral-blood/JJ, granulocytes/NNS, ./.]
+Parsing [sent. 2 len. 23]: [We/PRP, have/VBP, found/VBN, that/IN, purified/VBN, human/JJ, peripheral-blood/JJ, granulocytes/NNS, express/VBP, constitutively/RB, significant/JJ, levels/NNS, of/IN, proto-oncogenes/NNS, c-jun/NN, ,/,, jun/NN, B/NN, and/CC, jun/NN, D/NN, mRNA/NN, ./.]
+Parsing [sent. 3 len. 28]: [Upon/IN, functional/JJ, activation/NN, of/IN, granulocytes/NNS, by/IN, 4/CD, beta-phorbol/NN, 12-myristate/NN, 13-acetate/NN, -LRB-/-LRB-, PMA/NN, -RRB-/-RRB-, ,/,, the/DT, levels/NNS, of/IN, c-jun/NN, ,/,, jun/NN, B/NN, and/CC, jun/NN, D/NN, transcripts/NNS, were/VBD, increased/VBN, ./.]
+Parsing [sent. 4 len. 26]: [The/DT, three/CD, jun/NN, genes/NNS, showed/VBD, a/DT, similar/JJ, time/NN, course/NN, in/IN, their/PRP$, induction/NN, by/IN, PMA/NN, ,/,, maximal/JJ, mRNA/NN, levels/NNS, being/VBG, reached/VBN, after/IN, 60/CD, min/NN, of/IN, induction/NN, ./.]
+Parsing [sent. 5 len. 27]: [These/DT, results/NNS, suggest/VBP, that/IN, expression/NN, of/IN, c-jun/NN, ,/,, jun/NN, B/NN, and/CC, jun/NN, D/NN, genes/NNS, might/MD, be/VB, involved/VBN, in/IN, terminal/JJ, granulocyte/NN, differentiation/NN, or/CC, in/IN, regulating/VBG, granulocyte/NN, functionality/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1899335.genia [5 sentences].
+Parsed 119 words in 5 sentences (74,33 wds/sec; 3,12 sents/sec).
+Parseo...:a1901389.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,4 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1901389.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1901389.genia with 10 sentences.
+Parsing [sent. 1 len. 10]: [A/DT, study/NN, on/IN, the/DT, circadian/JJ, rhythm/NN, of/IN, glucocorticoid/NN, receptor/NN, ./.]
+Parsing [sent. 2 len. 19]: [Circadian/JJ, rhythm/NN, in/IN, glucocorticoid/NN, receptor/NN, -LRB-/-LRB-, GR/NN, -RRB-/-RRB-, was/VBD, studied/VBN, in/IN, the/DT, rat/NN, liver/NN, and/CC, human/JJ, peripheral/JJ, leukocytes/NNS, ./.]
+Parsing [sent. 3 len. 35]: [For/IN, rats/NNS, exposed/VBN, to/TO, a/DT, natural/JJ, environmental/JJ, photic/JJ, cycle/NN, or/CC, a/DT, 12L/NN, :/:, 12D/NN, artificial/JJ, light/JJ, regime/NN, ,/,, peak/JJ, values/NNS, of/IN, hepatic/JJ, GR/NN, were/VBD, detected/VBN, between/IN, 23/CD, :/:, 00/CD, and/CC, 02/CD, :/:, 00/CD, h/NN, ./.]
+Parsing [sent. 4 len. 44]: [Except/IN, for/IN, a/DT, 4-hour/JJ, advancement/NN, of/IN, the/DT, peak/NN, ,/,, a/DT, similar/JJ, circadian/JJ, rhythm/NN, of/IN, hepatic/JJ, GR/NN, was/VBD, detected/VBN, in/IN, rats/NNS, reared/VBN, under/IN, a/DT, reversed/VBN, lighting/NN, regimen/NN, -LRB-/-LRB-, 12D/NN, :/:, 12L/NN, ;/:, lights/NNS, on/IN, between/IN, 18/CD, :/:, 30/CD, and/CC, 06/CD, :/:, 30/CD, h/NN, -RRB-/-RRB-, ./.]
+Parsing [sent. 5 len. 40]: [In/IN, human/JJ, leukocytes/NNS, ,/,, the/DT, peak/JJ, value/NN, of/IN, GR/NN, was/VBD, found/VBN, to/TO, parallel/VB, that/DT, of/IN, plasma/NN, cortisol/NN, with/IN, high/JJ, and/CC, low/JJ, values/NNS, detected/VBN, at/IN, 04/CD, :/:, 00-08/CD, :/:, 00/CD, h/NN, and/CC, 23/CD, :/:, 00-24/CD, :/:, 00/CD, h/NN, ,/,, respectively/RB, ./.]
+Parsing [sent. 6 len. 32]: [In/IN, patients/NNS, suffering/VBG, from/IN, Cushing/NN, 's/POS, syndrome/NN, ,/,, the/DT, circadian/JJ, rhythm/NN, of/IN, plasma/NN, cortisol/NN, either/CC, disappeared/VBD, or/CC, was/VBD, inverted/VBN, while/IN, that/DT, of/IN, GR/NN, did/VBD, not/RB, significantly/RB, deviate/VB, from/IN, the/DT, normal/JJ, subjects/NNS, ./.]
+Parsing [sent. 7 len. 26]: [For/IN, apoplexic/JJ, patients/NNS, with/IN, lesions/NNS, localized/JJ, to/TO, the/DT, base/NN, of/IN, the/DT, brain/NN, as/IN, indicated/VBN, by/IN, computerized/VBN, tomography/NN, ,/,, the/DT, diurnal/JJ, variation/NN, of/IN, GR/NN, was/VBD, abolished/VBN, ./.]
+Parsing [sent. 8 len. 16]: [Conversely/RB, ,/,, diurnal/JJ, rhythmicity/NN, persisted/VBD, in/IN, apoplexy/JJ, patients/NNS, whose/WP$, lesions/NNS, were/VBD, in/IN, the/DT, cerebral/JJ, cortex/NN, ./.]
+Parsing [sent. 9 len. 47]: [Thus/RB, ,/,, we/PRP, postulated/VBD, that/IN, the/DT, circadian/JJ, modification/NN, of/IN, GR/NN, was/VBD, independent/JJ, of/IN, the/DT, diurnal/JJ, fluctuations/NNS, in/IN, plasma/NN, cortisol/NN, level/NN, or/CC, the/DT, circadian/JJ, variations/NNS, in/IN, environmental/JJ, lighting/NN, and/CC, that/IN, the/DT, rhythmicity/NN, might/MD, be/VB, regulated/VBN, by/IN, the/DT, '/``, circadian/JJ, pacemaker/NN, '/'', located/JJ, in/IN, the/DT, human/JJ, basal/JJ, brain/NN, ./.]
+Parsing [sent. 10 len. 49]: [These/DT, diurnal/JJ, variations/NNS, in/IN, GR/NN, might/MD, serve/VB, to/TO, coordinate/VB, the/DT, reactivity/NN, of/IN, the/DT, target/NN, cells/NNS, to/TO, cortisol/NN, because/IN, the/DT, diurnal/JJ, rhythms/NNS, of/IN, a/DT, GR-mediated/JJ, response/NN, ,/,, the/DT, fractional/JJ, inhibition/NN, of/IN, chemotactic/JJ, migration/NN, rate/NN, of/IN, polymorphonuclear/JJ, leukocytes/NNS, by/IN, cortisol/NN, ,/,, were/VBD, found/VBN, to/TO, be/VB, synchronous/JJ, with/IN, those/DT, of/IN, GR/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1901389.genia [10 sentences].
+Parsed 318 words in 10 sentences (63,65 wds/sec; 2,00 sents/sec).
+Parseo...:a2026605.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2026605.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2026605.genia with 13 sentences.
+Parsing [sent. 1 len. 8]: [Tissue-specific/JJ, expression/NN, of/IN, the/DT, platelet/NN, GPIIb/NN, gene/NN, ./.]
+Parsing [sent. 2 len. 29]: [One/CD, of/IN, the/DT, major/JJ, objectives/NNS, in/IN, the/DT, study/NN, of/IN, thrombogenesis/NN, is/VBZ, to/TO, determine/VB, the/DT, mechanisms/NNS, by/IN, which/WDT, a/DT, hematopoietic/JJ, progenitor/NN, is/VBZ, activated/VBN, and/CC, committed/VBN, to/TO, the/DT, megakaryocytic/JJ, lineage/NN, ./.]
+Parsing [sent. 3 len. 35]: [Recent/JJ, development/NN, of/IN, primary/JJ, cultures/NNS, of/IN, human/JJ, megakaryocytes/NNS, and/CC, the/DT, molecular/JJ, cloning/NN, of/IN, genes/NNS, that/WDT, are/VBP, specific/JJ, to/TO, this/DT, lineage/NN, offer/VBP, the/DT, possibility/NN, of/IN, getting/VBG, some/DT, insights/NNS, into/IN, the/DT, genetic/JJ, mechanisms/NNS, that/WDT, control/VBP, megakaryocytopoiesis/NN, ./.]
+Parsing [sent. 4 len. 13]: [One/CD, gene/NN, of/IN, interest/NN, is/VBZ, the/DT, glycoprotein/NN, IIb/NN, -LRB-/-LRB-, GPIIb/NN, -RRB-/-RRB-, gene/NN, ;/:]
+Parsing [sent. 5 len. 39]: [GPIIb/NN, ,/,, the/DT, alpha/NN, subunit/NN, of/IN, the/DT, platelet/NN, cytoadhesin/NN, GPIIb-IIIa/NN, ,/,, is/VBZ, produced/VBN, in/IN, megakaryocytes/NNS, at/IN, an/DT, early/JJ, stage/NN, of/IN, the/DT, differentiation/NN, ,/,, whereas/IN, the/DT, other/JJ, subunit/NN, of/IN, this/DT, complex/NN, ,/,, GPIIIa/NN, ,/,, is/VBZ, expressed/VBN, in/IN, other/JJ, cells/NNS, ./.]
+Parsing [sent. 6 len. 24]: [For/IN, these/DT, reasons/NNS, ,/,, the/DT, 5'-flanking/JJ, region/NN, of/IN, the/DT, GPIIb/NN, gene/NN, was/VBD, used/VBN, to/TO, identify/VB, the/DT, regions/NNS, that/WDT, interact/VBP, with/IN, DNA-binding/JJ, nuclear/JJ, factors/NNS, ./.]
+Parsing [sent. 7 len. 22]: [A/DT, fragment/NN, extending/VBG, from/IN, -643/CD, to/TO, +33/CD, is/VBZ, capable/JJ, of/IN, controlling/VBG, the/DT, tissue-specific/JJ, expression/NN, of/IN, the/DT, CAT/NN, gene/NN, in/IN, transfection/NN, experiments/NNS, ./.]
+Parsing [sent. 8 len. 28]: [Within/IN, this/DT, region/NN, ,/,, we/PRP, have/VBP, identified/VBN, several/JJ, sequences/NNS, that/WDT, are/VBP, implicated/VBN, in/IN, DNA/NN, protein/NN, interactions/NNS, as/IN, shown/VBN, in/IN, DNAse/NN, I/NN, footprints/NNS, and/CC, gel/NN, mobility/NN, shift/NN, assays/NNS, ./.]
+Parsing [sent. 9 len. 28]: [One/CD, region/NN, ,/,, centered/VBN, at/IN, -54/CD, ,/,, is/VBZ, similar/JJ, to/TO, a/DT, nuclear/JJ, factor/NN, E1-binding/JJ, site/NN, ,/,, and/CC, a/DT, region/NN, located/JJ, at/IN, position/NN, -233/CD, contains/VBZ, a/DT, CCAAT/NN, motif/NN, ./.]
+Parsing [sent. 10 len. 25]: [Two/CD, domains/NNS, centered/VBN, at/IN, positions/NNS, -345/CD, and/CC, -540/CD, ,/,, respectively/RB, ,/,, bind/VBP, proteins/NNS, that/WDT, are/VBP, present/JJ, in/IN, megakaryocytic/JJ, cells/NNS, and/CC, nonrelated/JJ, cells/NNS, as/RB, well/RB, ./.]
+Parsing [sent. 11 len. 24]: [Finally/RB, ,/,, two/CD, other/JJ, domains/NNS, ,/,, located/JJ, at/IN, positions/NNS, -460/CD, and/CC, -510/CD, ,/,, interact/VBP, with/IN, proteins/NNS, that/WDT, are/VBP, only/RB, present/JJ, in/IN, megakaryocytic/JJ, cells/NNS, ./.]
+Parsing [sent. 12 len. 21]: [In/IN, addition/NN, ,/,, deletion/NN, of/IN, the/DT, region/NN, containing/VBG, these/DT, two/CD, domains/NNS, results/VBZ, in/IN, a/DT, significant/JJ, decrease/NN, of/IN, the/DT, promoter/NN, activity/NN, ./.]
+Parsing [sent. 13 len. 17]: [It/PRP, is/VBZ, very/RB, likely/JJ, that/IN, these/DT, domains/NNS, bind/VBP, megakaryocyte-specific/JJ, nuclear/JJ, proteins/NNS, acting/VBG, as/IN, positive/JJ, transcription/NN, factors/NNS, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2026605.genia [13 sentences].
+Parsed 313 words in 13 sentences (96,49 wds/sec; 4,01 sents/sec).
+Parseo...:a2017258.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,3 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2017258.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2017258.genia with 10 sentences.
+Parsing [sent. 1 len. 15]: [Processing/NN, of/IN, the/DT, precursor/NN, of/IN, NF-kappa/NN, B/NN, by/IN, the/DT, HIV-1/NN, protease/NN, during/IN, acute/JJ, infection/NN, ./.]
+Parsing [sent. 2 len. 29]: [Transcription/NN, of/IN, the/DT, human/JJ, immunodeficiency/NN, virus/NN, type-1/NN, -LRB-/-LRB-, HIV-1/NN, -RRB-/-RRB-, genome/NN, is/VBZ, regulated/VBN, in/IN, part/NN, by/IN, cellular/JJ, factors/NNS, and/CC, is/VBZ, stimulated/VBN, by/IN, activation/NN, of/IN, latently/RB, infected/JJ, T/NN, cells/NNS, ./.]
+Parsing [sent. 3 len. 25]: [T-cell/NN, activation/NN, also/RB, correlates/VBZ, with/IN, the/DT, induction/NN, of/IN, the/DT, factor/NN, NF-kappa/NN, B/NN, which/WDT, binds/VBZ, to/TO, two/CD, adjacent/JJ, sites/NNS, in/IN, the/DT, HIV-1/NN, long/JJ, terminal/JJ, repeat/NN, ./.]
+Parsing [sent. 4 len. 21]: [This/DT, factor/NN, consists/VBZ, of/IN, two/CD, DNA-binding/JJ, subunits/NNS, of/IN, relative/JJ, molecular/JJ, mass/NN, 50,000/CD, -LRB-/-LRB-, 50K/CD, -RRB-/-RRB-, associated/VBN, with/IN, two/CD, 65K/CD, subunits/NNS, ./.]
+Parsing [sent. 5 len. 24]: [It/PRP, is/VBZ, located/VBN, in/IN, the/DT, nucleus/NN, in/IN, mature/JJ, B/NN, cells/NNS, ,/,, but/CC, is/VBZ, present/JJ, in/IN, other/JJ, cell/NN, types/NNS, as/IN, an/DT, inactive/JJ, cytoplasmic/JJ, complex/NN, ./.]
+Parsing [sent. 6 len. 19]: [External/JJ, stimuli/NNS, ,/,, including/VBG, those/DT, that/WDT, activate/VBP, T/NN, cells/NNS, ,/,, result/VBP, in/IN, nuclear/JJ, translocation/NN, of/IN, active/JJ, NF-kappa/NN, B/NN, ./.]
+Parsing [sent. 7 len. 32]: [The/DT, cloning/NN, of/IN, the/DT, complementary/JJ, DNA/NN, for/IN, the/DT, 50K/NN, subunit/NN, helped/VBD, to/TO, identify/VB, an/DT, exclusively/RB, cytoplasmic/JJ, 105K/CD, precursor/NN, -LRB-/-LRB-, p105/NN, -RRB-/-RRB-, -LRB-/-LRB-, V.B./NNP, ,/,, P.K./NNP, and/CC, A.I./NNP, ,/,, manuscript/NN, submitted/VBN, -RRB-/-RRB-, ./.]
+Parsing [sent. 8 len. 19]: [The/DT, expression/NN, of/IN, active/JJ, NF-kappa/NN, B/NN, might/MD, therefore/RB, also/RB, be/VB, regulated/VBN, by/IN, the/DT, extent/NN, of/IN, processing/NN, of/IN, p105/NN, ./.]
+Parsing [sent. 9 len. 26]: [Because/IN, HIV-1/NN, requires/VBZ, active/JJ, NF-kappa/NN, B/NN, for/IN, efficient/JJ, transcription/NN, ,/,, we/PRP, tested/VBD, the/DT, effect/NN, of/IN, HIV-1/NN, infection/NN, on/IN, the/DT, processing/NN, of/IN, the/DT, human/JJ, 105K/CD, precursor/NN, ./.]
+Parsing [sent. 10 len. 20]: [We/PRP, show/VBP, here/RB, that/IN, the/DT, HIV-1/NN, protease/NN, can/MD, process/VB, p105/NN, and/CC, increases/VBZ, levels/NNS, of/IN, active/JJ, nuclear/JJ, NF-kappa/NN, B/NN, complex/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2017258.genia [10 sentences].
+Parsed 230 words in 10 sentences (106,43 wds/sec; 4,63 sents/sec).
+Parseo...:a2005404.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,3 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2005404.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2005404.genia with 9 sentences.
+Parsing [sent. 1 len. 16]: [Kappa/NN, B/NN, binding/NN, proteins/NNS, are/VBP, constitutively/RB, expressed/VBN, in/IN, an/DT, IL-2/NN, autocrine/JJ, human/JJ, T/NN, cell/NN, line/NN, ./.]
+Parsing [sent. 2 len. 21]: [The/DT, IL-2/NN, and/CC, the/DT, IL-2-R/NN, alpha/NN, genes/NNS, are/VBP, both/DT, expressed/VBN, transiently/RB, in/IN, normal/JJ, T/NN, lymphocytes/NNS, after/IN, Ag/NN, or/CC, mitogen/NN, activation/NN, ./.]
+Parsing [sent. 3 len. 41]: [In/IN, contrast/NN, ,/,, the/DT, human/JJ, T/NN, cell/NN, line/NN, ,/,, IARC/NN, 301/CD, ,/,, expresses/VBZ, these/DT, two/CD, genes/NNS, constitutively/RB, and/CC, we/PRP, have/VBP, previously/RB, demonstrated/VBN, that/IN, its/PRP$, growth/NN, depends/VBZ, on/IN, the/DT, autocrine/JJ, production/NN, of/IN, this/DT, T/NN, cell/NN, growth/NN, factor/NN, and/CC, high/JJ, affinity/NN, IL-2R/NN, ./.]
+Parsing [sent. 4 len. 57]: [To/TO, dissect/VB, the/DT, molecular/JJ, basis/NN, for/IN, the/DT, unusual/JJ, persistent/JJ, expression/NN, of/IN, the/DT, IL-2/NN, and/CC, IL-2-R/NN, alpha/NN, genes/NNS, in/IN, these/DT, IARC/NN, 301/CD, T/NN, cells/NNS, ,/,, we/PRP, have/VBP, analyzed/VBN, the/DT, interactions/NNS, of/IN, constitutively/RB, expressed/VBN, nuclear/JJ, proteins/NNS, with/IN, the/DT, 5/CD, '/SYM, flanking/NN, regions/NNS, of/IN, the/DT, IL-2/NN, and/CC, IL-2-R/NN, alpha/NN, genes/NNS, using/VBG, both/CC, DNase/NN, I/CD, footprinting/NN, and/CC, gel/NN, retardation/NN, techniques/NNS, ./.]
+Parsing [sent. 5 len. 43]: [We/PRP, have/VBP, found/VBN, that/IN, a/DT, region/NN, in/IN, both/DT, genes/NNS, -LRB-/-LRB-, -276/CD, to/TO, -250/CD, for/IN, IL-2-R/NN, alpha/NN, and/CC, -203/CD, to/TO, -183/CD, for/IN, IL-2/NN, -RRB-/-RRB-, ,/,, which/WDT, corresponds/VBZ, to/TO, a/DT, kappa/NN, B/NN, enhancer/NN, element/NN, ,/,, is/VBZ, specifically/RB, protected/VBN, by/IN, nuclear/JJ, proteins/NNS, from/IN, IARC/NN, 301/CD, ./.]
+Parsing [sent. 6 len. 24]: [In/IN, agreement/NN, with/IN, this/DT, finding/NN, ,/,, both/CC, the/DT, IL-2/NN, and/CC, IL-2-R/NN, alpha/NN, promoters/NNS, are/VBP, active/JJ, in/IN, transient/JJ, transfection/NN, assays/NNS, in/IN, IARC/NN, 301/CD, cells/NNS, ./.]
+Parsing [sent. 7 len. 18]: [In/IN, contrast/NN, ,/,, mutation/NN, of/IN, the/DT, kappa/NN, B/NN, enhancer/NN, results/VBZ, in/IN, markedly/RB, attenuated/VBN, activities/NNS, of/IN, both/DT, promoters/NNS, ./.]
+Parsing [sent. 8 len. 29]: [Two/CD, proteins/NNS, binding/VBG, the/DT, kappa/NN, B/NN, sequence/NN, ,/,, NF-kappa/NN, B/NN, and/CC, KBF1/NN, ,/,, are/VBP, constitutively/RB, expressed/VBN, in/IN, IARC/NN, 301/CD, nuclei/NNS, and/CC, induced/VBN, by/IN, PMA/NN, and/CC, PHA/NN, in/IN, Jurkat/NN, ./.]
+Parsing [sent. 9 len. 24]: [They/PRP, bind/VBP, to/TO, the/DT, kappa/NN, B/NN, motifs/NNS, with/IN, different/JJ, relative/JJ, affinities/NNS, that/WDT, may/MD, reflect/VB, their/PRP$, different/JJ, contribution/NN, in/IN, the/DT, expression/NN, of/IN, various/JJ, promoters/NNS, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2005404.genia [9 sentences].
+Parsed 273 words in 9 sentences (14,60 wds/sec; 0,48 sents/sec).
+Parseo...:a2033090.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2033090.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2033090.genia with 13 sentences.
+Parsing [sent. 1 len. 27]: [Demonstration/NN, of/IN, estrogen/NN, and/CC, progesterone/NN, receptors/NNS, as/RB, well/RB, as/IN, Ki-67/NN, and/CC, p-145/NN, antigens/NNS, in/IN, single/JJ, tumor/NN, cells/NNS, from/IN, blood/NN, and/CC, pleural/JJ, effusions/NNS, using/VBG, a/DT, slide/NN, assay/NN, ./.]
+Parsing [sent. 2 len. 32]: [We/PRP, describe/VBP, a/DT, slide/NN, assay/NN, that/WDT, allows/VBZ, the/DT, demonstration/NN, of/IN, antigens/NNS, localized/VBN, in/IN, the/DT, nucleus/NN, from/IN, isolated/VBN, white/JJ, blood/NN, cells/NNS, as/RB, well/RB, as/IN, from/IN, single/JJ, tumor/NN, cells/NNS, derived/VBN, from/IN, malignant/JJ, effusions/NNS, ./.]
+Parsing [sent. 3 len. 22]: [With/IN, the/DT, antibodies/NNS, Ki-67/NN, and/CC, anti-p-145/NN, an/DT, increased/VBN, rate/NN, of/IN, nuclear/JJ, and/CC, nucleolar/JJ, staining/NN, resulted/VBD, in/IN, cells/NNS, from/IN, highly/RB, malignant/JJ, lymphomas/NNS, ./.]
+Parsing [sent. 4 len. 15]: [An/DT, almost/RB, identical/JJ, reaction/NN, was/VBD, obtained/VBN, when/WRB, tumor/NN, cells/NNS, from/IN, malignant/JJ, effusions/NNS, were/VBD, tested/VBN, ./.]
+Parsing [sent. 5 len. 31]: [Cells/NNS, isolated/VBN, from/IN, the/DT, blood/NN, of/IN, patients/NNS, with/IN, leukemic/JJ, spread/NN, of/IN, lymphomas/NNS, of/IN, low/JJ, malignancy/NN, yielded/VBD, a/DT, weak/JJ, staining/NN, comparable/JJ, to/TO, that/DT, of/IN, normal/JJ, mesothelial/JJ, cells/NNS, from/IN, non-tumorous/JJ, cavity/NN, fluids/NNS, ./.]
+Parsing [sent. 6 len. 25]: [The/DT, detection/NN, of/IN, estrogen/NN, and/CC, progesterone/NN, receptors/NNS, -LRB-/-LRB-, ER/NN, and/CC, PR/NN, -RRB-/-RRB-, localized/VBN, in/IN, the/DT, cell/NN, nucleus/NN, can/MD, be/VB, achieved/VBN, by/IN, the/DT, same/JJ, assay/NN, ./.]
+Parsing [sent. 7 len. 21]: [The/DT, reaction/NN, is/VBZ, enhanced/VBN, by/IN, incubation/NN, of/IN, the/DT, tumor/NN, cells/NNS, for/IN, 30/CD, min/NN, at/IN, 37/CD, degrees/NNS, C/JJ, prior/JJ, to/TO, fixation/NN, ./.]
+Parsing [sent. 8 len. 11]: [Pleural/JJ, effusions/NNS, from/IN, 20/CD, patients/NNS, with/IN, breast/NN, cancer/NN, were/VBD, tested/VBN, ./.]
+Parsing [sent. 9 len. 16]: [ER/NN, was/VBD, positive/JJ, in/IN, 13/CD, and/CC, PR/NN, was/VBD, positive/JJ, in/IN, 12/CD, of/IN, the/DT, 20/CD, samples/NNS, ./.]
+Parsing [sent. 10 len. 14]: [In/IN, 5/CD, cases/NNS, there/EX, was/VBD, a/DT, divergent/JJ, reaction/NN, with/IN, ER/NN, and/CC, PR/NN, antibody/NN, ./.]
+Parsing [sent. 11 len. 23]: [The/DT, hormone/NN, receptors/NNS, of/IN, the/DT, primary/JJ, tumor/NN, were/VBD, known/VBN, in/IN, 15/CD, -LRB-/-LRB-, ER/NN, -RRB-/-RRB-, and/CC, 14/CD, -LRB-/-LRB-, PR/NN, -RRB-/-RRB-, patients/NNS, ,/,, respectively/RB, ./.]
+Parsing [sent. 12 len. 30]: [In/IN, each/DT, cohort/JJ, there/EX, was/VBD, only/RB, one/CD, case/NN, with/IN, a/DT, negative/JJ, reaction/NN, of/IN, the/DT, primary/JJ, tumor/NN, and/CC, a/DT, positive/JJ, reaction/NN, with/IN, the/DT, isolated/VBN, tumor/NN, cells/NNS, from/IN, the/DT, pleural/JJ, effusions/NNS, ./.]
+Parsing [sent. 13 len. 33]: [These/DT, results/NNS, indicate/VBP, that/IN, the/DT, demonstration/NN, of/IN, hormone/NN, receptor/NN, proteins/NNS, in/IN, cells/NNS, from/IN, malignant/JJ, effusions/NNS, is/VBZ, possible/JJ, and/CC, that/IN, there/EX, is/VBZ, a/DT, correlation/NN, with/IN, the/DT, status/NN, of/IN, the/DT, primary/JJ, site/NN, of/IN, cancer/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2033090.genia [13 sentences].
+Parsed 300 words in 13 sentences (80,71 wds/sec; 3,50 sents/sec).
+Parseo...:a1988951.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1988951.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1988951.genia with 9 sentences.
+Parsing [sent. 1 len. 21]: [Specific/JJ, depletion/NN, of/IN, the/DT, B-cell/NN, population/NN, induced/VBN, by/IN, aberrant/JJ, expression/NN, of/IN, human/JJ, interferon/NN, regulatory/JJ, factor/NN, 1/CD, gene/NN, in/IN, transgenic/JJ, mice/NNS, ./.]
+Parsing [sent. 2 len. 21]: [Interferons/NNS, -LRB-/-LRB-, IFNs/NNS, -RRB-/-RRB-, are/VBP, well/RB, known/VBN, both/CC, as/IN, antiviral/JJ, proteins/NNS, and/CC, as/IN, potent/JJ, regulators/NNS, of/IN, cell/NN, growth/NN, and/CC, differentiation/NN, ./.]
+Parsing [sent. 3 len. 14]: [In/IN, fact/NN, ,/,, IFNs/NNS, inhibit/VBP, growth/NN, of/IN, various/JJ, normal/JJ, and/CC, transformed/VBN, cell/NN, types/NNS, ./.]
+Parsing [sent. 4 len. 31]: [Previously/RB, ,/,, a/DT, nuclear/JJ, factor/NN, ,/,, IRF-1/NN, -LRB-/-LRB-, interferon/NN, regulatory/JJ, factor/NN, 1/CD, -RRB-/-RRB-, ,/,, which/WDT, binds/VBZ, to/TO, type/NN, I/CD, IFN/NN, and/CC, some/DT, IFN-inducible/JJ, gene/NN, promoters/NNS, ,/,, was/VBD, identified/VBN, and/CC, cloned/VBN, ./.]
+Parsing [sent. 5 len. 33]: [Since/IN, the/DT, IRF-1/NN, gene/NN, is/VBZ, both/CC, virus/NN, and/CC, IFN/NN, inducible/JJ, ,/,, an/DT, intriguing/JJ, issue/NN, is/VBZ, raised/VBN, as/IN, to/TO, whether/IN, the/DT, IRF-1/NN, gene/NN, is/VBZ, functioning/VBG, in/IN, IFN-mediated/JJ, regulation/NN, of/IN, cell/NN, growth/NN, and/CC, differentiation/NN, ./.]
+Parsing [sent. 6 len. 21]: [In/IN, this/DT, study/NN, ,/,, we/PRP, generated/VBD, transgenic/JJ, mice/NNS, carrying/VBG, the/DT, human/JJ, IRF-1/NN, gene/NN, linked/VBN, to/TO, the/DT, human/JJ, immunoglobulin/NN, heavy-chain/JJ, enhancer/NN, ./.]
+Parsing [sent. 7 len. 25]: [In/IN, the/DT, transgenic/JJ, mice/NNS, ,/,, all/PDT, the/DT, lymphoid/JJ, tissues/NNS, examined/VBN, showed/VBD, a/DT, dramatic/JJ, reduction/NN, in/IN, the/DT, number/NN, of/IN, B/NN, lymphocytes/NNS, -LRB-/-LRB-, B/NN, cells/NNS, -RRB-/-RRB-, ./.]
+Parsing [sent. 8 len. 28]: [Preparation/NN, and/CC, analysis/NN, of/IN, bone/NN, marrow/NN, cells/NNS, from/IN, the/DT, chimeric/JJ, mice/NNS, indicated/VBD, that/IN, the/DT, bone/NN, marrow/NN, is/VBZ, the/DT, effective/JJ, site/NN, for/IN, specific/JJ, depletion/NN, of/IN, the/DT, B-cell/NN, population/NN, ./.]
+Parsing [sent. 9 len. 22]: [In/IN, fact/NN, ,/,, transgenic/JJ, bone/NN, marrow/NN, cells/NNS, cocultured/VBN, with/IN, a/DT, bone/NN, marrow-derived/JJ, stromal/JJ, cell/NN, line/NN, revealed/VBD, an/DT, altered/JJ, B-cell/NN, maturation/NN, pattern/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1988951.genia [9 sentences].
+Parsed 216 words in 9 sentences (102,42 wds/sec; 4,27 sents/sec).
+Parseo...:a2006151.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2006151.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2006151.genia with 9 sentences.
+Parsing [sent. 1 len. 29]: [Comparison/NN, of/IN, constitutive/JJ, and/CC, inducible/JJ, transcriptional/JJ, enhancement/NN, mediated/VBN, by/IN, kappa/NN, B-related/JJ, sequences/NNS, :/:, modulation/NN, of/IN, activity/NN, in/IN, B/NN, cells/NNS, by/IN, human/JJ, T-cell/NN, leukemia/NN, virus/NN, type/NN, I/CD, tax/NN, gene/NN, ./.]
+Parsing [sent. 2 len. 30]: [The/DT, kappa/NN, B/NN, sequence/NN, -LRB-/-LRB-, GGGACTTTCC/NN, -RRB-/-RRB-, binds/VBZ, a/DT, factor/NN, ,/,, NF-kappa/NN, B/NN, ,/,, that/WDT, is/VBZ, constitutively/RB, found/VBN, in/IN, its/PRP$, functional/JJ, ,/,, DNA/NN, binding/NN, form/NN, only/RB, in/IN, B/NN, lymphocytes/NNS, ./.]
+Parsing [sent. 3 len. 26]: [A/DT, factor/NN, with/IN, apparently/RB, indistinguishable/JJ, sequence/NN, specificity/NN, can/MD, be/VB, induced/VBN, in/IN, many/JJ, other/JJ, cell/NN, types/NNS, ,/,, where/WRB, it/PRP, is/VBZ, used/VBN, to/TO, regulate/VB, inducible/JJ, gene/NN, expression/NN, ./.]
+Parsing [sent. 4 len. 34]: [For/IN, example/NN, ,/,, kappa/NN, B-related/JJ, sequences/NNS, have/VBP, been/VBN, shown/VBN, to/TO, be/VB, important/JJ, for/IN, the/DT, transcription/NN, of/IN, a/DT, few/JJ, inducible/JJ, genes/NNS, ,/,, such/JJ, as/IN, the/DT, interleukin/NN, 2/CD, receptor/NN, alpha-chain/NN, gene/NN, and/CC, the/DT, beta-interferon/NN, gene/NN, ./.]
+Parsing [sent. 5 len. 28]: [However/RB, ,/,, these/DT, genes/NNS, are/VBP, not/RB, constitutively/RB, active/JJ, in/IN, B/NN, lymphocytes/NNS, ,/,, suggesting/VBG, that/IN, other/JJ, regulatory/JJ, mechanisms/NNS, must/MD, play/VB, a/DT, role/NN, in/IN, determining/VBG, the/DT, patterns/NNS, of/IN, expression/NN, ./.]
+Parsing [sent. 6 len. 22]: [We/PRP, have/VBP, investigated/VBN, the/DT, constitutive/JJ, and/CC, inducible/JJ, transcriptional/JJ, activity/NN, mediated/VBN, by/IN, five/CD, kappa/NN, B-related/JJ, sequence/NN, elements/NNS, in/IN, two/CD, different/JJ, cell/NN, types/NNS, ./.]
+Parsing [sent. 7 len. 26]: [We/PRP, show/VBP, that/IN, in/IN, S194/NN, plasma/NN, cells/NNS, the/DT, activity/NN, of/IN, each/DT, element/NN, correlates/VBZ, well/RB, with/IN, the/DT, relative/JJ, affinity/NN, of/IN, B-cell-derived/JJ, NF-kappa/NN, B/NN, for/IN, that/DT, element/NN, ./.]
+Parsing [sent. 8 len. 23]: [This/DT, leads/VBZ, to/TO, significantly/RB, lower/JJR, transcription/NN, enhancement/NN, by/IN, sites/NNS, derived/VBN, from/IN, the/DT, interleukin/NN, 2/CD, receptor/NN, or/CC, T-cell/NN, receptor/NN, genes/NNS, in/IN, S194/NN, cells/NNS, ./.]
+Parsing [sent. 9 len. 52]: [However/RB, ,/,, in/IN, either/CC, EL-4/NN, -LRB-/-LRB-, T/NN, -RRB-/-RRB-, cells/NNS, or/CC, S194/NN, cells/NNS, ,/,, both/DT, lower-affinity/JJ, sites/NNS, can/MD, be/VB, significantly/RB, induced/VBN, by/IN, the/DT, tax/NN, gene/NN, product/NN, of/IN, human/JJ, T-cell/NN, leukemia/NN, virus/NN, type/NN, I/CD, ,/,, showing/VBG, that/IN, NF-kappa/NN, B/NN, activity/NN, can/MD, be/VB, modulated/VBN, even/RB, in/IN, a/DT, B-cell/NN, line/NN, that/WDT, constitutively/RB, expresses/VBZ, this/DT, factor/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2006151.genia [9 sentences].
+Parsed 270 words in 9 sentences (71,50 wds/sec; 2,38 sents/sec).
+Parseo...:a1850412.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,1 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1850412.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1850412.genia with 9 sentences.
+Parsing [sent. 1 len. 8]: [Vitamin/NN, D/NN, receptor/NN, expression/NN, in/IN, human/JJ, lymphocytes/NNS, ./.]
+Parsing [sent. 2 len. 34]: [The/DT, signals/NNS, controlling/VBG, the/DT, expression/NN, of/IN, the/DT, receptor/NN, protein/NN, for/IN, 1/CD, alpha/SYM, ,/,, 25-dihydroxyvitamin/NN, D3/NN, in/IN, normal/JJ, human/JJ, lymphocytes/NNS, and/CC, the/DT, relationship/NN, of/IN, this/DT, protein/NN, to/TO, the/DT, classical/JJ, vitamin/NN, D/NN, receptor/NN, were/VBD, examined/VBN, ./.]
+Parsing [sent. 3 len. 31]: [Lymphocytes/NNS, activated/VBN, with/IN, the/DT, OKT3/NN, antibody/NN, to/TO, the/DT, T-cell/NN, antigen/NN, receptor/NN, expressed/VBD, fewer/JJR, binding/VBG, sites/NNS, as/IN, compared/VBN, to/TO, lymphocytes/NNS, that/WDT, were/VBD, activated/VBN, by/IN, the/DT, polyclonal/JJ, activator/NN, phytohemagglutinin/NN, -LRB-/-LRB-, PHA/NN, -RRB-/-RRB-, ./.]
+Parsing [sent. 4 len. 21]: [However/RB, ,/,, combination/NN, of/IN, OKT3/NN, and/CC, phorbol/NN, myristate/NN, acetate/NN, produced/VBD, a/DT, concentration/NN, of/IN, binding/VBG, sites/NNS, similar/JJ, to/TO, the/DT, PHA-activated/JJ, cells/NNS, ./.]
+Parsing [sent. 5 len. 21]: [The/DT, receptor/NN, from/IN, OKT3/NN, and/CC, OKT3/NN, +/SYM, phorbol/NN, myristate/NN, acetate-activated/JJ, lymphocytes/NNS, exhibited/VBD, decreased/VBN, binding/NN, to/TO, DNA-cellulose/NN, compared/VBN, to/TO, PHA-activated/JJ, lymphocytes/NNS, ./.]
+Parsing [sent. 6 len. 33]: [In/IN, lymphocytes/NNS, activated/VBN, either/CC, by/IN, PHA/NN, or/CC, OKT3/NN, -LRB-/-LRB-, but/CC, not/RB, in/IN, resting/VBG, cells/NNS, -RRB-/-RRB-, ,/,, a/DT, 50-kDa/JJ, species/NNS, cross-reacting/VBG, with/IN, a/DT, monoclonal/JJ, antibody/NN, against/IN, the/DT, intestinal/JJ, vitamin/NN, D/NN, receptor/NN, was/VBD, detected/VBN, ./.]
+Parsing [sent. 7 len. 32]: [Finally/RB, ,/,, RNA/NN, from/IN, activated/VBN, lymphocytes/NNS, was/VBD, amplified/VBN, by/IN, polymerase/NN, chain/NN, reaction/NN, using/VBG, oligonucleotide/NN, primers/NNS, flanking/VBG, the/DT, 196/CD, base/NN, pair/NN, long/JJ, region/NN, encoding/VBG, the/DT, DNA-binding/JJ, domain/NN, of/IN, the/DT, human/JJ, intestinal/JJ, receptor/NN, ./.]
+Parsing [sent. 8 len. 18]: [The/DT, amplified/VBN, product/NN, showed/VBD, an/DT, identical/JJ, nucleotide/NN, sequence/NN, to/TO, the/DT, DNA-binding/JJ, domain/NN, of/IN, the/DT, human/JJ, intestinal/JJ, receptor/NN, ./.]
+Parsing [sent. 9 len. 41]: [These/DT, findings/NNS, suggest/VBP, that/IN, expression/NN, of/IN, the/DT, 1,25-/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, in/IN, lymphocytes/NNS, is/VBZ, triggered/VBN, by/IN, distinct/JJ, and/CC, contingent/JJ, signals/NNS, ,/,, and/CC, that/IN, the/DT, protein/NN, and/CC, the/DT, mRNA/NN, encoding/VBG, it/PRP, are/VBP, identical/JJ, to/TO, the/DT, classical/JJ, vitamin/NN, D/NN, receptor/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1850412.genia [9 sentences].
+Parsed 239 words in 9 sentences (38,34 wds/sec; 1,44 sents/sec).
+Parseo...:a1705836.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,3 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1705836.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1705836.genia with 19 sentences.
+Parsing [sent. 1 len. 12]: [1/CD, ,/,, 25-Dihydroxyvitamin/NN, D3/NN, receptor/NN, RNA/NN, :/:, expression/NN, in/IN, hematopoietic/JJ, cells/NNS, ./.]
+Parsing [sent. 2 len. 26]: [1/CD, ,/,, 25-Dihydroxyvitamin/NN, D3/NN, -LRB-/-LRB-, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, -RRB-/-RRB-, induces/VBZ, differentiation/NN, and/CC, inhibits/VBZ, proliferation/NN, of/IN, myeloid/JJ, leukemic/JJ, cells/NNS, from/IN, various/JJ, lines/NNS, and/CC, patients/NNS, ;/:]
+Parsing [sent. 3 len. 14]: [these/DT, effects/NNS, are/VBP, probably/RB, mediated/VBN, through/IN, the/DT, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, ./.]
+Parsing [sent. 4 len. 17]: [Little/JJ, is/VBZ, known/VBN, of/IN, expression/NN, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, RNA/NN, in/IN, hematopoietic/JJ, cells/NNS, ./.]
+Parsing [sent. 5 len. 24]: [We/PRP, examined/VBD, the/DT, expression/NN, and/CC, modulation/NN, of/IN, expression/NN, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, RNA/NN, in/IN, various/JJ, proliferating/VBG, and/CC, nonproliferating/JJ, hematopoietic/JJ, cells/NNS, ./.]
+Parsing [sent. 6 len. 67]: [Constitutive/JJ, expression/NN, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, RNA/NN, was/VBD, detected/VBN, in/IN, various/JJ, kinds/NNS, of/IN, hematopoietic/JJ, cells/NNS, ,/,, including/VBG, macrophages/NNS, and/CC, activated/VBN, T/NN, lymphocytes/NNS, ,/,, as/RB, well/RB, as/IN, in/IN, cell/NN, lines/NNS, KG-1/NN, -LRB-/-LRB-, myeloblasts/NNS, -RRB-/-RRB-, ,/,, HL-60/NN, -LRB-/-LRB-, promyelocytes/NNS, -RRB-/-RRB-, ,/,, ML-3/NN, -LRB-/-LRB-, myelomonoblasts/NNS, -RRB-/-RRB-, ,/,, U937/NN, ,/,, THP-1/NN, -LRB-/-LRB-, monoblasts/NNS, -RRB-/-RRB-, ,/,, K562/NN, -LRB-/-LRB-, erythroblasts/NNS, -RRB-/-RRB-, ,/,, and/CC, S-LB1/NN, -LRB-/-LRB-, HTLV-1-transfected/JJ, T/NN, lymphocytes/NNS, -RRB-/-RRB-, ./.]
+Parsing [sent. 7 len. 16]: [Receptor/NN, transcripts/NNS, were/VBD, 4.6/CD, kilobases/NNS, -LRB-/-LRB-, kb/NN, -RRB-/-RRB-, ,/,, and/CC, no/DT, variant/JJ, sizes/NNS, were/VBD, observed/VBN, ./.]
+Parsing [sent. 8 len. 16]: [All/DT, cell/NN, lines/NNS, examined/VBN, in/IN, this/DT, group/NN, also/RB, expressed/VBD, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptors/NNS, ./.]
+Parsing [sent. 9 len. 48]: [Most/JJS, B/NN, lymphocyte/NN, lines/NNS, expressed/VBD, negligible/JJ, levels/NNS, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, RNA/NN, and/CC, protein/NN, ;/:, however/RB, ;/:, analysis/NN, of/IN, a/DT, lymphoid\/myeloid/JJ, somatic/JJ, hybrid/NN, suggested/VBD, that/IN, suppression/NN, of/IN, expression/NN, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, RNA/NN, in/IN, B/NN, lymphocytes/NNS, may/MD, be/VB, a/DT, dominant/JJ, characteristic/NN, ./.]
+Parsing [sent. 10 len. 38]: [HL-60/NN, cells/NNS, were/VBD, cultured/VBN, with/IN, 10/CD, -LRB-/-LRB-, -7/CD, -RRB-/-RRB-, mol\/L/NN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, for/IN, 24/CD, to/TO, 72/CD, hours/NNS, ,/,, and/CC, levels/NNS, of/IN, expression/NN, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, and/CC, its/PRP$, RNA/NN, were/VBD, examined/VBN, ./.]
+Parsing [sent. 11 len. 18]: [Levels/NNS, of/IN, RNA/NN, coding/NN, for/IN, the/DT, receptor/NN, were/VBD, not/RB, modulated/VBN, by/IN, exposure/NN, to/TO, high/JJ, levels/NNS, of/IN, ligand/NN, ./.]
+Parsing [sent. 12 len. 42]: [Levels/NNS, of/IN, occupied/VBN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, protein/NN, increased/VBD, in/IN, these/DT, HL-60/NN, cells/NNS, ;/:, but/CC, the/DT, total/JJ, number/NN, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptors/NNS, decreased/VBD, about/RB, 50/CD, %/NN, at/IN, 24/CD, hours/NNS, and/CC, returned/VBD, toward/IN, normal/JJ, at/IN, 72/CD, hours/NNS, ./.]
+Parsing [sent. 13 len. 24]: [Steady-state/JJ, levels/NNS, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, RNA/NN, were/VBD, not/RB, affected/VBN, by/IN, terminal/JJ, differentiation/NN, of/IN, HL-60/NN, toward/IN, either/CC, granulocytes/NNS, or/CC, macrophages/NNS, ./.]
+Parsing [sent. 14 len. 15]: [Nondividing/VBG, macrophages/NNS, from/IN, normal/JJ, individuals/NNS, also/RB, expressed/VBD, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, RNA/NN, ./.]
+Parsing [sent. 15 len. 21]: [In/IN, contrast/NN, ,/,, nondividing/JJ, peripheral/JJ, blood/NN, lymphocytes/NNS, from/IN, normal/JJ, individuals/NNS, did/VBD, not/RB, express/VB, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, RNA/NN, ;/:]
+Parsing [sent. 16 len. 20]: [with/IN, stimulation/NN, of/IN, proliferation/NN, of/IN, these/DT, cells/NNS, ,/,, accumulation/NN, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, RNA/NN, increased/VBD, markedly/RB, ./.]
+Parsing [sent. 17 len. 35]: [Half-life/NN, -LRB-/-LRB-, t1\/2/NN, -RRB-/-RRB-, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, RNA/NN, in/IN, T/NN, lymphocytes/NNS, was/VBD, short/JJ, -LRB-/-LRB-, 1/CD, hour/NN, -RRB-/-RRB-, as/IN, determined/VBN, by/IN, measuring/VBG, decay/NN, of/IN, the/DT, message/NN, after/IN, addition/NN, of/IN, actinomycin/NN, D/NN, ./.]
+Parsing [sent. 18 len. 25]: [Consistent/JJ, with/IN, this/DT, short/JJ, t1\/2/NN, ,/,, accumulation/NN, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptor/NN, RNA/NN, increased/VBD, in/IN, cells/NNS, as/IN, their/PRP$, protein/NN, synthesis/NN, was/VBD, inhibited/VBN, ./.]
+Parsing [sent. 19 len. 24]: [Further/JJ, studies/NNS, are/VBP, required/VBN, to/TO, understand/VB, the/DT, physiologic/JJ, role/NN, of/IN, 1,25/CD, -LRB-/-LRB-, OH/NN, -RRB-/-RRB-, 2D3/NN, receptors/NNS, in/IN, myeloid/JJ, cells/NNS, and/CC, proliferating/VBG, T/NN, lymphocytes/NNS, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1705836.genia [19 sentences].
+Parsed 502 words in 19 sentences (80,94 wds/sec; 3,06 sents/sec).
+Parseo...:a2017177.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2017177.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2017177.genia with 7 sentences.
+Parsing [sent. 1 len. 21]: [Murine/JJ, and/CC, human/JJ, T-lymphocyte/NN, GATA-3/NN, factors/NNS, mediate/VBP, transcription/NN, through/IN, a/DT, cis-regulatory/JJ, element/NN, within/IN, the/DT, human/JJ, T-cell/NN, receptor/NN, delta/NN, gene/NN, enhancer/NN, ./.]
+Parsing [sent. 2 len. 12]: [A/DT, family/NN, of/IN, transcriptional/JJ, activators/NNS, has/VBZ, recently/RB, been/VBN, identified/VBN, in/IN, chickens/NNS, ;/:]
+Parsing [sent. 3 len. 20]: [these/DT, transcriptional/JJ, activators/NNS, recognize/VBP, a/DT, common/JJ, consensus/NN, motif/NN, -LRB-/-LRB-, WGATAR/NN, -RRB-/-RRB-, through/IN, a/DT, conserved/VBN, C4/NN, zinc/NN, finger/NN, DNA-binding/JJ, domain/NN, ./.]
+Parsing [sent. 4 len. 21]: [One/CD, of/IN, the/DT, members/NNS, of/IN, this/DT, multigene/JJ, family/NN, ,/,, cGATA-3/NN, ,/,, is/VBZ, most/RBS, abundantly/RB, expressed/VBN, in/IN, the/DT, T-lymphocyte/NN, cell/NN, lineage/NN, ./.]
+Parsing [sent. 5 len. 29]: [Analysis/NN, of/IN, human/JJ, and/CC, murine/JJ, GATA-3/NN, factors/NNS, shows/VBZ, a/DT, striking/JJ, degree/NN, of/IN, amino/JJ, acid/NN, sequence/NN, identity/NN, and/CC, similar/JJ, patterns/NNS, of/IN, tissue/NN, specificity/NN, of/IN, expression/NN, in/IN, these/DT, three/CD, organisms/NNS, ./.]
+Parsing [sent. 6 len. 36]: [The/DT, murine/JJ, and/CC, human/JJ, factors/NNS, are/VBP, abundantly/RB, expressed/VBN, in/IN, a/DT, variety/NN, of/IN, human/JJ, and/CC, murine/JJ, T-cell/NN, lines/NNS, and/CC, can/MD, activate/VB, transcription/NN, through/IN, a/DT, tissue-specific/JJ, GATA-binding/JJ, site/NN, identified/VBN, within/IN, the/DT, human/JJ, T-cell/NN, receptor/NN, delta/NN, gene/NN, enhancer/NN, ./.]
+Parsing [sent. 7 len. 22]: [We/PRP, infer/VBP, that/IN, the/DT, murine/JJ, and/CC, human/JJ, GATA-3/NN, proteins/NNS, play/VBP, a/DT, central/JJ, and/CC, highly/RB, conserved/VBN, role/NN, in/IN, vertebrate/NN, T-cell-specific/JJ, transcriptional/JJ, regulation/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2017177.genia [7 sentences].
+Parsed 161 words in 7 sentences (78,23 wds/sec; 3,40 sents/sec).
+Parseo...:a1707027.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,3 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1707027.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1707027.genia with 8 sentences.
+Parsing [sent. 1 len. 14]: [Immune/JJ, response/NN, of/IN, peripheral/JJ, blood/NN, mononuclear/JJ, cells/NNS, to/TO, HBx-antigen/NN, of/IN, hepatitis/NN, B/NN, virus/NN, ./.]
+Parsing [sent. 2 len. 13]: [The/DT, hepatitis/NN, B/NN, virus/NN, genome/NN, encodes/VBZ, a/DT, transcriptional/JJ, transactivator/NN, protein/NN, designated/VBN, HBxAg/NN, ./.]
+Parsing [sent. 3 len. 14]: [We/PRP, have/VBP, investigated/VBN, whether/IN, this/DT, antigen/NN, is/VBZ, a/DT, target/NN, structure/NN, for/IN, human/JJ, T-lymphocytes/NNS, ./.]
+Parsing [sent. 4 len. 44]: [Using/VBG, recombinant/JJ, HBxAg/NN, protein/NN, ,/,, we/PRP, found/VBD, HBxAg-specific/JJ, stimulation/NN, of/IN, peripheral/JJ, blood/NN, mononuclear/JJ, cells/NNS, in/IN, patients/NNS, with/IN, acute/JJ, hepatitis/NN, B/NN, virus/NN, infection/NN, -LRB-/-LRB-, 6/CD, of/IN, 6/CD, -RRB-/-RRB-, and/CC, chronic/JJ, hepatitis/NN, B/NN, virus/NN, infection/NN, -LRB-/-LRB-, 6/CD, of/IN, 17/CD, -RRB-/-RRB-, but/CC, not/RB, in/IN, healthy/JJ, individuals/NNS, ./.]
+Parsing [sent. 5 len. 11]: [With/IN, HBxAg-specific/JJ, synthetic/JJ, polypeptides/NNS, ,/,, several/JJ, T-cell/NN, epitopes/NNS, were/VBD, identified/VBN, ./.]
+Parsing [sent. 6 len. 12]: [Most/JJS, were/VBD, located/VBN, in/IN, the/DT, carboxyterminal/JJ, half/NN, of/IN, the/DT, HBxAg/NN, protein/NN, ./.]
+Parsing [sent. 7 len. 28]: [Five/CD, T-cell/NN, clones/NNS, specific/JJ, for/IN, a/DT, T-cell/NN, epitope/NN, located/JJ, at/IN, the/DT, carboxyterminal/JJ, region/NN, of/IN, HBxAg/NN, were/VBD, established/VBN, and/CC, found/VBN, to/TO, belong/VB, to/TO, the/DT, CD2\/CD4-positive/JJ, ,/,, CD8-negative/JJ, subtype/NN, ./.]
+Parsing [sent. 8 len. 17]: [These/DT, data/NNS, establish/VBP, for/IN, the/DT, first/JJ, time/NN, HBxAg/NN, as/IN, an/DT, antigen/NN, in/IN, the/DT, cellular/JJ, immune/JJ, response/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1707027.genia [8 sentences].
+Parsed 153 words in 8 sentences (71,76 wds/sec; 3,75 sents/sec).
+Parseo...:a1990263.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1990263.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1990263.genia with 9 sentences.
+Parsing [sent. 1 len. 11]: [Nuclear/JJ, factor/NN, kappa/NN, B/NN, activates/VBZ, proenkephalin/NN, transcription/NN, in/IN, T/NN, lymphocytes/NNS, ./.]
+Parsing [sent. 2 len. 24]: [Upon/IN, activation/NN, ,/,, T/NN, lymphocytes/NNS, accumulate/VBP, high/JJ, levels/NNS, of/IN, the/DT, neuropeptide/NN, enkephalin/NN, which/WDT, correlate/VBP, with/IN, high/JJ, levels/NNS, of/IN, proenkephalin/NN, mRNA/NN, in/IN, the/DT, cells/NNS, ./.]
+Parsing [sent. 3 len. 10]: [Here/RB, we/PRP, investigated/VBD, the/DT, transcriptional/JJ, basis/NN, for/IN, these/DT, changes/NNS, ./.]
+Parsing [sent. 4 len. 36]: [The/DT, proenkephalin/NN, promoter/NN, contains/VBZ, a/DT, sequence/NN, GGGGACGTCCCC/NN, ,/,, named/VBN, B2/NN, ,/,, which/WDT, is/VBZ, similar/JJ, to/TO, the/DT, kappa/NN, B/NN, sequence/NN, GGGGACTTTCC/NN, ,/,, the/DT, binding/VBG, site/NN, of/IN, the/DT, transcription/NN, factor/NN, nuclear/JJ, factor/NN, -LRB-/-LRB-, NF/NN, -RRB-/-RRB-, -kappa/NN, B/NN, ./.]
+Parsing [sent. 5 len. 23]: [Activation/NN, of/IN, T/NN, lymphocytes/NNS, induces/VBZ, an/DT, NF-kappa/NN, B-like/JJ, binding/NN, activity/NN, to/TO, the/DT, B2/NN, site/NN, ,/,, concomitant/JJ, with/IN, activation/NN, of/IN, the/DT, proenkephalin/NN, promoter/NN, ./.]
+Parsing [sent. 6 len. 10]: [Mutations/NNS, at/IN, the/DT, B2/NN, site/NN, abolish/VBP, this/DT, transcriptional/JJ, activation/NN, ./.]
+Parsing [sent. 7 len. 38]: [The/DT, purified/VBN, homodimer/NN, -LRB-/-LRB-, two/CD, p50s/NNS, -RRB-/-RRB-, of/IN, the/DT, DNA-binding/JJ, subunit/NN, of/IN, NF-kappa/NN, B/NN, binds/VBZ, the/DT, B2/NN, site/NN, of/IN, proenkephalin/NN, relatively/RB, better/RBR, than/IN, does/VBZ, the/DT, heterotetramer/NN, -LRB-/-LRB-, two/CD, p65s/NNS, plus/CC, two/CD, p50s/NNS, -RRB-/-RRB-, form/NN, of/IN, the/DT, factor/NN, ./.]
+Parsing [sent. 8 len. 18]: [Thus/RB, ,/,, it/PRP, appears/VBZ, that/IN, the/DT, T-cell-specific/JJ, activation/NN, of/IN, the/DT, proenkephalin/NN, promoter/NN, is/VBZ, mediated/VBN, by/IN, NF-kappa/NN, B/NN, ./.]
+Parsing [sent. 9 len. 33]: [However/RB, ,/,, as/IN, NF-kappa/NN, B/NN, is/VBZ, ubiquitous/JJ, and/CC, the/DT, transcriptional/JJ, activation/NN, through/IN, the/DT, B2/NN, site/NN, is/VBZ, T/NN, cell/NN, specific/JJ, ,/,, yet/RB, another/DT, T-cell-specific/JJ, factor/NN, which/WDT, synergizes/VBZ, with/IN, NF-kappa/NN, B/NN, should/MD, be/VB, considered/VBN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1990263.genia [9 sentences].
+Parsed 203 words in 9 sentences (82,52 wds/sec; 3,66 sents/sec).
+Parseo...:a1903417.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1903417.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1903417.genia with 14 sentences.
+Parsing [sent. 1 len. 27]: [Transforming/VBG, growth/NN, factor-beta/NN, suppresses/VBZ, human/JJ, B/NN, lymphocyte/NN, Ig/NN, production/NN, by/IN, inhibiting/VBG, synthesis/NN, and/CC, the/DT, switch/NN, from/IN, the/DT, membrane/NN, form/NN, to/TO, the/DT, secreted/VBN, form/NN, of/IN, Ig/NN, mRNA/NN, ./.]
+Parsing [sent. 2 len. 19]: [Transforming/VBG, growth/NN, factor-beta/NN, -LRB-/-LRB-, TGF-beta/NN, -RRB-/-RRB-, inhibits/VBZ, B/NN, cell/NN, Ig/NN, secretion/NN, and/CC, reduces/VBZ, B/NN, cell/NN, membrane/NN, Ig/NN, expression/NN, ./.]
+Parsing [sent. 3 len. 49]: [The/DT, addition/NN, of/IN, TGF-beta/NN, to/TO, human/JJ, B/NN, lymphocyte/NN, cultures/NNS, stimulated/VBN, with/IN, Staphylococcus/FW, aureus/FW, Cowan/NN, strain/NN, I/CD, and/CC, IL-2/NN, completely/RB, inhibited/VBD, B/NN, cell/NN, Ig/NN, secretion/NN, -LRB-/-LRB-, greater/JJR, than/IN, 90/CD, %/NN, -RRB-/-RRB-, and/CC, decreased/VBD, B/NN, cell/NN, surface/NN, IgM/NN, ,/,, IgD/NN, ,/,, kappa/NN, L/NN, chain/NN, ,/,, and/CC, lambda/NN, L/NN, chain/NN, expression/NN, ./.]
+Parsing [sent. 4 len. 20]: [In/IN, contrast/NN, ,/,, TGF-beta/NN, had/VBD, only/RB, minimal/JJ, effects/NNS, on/IN, two/CD, other/JJ, B/NN, cell/NN, membrane/NN, proteins/NNS, ,/,, HLA-DR/NN, and/CC, CD20/NN, ./.]
+Parsing [sent. 5 len. 31]: [Internal/JJ, labeling/NN, with/IN, -LRB-/-LRB-, 35S/NN, -RRB-/-RRB-, methionine/NN, and/CC, immunoprecipitation/NN, with/IN, anti-IgM/JJ, ,/,, anti-kappa/JJ, ,/,, and/CC, anti-lambda/JJ, antibodies/NNS, revealed/VBD, a/DT, striking/JJ, reduction/NN, in/IN, kappa/NN, L/NN, chain/NN, in/IN, the/DT, presence/NN, of/IN, TGF-beta/NN, ./.]
+Parsing [sent. 6 len. 15]: [A/DT, less/RBR, pronounced/JJ, reduction/NN, in/IN, lambda/NN, L/NN, chain/NN, and/CC, microH/NN, chain/NN, was/VBD, also/RB, noted/VBN, ./.]
+Parsing [sent. 7 len. 31]: [Northern/NN, blot/NN, analysis/NN, of/IN, RNA/NN, purified/VBN, from/IN, B/NN, cells/NNS, treated/VBN, with/IN, TGF-beta/NN, for/IN, varying/VBG, time/NN, intervals/NNS, revealed/VBD, a/DT, significant/JJ, decrease/NN, in/IN, steady/JJ, state/NN, kappa/NN, and/CC, lambda/NN, L/NN, chain/NN, mRNA/NN, levels/NNS, ./.]
+Parsing [sent. 8 len. 29]: [Furthermore/RB, ,/,, a/DT, significant/JJ, decrease/NN, in/IN, the/DT, switch/NN, from/IN, the/DT, membrane/NN, forms/NNS, of/IN, mu/NN, and/CC, gamma/NN, to/TO, their/PRP$, respective/JJ, secreted/JJ, forms/NNS, was/VBD, noted/VBN, in/IN, the/DT, presence/NN, of/IN, TGF-beta/NN, ./.]
+Parsing [sent. 9 len. 11]: [Nuclear/JJ, run-on/JJ, experiments/NNS, demonstrated/VBD, decreased/VBN, transcription/NN, of/IN, kappa/NN, L/NN, chain/NN, ./.]
+Parsing [sent. 10 len. 31]: [The/DT, effects/NNS, of/IN, TGF-beta/NN, on/IN, two/CD, transcriptional/JJ, regulatory/JJ, factors/NNS, ,/,, Oct-2/NN, and/CC, nuclear/JJ, factor/NN, -LRB-/-LRB-, NF/NN, -RRB-/-RRB-, kappa/NN, B/NN, ,/,, known/VBN, to/TO, be/VB, important/JJ, in/IN, Ig/NN, gene/NN, transcription/NN, were/VBD, examined/VBN, ./.]
+Parsing [sent. 11 len. 21]: [Oct-2/NN, mRNA/NN, levels/NNS, and/CC, both/CC, Oct-2/NN, and/CC, NF-kappa/NN, B/NN, proteins/NNS, in/IN, nuclear/JJ, extracts/NNS, were/VBD, not/RB, altered/VBN, by/IN, treatment/NN, with/IN, TGF-beta/NN, ./.]
+Parsing [sent. 12 len. 28]: [In/IN, contrast/NN, ,/,, levels/NNS, of/IN, the/DT, transcriptional/JJ, factor/NN, AP-1/NN, ,/,, which/WDT, is/VBZ, not/RB, known/VBN, to/TO, be/VB, important/JJ, in/IN, B/NN, cell/NN, Ig/NN, production/NN, ,/,, were/VBD, reduced/VBN, by/IN, TGF-beta/NN, ./.]
+Parsing [sent. 13 len. 35]: [These/DT, findings/NNS, demonstrate/VBP, that/IN, TGF-beta/NN, decreases/VBZ, B/NN, lymphocyte/NN, Ig/NN, secretion/NN, by/IN, inhibiting/VBG, the/DT, synthesis/NN, of/IN, Ig/NN, mRNA/NN, and/CC, inhibiting/VBG, the/DT, switch/NN, from/IN, the/DT, membrane/NN, form/NN, to/TO, the/DT, secreted/VBN, forms/NNS, of/IN, mu/NN, and/CC, gamma/NN, mRNA/NN, ./.]
+Parsing [sent. 14 len. 31]: [The/DT, mechanism/NN, by/IN, which/WDT, TGF-beta/NN, inhibits/VBZ, Ig/NN, chain/NN, synthesis/NN, is/VBZ, unclear/JJ, although/IN, it/PRP, does/VBZ, not/RB, involve/VB, inhibition/NN, of/IN, the/DT, binding/NN, of/IN, NF-kappa/NN, B/NN, or/CC, Oct-2/NN, to/TO, their/PRP$, respective/JJ, target/NN, sequences/NNS, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1903417.genia [14 sentences].
+Parsed 378 words in 14 sentences (89,55 wds/sec; 3,32 sents/sec).
+Parseo...:a1850841.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1850841.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1850841.genia with 6 sentences.
+Parsing [sent. 1 len. 18]: [Role/NN, for/IN, the/DT, Epstein-Barr/JJ, virus/NN, nuclear/JJ, antigen/NN, 2/CD, in/IN, viral/JJ, promoter/NN, switching/NN, during/IN, initial/JJ, stages/NNS, of/IN, infection/NN, ./.]
+Parsing [sent. 2 len. 36]: [During/IN, latent/JJ, Epstein-Barr/JJ, virus/NN, -LRB-/-LRB-, EBV/NN, -RRB-/-RRB-, infection/NN, of/IN, human/JJ, B/NN, lymphocytes/NNS, ,/,, six/CD, viral/JJ, nuclear/JJ, antigen/NN, -LRB-/-LRB-, EBNAs/NNS, -RRB-/-RRB-, are/VBP, expressed/VBN, from/IN, long/JJ, primary/JJ, transcripts/NNS, by/IN, means/NNS, of/IN, alternative/JJ, splicing/NN, and/CC, alternative/JJ, polyadenylylation/NN, sites/NNS, ./.]
+Parsing [sent. 3 len. 21]: [These/DT, transcripts/NNS, initiate/VBP, from/IN, one/CD, of/IN, two/CD, promoters/NNS, ,/,, Cp/NN, or/CC, Wp/NN, ,/,, that/WDT, function/VBP, in/IN, a/DT, mutually/RB, exclusive/JJ, fashion/NN, ./.]
+Parsing [sent. 4 len. 23]: [Wp/NN, is/VBZ, exclusively/RB, utilized/VBN, during/IN, the/DT, initial/JJ, stages/NNS, of/IN, infection/NN, of/IN, primary/JJ, B/NN, lymphocytes/NNS, ,/,, followed/VBN, by/IN, a/DT, switch/NN, to/TO, Cp/NN, usage/NN, ./.]
+Parsing [sent. 5 len. 115]: [These/DT, studies/NNS, have/VBP, been/VBN, extended/VBN, to/TO, show/VB, that/IN, -LRB-/-LRB-, i/LS, -RRB-/-RRB-, a/DT, mutant/JJ, EBV/NN, strain/NN, lacking/VBG, the/DT, gene/NN, encoding/VBG, EBNA/NN, 2/CD, fails/VBZ, to/TO, switch/VB, from/IN, Wp/NN, to/TO, Cp/NN, usage/NN, in/IN, primary/JJ, B/NN, lymphocytes/NNS, ,/,, although/IN, the/DT, virus/NN, contains/VBZ, a/DT, functional/JJ, Cp/NN, ;/:, -LRB-/-LRB-, ii/LS, -RRB-/-RRB-, a/DT, region/NN, from/IN, -429/CD, to/TO, -245/CD, base/NN, pairs/NNS, upstream/JJ, of/IN, Cp/NN, is/VBZ, essential/JJ, for/IN, Cp/NN, activity/NN, in/IN, B/NN, lymphocytes/NNS, ,/,, but/CC, only/RB, in/IN, the/DT, context/NN, of/IN, upstream/JJ, and/CC, downstream/JJ, sequences/NNS, ;/:, -LRB-/-LRB-, iii/LS, -RRB-/-RRB-, this/DT, region/NN, contains/VBZ, an/DT, EBNA/NN, 2-dependent/JJ, enhancer/NN, ;/:, and/CC, -LRB-/-LRB-, iv/LS, -RRB-/-RRB-, DNase/NN, I/CD, protection/NN, employing/VBG, nuclear/JJ, extracts/NNS, from/IN, B/NN, and/CC, T/NN, lymphocytes/NNS, revealed/VBD, a/DT, B-cell-specific/JJ, footprint/NN, in/IN, the/DT, region/NN, of/IN, the/DT, EBNA/NN, 2-dependent/JJ, enhancer/NN, ./.]
+Parsing [sent. 6 len. 38]: [These/DT, results/NNS, support/VBP, a/DT, model/NN, for/IN, viral/JJ, promoter/NN, switching/NN, during/IN, the/DT, initial/JJ, stages/NNS, of/IN, infection/NN, in/IN, which/WDT, Wp/NN, activity/NN, leads/VBZ, to/TO, the/DT, expression/NN, of/IN, EBNA/NN, 2/CD, ,/,, followed/VBN, by/IN, activation/NN, of/IN, Cp/NN, through/IN, the/DT, EBNA/NN, 2-dependent/JJ, enhancer/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1850841.genia [6 sentences].
+Parsed 251 words in 6 sentences (24,31 wds/sec; 0,58 sents/sec).
+Parseo...:a2006697.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2006697.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2006697.genia with 11 sentences.
+Parsing [sent. 1 len. 9]: [Lymphocyte/NN, glucocorticoid/NN, receptor/NN, number/NN, in/IN, posttraumatic/JJ, stress/NN, disorder/NN, ./.]
+Parsing [sent. 2 len. 36]: [OBJECTIVE/NN, :/:, The/DT, authors/NNS, '/POS, objective/NN, was/VBD, to/TO, investigate/VB, the/DT, possibility/NN, that/IN, glucocorticoid/NN, receptor/NN, changes/NNS, may/MD, be/VB, involved/VBN, in/IN, the/DT, dysregulation/NN, of/IN, the/DT, hypothalamic-pituitary-adrenal/JJ, -LRB-/-LRB-, HPA/JJ, -RRB-/-RRB-, axis/NN, in/IN, posttraumatic/JJ, stress/NN, disorder/NN, -LRB-/-LRB-, PTSD/NN, -RRB-/-RRB-, ./.]
+Parsing [sent. 3 len. 35]: [METHOD/NN, :/:, They/PRP, measured/VBD, the/DT, number/NN, of/IN, lymphocyte/NN, cytosolic/JJ, glucocorticoid/NN, receptors/NNS, and/CC, plasma/NN, cortisol/NN, concentrations/NNS, in/IN, 15/CD, consecutively/RB, admitted/VBN, male/JJ, combat/NN, Vietnam/NNP, veterans/NNS, with/IN, PTSD/NN, and/CC, in/IN, a/DT, normal/JJ, comparison/NN, group/NN, of/IN, 11/CD, subjects/NNS, ./.]
+Parsing [sent. 4 len. 28]: [RESULTS/NNS, :/:, Both/CC, the/DT, patients/NNS, and/CC, the/DT, normal/JJ, comparison/NN, subjects/NNS, showed/VBD, a/DT, morning-to-afternoon/JJ, decline/NN, in/IN, glucocorticoid/NN, receptor/NN, concentrations/NNS, ,/,, paralleling/VBG, the/DT, normal/JJ, diurnal/JJ, decline/NN, in/IN, cortisol/NN, levels/NNS, ./.]
+Parsing [sent. 5 len. 30]: [The/DT, number/NN, of/IN, glucocorticoid/NN, receptors/NNS, was/VBD, 63/CD, %/NN, greater/JJR, in/IN, the/DT, morning/NN, and/CC, 26/CD, %/NN, greater/JJR, in/IN, the/DT, afternoon/NN, in/IN, the/DT, patients/NNS, with/IN, PTSD/NN, than/IN, in/IN, the/DT, normal/JJ, subjects/NNS, ./.]
+Parsing [sent. 6 len. 19]: [No/DT, group/NN, differences/NNS, in/IN, cortisol/NN, levels/NNS, were/VBD, observed/VBN, ,/,, nor/CC, were/VBD, glucocorticoid/NN, receptor/NN, number/NN, and/CC, cortisol/NN, levels/NNS, correlated/VBD, ./.]
+Parsing [sent. 7 len. 16]: [The/DT, number/NN, of/IN, morning/NN, glucocorticoid/NN, receptors/NNS, was/VBD, positively/RB, correlated/VBN, with/IN, symptoms/NNS, of/IN, PTSD/NN, and/CC, anxiety/NN, ./.]
+Parsing [sent. 8 len. 17]: [CONCLUSIONS/NNS, :/:, These/DT, results/NNS, provide/VBP, further/JJ, evidence/NN, for/IN, a/DT, dysregulation/NN, of/IN, the/DT, HPA/JJ, axis/NN, in/IN, PTSD/NN, ./.]
+Parsing [sent. 9 len. 38]: [The/DT, finding/NN, that/IN, patients/NNS, with/IN, PTSD/NN, had/VBD, a/DT, substantially/RB, greater/JJR, number/NN, of/IN, lymphocyte/NN, glucocorticoid/NN, receptors/NNS, than/IN, normal/JJ, comparison/NN, subjects/NNS, is/VBZ, consistent/JJ, with/IN, the/DT, authors/NNS, '/POS, previous/JJ, observations/NNS, of/IN, low/JJ, 24-hour/JJ, urinary/JJ, cortisol/NN, excretion/NN, in/IN, subjects/NNS, with/IN, PTSD/NN, ./.]
+Parsing [sent. 10 len. 16]: [Furthermore/RB, ,/,, the/DT, receptor/NN, changes/NNS, observed/VBN, are/VBP, opposite/JJ, of/IN, those/DT, reported/VBN, in/IN, major/JJ, depressive/JJ, disorder/NN, ./.]
+Parsing [sent. 11 len. 33]: [The/DT, present/JJ, data/NNS, ,/,, along/IN, with/IN, other/JJ, findings/NNS, of/IN, HPA/JJ, abnormalities/NNS, in/IN, PTSD/NN, ,/,, support/VBP, the/DT, possibility/NN, of/IN, a/DT, greater/JJR, negative/JJ, feedback/NN, sensitivity/NN, at/IN, one/CD, or/CC, more/JJR, levels/NNS, of/IN, the/DT, HPA/JJ, axis/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2006697.genia [11 sentences].
+Parsed 277 words in 11 sentences (87,94 wds/sec; 3,49 sents/sec).
+Parseo...:a1851743.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,4 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1851743.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1851743.genia with 10 sentences.
+Parsing [sent. 1 len. 14]: [Inhibition/NN, of/IN, protein/NN, phosphatases/NNS, by/IN, okadaic/JJ, acid/NN, induces/VBZ, AP1/NN, in/IN, human/JJ, T/NN, cells/NNS, ./.]
+Parsing [sent. 2 len. 48]: [To/TO, examine/VB, the/DT, role/NN, of/IN, protein/NN, phosphatases/NNS, in/IN, T/NN, cell/NN, activation/NN, ,/,, Jurkat/NN, cells/NNS, were/VBD, treated/VBN, with/IN, okadaic/JJ, acid/NN, ,/,, an/DT, inhibitor/NN, of/IN, type/NN, 1/CD, and/CC, 2A/NN, phosphatases/NNS, ,/,, and/CC, nuclear/JJ, extracts/NNS, were/VBD, examined/VBN, for/IN, the/DT, presence/NN, of/IN, AP1/NN, as/IN, a/DT, measure/NN, of/IN, early/JJ, T/NN, cell/NN, activation/NN, ./.]
+Parsing [sent. 3 len. 12]: [Okadaic/JJ, acid/NN, was/VBD, found/VBN, to/TO, be/VB, a/DT, potent/JJ, inducer/NN, of/IN, AP1/NN, ./.]
+Parsing [sent. 4 len. 35]: [In/IN, contrast/NN, to/TO, phorbol/NN, esters/NNS, such/JJ, as/IN, phorbol/NN, myristate/NN, acetate/NN, -LRB-/-LRB-, PMA/NN, -RRB-/-RRB-, ,/,, the/DT, induction/NN, of/IN, AP1/NN, by/IN, okadaic/JJ, acid/NN, occurs/VBZ, predominantly/RB, by/IN, transcriptional/JJ, activation/NN, of/IN, the/DT, jun/NN, and/CC, fos/NN, family/NN, of/IN, proto-oncogenes/NNS, ./.]
+Parsing [sent. 5 len. 21]: [Surprisingly/RB, ,/,, while/IN, the/DT, addition/NN, of/IN, phytohemagglutinin/NN, further/RBR, enhanced/VBD, the/DT, induction/NN, of/IN, AP1/NN, ,/,, the/DT, addition/NN, of/IN, PMA/NN, inhibited/VBD, it/PRP, ./.]
+Parsing [sent. 6 len. 36]: [Okadaic/JJ, acid/NN, treatment/NN, was/VBD, found/VBN, to/TO, dramatically/RB, increase/VB, mRNA/NN, transcripts/NNS, of/IN, the/DT, jun/NN, family/NN, of/IN, proto-oncogenes/NNS, including/VBG, c-jun/NN, ,/,, junD/NN, ,/,, and/CC, junB/NN, and/CC, to/TO, a/DT, lesser/JJR, extent/NN, the/DT, fos/NN, family/NN, including/VBG, c-fos/NN, and/CC, fra-1/NN, ./.]
+Parsing [sent. 7 len. 18]: [By/IN, comparison/NN, ,/,, PMA/NN, is/VBZ, a/DT, very/RB, inefficient/JJ, inducer/NN, of/IN, the/DT, jun/NN, gene/NN, family/NN, in/IN, Jurkat/NN, cells/NNS, ./.]
+Parsing [sent. 8 len. 24]: [Similar/JJ, to/TO, its/PRP$, effect/NN, on/IN, the/DT, induction/NN, of/IN, AP1/NN, by/IN, okadaic/JJ, acid/NN, ,/,, PMA/NN, inhibits/VBZ, the/DT, induction/NN, of/IN, c-jun/NN, mRNA/NN, by/IN, okadaic/JJ, acid/NN, ./.]
+Parsing [sent. 9 len. 19]: [Transfection/NN, of/IN, c-jun/NN, promoter/NN, constructs/NNS, confirmed/VBD, the/DT, marked/JJ, difference/NN, between/IN, PMA/NN, and/CC, okadaic/JJ, acid/NN, in/IN, inducing/VBG, c-jun/NN, transcription/NN, ./.]
+Parsing [sent. 10 len. 36]: [The/DT, induction/NN, of/IN, AP1/NN, by/IN, okadaic/JJ, acid/NN, suggests/VBZ, that/IN, protein/NN, phosphatases/NNS, 1/CD, and/CC, 2A/NN, -LRB-/-LRB-, PP1/NN, and/CC, PP2A/NN, -RRB-/-RRB-, may/MD, be/VB, involved/VBN, in/IN, T/NN, cell/NN, activation/NN, as/IN, important/JJ, negative/JJ, regulators/NNS, of/IN, the/DT, transcription/NN, factor/NN, AP1/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1851743.genia [10 sentences].
+Parsed 263 words in 10 sentences (75,10 wds/sec; 2,86 sents/sec).
+Parseo...:a1672442.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1672442.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1672442.genia with 7 sentences.
+Parsing [sent. 1 len. 10]: [The/DT, functional/JJ, domains/NNS, of/IN, the/DT, murine/JJ, Thy-1/NN, gene/NN, promoter/NN, ./.]
+Parsing [sent. 2 len. 37]: [The/DT, Thy-1/NN, gene/NN, promoter/NN, resembles/VBZ, a/DT, ``/``, housekeeping/JJ, ``/``, promoter/NN, in/IN, that/IN, it/PRP, is/VBZ, located/JJ, within/IN, a/DT, methylation-free/JJ, island/NN, ,/,, lacks/VBZ, a/DT, canonical/JJ, TATA/NN, box/NN, ,/,, and/CC, displays/VBZ, heterogeneity/NN, in/IN, the/DT, 5'-end/JJ, termini/NNS, of/IN, the/DT, mRNA/NN, ./.]
+Parsing [sent. 3 len. 24]: [Using/VBG, transgenic/JJ, mice/NNS, ,/,, we/PRP, show/VBP, that/IN, this/DT, promoter/NN, does/VBZ, not/RB, confer/VB, any/DT, tissue/NN, specificity/NN, and/CC, is/VBZ, active/JJ, only/RB, in/IN, a/DT, position-dependent/JJ, manner/NN, ./.]
+Parsing [sent. 4 len. 19]: [It/PRP, can/MD, only/RB, be/VB, activated/VBN, in/IN, a/DT, tissue-specific/JJ, manner/NN, by/IN, elements/NNS, that/WDT, lie/VBP, downstream/RB, of/IN, the/DT, initiation/NN, site/NN, ./.]
+Parsing [sent. 5 len. 43]: [We/PRP, have/VBP, analyzed/VBN, the/DT, functional/JJ, domains/NNS, of/IN, the/DT, minimal/JJ, Thy-1/NN, promoter/NN, and/CC, show/VBP, that/IN, the/DT, dominant/JJ, promoter/NN, elements/NNS, consist/VBP, of/IN, multiple/JJ, binding/VBG, sites/NNS, for/IN, the/DT, transcription/NN, factor/NN, Sp1/NN, ,/,, an/DT, inverted/VBN, CCAAT/NN, box/NN, ,/,, and/CC, sequences/NNS, proximal/JJ, to/TO, the/DT, transcription/NN, start/NN, site/NN, ./.]
+Parsing [sent. 6 len. 25]: [DNase/NN, I/CD, and/CC, gel/NN, mobility/NN, shift/NN, assays/NNS, show/VBP, the/DT, binding/NN, of/IN, a/DT, number/NN, of/IN, nuclear/JJ, factors/NNS, to/TO, these/DT, elements/NNS, ,/,, including/VBG, Sp1/NN, and/CC, CP1/NN, ./.]
+Parsing [sent. 7 len. 33]: [Our/PRP$, results/NNS, show/VBP, that/IN, the/DT, structure/NN, of/IN, this/DT, promoter/NN, only/RB, permits/VBZ, productive/JJ, interactions/NNS, of/IN, the/DT, two/CD, transcription/NN, factors/NNS, Sp1/NN, and/CC, CP1/NN, with/IN, the/DT, basal/JJ, transcription/NN, machinery/NN, in/IN, the/DT, presence/NN, of/IN, enhancer/NN, sequences/NNS, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1672442.genia [7 sentences].
+Parsed 191 words in 7 sentences (78,99 wds/sec; 2,89 sents/sec).
+Parseo...:a2006423.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2006423.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2006423.genia with 8 sentences.
+Parsing [sent. 1 len. 32]: [Isolation/NN, of/IN, a/DT, rel-related/JJ, human/JJ, cDNA/NN, that/WDT, potentially/RB, encodes/VBZ, the/DT, 65-kD/JJ, subunit/NN, of/IN, NF-kappa/NN, B/NN, -LRB-/-LRB-, published/VBN, erratum/NN, appears/VBZ, in/IN, Science/NNP, 1991/CD, Oct/NNP, 4/CD, ;/:, 254/CD, -LRB-/-LRB-, 5028/CD, -RRB-/-RRB-, :/:, 11/CD, -RRB-/-RRB-]
+Parsing [sent. 2 len. 47]: [A/DT, DNA/NN, probe/NN, that/WDT, spanned/VBD, a/DT, domain/NN, conserved/VBN, among/IN, the/DT, proto-oncogene/NN, c-rel/NN, ,/,, the/DT, Drosophila/NNP, morphogen/NN, dorsal/NN, ,/,, and/CC, the/DT, p50/NN, DNA/NN, binding/NN, subunit/NN, of/IN, NF-kappa/NN, B/NN, was/VBD, generated/VBN, from/IN, Jurkat/NN, T/NN, cell/NN, complementary/JJ, DNA/NN, with/IN, the/DT, polymerase/NN, chain/NN, reaction/NN, -LRB-/-LRB-, PCR/NN, -RRB-/-RRB-, and/CC, degenerate/JJ, oligonucleotides/NNS, ./.]
+Parsing [sent. 3 len. 25]: [This/DT, probe/NN, was/VBD, used/VBN, to/TO, identify/VB, a/DT, rel-related/JJ, complementary/JJ, DNA/NN, that/WDT, hybridized/VBD, to/TO, a/DT, 2.6-kilobase/JJ, messenger/NN, RNA/NN, present/JJ, in/IN, human/JJ, T/NN, and/CC, B/NN, lymphocytes/NNS, ./.]
+Parsing [sent. 4 len. 28]: [In/FW, vitro/FW, transcription/NN, and/CC, translation/NN, of/IN, the/DT, complementary/JJ, DNA/NN, resulted/VBD, in/IN, the/DT, synthesis/NN, of/IN, a/DT, protein/NN, with/IN, an/DT, apparent/JJ, molecular/JJ, size/NN, of/IN, 65/CD, kilodaltons/NNS, -LRB-/-LRB-, kD/NN, -RRB-/-RRB-, ./.]
+Parsing [sent. 5 len. 17]: [The/DT, translated/VBN, protein/NN, showed/VBD, weak/JJ, DNA/NN, binding/NN, with/IN, a/DT, specificity/NN, for/IN, the/DT, kappa/NN, B/NN, binding/NN, motif/NN, ./.]
+Parsing [sent. 6 len. 28]: [This/DT, protein-DNA/JJ, complex/NN, comigrated/VBD, with/IN, the/DT, complex/NN, obtained/VBN, with/IN, the/DT, purified/VBN, human/JJ, p65/NN, NF-kappa/NN, B/NN, subunit/NN, and/CC, binding/NN, was/VBD, inhibited/VBN, by/IN, I/NN, kappa/NN, B-alpha/NN, and/CC, -beta/NN, proteins/NNS, ./.]
+Parsing [sent. 7 len. 34]: [In/IN, addition/NN, ,/,, the/DT, 65-kD/JJ, protein/NN, associated/VBN, with/IN, the/DT, p50/NN, subunit/NN, of/IN, NF-kappa/NN, B/NN, and/CC, the/DT, kappa/NN, B/NN, probe/NN, to/TO, form/VB, a/DT, complex/NN, with/IN, the/DT, same/JJ, electrophoretic/JJ, mobility/NN, as/IN, the/DT, NF-kappa/NN, B-DNA/NN, complex/NN, ./.]
+Parsing [sent. 8 len. 19]: [Therefore/RB, the/DT, rel-related/JJ, 65-kD/JJ, protein/NN, may/MD, represent/VB, the/DT, p65/NN, subunit/NN, of/IN, the/DT, active/JJ, NF-kappa/NN, B/NN, transcription/NN, factor/NN, complex/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2006423.genia [8 sentences].
+Parsed 230 words in 8 sentences (69,47 wds/sec; 2,42 sents/sec).
+Parseo...:a2024810.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,4 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2024810.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2024810.genia with 8 sentences.
+Parsing [sent. 1 len. 12]: [Glucocorticoid/NN, receptor/NN, characteristics/NNS, in/IN, monocytes/NNS, of/IN, patients/NNS, with/IN, corticosteroid-resistant/JJ, bronchial/JJ, asthma/NN, ./.]
+Parsing [sent. 2 len. 67]: [The/DT, mechanism/NN, of/IN, corticosteroid/NN, resistance/NN, in/IN, bronchial/JJ, asthma/NN, has/VBZ, been/VBN, studied/VBN, by/IN, determining/VBG, the/DT, rank/NN, order/NN, of/IN, potency/NN, for/IN, different/JJ, corticosteroids/NNS, in/IN, inhibiting/VBG, the/DT, generation/NN, of/IN, a/DT, 3/CD, kD/NN, molecule/NN, from/IN, peripheral/JJ, blood/NN, monocytes/NNS, isolated/VBN, from/IN, corticosteroid-sensitive/JJ, -LRB-/-LRB-, CS/JJ, -RRB-/-RRB-, and/CC, corticosteroid-resistant/JJ, -LRB-/-LRB-, CR/JJ, -RRB-/-RRB-, asthmatic/JJ, subjects/NNS, ,/,, which/WDT, augments/VBZ, leukotriene/NN, B4/NN, -LRB-/-LRB-, LTB4/NN, -RRB-/-RRB-, generation/NN, by/IN, human/JJ, neutrophils/NNS, -LRB-/-LRB-, PMN/NN, -RRB-/-RRB-, stimulated/VBN, by/IN, calcium/NN, ionophore/NN, ./.]
+Parsing [sent. 3 len. 37]: [In/IN, addition/NN, ,/,, binding/VBG, studies/NNS, with/IN, -LRB-/-LRB-, 3H/NN, -RRB-/-RRB-, dexamethasone/NN, have/VBP, been/VBN, performed/VBN, to/TO, determine/VB, the/DT, dissociation/NN, constant/NN, -LRB-/-LRB-, Kd/NN, -RRB-/-RRB-, and/CC, receptor/NN, numbers/NNS, -LRB-/-LRB-, Ro/NN, -RRB-/-RRB-, in/IN, the/DT, monocytes/NNS, of/IN, these/DT, two/CD, groups/NNS, of/IN, subjects/NNS, ./.]
+Parsing [sent. 4 len. 37]: [The/DT, concentration/NN, of/IN, corticosteroid/NN, producing/VBG, 50/CD, %/NN, inhibition/NN, -LRB-/-LRB-, IC50/NN, -RRB-/-RRB-, was/VBD, 600/CD, nM/NN, ,/,, 70/CD, nM/NN, ,/,, and/CC, 0.5/CD, nM/NN, for/IN, hydrocortisone/NN, ,/,, methylprednisolone/NN, ,/,, and/CC, dexamethasone/NN, ,/,, respectively/RB, ,/,, in/IN, monocytes/NNS, from/IN, CS/JJ, individuals/NNS, ./.]
+Parsing [sent. 5 len. 20]: [There/EX, was/VBD, only/RB, weak/JJ, inhibition/NN, of/IN, the/DT, generation/NN, of/IN, enhancing/NN, activity/NN, by/IN, the/DT, corticosteroids/NNS, in/IN, the/DT, CR/JJ, asthmatic/JJ, individuals/NNS, ./.]
+Parsing [sent. 6 len. 47]: [The/DT, dexamethasone/NN, Kd/NN, was/VBD, 2.45/CD, ±/SYM, 0.58/CD, nM/NN, -LRB-/-LRB-, mean/NN, ±/NN, SEM/NN, ,/,, n/NN, =/JJ, 6/CD, -RRB-/-RRB-, in/IN, the/DT, CS/JJ, group/NN, and/CC, 1.6/CD, ±/HYPH, 0.35/CD, nM/NN, -LRB-/-LRB-, mean/NN, ±/NN, SEM/NN, ,/,, n/NN, =/JJ, 6/CD, -RRB-/-RRB-, in/IN, the/DT, CR/JJ, group/NN, of/IN, patients/NNS, -LRB-/-LRB-, p/NN, =/SYM, 0.14/CD, -RRB-/-RRB-, ./.]
+Parsing [sent. 7 len. 50]: [The/DT, Ro/NN, in/IN, the/DT, CS/NN, group/NN, was/VBD, 3,605/CD, ±/CC, 984/CD, binding/VBG, sites/NNS, per/IN, nucleus/NN, -LRB-/-LRB-, mean/NN, ±/NN, SEM/NN, ,/,, n/NN, =/JJ, 6/CD, -RRB-/-RRB-, and/CC, 4,757/CD, ±/CC, 692/CD, binding/VBG, sites/NNS, per/IN, nucleus/NN, -LRB-/-LRB-, mean/NN, ±/NN, SEM/NN, ,/,, n/NN, =/JJ, 6/CD, -RRB-/-RRB-, in/IN, the/DT, CR/JJ, group/NN, -LRB-/-LRB-, p/NN, =/SYM, 0.23/CD, -RRB-/-RRB-, ./.]
+Parsing [sent. 8 len. 20]: [These/DT, findings/NNS, indicate/VBP, that/IN, corticosteroid/NN, resistance/NN, in/IN, bronchial/JJ, asthma/NN, can/MD, not/RB, be/VB, explained/VBN, by/IN, abnormalities/NNS, in/IN, corticosteroid/NN, receptor/NN, characteristics/NNS, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2024810.genia [8 sentences].
+Parsed 290 words in 8 sentences (21,33 wds/sec; 0,59 sents/sec).
+Parseo...:a2011512.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,3 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2011512.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2011512.genia with 8 sentences.
+Parsing [sent. 1 len. 9]: [Multiple/JJ, Oct2/NN, isoforms/NNS, are/VBP, generated/VBN, by/IN, alternative/JJ, splicing/NN, ./.]
+Parsing [sent. 2 len. 25]: [The/DT, interaction/NN, of/IN, the/DT, Oct2/NN, transcription/NN, factor/NN, with/IN, the/DT, cognate/JJ, octamer/NN, motif/NN, ATGCAAAT/NN, is/VBZ, a/DT, critical/JJ, determinant/NN, of/IN, the/DT, lymphoid-specific/JJ, expression/NN, of/IN, immunoglobulin/NN, genes/NNS, ./.]
+Parsing [sent. 3 len. 24]: [Ectopic/JJ, expression/NN, of/IN, cloned/VBN, Oct2/NN, cDNA/NN, was/VBD, shown/VBN, to/TO, be/VB, sufficient/JJ, to/TO, reconstitute/VB, at/IN, least/JJS, some/DT, aspects/NNS, of/IN, this/DT, regulation/NN, in/IN, non-lymphoid/JJ, cells/NNS, ./.]
+Parsing [sent. 4 len. 41]: [We/PRP, describe/VBP, the/DT, isolation/NN, and/CC, characterization/NN, of/IN, multiple/JJ, cDNAs/NNS, encoding/VBG, mouse/NN, Oct2/NN, from/IN, a/DT, mature/JJ, B-cell/NN, line/NN, and/CC, we/PRP, show/VBP, that/IN, a/DT, variety/NN, of/IN, isoforms/NNS, of/IN, this/DT, transcription/NN, factor/NN, is/VBZ, generated/VBN, from/IN, a/DT, single/JJ, gene/NN, by/IN, an/DT, alternative/JJ, splicing/NN, mechanism/NN, ./.]
+Parsing [sent. 5 len. 19]: [All/PDT, the/DT, isoforms/NNS, retain/VBP, the/DT, previously/RB, characterized/VBN, POU-domain/NN, and/CC, are/VBP, therefore/RB, able/JJ, to/TO, bind/VB, to/TO, the/DT, octamer/NN, motif/NN, ./.]
+Parsing [sent. 6 len. 34]: [Different/JJ, amounts/NNS, of/IN, the/DT, various/JJ, isoforms/NNS, are/VBP, present/JJ, within/IN, the/DT, same/JJ, B-cell/NN, regardless/RB, of/IN, the/DT, developmental/JJ, stage/NN, of/IN, B-cell/NN, differentiation/NN, and/CC, at/IN, least/JJS, some/DT, of/IN, the/DT, isoforms/NNS, are/VBP, conserved/VBN, between/IN, mouse/NN, and/CC, humans/NNS, ./.]
+Parsing [sent. 7 len. 26]: [In/IN, cotransfection/NN, experiments/NNS, we/PRP, show/VBP, that/IN, all/PDT, the/DT, isoforms/NNS, are/VBP, able/JJ, to/TO, activate/VB, an/DT, octamer/NN, containing/VBG, promoter/NN, element/NN, in/IN, fibroblasts/NNS, revealing/VBG, an/DT, unexpected/JJ, functional/JJ, redundancy/NN, ./.]
+Parsing [sent. 8 len. 42]: [Finally/RB, ,/,, we/PRP, show/VBP, that/IN, one/CD, of/IN, the/DT, isoforms/NNS, encodes/VBZ, the/DT, previously/RB, described/VBN, lymphoid-specific/JJ, Oct2B/NN, protein/NN, which/WDT, has/VBZ, been/VBN, suggested/VBN, to/TO, be/VB, involved/VBN, in/IN, the/DT, function/NN, of/IN, the/DT, octamer/NN, motif/NN, in/IN, the/DT, context/NN, of/IN, the/DT, immunoglobulin/NN, heavy-chain/NN, -LRB-/-LRB-, IgH/NN, -RRB-/-RRB-, enhancer/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2011512.genia [8 sentences].
+Parsed 220 words in 8 sentences (84,16 wds/sec; 3,06 sents/sec).
+Parseo...:a1987353.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,3 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1987353.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1987353.genia with 6 sentences.
+Parsing [sent. 1 len. 15]: [The/DT, NF/NN, kappa/NN, B/NN, independent/JJ, cis-acting/JJ, sequences/NNS, in/IN, HIV-1/NN, LTR/NN, responsive/JJ, to/TO, T-cell/NN, activation/NN, ./.]
+Parsing [sent. 2 len. 26]: [The/DT, rate/NN, of/IN, transcription/NN, initiation/NN, directed/VBN, by/IN, the/DT, long/JJ, terminal/JJ, repeat/NN, -LRB-/-LRB-, LTR/NN, -RRB-/-RRB-, of/IN, HIV-1/NN, increases/NNS, in/IN, response/NN, to/TO, mitogenic/JJ, stimuli/NNS, of/IN, T/NN, cells/NNS, ./.]
+Parsing [sent. 3 len. 36]: [Here/RB, we/PRP, show/VBP, that/IN, the/DT, response/NN, of/IN, the/DT, HIV-1/NN, LTR/NN, may/MD, be/VB, governed/VBN, by/IN, two/CD, independent/JJ, sequences/NNS, located/JJ, 5/CD, '/SYM, to/TO, the/DT, site/NN, of/IN, transcription/NN, initiation/NN, sequences/NNS, that/WDT, bind/VBP, either/CC, NFAT-1/NN, or/CC, NF/NN, kappa/NN, B/NN, ./.]
+Parsing [sent. 4 len. 48]: [The/DT, rate/NN, of/IN, LTR-directed/JJ, gene/NN, expression/NN, increased/VBD, in/IN, response/NN, to/TO, treatment/NN, with/IN, either/CC, a/DT, phorbol/NN, ester/NN, or/CC, tumor/NN, necrosis/NN, factor/NN, alpha/NN, if/IN, either/CC, the/DT, NFAT-1/NN, or/CC, NF/NN, kappa/NN, B/NN, binding/NN, sites/NNS, were/VBD, deleted/VBN, ,/,, but/CC, failed/VBD, to/TO, respond/VB, to/TO, these/DT, mitogenic/JJ, stimuli/NNS, if/IN, both/DT, sequences/NNS, were/VBD, absent/JJ, ./.]
+Parsing [sent. 5 len. 39]: [The/DT, HIV-1/NN, mutant/JJ, virus/NN, containing/VBG, both/CC, NF/NN, kappa/NN, B/NN, and/CC, NFAT-1/NN, deletion/NN, was/VBD, able/JJ, to/TO, replicate/VB, although/IN, at/IN, a/DT, much/RB, decreased/VBN, growth/NN, rate/NN, ,/,, while/IN, the/DT, deletion/NN, of/IN, NFAT-1/NN, alone/RB, increased/VBD, the/DT, viral/JJ, growth/NN, rate/NN, in/IN, Jurkat/NN, cells/NNS, ./.]
+Parsing [sent. 6 len. 19]: [Neither/CC, deletion/NN, of/IN, NF/NN, kappa/NN, B/NN, nor/CC, deletion/NN, of/IN, NFAT-1/NN, decreased/VBD, activation/NN, of/IN, viral/JJ, replication/NN, by/IN, phorbol/NN, ester/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1987353.genia [6 sentences].
+Parsed 183 words in 6 sentences (27,17 wds/sec; 0,89 sents/sec).
+Parseo...:a1989880.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1989880.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1989880.genia with 9 sentences.
+Parsing [sent. 1 len. 17]: [Identification/NN, and/CC, cloning/NN, of/IN, TCF-1/NN, ,/,, a/DT, T/NN, lymphocyte-specific/JJ, transcription/NN, factor/NN, containing/VBG, a/DT, sequence-specific/JJ, HMG/NN, box/NN, ./.]
+Parsing [sent. 2 len. 12]: [CD3-epsilon/NN, expression/NN, is/VBZ, controlled/VBN, by/IN, a/DT, downstream/JJ, T/NN, lymphocyte-specific/JJ, enhancer/NN, element/NN, ./.]
+Parsing [sent. 3 len. 18]: [We/PRP, report/VBP, the/DT, identification/NN, of/IN, a/DT, T/NN, cell-specific/JJ, transcription/NN, factor/NN, ,/,, TCF-1/NN, ,/,, binding/VBG, to/TO, this/DT, element/NN, ./.]
+Parsing [sent. 4 len. 12]: [The/DT, multimerized/JJ, recognition/NN, motif/NN, of/IN, TCF-1/NN, constituted/VBD, a/DT, T/NN, cell-specific/JJ, enhancer/NN, ./.]
+Parsing [sent. 5 len. 9]: [Subsequent/JJ, cloning/NN, of/IN, TCF-1/NN, identified/VBD, three/CD, splice/NN, alternatives/NNS, ./.]
+Parsing [sent. 6 len. 30]: [TCF-1/NN, contained/VBD, a/DT, single/JJ, DNA-binding/JJ, HMG/NN, box/NN, most/RBS, closely/RB, related/JJ, to/TO, similar/JJ, boxes/NNS, in/IN, the/DT, putative/JJ, mammalian/JJ, sex-determining/JJ, gene/NN, SRY/NN, and/CC, in/IN, the/DT, Schizosaccharomyces/FW, pombe/FW, Mc/NN, mating/NN, type/NN, gene/NN, ./.]
+Parsing [sent. 7 len. 9]: [TCF-1/NN, mRNA/NN, was/VBD, expressed/VBN, uniquely/RB, in/IN, T/NN, lymphocytes/NNS, ./.]
+Parsing [sent. 8 len. 14]: [Upon/IN, cotransfection/NN, into/IN, non-T/JJ, cells/NNS, ,/,, TCF-1/NN, could/MD, transactivate/VB, through/IN, its/PRP$, cognate/JJ, motif/NN, ./.]
+Parsing [sent. 9 len. 26]: [These/DT, results/NNS, identify/VBP, TCF-1/NN, as/IN, a/DT, T/NN, cell-specific/JJ, transcription/NN, factor/NN, ,/,, which/WDT, might/MD, play/VB, a/DT, role/NN, in/IN, the/DT, establishment/NN, of/IN, the/DT, mature/JJ, T/NN, cell/NN, phenotype/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1989880.genia [9 sentences].
+Parsed 147 words in 9 sentences (94,66 wds/sec; 5,80 sents/sec).
+Parseo...:a2010090.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2010090.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2010090.genia with 9 sentences.
+Parsing [sent. 1 len. 18]: [A/DT, thymus-specific/JJ, member/NN, of/IN, the/DT, HMG/NN, protein/NN, family/NN, regulates/VBZ, the/DT, human/JJ, T/NN, cell/NN, receptor/NN, C/NN, alpha/NN, enhancer/NN, ./.]
+Parsing [sent. 2 len. 47]: [The/DT, human/JJ, T/NN, cell-specific/JJ, transcription/NN, factor/NN, TCF-1/NN, alpha/NN, plays/VBZ, a/DT, key/JJ, role/NN, in/IN, the/DT, tissue-specific/JJ, activation/NN, of/IN, the/DT, T/NN, cell/NN, receptor/NN, -LRB-/-LRB-, TCR/NN, -RRB-/-RRB-, C/NN, alpha/NN, enhancer/NN, and/CC, binds/VBZ, to/TO, pyrimidine-rich/JJ, elements/NNS, -LRB-/-LRB-, 5'-PyCTTTG-3/NN, '/'', -RRB-/-RRB-, present/JJ, in/IN, a/DT, variety/NN, of/IN, other/JJ, T/NN, cell-specific/JJ, control/NN, regions/NNS, ./.]
+Parsing [sent. 3 len. 22]: [Using/VBG, amino/JJ, acid/NN, sequence/NN, information/NN, derived/VBN, from/IN, the/DT, DNA/NN, affinity-purified/JJ, protein/NN, ,/,, we/PRP, have/VBP, now/RB, isolated/VBN, cDNA/NN, clones/NNS, encoding/VBG, TCF-1/NN, alpha/NN, ./.]
+Parsing [sent. 4 len. 27]: [The/DT, TCF-1/NN, alpha/NN, cDNA/NN, contains/VBZ, a/DT, single/JJ, 68-amino-acid/JJ, domain/NN, that/WDT, is/VBZ, homologous/JJ, to/TO, a/DT, region/NN, conserved/VBN, among/IN, high-mobility/JJ, group/NN, -LRB-/-LRB-, HMG/NN, -RRB-/-RRB-, and/CC, nonhistone/JJ, chromosomal/JJ, proteins/NNS, ./.]
+Parsing [sent. 5 len. 39]: [Expression/NN, of/IN, full-length/JJ, and/CC, mutant/JJ, cDNA/NN, clones/NNS, in/IN, bacteria/NNS, reveal/VBP, that/IN, the/DT, single/JJ, HMG/NN, motif/NN, ,/,, which/WDT, is/VBZ, predicted/VBN, to/TO, contain/VB, two/CD, extended/JJ, alpha-helical/JJ, segments/NNS, ,/,, is/VBZ, sufficient/JJ, to/TO, direct/VB, the/DT, sequence-specific/JJ, binding/NN, of/IN, TCF-1/NN, alpha/NN, to/TO, DNA/NN, ./.]
+Parsing [sent. 6 len. 24]: [Northern/NN, blot/NN, experiments/NNS, demonstrate/VBP, further/RBR, that/IN, TCF-1/NN, alpha/NN, mRNA/NN, is/VBZ, highly/RB, tissue/NN, specific/JJ, ,/,, found/VBN, primarily/RB, in/IN, the/DT, thymus/NN, or/CC, T/NN, cell/NN, lines/NNS, ./.]
+Parsing [sent. 7 len. 27]: [The/DT, immature/JJ, CEM/NN, T/NN, cell/NN, line/NN, expresses/VBZ, relatively/RB, low/JJ, levels/NNS, of/IN, TCF-1/NN, alpha/NN, mRNA/NN, ,/,, which/WDT, are/VBP, increased/VBN, upon/IN, activation/NN, of/IN, these/DT, cells/NNS, by/IN, phorbol/NN, esters/NNS, ./.]
+Parsing [sent. 8 len. 50]: [Interestingly/RB, ,/,, the/DT, cloned/VBN, TCF-1/NN, alpha/NN, protein/NN, is/VBZ, a/DT, potent/JJ, transcriptional/JJ, activator/NN, of/IN, the/DT, human/JJ, TCR/NN, alpha/NN, enhancer/NN, in/IN, nonlymphoid/JJ, cell/NN, lines/NNS, ,/,, whereas/IN, the/DT, activity/NN, of/IN, the/DT, endogenous/JJ, protein/NN, in/IN, T/NN, cell/NN, lines/NNS, is/VBZ, strongly/RB, dependent/JJ, on/IN, an/DT, additional/JJ, T/NN, cell-specific/JJ, protein/NN, that/WDT, interacts/VBZ, with/IN, the/DT, core/NN, enhancer/NN, ./.]
+Parsing [sent. 9 len. 32]: [TCF-1/NN, alpha/NN, is/VBZ, currently/RB, unique/JJ, among/IN, the/DT, newly/RB, emerging/VBG, family/NN, of/IN, DNA-binding/JJ, regulatory/JJ, proteins/NNS, that/WDT, share/VBP, the/DT, HMG/NN, motif/NN, in/IN, that/IN, it/PRP, is/VBZ, a/DT, highly/RB, tissue-specific/JJ, RNA/NN, polymerase/NN, II/CD, transcription/NN, factor/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2010090.genia [9 sentences].
+Parsed 286 words in 9 sentences (70,48 wds/sec; 2,22 sents/sec).
+Parseo...:a2023633.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2023633.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2023633.genia with 9 sentences.
+Parsing [sent. 1 len. 16]: [HIV/NN, enhancer/NN, activity/NN, perpetuated/VBN, by/IN, NF-kappa/NN, B/NN, induction/NN, on/IN, infection/NN, of/IN, monocytes/NNS, -LRB-/-LRB-, see/VB, comments/NNS, -RRB-/-RRB-]
+Parsing [sent. 2 len. 17]: [Permissiveness/NN, to/TO, replication/NN, of/IN, human/JJ, immunodeficiency/NN, virus/NN, -LRB-/-LRB-, HIV/NN, -RRB-/-RRB-, differs/VBZ, in/IN, T/NN, lymphocytes/NNS, and/CC, macrophages/NNS, ./.]
+Parsing [sent. 3 len. 12]: [In/IN, T/NN, cells/NNS, ,/,, HIV/NN, transcription/NN, is/VBZ, poorly/RB, detected/VBN, in/FW, vivo/FW, ./.]
+Parsing [sent. 4 len. 35]: [Cloned/VBN, ,/,, normal/JJ, T/NN, lymphocytes/NNS, show/VBP, very/RB, little/JJ, ,/,, if/IN, any/DT, ,/,, basal/JJ, activity/NN, of/IN, the/DT, HIV/NN, enhancer/NN, and/CC, low/JJ, nuclear/JJ, expression/NN, of/IN, NF-kappa/NN, B/NN, ,/,, a/DT, potent/JJ, transcriptional/JJ, activator/NN, of/IN, the/DT, HIV/NN, enhancer/NN, ./.]
+Parsing [sent. 5 len. 16]: [In/IN, contrast/NN, ,/,, fixed/JJ, tissue/NN, macrophages/NNS, express/VBP, detectable/JJ, HIV/NN, proteins/NNS, ,/,, indicating/VBG, permanent/JJ, virus/NN, transcription/NN, ./.]
+Parsing [sent. 6 len. 18]: [One/CD, explanation/NN, for/IN, the/DT, perpetuation/NN, of/IN, virus/NN, infection/NN, in/IN, macrophages/NNS, could/MD, be/VB, sustained/VBN, nuclear/JJ, NF-kappa/NN, B/NN, expression/NN, ./.]
+Parsing [sent. 7 len. 28]: [However/RB, ,/,, the/DT, U937/NN, monocytic/JJ, cell/NN, line/NN, ,/,, which/WDT, is/VBZ, fully/RB, permissive/JJ, to/TO, HIV/NN, replication/NN, ,/,, is/VBZ, known/VBN, to/TO, express/VB, only/RB, low/JJ, levels/NNS, of/IN, nuclear/JJ, NF-kappa/NN, B/NN, ./.]
+Parsing [sent. 8 len. 31]: [We/PRP, show/VBP, here/RB, that/IN, chronic/JJ, HIV/NN, infection/NN, results/VBZ, in/IN, both/CC, induction/NN, of/IN, a/DT, nuclear/JJ, factor/NN, with/IN, antigenic/JJ, properties/NNS, indistinguishable/JJ, from/IN, those/DT, of/IN, NF-kappa/NN, B/NN, and/CC, permanently/RB, increased/VBN, HIV/NN, enhancer/NN, activity/NN, ./.]
+Parsing [sent. 9 len. 35]: [This/DT, phenomenon/NN, ,/,, which/WDT, is/VBZ, independent/JJ, of/IN, tumour/NN, necrosis/NN, factor/NN, ,/,, is/VBZ, associated/VBN, with/IN, HIV/NN, replication/NN, ,/,, and/CC, is/VBZ, thus/RB, likely/JJ, to/TO, explain/VB, at/IN, least/JJS, in/IN, part/NN, the/DT, perpetuation/NN, of/IN, HIV/NN, infection/NN, in/IN, monocytes/NNS, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a2023633.genia [9 sentences].
+Parsed 208 words in 9 sentences (91,99 wds/sec; 3,98 sents/sec).
+Parseo...:a1984449.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1984449.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1984449.genia with 7 sentences.
+Parsing [sent. 1 len. 12]: [Induction/NN, of/IN, NF-KB/NN, during/IN, monocyte/NN, differentiation/NN, by/IN, HIV/NN, type/NN, 1/CD, infection/NN, ./.]
+Parsing [sent. 2 len. 37]: [The/DT, production/NN, of/IN, human/JJ, immunodeficiency/NN, virus/NN, type/NN, 1/CD, -LRB-/-LRB-, HIV-1/NN, -RRB-/-RRB-, progeny/NN, was/VBD, followed/VBN, in/IN, the/DT, U937/NN, promonocytic/JJ, cell/NN, line/NN, after/IN, stimulation/NN, either/CC, with/IN, retinoic/JJ, acid/NN, or/CC, PMA/NN, ,/,, and/CC, in/IN, purified/VBN, human/JJ, monocytes/NNS, and/CC, macrophages/NNS, ./.]
+Parsing [sent. 3 len. 32]: [Electrophoretic/JJ, mobility/NN, shift/NN, assays/NNS, and/CC, Southwestern/NN, blotting/NN, experiments/NNS, were/VBD, used/VBN, to/TO, detect/VB, the/DT, binding/NN, of/IN, cellular/JJ, transactivation/NN, factor/NN, NF-KB/NN, to/TO, the/DT, double/JJ, repeat-KB/NN, enhancer/NN, sequence/NN, located/JJ, in/IN, the/DT, long/JJ, terminal/JJ, repeat/NN, ./.]
+Parsing [sent. 4 len. 21]: [PMA/NN, treatment/NN, ,/,, and/CC, not/RB, retinoic/JJ, acid/NN, treatment/NN, of/IN, the/DT, U937/NN, cells/NNS, acts/VBZ, in/IN, inducing/VBG, NF-KB/NN, expression/NN, in/IN, the/DT, nuclei/NNS, ./.]
+Parsing [sent. 5 len. 22]: [In/IN, nuclear/JJ, extracts/NNS, from/IN, monocytes/NNS, or/CC, macrophages/NNS, ,/,, induction/NN, of/IN, NF-KB/NN, occurred/VBD, only/RB, if/IN, the/DT, cells/NNS, were/VBD, previously/RB, infected/VBN, with/IN, HIV-1/NN, ./.]
+Parsing [sent. 6 len. 36]: [When/WRB, U937/NN, cells/NNS, were/VBD, infected/VBN, with/IN, HIV-1/NN, ,/,, no/DT, induction/NN, of/IN, NF-KB/NN, factor/NN, was/VBD, detected/VBN, ,/,, whereas/IN, high/JJ, level/NN, of/IN, progeny/NN, virions/NNS, was/VBD, produced/VBN, ,/,, suggesting/VBG, that/IN, this/DT, factor/NN, was/VBD, not/RB, required/VBN, for/IN, viral/JJ, replication/NN, ./.]
+Parsing [sent. 7 len. 20]: [These/DT, results/NNS, indicate/VBP, that/IN, in/IN, monocytic/JJ, cell/NN, lineage/NN, ,/,, HIV-1/NN, could/MD, mimic/VB, some/DT, differentiation\/activation/NN, stimuli/NNS, allowing/VBG, nuclear/JJ, NF-KB/NN, expression/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1984449.genia [7 sentences].
+Parsed 180 words in 7 sentences (79,72 wds/sec; 3,10 sents/sec).
+Parseo...:a1847170.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1847170.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1847170.genia with 11 sentences.
+Parsing [sent. 1 len. 26]: [Platelet-activating/JJ, factor/NN, induces/VBZ, phospholipid/JJ, turnover/NN, ,/,, calcium/NN, flux/NN, ,/,, arachidonic/JJ, acid/NN, liberation/NN, ,/,, eicosanoid/NN, generation/NN, ,/,, and/CC, oncogene/NN, expression/NN, in/IN, a/DT, human/JJ, B/NN, cell/NN, line/NN, ./.]
+Parsing [sent. 2 len. 11]: [Platelet-activating/JJ, factor/NN, is/VBZ, a/DT, potent/JJ, mediator/NN, of/IN, the/DT, inflammatory/JJ, response/NN, ./.]
+Parsing [sent. 3 len. 18]: [Studies/NNS, of/IN, the/DT, actions/NNS, of/IN, platelet-activating/JJ, factor/NN, have/VBP, centered/VBN, mainly/RB, around/IN, neutrophils/NNS, ,/,, monocytes/NNS, ,/,, and/CC, platelets/NNS, ./.]
+Parsing [sent. 4 len. 16]: [In/IN, this/DT, report/NN, we/PRP, begin/VBP, to/TO, uncover/VB, the/DT, influence/NN, of/IN, platelet-activating/JJ, factor/NN, on/IN, B/NN, lymphocytes/NNS, ./.]
+Parsing [sent. 5 len. 53]: [Employing/VBG, the/DT, EBV-transformed/JJ, human/JJ, B/NN, cell/NN, line/NN, SKW6.4/NN, ,/,, we/PRP, demonstrate/VBP, that/IN, platelet-activating/JJ, factor/NN, significantly/RB, alters/VBZ, membrane/NN, phospholipid/NN, metabolism/NN, indicated/VBN, by/IN, the/DT, incorporation/NN, of/IN, 32P/NN, into/IN, phosphatidylcholine/NN, ,/,, phosphatidylinositol/NN, ,/,, and/CC, phosphatidic/JJ, acid/NN, but/CC, not/RB, significantly/RB, into/IN, phosphatidylethanolamine/NN, at/IN, concentrations/NNS, ranging/VBG, from/IN, 10/CD, -LRB-/-LRB-, -9/CD, -RRB-/-RRB-, to/TO, 10/CD, -LRB-/-LRB-, -6/CD, -RRB-/-RRB-, M/NN, ./.]
+Parsing [sent. 6 len. 28]: [The/DT, inactive/JJ, precursor/NN, ,/,, lyso-platelet-activating/JJ, factor/NN, ,/,, at/IN, a/DT, concentration/NN, as/RB, high/JJ, as/IN, 10/CD, -LRB-/-LRB-, -7/CD, -RRB-/-RRB-, M/NN, had/VBD, no/DT, effect/NN, on/IN, any/DT, of/IN, the/DT, membrane/NN, phospholipids/NNS, ./.]
+Parsing [sent. 7 len. 34]: [We/PRP, also/RB, show/VBP, that/IN, platelet-activating/JJ, factor/NN, from/IN, 10/CD, -LRB-/-LRB-, -12/CD, -RRB-/-RRB-, to/TO, 10/CD, -LRB-/-LRB-, -6/CD, -RRB-/-RRB-, M/NN, induced/VBD, rapid/JJ, and/CC, significant/JJ, elevation/NN, in/IN, intracellular/JJ, calcium/NN, levels/NNS, ,/,, whereas/IN, lyso-platelet-activating/JJ, factor/NN, was/VBD, again/RB, ineffective/JJ, ./.]
+Parsing [sent. 8 len. 25]: [We/PRP, further/RB, demonstrate/VBP, the/DT, impact/NN, of/IN, platelet-activating/JJ, factor/NN, binding/VBG, to/TO, B/NN, cells/NNS, by/IN, measuring/VBG, platelet-activating/JJ, factor/NN, induced/JJ, arachidonic/JJ, acid/NN, release/NN, and/CC, 5-hydroxyeicosatetraenoic/JJ, acid/NN, production/NN, ./.]
+Parsing [sent. 9 len. 17]: [Moreover/RB, ,/,, platelet-activating/JJ, factor/NN, was/VBD, capable/JJ, of/IN, inducing/VBG, transcription/NN, of/IN, the/DT, nuclear/JJ, proto-oncogenes/NNS, c-fos/NN, and/CC, c-jun/NN, ./.]
+Parsing [sent. 10 len. 37]: [Finally/RB, we/PRP, explored/VBD, the/DT, possible/JJ, role/NN, of/IN, 5-hydroxyeicosatetraenoic/JJ, acid/NN, as/IN, a/DT, regulator/NN, of/IN, arachidonic/JJ, acid/NN, liberation/NN, demonstrating/VBG, that/IN, endogenous/JJ, 5-lipoxygenase/NN, activity/NN, modulates/VBZ, platelet-activating/JJ, factor/NN, induced/JJ, arachidonic/JJ, acid/NN, release/NN, perhaps/RB, acting/VBG, at/IN, the/DT, level/NN, of/IN, phospholipase/NN, A2/NN, ./.]
+Parsing [sent. 11 len. 22]: [In/IN, summary/NN, ,/,, platelet-activating/JJ, factor/NN, is/VBZ, shown/VBN, here/RB, to/TO, have/VB, a/DT, direct/JJ, and/CC, profound/JJ, effect/NN, on/IN, a/DT, pure/JJ, B/NN, cell/NN, line/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1847170.genia [11 sentences].
+Parsed 287 words in 11 sentences (72,99 wds/sec; 2,80 sents/sec).
+Parseo...:a1994572.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1994572.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1994572.genia with 6 sentences.
+Parsing [sent. 1 len. 12]: [A/DT, novel/JJ, HIV-1/NN, isolate/NN, containing/VBG, alterations/NNS, affecting/VBG, the/DT, NF-kappa/NN, B/NN, element/NN, ./.]
+Parsing [sent. 2 len. 30]: [Three/CD, molecular/JJ, clones/NNS, of/IN, HIV-1/NN, ,/,, derived/VBN, from/IN, a/DT, single/JJ, isolate/NN, -LRB-/-LRB-, AL1/NN, -RRB-/-RRB-, ,/,, exhibited/VBD, distinct/JJ, replicative/JJ, and/CC, cytopathic/JJ, properties/NNS, during/IN, propagation/NN, in/IN, a/DT, human/JJ, T/NN, cell/NN, line/NN, ./.]
+Parsing [sent. 3 len. 18]: [The/DT, phenotypic/JJ, differences/NNS, observed/VBN, were/VBD, attributable/JJ, ,/,, in/IN, large/JJ, part/NN, ,/,, to/TO, changes/NNS, affecting/VBG, the/DT, viral/JJ, LTR/NN, ./.]
+Parsing [sent. 4 len. 19]: [Nucleotide/NN, sequence/NN, and/CC, PCR/NN, analyses/NNS, demonstrated/VBD, the/DT, presence/NN, of/IN, novel/JJ, duplications/NNS, or/CC, deletions/NNS, involving/VBG, the/DT, NF-kappa/NN, B/NN, motif/NN, ./.]
+Parsing [sent. 5 len. 15]: [These/DT, changes/NNS, in/IN, the/DT, enhancer/NN, element/NN, were/VBD, identified/VBN, in/IN, the/DT, original/JJ, AL1/NN, virus/NN, stock/NN, ./.]
+Parsing [sent. 6 len. 22]: [Subcloning/NN, of/IN, the/DT, variant/JJ, NF-kappa/NN, B/NN, segments/NNS, into/IN, LTR-driven/JJ, CAT/NN, expression/NN, vectors/NNS, confirmed/VBD, a/DT, correlation/NN, between/IN, promoter/NN, activity/NN, and/CC, replicative\/cytopathic/JJ, capacity/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1994572.genia [6 sentences].
+Parsed 116 words in 6 sentences (83,39 wds/sec; 4,31 sents/sec).
+Parseo...:a1827138.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,3 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1827138.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1827138.genia with 14 sentences.
+Parsing [sent. 1 len. 24]: [Cloning/NN, of/IN, murine/JJ, TCF-1/NN, ,/,, a/DT, T/NN, cell-specific/JJ, transcription/NN, factor/NN, interacting/VBG, with/IN, functional/JJ, motifs/NNS, in/IN, the/DT, CD3-epsilon/NN, and/CC, T/NN, cell/NN, receptor/NN, alpha/NN, enhancers/NNS, ./.]
+Parsing [sent. 2 len. 11]: [CD3-epsilon/NN, gene/NN, expression/NN, is/VBZ, confined/VBN, to/TO, the/DT, T/NN, cell/NN, lineage/NN, ./.]
+Parsing [sent. 3 len. 27]: [We/PRP, have/VBP, recently/RB, identified/VBN, and/CC, cloned/VBN, a/DT, human/JJ, transcription/NN, factor/NN, ,/,, TCF-1/NN, ,/,, that/WDT, binds/VBZ, to/TO, a/DT, functional/JJ, element/NN, in/IN, the/DT, T/NN, lymphocyte-specific/JJ, enhancer/NN, of/IN, CD3-epsilon/NN, ./.]
+Parsing [sent. 4 len. 17]: [In/IN, a/DT, panel/NN, of/IN, human/JJ, cell/NN, lines/NNS, ,/,, TCF-1/NN, expression/NN, was/VBD, restricted/JJ, to/TO, T/NN, lineage/NN, cells/NNS, ./.]
+Parsing [sent. 5 len. 21]: [TCF-1/NN, belonged/VBD, to/TO, a/DT, novel/JJ, family/NN, of/IN, genes/NNS, that/WDT, contain/VBP, the/DT, so-called/JJ, high/JJ, mobility/NN, group/NN, 1/CD, -LRB-/-LRB-, HMG/NN, -RRB-/-RRB-, box/NN, ./.]
+Parsing [sent. 6 len. 9]: [Here/RB, we/PRP, report/VBP, the/DT, cloning/NN, of/IN, murine/JJ, TCF-1/NN, ./.]
+Parsing [sent. 7 len. 14]: [Two/CD, splice/NN, alternatives/NNS, were/VBD, identified/VBN, that/WDT, were/VBD, not/RB, previously/RB, observed/VBN, in/IN, human/JJ, TCF-1/NN, ./.]
+Parsing [sent. 8 len. 13]: [Murine/JJ, and/CC, human/JJ, TCF-1/NN, displayed/VBD, a/DT, 95.5/CD, %/NN, overall/JJ, amino/JJ, acid/NN, homology/NN, ./.]
+Parsing [sent. 9 len. 24]: [Recombinant/JJ, murine/JJ, and/CC, human/JJ, TCF-1/NN, recognized/VBD, the/DT, same/JJ, sequence/NN, motif/NN, in/IN, the/DT, CD3-epsilon/NN, enhancer/NN, as/IN, judged/VBN, by/IN, gel/NN, retardation/NN, and/CC, methylation/NN, interference/NN, assays/NNS, ./.]
+Parsing [sent. 10 len. 12]: [With/IN, the/DT, murine/JJ, cDNA/NN, clones/NNS, several/JJ, aspects/NNS, of/IN, TCF-1/NN, were/VBD, analyzed/VBN, ./.]
+Parsing [sent. 11 len. 20]: [First/RB, ,/,, deletion/NN, analysis/NN, revealed/VBD, that/IN, a/DT, region/NN, of/IN, TCF-1/NN, containing/VBG, the/DT, HMG/NN, box/NN, was/VBD, sufficient/JJ, for/IN, sequence-specific/JJ, binding/NN, ./.]
+Parsing [sent. 12 len. 32]: [Second/RB, ,/,, by/IN, high/JJ, stringency/NN, Northern/NN, blotting/NN, and/CC, in/FW, situ/FW, hybridization/NN, ,/,, TCF-1/NN, expression/NN, was/VBD, shown/VBN, to/TO, be/VB, confined/VBN, to/TO, the/DT, thymus/NN, and/CC, to/TO, the/DT, T/NN, cell/NN, areas/NNS, of/IN, the/DT, spleen/NN, ./.]
+Parsing [sent. 13 len. 22]: [Third/RB, ,/,, TCF-1/NN, bound/VBD, specifically/RB, to/TO, a/DT, functional/JJ, T/NN, cell-specific/JJ, element/NN, in/IN, the/DT, T/NN, cell/NN, receptor/NN, alpha/NN, -LRB-/-LRB-, TCR-alpha/NN, -RRB-/-RRB-, enhancer/NN, ./.]
+Parsing [sent. 14 len. 32]: [The/DT, T/NN, lineage-specific/JJ, expression/NN, and/CC, the/DT, affinity/NN, for/IN, functional/JJ, motifs/NNS, in/IN, the/DT, TCR-alpha/NN, and/CC, CD3-epsilon/NN, enhancers/NNS, imply/VBP, an/DT, important/JJ, role/NN, for/IN, TCF-1/NN, in/IN, the/DT, establishment/NN, of/IN, the/DT, mature/JJ, T/NN, cell/NN, phenotype/NN, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1827138.genia [14 sentences].
+Parsed 278 words in 14 sentences (105,38 wds/sec; 5,31 sents/sec).
+Parseo...:a1986254.genia
+Loading parser from serialized file /home/gmoncecchi/bin/stanford-parser-2010-11-30/englishPCFG.ser.gz ... done [2,2 sec].
+/home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1986254.genia
+Parsing file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1986254.genia with 11 sentences.
+Parsing [sent. 1 len. 15]: [Positive/JJ, and/CC, negative/JJ, regulation/NN, of/IN, immunoglobulin/NN, gene/NN, expression/NN, by/IN, a/DT, novel/JJ, B-cell-specific/JJ, enhancer/NN, element/NN, ./.]
+Parsing [sent. 2 len. 24]: [A/DT, new/JJ, B-cell-specific/JJ, enhancer/NN, element/NN, has/VBZ, been/VBN, identified/VBN, 3/CD, '/SYM, of/IN, E4/NN, and/CC, the/DT, octamerlike/JJ, motifs/NNS, in/IN, the/DT, human/JJ, immunoglobulin/NN, heavy-chain/JJ, gene/NN, enhancer/NN, ./.]
+Parsing [sent. 3 len. 36]: [Tandem/JJ, copies/NNS, of/IN, this/DT, 67-bp/JJ, MnlI-AluI/NN, fragment/NN, ,/,, when/WRB, fused/VBN, to/TO, the/DT, chloramphenicol/NN, acetyltransferase/NN, gene/NN, driven/VBN, by/IN, the/DT, conalbumin/NN, promoter/NN, ,/,, stimulated/VBD, transcription/NN, in/IN, B/NN, cells/NNS, but/CC, not/RB, in/IN, Jurkat/NN, T/NN, cells/NNS, or/CC, HeLa/NN, cells/NNS, ./.]
+Parsing [sent. 4 len. 28]: [Footprinting/NN, analysis/NN, revealed/VBD, that/IN, the/DT, identical/JJ, sequence/NN, CCGAAACTGAAAAGG/NN, ,/,, designated/VBN, E6/NN, ,/,, was/VBD, protected/VBN, by/IN, nuclear/JJ, extracts/NNS, from/IN, B/NN, cells/NNS, ,/,, T/NN, cells/NNS, ,/,, or/CC, HeLa/NN, cells/NNS, ./.]
+Parsing [sent. 5 len. 28]: [Gel/NN, mobility/NN, shift/NN, assays/NNS, using/VBG, a/DT, synthetic/JJ, E6/NN, motif/NN, detected/VBD, a/DT, B-cell-specific/JJ, complex/NN, in/IN, addition/NN, to/TO, a/DT, ubiquitous/JJ, band/NN, found/VBN, also/RB, in/IN, T/NN, cells/NNS, and/CC, HeLa/NN, cells/NNS, ./.]
+Parsing [sent. 6 len. 31]: [In/IN, agreement/NN, with/IN, the/DT, results/NNS, of/IN, gel/NN, retardation/NN, assays/NNS, ,/,, tandem/JJ, copies/NNS, of/IN, the/DT, E6/NN, motif/NN, stimulated/VBD, transcription/NN, in/IN, ARH77/NN, and/CC, Raji/NN, cells/NNS, but/CC, not/RB, in/IN, Jurkat/NN, or/CC, HeLa/NN, cells/NNS, ./.]
+Parsing [sent. 7 len. 18]: [Furthermore/RB, ,/,, a/DT, mutant/JJ, E6/NN, motif/NN, lost/VBD, both/CC, in/FW, vitro/FW, binding/NN, activity/NN, and/CC, in/FW, vivo/FW, enhancer/NN, activity/NN, ./.]
+Parsing [sent. 8 len. 51]: [In/IN, striking/JJ, contrast/NN, to/TO, the/DT, mouse/NN, Ig/NN, heavy-chain/JJ, enhancer/NN, ,/,, in/IN, which/WDT, the/DT, octamer/NN, motif/NN, acts/VBZ, as/IN, a/DT, B-cell-specific/JJ, enhancer/NN, element/NN, ,/,, the/DT, human/JJ, enhancer/NN, contains/VBZ, an/DT, octamerlike/JJ, sequence/NN, with/IN, one/CD, base/NN, substitution/NN, which/WDT, bound/VBD, octamer-binding/JJ, proteins/NNS, with/IN, only/RB, very/RB, low/JJ, affinity/NN, and/CC, showed/VBD, no/DT, enhancer/NN, activity/NN, of/IN, its/PRP$, own/JJ, ./.]
+Parsing [sent. 9 len. 21]: [Interestingly/RB, ,/,, the/DT, MnlI-AluI/NN, fragment/NN, could/MD, suppress/VB, the/DT, basal-level/JJ, activity/NN, of/IN, the/DT, conalbumin/NN, promoter/NN, in/IN, both/CC, Jurkat/NN, and/CC, HeLa/NN, cells/NNS, ./.]
+Parsing [sent. 10 len. 22]: [Moreover/RB, ,/,, simian/JJ, virus/NN, 40/CD, enhancer/NN, activity/NN, was/VBD, blocked/VBN, by/IN, the/DT, MnlI-AluI/NN, fragment/NN, in/IN, HeLa/NN, cells/NNS, but/CC, not/RB, in/IN, B/NN, cells/NNS, ./.]
+Parsing [sent. 11 len. 22]: [Thus/RB, ,/,, the/DT, novel/JJ, enhancer/NN, element/NN, identified/VBN, in/IN, this/DT, study/NN, is/VBZ, probably/RB, a/DT, target/NN, site/NN, for/IN, both/CC, positive/JJ, and/CC, negative/JJ, factors/NNS, ./.]
+Parsed file: /home/gmoncecchi/bioscope/bioscope_devel/genia_articles/a1986254.genia [11 sentences].
+Parsed 296 words in 11 sentences (49,98 wds/sec; 1,86 sents/sec).
+Problemas con la oración  S10.2  del documento  a1705836
+Genia    words: ['1', ',', '25-Dihydroxyvitamin', 'D3', '-LRB-', '1,25', '-LRB-', 'OH', '-RRB-', '2D3', '-RRB-', 'induces', 'differentiation', 'and', 'inhibits', 'proliferation', 'of', 'myeloid', 'leukemic', 'cells', 'from', 'various', 'lines', 'and', 'patients', ';']
+Bioscope words: ['1,25-Dihydroxyvitamin', 'D3', '[', '1,25', '(', 'OH', ')', '2D3', ']', 'induces', 'differentiation', 'and', 'inhibits', 'proliferation', 'of', 'myeloid', 'leukemic', 'cells', 'from', 'various', 'lines', 'and', 'patients', ';']
+Leaves:         ['1', ',', '25-Dihydroxyvitamin', 'D3', '-LRB-', '1,25', '-LRB-', 'OH', '-RRB-', '2D3', '-RRB-', 'induces', 'differentiation', 'and', 'inhibits', 'proliferation', 'of', 'myeloid', 'leukemic', 'cells', 'from', 'various', 'lines', 'and', 'patients', ';']
+Largo: 26   24   26
+Problemas con la oración  S10.1  del documento  a1705836
+Genia    words: ['1', ',', '25-Dihydroxyvitamin', 'D3', 'receptor', 'RNA', ':', 'expression', 'in', 'hematopoietic', 'cells', '.']
+Bioscope words: ['1,25-Dihydroxyvitamin', 'D3', 'receptor', 'RNA', ':', 'expression', 'in', 'hematopoietic', 'cells', '.']
+Leaves:         ['1', ',', '25-Dihydroxyvitamin', 'D3', 'receptor', 'RNA', ':', 'expression', 'in', 'hematopoietic', 'cells', '.']
+Largo: 12   10   12
+Problemas con la oración  S22.3  del documento  a1850412
+Genia    words: ['The', 'signals', 'controlling', 'the', 'expression', 'of', 'the', 'receptor', 'protein', 'for', '1', 'alpha', ',', '25-dihydroxyvitamin', 'D3', 'in', 'normal', 'human', 'lymphocytes', 'and', 'the', 'relationship', 'of', 'this', 'protein', 'to', 'the', 'classical', 'vitamin', 'D', 'receptor', 'were', 'examined', '.']
+Bioscope words: ['The', 'signals', 'controlling', 'the', 'expression', 'of', 'the', 'receptor', 'protein', 'for', '1', 'alpha,25-dihydroxyvitamin', 'D3', 'in', 'normal', 'human', 'lymphocytes', 'and', 'the', 'relationship', 'of', 'this', 'protein', 'to', 'the', 'classical', 'vitamin', 'D', 'receptor', 'were', 'examined', '.']
+Leaves:         ['The', 'signals', 'controlling', 'the', 'expression', 'of', 'the', 'receptor', 'protein', 'for', '1', 'alpha', ',', '25-dihydroxyvitamin', 'D3', 'in', 'normal', 'human', 'lymphocytes', 'and', 'the', 'relationship', 'of', 'this', 'protein', 'to', 'the', 'classical', 'vitamin', 'D', 'receptor', 'were', 'examined', '.']
+Largo: 34   32   34
+Genero imágenes para el documento  a1850412
+Genero la imagen de la oracion  S22.10
+Genero la imagen de la oracion  S22.1
+Genero la imagen de la oracion  S22.4
+Genero la imagen de la oracion  S22.5
+Genero la imagen de la oracion  S22.6
+Genero la imagen de la oracion  S22.7
+Genero la imagen de la oracion  S22.8
+Genero la imagen de la oracion  S22.9
+Genero imágenes para el documento  a1899335
+Genero la imagen de la oracion  S7.1
+Genero la imagen de la oracion  S7.2
+Genero la imagen de la oracion  S7.3
+Genero la imagen de la oracion  S7.4
+Genero la imagen de la oracion  S7.5
+Genero imágenes para el documento  a2024810
+Genero la imagen de la oracion  S26.4
+Genero la imagen de la oracion  S26.5
+Genero la imagen de la oracion  S26.6
+Genero la imagen de la oracion  S26.7
+Genero la imagen de la oracion  S26.1
+Genero la imagen de la oracion  S26.2
+Genero la imagen de la oracion  S26.3
+Genero la imagen de la oracion  S26.8
+Genero imágenes para el documento  a1847170
+Genero la imagen de la oracion  S8.11
+Genero la imagen de la oracion  S8.10
+Genero la imagen de la oracion  S8.3
+Genero la imagen de la oracion  S8.2
+Genero la imagen de la oracion  S8.1
+Genero la imagen de la oracion  S8.7
+Genero la imagen de la oracion  S8.6
+Genero la imagen de la oracion  S8.5
+Genero la imagen de la oracion  S8.4
+Genero la imagen de la oracion  S8.9
+Genero la imagen de la oracion  S8.8
+Genero imágenes para el documento  a1984449
+Genero la imagen de la oracion  S1.6
+Genero la imagen de la oracion  S1.7
+Genero la imagen de la oracion  S1.4
+Genero la imagen de la oracion  S1.5
+Genero la imagen de la oracion  S1.2
+Genero la imagen de la oracion  S1.3
+Genero la imagen de la oracion  S1.1
+Genero imágenes para el documento  a2023633
+Genero la imagen de la oracion  S24.6
+Genero la imagen de la oracion  S24.7
+Genero la imagen de la oracion  S24.4
+Genero la imagen de la oracion  S24.5
+Genero la imagen de la oracion  S24.2
+Genero la imagen de la oracion  S24.3
+Genero la imagen de la oracion  S24.1
+Genero la imagen de la oracion  S24.8
+Genero la imagen de la oracion  S24.9
+Genero imágenes para el documento  a1986254
+Genero la imagen de la oracion  S2.11
+Genero la imagen de la oracion  S2.10
+Genero la imagen de la oracion  S2.9
+Genero la imagen de la oracion  S2.8
+Genero la imagen de la oracion  S2.1
+Genero la imagen de la oracion  S2.3
+Genero la imagen de la oracion  S2.2
+Genero la imagen de la oracion  S2.5
+Genero la imagen de la oracion  S2.4
+Genero la imagen de la oracion  S2.7
+Genero la imagen de la oracion  S2.6
+Genero imágenes para el documento  a2017258
+Genero la imagen de la oracion  S21.9
+Genero la imagen de la oracion  S21.8
+Genero la imagen de la oracion  S21.7
+Genero la imagen de la oracion  S21.6
+Genero la imagen de la oracion  S21.5
+Genero la imagen de la oracion  S21.4
+Genero la imagen de la oracion  S21.3
+Genero la imagen de la oracion  S21.2
+Genero la imagen de la oracion  S21.1
+Genero la imagen de la oracion  S21.10
+Genero imágenes para el documento  a2011512
+Genero la imagen de la oracion  S19.2
+Genero la imagen de la oracion  S19.3
+Genero la imagen de la oracion  S19.1
+Genero la imagen de la oracion  S19.6
+Genero la imagen de la oracion  S19.7
+Genero la imagen de la oracion  S19.4
+Genero la imagen de la oracion  S19.5
+Genero la imagen de la oracion  S19.8
+Genero imágenes para el documento  a1850841
+Genero la imagen de la oracion  S25.3
+Genero la imagen de la oracion  S25.2
+Genero la imagen de la oracion  S25.1
+Genero la imagen de la oracion  S25.6
+Genero la imagen de la oracion  S25.5
+Genero la imagen de la oracion  S25.4
+Genero imágenes para el documento  a2017177
+Genero la imagen de la oracion  S20.2
+Genero la imagen de la oracion  S20.3
+Genero la imagen de la oracion  S20.1
+Genero la imagen de la oracion  S20.6
+Genero la imagen de la oracion  S20.7
+Genero la imagen de la oracion  S20.4
+Genero la imagen de la oracion  S20.5
+Genero imágenes para el documento  a1987353
+Genero la imagen de la oracion  S3.4
+Genero la imagen de la oracion  S3.5
+Genero la imagen de la oracion  S3.6
+Genero la imagen de la oracion  S3.1
+Genero la imagen de la oracion  S3.2
+Genero la imagen de la oracion  S3.3
+Genero imágenes para el documento  a2006423
+Genero la imagen de la oracion  S14.8
+Genero la imagen de la oracion  S14.3
+Genero la imagen de la oracion  S14.2
+Genero la imagen de la oracion  S14.1
+Genero la imagen de la oracion  S14.7
+Genero la imagen de la oracion  S14.6
+Genero la imagen de la oracion  S14.5
+Genero la imagen de la oracion  S14.4
+Genero imágenes para el documento  a1705836
+Genero la imagen de la oracion  S10.19
+Genero la imagen de la oracion  S10.18
+Genero la imagen de la oracion  S10.17
+Genero la imagen de la oracion  S10.16
+Genero la imagen de la oracion  S10.15
+Genero la imagen de la oracion  S10.14
+Genero la imagen de la oracion  S10.13
+Genero la imagen de la oracion  S10.12
+Genero la imagen de la oracion  S10.11
+Genero la imagen de la oracion  S10.10
+Genero la imagen de la oracion  S10.7
+Genero la imagen de la oracion  S10.6
+Genero la imagen de la oracion  S10.5
+Genero la imagen de la oracion  S10.4
+Genero la imagen de la oracion  S10.3
+Genero la imagen de la oracion  S10.9
+Genero la imagen de la oracion  S10.8
+Genero imágenes para el documento  a2006151
+Genero la imagen de la oracion  S13.8
+Genero la imagen de la oracion  S13.9
+Genero la imagen de la oracion  S13.1
+Genero la imagen de la oracion  S13.2
+Genero la imagen de la oracion  S13.3
+Genero la imagen de la oracion  S13.4
+Genero la imagen de la oracion  S13.5
+Genero la imagen de la oracion  S13.6
+Genero la imagen de la oracion  S13.7
+Genero imágenes para el documento  a1989880
+Genero la imagen de la oracion  S5.8
+Genero la imagen de la oracion  S5.9
+Genero la imagen de la oracion  S5.2
+Genero la imagen de la oracion  S5.3
+Genero la imagen de la oracion  S5.1
+Genero la imagen de la oracion  S5.6
+Genero la imagen de la oracion  S5.7
+Genero la imagen de la oracion  S5.4
+Genero la imagen de la oracion  S5.5
+Genero imágenes para el documento  a1901389
+Genero la imagen de la oracion  S18.10
+Genero la imagen de la oracion  S18.9
+Genero la imagen de la oracion  S18.8
+Genero la imagen de la oracion  S18.7
+Genero la imagen de la oracion  S18.6
+Genero la imagen de la oracion  S18.5
+Genero la imagen de la oracion  S18.4
+Genero la imagen de la oracion  S18.3
+Genero la imagen de la oracion  S18.2
+Genero la imagen de la oracion  S18.1
+Genero imágenes para el documento  a2010090
+Genero la imagen de la oracion  S16.9
+Genero la imagen de la oracion  S16.8
+Genero la imagen de la oracion  S16.1
+Genero la imagen de la oracion  S16.3
+Genero la imagen de la oracion  S16.2
+Genero la imagen de la oracion  S16.5
+Genero la imagen de la oracion  S16.4
+Genero la imagen de la oracion  S16.7
+Genero la imagen de la oracion  S16.6
+Genero imágenes para el documento  a1672442
+Genero la imagen de la oracion  S12.5
+Genero la imagen de la oracion  S12.4
+Genero la imagen de la oracion  S12.7
+Genero la imagen de la oracion  S12.6
+Genero la imagen de la oracion  S12.1
+Genero la imagen de la oracion  S12.3
+Genero la imagen de la oracion  S12.2
+Genero imágenes para el documento  a2005404
+Genero la imagen de la oracion  S11.8
+Genero la imagen de la oracion  S11.9
+Genero la imagen de la oracion  S11.2
+Genero la imagen de la oracion  S11.3
+Genero la imagen de la oracion  S11.1
+Genero la imagen de la oracion  S11.6
+Genero la imagen de la oracion  S11.7
+Genero la imagen de la oracion  S11.4
+Genero la imagen de la oracion  S11.5
+Genero imágenes para el documento  a1903417
+Genero la imagen de la oracion  S30.11
+Genero la imagen de la oracion  S30.10
+Genero la imagen de la oracion  S30.13
+Genero la imagen de la oracion  S30.12
+Genero la imagen de la oracion  S30.14
+Genero la imagen de la oracion  S30.9
+Genero la imagen de la oracion  S30.8
+Genero la imagen de la oracion  S30.1
+Genero la imagen de la oracion  S30.3
+Genero la imagen de la oracion  S30.2
+Genero la imagen de la oracion  S30.5
+Genero la imagen de la oracion  S30.4
+Genero la imagen de la oracion  S30.7
+Genero la imagen de la oracion  S30.6
+Genero imágenes para el documento  a2033090
+Genero la imagen de la oracion  S29.7
+Genero la imagen de la oracion  S29.6
+Genero la imagen de la oracion  S29.5
+Genero la imagen de la oracion  S29.4
+Genero la imagen de la oracion  S29.3
+Genero la imagen de la oracion  S29.2
+Genero la imagen de la oracion  S29.1
+Genero la imagen de la oracion  S29.9
+Genero la imagen de la oracion  S29.8
+Genero la imagen de la oracion  S29.13
+Genero la imagen de la oracion  S29.12
+Genero la imagen de la oracion  S29.11
+Genero la imagen de la oracion  S29.10
+Genero imágenes para el documento  a1707027
+Genero la imagen de la oracion  S17.8
+Genero la imagen de la oracion  S17.4
+Genero la imagen de la oracion  S17.5
+Genero la imagen de la oracion  S17.6
+Genero la imagen de la oracion  S17.7
+Genero la imagen de la oracion  S17.1
+Genero la imagen de la oracion  S17.2
+Genero la imagen de la oracion  S17.3
+Genero imágenes para el documento  a1990263
+Genero la imagen de la oracion  S6.9
+Genero la imagen de la oracion  S6.8
+Genero la imagen de la oracion  S6.5
+Genero la imagen de la oracion  S6.4
+Genero la imagen de la oracion  S6.7
+Genero la imagen de la oracion  S6.6
+Genero la imagen de la oracion  S6.1
+Genero la imagen de la oracion  S6.3
+Genero la imagen de la oracion  S6.2
+Genero imágenes para el documento  a1988951
+Genero la imagen de la oracion  S4.9
+Genero la imagen de la oracion  S4.8
+Genero la imagen de la oracion  S4.7
+Genero la imagen de la oracion  S4.6
+Genero la imagen de la oracion  S4.5
+Genero la imagen de la oracion  S4.4
+Genero la imagen de la oracion  S4.3
+Genero la imagen de la oracion  S4.2
+Genero la imagen de la oracion  S4.1
+Genero imágenes para el documento  a2006697
+Genero la imagen de la oracion  S15.8
+Genero la imagen de la oracion  S15.9
+Genero la imagen de la oracion  S15.6
+Genero la imagen de la oracion  S15.7
+Genero la imagen de la oracion  S15.4
+Genero la imagen de la oracion  S15.5
+Genero la imagen de la oracion  S15.2
+Genero la imagen de la oracion  S15.3
+Genero la imagen de la oracion  S15.1
+Genero la imagen de la oracion  S15.10
+Genero la imagen de la oracion  S15.11
+Genero imágenes para el documento  a1827138
+Genero la imagen de la oracion  S23.13
+Genero la imagen de la oracion  S23.11
+Genero la imagen de la oracion  S23.12
+Genero la imagen de la oracion  S23.9
+Genero la imagen de la oracion  S23.8
+Genero la imagen de la oracion  S23.14
+Genero la imagen de la oracion  S23.5
+Genero la imagen de la oracion  S23.4
+Genero la imagen de la oracion  S23.7
+Genero la imagen de la oracion  S23.6
+Genero la imagen de la oracion  S23.1
+Genero la imagen de la oracion  S23.10
+Genero la imagen de la oracion  S23.3
+Genero la imagen de la oracion  S23.2
+Genero imágenes para el documento  a2026605
+Genero la imagen de la oracion  S27.11
+Genero la imagen de la oracion  S27.10
+Genero la imagen de la oracion  S27.13
+Genero la imagen de la oracion  S27.12
+Genero la imagen de la oracion  S27.1
+Genero la imagen de la oracion  S27.3
+Genero la imagen de la oracion  S27.2
+Genero la imagen de la oracion  S27.5
+Genero la imagen de la oracion  S27.4
+Genero la imagen de la oracion  S27.7
+Genero la imagen de la oracion  S27.6
+Genero la imagen de la oracion  S27.9
+Genero la imagen de la oracion  S27.8
+Genero imágenes para el documento  a1851743
+Genero la imagen de la oracion  S28.10
+Genero la imagen de la oracion  S28.8
+Genero la imagen de la oracion  S28.9
+Genero la imagen de la oracion  S28.2
+Genero la imagen de la oracion  S28.3
+Genero la imagen de la oracion  S28.1
+Genero la imagen de la oracion  S28.6
+Genero la imagen de la oracion  S28.7
+Genero la imagen de la oracion  S28.4
+Genero la imagen de la oracion  S28.5
+Genero imágenes para el documento  a1994572
+Genero la imagen de la oracion  S9.6
+Genero la imagen de la oracion  S9.4
+Genero la imagen de la oracion  S9.5
+Genero la imagen de la oracion  S9.2
+Genero la imagen de la oracion  S9.3
+Genero la imagen de la oracion  S9.1
+Genero atributos para el documento  a1850412
+Genero atributos para el documento  a1899335
+Genero atributos para el documento  a2024810
+Genero atributos para el documento  a1847170
+Genero atributos para el documento  a1984449
+Genero atributos para el documento  a2023633
+Genero atributos para el documento  a1986254
+Genero atributos para el documento  a2017258
+Genero atributos para el documento  a2011512
+Genero atributos para el documento  a1850841
+Genero atributos para el documento  a2017177
+Genero atributos para el documento  a1987353
+Genero atributos para el documento  a2006423
+Genero atributos para el documento  a1705836
+Genero atributos para el documento  a2006151
+Genero atributos para el documento  a1989880
+Genero atributos para el documento  a1901389
+Genero atributos para el documento  a2010090
+Genero atributos para el documento  a1672442
+Genero atributos para el documento  a2005404
+Genero atributos para el documento  a1903417
+Genero atributos para el documento  a2033090
+Genero atributos para el documento  a1707027
+Genero atributos para el documento  a1990263
+Genero atributos para el documento  a1988951
+Genero atributos para el documento  a2006697
+Genero atributos para el documento  a1827138
+Genero atributos para el documento  a2026605
+Genero atributos para el documento  a1851743
+Genero atributos para el documento  a1994572

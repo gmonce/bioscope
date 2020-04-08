@@ -1,0 +1,124 @@
+Word;Cue;Total;Ambigüedad;
+idea;1;2;0;
+no evidence;1;2;0;
+perhaps;3;6;0;
+Potential;1;2;0;
+refer to;1;2;0;
+unlikely;1;2;0;
+possible;20;38;0,026315789;
+potentially;8;17;0,029411765;
+might;26;49;0,030612245;
+should;7;13;0,038461538;
+hypothesis;11;20;0,05;OK, esencialmente, si está seguida de that, es una cue. 
+proposed;3;7;0,071428571;
+putative;28;49;0,071428571;"MUY COMPLICADO, PARECE HABER UNA DIFERENCIA ENTRE ""SUPUESTO"" Y ""DUDOSO"""
+elucidated;2;5;0,1;
+seem;2;5;0,1;
+would;4;10;0,1;;;;
+unknown;15;38;0,105263158;OK, si es parte de un VP es, sino no. Hay muchos errores en el marcado;;;
+may;251;411;0,110705596;;;;
+appear;19;30;0,133333333;;;;
+if;12;33;0,136363636;;;;
+assumed;2;3;0,166666667;;;;
+hypothesize;2;3;0,166666667;;;;
+implicates;1;3;0,166666667;;;;
+presumed;1;3;0,166666667;;;;
+appeared;21;31;0,177419355;;;;
+could;38;125;0,196;;;;
+considered;3;10;0,2;;;;
+possibly;14;19;0,236842105;;;;
+increasing evidence;1;4;0,25;;;;
+possibility;4;16;0,25;;;;
+predicts;1;4;0,25;;;;
+unclear;9;12;0,25
+potential;23;100;0,27
+likely;39;49;0,295918367
+believed;8;10;0,3
+examined for;1;5;0,3
+notion;1;5;0,3
+obscure;1;5;0,3
+postulated;1;5;0,3
+viable;1;5;0,3
+propose;25;31;0,306451613
+apparent;4;21;0,30952381
+clear;3;16;0,3125
+appears;71;87;0,316091954
+whether;61;74;0,324324324
+indicating;11;63;0,325396825
+implicating;1;6;0,333333333
+predicted;2;12;0,333333333
+supported;1;6;0,333333333
+hypothesized;6;7;0,357142857
+thought;26;30;0,366666667
+expected;1;8;0,375
+imply;8;9;0,388888889
+presumably;8;9;0,388888889
+indicates;2;19;0,394736842
+can;29;297;0,402356902
+conclusion;1;12;0,416666667
+probably;11;12;0,416666667
+apparently;1;13;0,423076923
+either;10;137;0,427007299
+support;2;28;0,428571429
+seems;19;20;0,45
+or;40;860;0,453488372
+consistent with;1;27;0,462962963
+suggested;55;57;0,464912281
+preferentially;1;29;0,465517241
+investigate;1;30;0,466666667
+indicated that;39;40;0,475
+indicate;3;128;0,4765625
+indicating that;44;45;0,477777778
+indicated;1;48;0,479166667
+suggests;53;54;0,481481481
+suggesting;107;109;0,481651376
+known;1;109;0,490825688
+indicate that;118;119;0,491596639
+suggest;256;258;0,492248062
+not;6;940;0,493617021
+speculation;1;2116;0,49952741
+addressed the question of;1;1;0,5
+advance the hypothesis;1;1;0,5
+believe;1;1;0,5
+can be deduced;1;1;0,5
+cannot be excluded;1;1;0,5
+compelling evidence;1;1;0,5
+estimate;1;1;0,5
+evaluated for;1;1;0,5
+feel;1;1;0,5
+hope;1;1;0,5
+Hypothetically;1;1;0,5
+implied;1;1;0,5
+implies;4;4;0,5
+implying;3;3;0,5
+indicates that;16;16;0,5
+indication;1;1;0,5
+no evidence of;1;1;0,5
+no proof;1;1;0,5
+not clear;4;4;0,5
+not evident;1;1;0,5
+not known;4;4;0,5
+not possible to ascertain;1;1;0,5
+Perhaps;2;2;0,5
+plausible;1;1;0,5
+Possible;4;4;0,5
+probable;1;1;0,5
+proposal;1;1;0,5
+proposing;1;1;0,5
+raise the hypothesis;1;1;0,5
+raise the possibility;1;1;0,5
+raised the possibility;1;1;0,5
+raises questions;1;1;0,5
+raises the intriguing possibility;1;1;0,5
+raises the possibility;3;3;0,5
+raising the possibility;1;1;0,5
+seemed;3;3;0,5
+speculate;5;5;0,5
+suggestion;1;1;0,5
+suggestions;1;1;0,5
+suggestive;2;2;0,5
+suppose;1;1;0,5
+supposed;1;1;0,5
+suspected;2;2;0,5
+think;1;1;0,5
+whether or not;4;4;0,5

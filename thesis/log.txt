@@ -1,0 +1,2609 @@
+
+TODO:
+
+
+[25/12/2012]
+Correcciones a incluir:
+
+General
+LISTO - Ver la visibilidad de las imágenes
+LISTO - Ver si no hay cosas que se pueden pasar a cuadros
+LISTO - Ver si no hay cosas que pueden pasarse a anexos/eliminarse, para mejorar la legibilidad
+LISTO - Ver el tema de la diferencia entre suggest that e indicate that
+LISTO - Ver que la metodología ya es más general (no solamente por clasificación secuencial), en todo el documento
+LISTO - Corregir todas las referencias (citet y citep)
+LISTO - Revisar la ortografía, de nuevo.
+LISTO - Ver el uso de los of course
+LISTO - Revisar errores de latex
+LISTO - Ajustar lo de pragmatic position
+LISTO - Agradecimientos (Laura)
+LISTO - Hacer el abstract
+LISTO - Revisar sintaxis del capítulo 5
+LISTO - Ver lo que hay que presentar para el depósito
+LISTO - Ver guías de redacción de los franceses
+LISTO - Revisar los errores de latex
+LISTO - Pedir que ERJ revise el abstract y las conclusiones
+LISTO - Pedir a J_L que revise lo que está en francés. 
+LISTO - Corregir sintaxis del capítulo 2
+LISTO - Ver si son posibles las revisiones de ERJ
+LISTO - Elizabeth, ver primeras notas
+LISTO - Revisar sintaxis capítulo 4
+LISTO - Revisar los ejemplos del capítulo 4
+LISTO - Ver de poner los atributos en tablitas
+LISTO - Revisar los scopes, para ver si están bien marcados en los ejemplos (incluyendo los dibujos).
+LISTO - - Ver si hay que explicar un poco más lo de voz pasiva
+LISTO - Revisar la idea de "corregir los scopes" y ver qué da. Revisar observaciones de Dina a los errores.
+LISTO - Mejorar el detalle de los errores, clasificar mejor y poner ejemplos. 
+LISTO - Poner tabla resumen de tipos de error.
+LISTO - ¿Modificar la tabla final, para poner, por ejemplo el tipo de error?
+LISTO - Incluir las definiciones de la Cambridge grammar
+LISTO - ncluir el paper de Velldal, si corresponde. Ver observaciones sobre resultados, sobre todo. Comparar con lo que nos pasó a nosotros (llegamos a lo mismo). Similitudes en las conclusiones, aunque la aproximación es diferente.
+LISTO - Comentario sobre la conveniencia de revisar la anotación
+LISTO - Ver que hay errores menos importantes que otros y la relación con la tarea objetivo
+LISTO - Detallar un poquito más la evaluación en coNll (página 7 Velldal)
+LISTO - Ver si no hay que revisar la parte de CoNLL
+LISTO - Creo que hay que mejorar las conclusiones, ver comentarios de Dina al capítulo 4
+LISTO - Cambiar lo de PhD y lo de la fecha de la defensa
+LISTO - Corregir el jurado
+LISTO - Cambiar el abstract, para mostrar que son dos contribuciones
+LISTO - Cambiar los agradecimientos
+LISTO - Ver el tema de la organización del documento, también las conclusiones
+LISTO - Revisar capítulos 5 y 6 por detalles
+LISTO - Revisar ortografía
+LISTO - Ver lo de proposed methodology
+LISTO - Ver errores de latex
+NO LO HICE, AL FINAL- Incluir referencia al trabajo de Brill en chap 3?
+
+
+
+
+
+Capítulo 1
+LISTO - Justificar contexto de uso
+LISTO - Explicar la cita de Turing
+LISTO - Revisar los criterios de anotación de Bioscope, para justificar ejemplos
+LISTO - Ver observaciones de Dina
+LISTO - Revisar sintaxis (ERJ)
+
+
+Capítulo 2
+LISTO Ver observaciones de Dina
+LISTO  - Revisar sintaxis
+
+
+Capítulo 3
+LISTO - Ver observaciones de Dina
+LISTO, NO LO HICE - Un cuadro claro de cómo funcionan las knowledge rules...
+LISTO - Agregar un epígrafe
+LISTO - Decir por ahí que la metodología no solamente aplica a problemas de clasificación secuencial
+LISTO - Revisar sintaxis (ERJ)
+
+Capítulo 4
+LISTO - Ver observaciones de Dina. Llegué hasta 4.4
+LISTO- Ver si no se puede adelantar algún resultado
+LISTO - Ver que a veces la no coincidencia se debe a errores del parser
+LISTO - Ver comentarios de Benjamín, poner que los scopes son siempre continuos
+LISTO - Dina sugiere agregar subsecciones para que no quede tan relatado
+LISTO - Revisar sintaxis
+
+Capítulo 5
+LISTO - Mostrar que Iteracion#1 se refiere al clasificador creado en esa iteración
+
+Capítulo 6
+LISTO - Revisar sintaxis
+
+[01/11/2012]
+Me queda revisar los capítulos 5 y 6, y algunos detalles más.
+
+[16/09/2012]
+Estoy revisando los cuatro primeros capítulos.
+
+[27/06/2012]
+Tengo escritas las dos últimas iteraciones, espero pasarlas en limpio mañana, y escribir la introducción.
+Terminé las iteraciones. Ahora me queda revisar, escribir la intro, y tendría pronto el Chapter 4. Vamos todavía!
+Listo. Versión 8 de la tesis, con el capítulo 4 completo.
+
+
+[23/06/2012]
+Terminé con la iteración 4, ahora estoy con la 5. Ya reproduje los resultados, me queda documentarlos. También me queda probar con los atributos de la corrida 44, que era la mejor después del tuning. Y con eso terminaría el capítulo, carajo.
+
+Hice también lo del ajuste, y levanté un par más. Resultado final reproducido: 88.0, 22 puntos más que el baseline. Nada mal, una mejora del 33%.
+
+Los pasos siguientes:
+- Terminar capítulo 4 [Domingo?]
+- Hacer las pruebas sobre el corpus de evaluación y documentarlas [Lunes - Miércoles]
+- Estudiar los errores. [Jueves]
+- Hacer las pruebas sobre el CoNLL [Viernes]
+- Escribir la metodología y la arquitectura (chap 3) [Segunda quincena de julio]
+- Escribir las conclusiones (chap 6) [Agosto]
+- Escribir estado del arte (chap 2) [Agosto]
+
+Fines de agosto? Puede ser, por qué no? Vamos todavía
+
+
+[21/06/2012]
+Bueno, no terminé de corregir la iteración 3, pero quiero hacer la iteración 4, así me quedo tranquilo con los resultados. Después hago los ajustes de estética. Una idea es achicar los árboles sintácticos sacando los círculos (están quedando medio grotescos).
+
+
+[20/06/2012]
+Documentada la tercera iteración (módulo correcciones de aspecto). Para mañana intentaré documentar la Iteración 4 (no creo que me de el tiempo, pero haré el intento). Esto incluye ajustar el proceso (y rezar para que los resultados no hayan cambiado luego del cambio en el orden de los pasos).
+
+[19/06/2012]
+Estoy escribiendo la sección sobre el ajuste de los scopes. Ya lo pasé a latex, me queda meter los ejemplos en el documento.
+
+[18/06/2012]
+Bueno, voy por la tercera iteración. Voy a cambiar un poco el orden de las pruebas, en esta iteración voy a incorporar los cambios en los scopes. En la documentación tengo que poner las cuentas que hice para ver si los scopes se correspondían con los scopes sintácticos, y después ver las modificaciones que agregué.
+
+en esta etapa, el postprocesamiento se mantiene. Hice una corrida 45 para reflejar esto.
+
+[15/06/2012]
+Ahora sí, tengo los números y estoy terminando las iteraciones 1 y 2. Está quedando bueno.
+
+subí una nueva versión de la tesis. Incorpora lo siguiente:
+
+- Sección 4.5 con la descripción del clasificador base y las dos
+primeras iteraciones para el aprendizaje de los scopes
+- Mejoras a la sección 4.3 especificando los criterios de evaluación
+de resultados
+
+Espero para el próximo viernes terminar la descripción del proceso de
+aprendizaje de los scopes (y con ello el capítulo 4).
+
+
+[13/06/2012]
+Sigo completando números y ajustando lo escrito. Ahora estoy contando los scopes generados en la evaluación, y para eso corrí la 1 1 sobre el corpus.
+a1851858 31.6 -> Ejemplo que uso siempre
+
+
+[12/06/2012]
+Estoy pasando en limpio lo que había escrito, ahora que ya completé los números.
+Tengo que obtener el número de scopes en el corpus de evaluación.
+Estoy pensando que tengo algo mal al reproducir el proceso: los scopes están calculados con la nueva fórmula, y debería utilizar los originales. Probablemente parametrize y según la corrida llame a uno u otro. Lo mismo con los postprocesamientos (cómo me gusta perder el tiempo).
+
+
+Para el postproceso, voy a pasar como parámetro runx al scope_postprocess (lo corrijo cuando lo necesite). Esto debería haber quedado.
+Para lo de los hedges, voy a poner un parámetro en el add_scope_att_hc_parent para que use el get_node_hedge_scope o get_node_scope según la runx que sea. Esto debería haber quedado.
+
+Vuelvo a correr las estadísticas para 1 1 a ver si me dan igual.
+
+Tengo que tener el cuenta que los que dependen de la corrida son:
+- El add_scope_att_hc_parent.py (depende cuál scope elige, y cómo calcula el nextS)
+- El postprocesamiento
+- el __init__.py de bioscope
+
+Estoy luchando para dejar bien lo que calcula en cada corrida, por ahora, debería andar todo hasta la corrida 32 (no incluida), para tener los scopes
+sin modificar. Agregué parámetros al get_node_hedge_scope, y los seteo según la corrida que sea.
+
+Bueno, llegué hasta la corrida 7. 
+
+Done:
+- Parametrizar el cálculo de los scopes
+- Parametrizar los postprocesamientos
+
+
+[11/06/2012]
+Tareas: 
+- Verificar aprendizaje de hc con 1/1 (baseline). 
+- Verificar aprendizaje de hc con 1/7 (inicial). Ver cuántos errores se introdujeron y cuántos se levantaron.
+
+-- Errores levantados
+select count(*) from scope_learning_errors_heldout s1  where  runx=47 and not exists (select * from scope_learning_errors_heldout s2 where s1.document_id=s2.document_id and s1.sentence_id=s2.sentence_id and s1.hc_start=s2.hc_start and runx=48)
+
+-- Errores nuevos
+select count(*) from scope_learning_errors_heldout s1  where  runx=48 and not exists (select * from scope_learning_errors_heldout s2 where s1.document_id=s2.document_id and s1.sentence_id=s2.sentence_id and s1.hc_start=s2.hc_start and runx=47)
+
+
+[07/06/2012]
+Bueno, medio quedó. A partir de ahora, todo lo que programe es a medida que lo necesite para escribir, espero no volverme loco de nuevo. 
+Estoy escribiendo lo del aprendizaje de los scopes.
+
+Cuento instancias de scope:
+
+1710 train (+30 D-SPECCUE)
+393 heldout (+7 D-SPECUE)
+
+select count(distinct document_id||sentence_id||hc_start) from bioscope20_scope
+
+Tengo que probar que funciona el clasificador inicial, y ver cuántos errores introdujo/levantó.
+
+
+[07/06/2012]
+Estoy terminando... ojo que luego tengo que ver si no quedó alguna oración sin parsear.
+
+¿Qué sigue? Bueno, tengo dos caminos: documentar el proceso de aprendizaje de los scopes, o ver cómo se comportan las cosas en el corpus de evaluación. Elijo la primera, empezando por documentar.
+
+- Preprocesar para que la tokenización quede siempre correcta y no tenga que eliminar oraciones cuando procese el corpus CoNLL
+- Volver a levantar el corpus CoNLL para incluir las oraciones que no habían quedado, por algún motivo, parseadas.
+
+
+[05/06/2012]
+Me faltaba el corpus de evaluación, y ahora todavía tengo como 800 errores por resolver. Me quiero matar. Pero bueno, trabajaremos en eso acá, y esta noche empezaremos a documentar.
+
+Sigo solucionando problemas, quiero terminar con esto para poder levantar todas las oraciones de CoNLL (en algunas las estoy cambiando un poco para que levantes, se ve que GENIA tiene problemas con la tokenización cuando hay unicode, y también se marea con la lista de números, como las que hay en las referencias.
+
+
+[04/06/2012]
+Vamo y vamo, segumios con el plan. Perdí una, la S2.356, la 3.84 también, 4.175, 4.171, 192.10, 940.3
+
+[04/06/2012]
+Sigo ajustando lo de levantar errores. Tengo varios scripts hechos para eso.
+regenero_corpus.sh: aplica reglas de preproceso y genera los archivos txt, y bioscope. Recibe como parámetro el $BIOSCOPE
+tokens_adjust.sh: genera los archivos genia y los parsed para un conjunto de documentos, y verifica que levanten bien
+load_enriched_corpus.py: carga el corpus, sirve para ver si hay errores12
+
+Para contar cuántos quedan mal:
+
+grep Problem: problemas.txt | grep -o 'a[0-9\-]*$' | sort | uniq
+ 
+Me quedan 56, las voy a arreglar a mano y me voy a dejar de joder.
+
+
+
+[03/06/2012]
+Comenzamos una nueva semana. Vamos por esta, el objetivo fácil es terminar con los resultados para hedge cues, el difícil es además terminar con la sección de detalle de reconocimiento de scopes. Veremos qué pasa al final de la semana. 
+
+Para hoy: 
+- Ver resultados en el corpus de evaluación
+- Volver a levantar el corpus CoNLL
+
+
+[31/05/2012]
+Hice el conteo de ocurrencias en el training corpus, me queda documentar. También me queda contar las coocurrencias.
+
+Objetivo para hoy: terminar la documentación de lo de las hedge cues.
+
+Oraciones donde coocurren en el training corpus dos hedge cues:317
+
+select count(distinct sentence_id) from bioscope_train B1 where sentence_type="TRAIN" AND  1<(select count(*) from bioscope_train b2 where sentence_id=b1.sentence_id and hedge_cue in ('B-SPECCUE','D-SPECCUE'))
+
+De los errores, cuántos coocurrían? 24
+
+select count(distinct sentence_id) from bioscope_train b1 where sentence_type='TEST' and hedge_cue in ('B-SPECCUE','D-SPECCUE') and hedge_cue<>guessed_hedge_cue and exists (select * from bioscope_train b2 where document_id=b1.document_id and sentence_id=b1.sentence_id and token_num<>b1.token_num and hedge_cue in ('B-SPECCUE','D-SPECCUE'))
+
+Terminé la sección 4.4 con la descripción del aprendizaje de las hc
+
+Done:
+- Hacer el contador de hedge cues no reconocidas, viendo si aparecen en el tc y cómo aparecen
+- Hacer el contador de las veces que una hedge cue no reconocida coocurre con otra hedge cue
+
+
+[31/05/2012]
+Estuve viendo cómo resolver algunos problemas y cómo justificar el agregado de las reglas de Hyland y las coocurrencias.
+Por un lado, tengo que resolver los casos en los que borro los scopes, porque me quitan al mismo tiempo hedge cues. Para resolverlo, la idea es que siempre que haya scopes entrelazados, a uno de ellos lo convierto en un scope que solamente incluya la hedge cue. De esta forma, la hedge cue siempre está (bien o mal) identificada. En el caso de usar el gold standard para las hedge cues, no quedaría ninguna sin identificar.
+
+También podría mejorar lo de la tokenización preprocesando el xml para que genia tokenize bien. Esto lo voy a hacer solamente cuando haga la evaluación final en el corpus CoNLL, para que los resultados sean comparables.
+
+Tengo que hacer algunos scripts para contar cosas. 
+
+Primero, para justificar el agregado de los atributos tendría que contar:
+- Cuántas hedge cues no reconocidas estaban en el corpus de entrenamiento, contando además cuántas veces aparecían como hedge cues y cuántas aparecían sin ser hedge cues. Esto justificaría que el clasificador dude.
+- Cuántas hedge cues no reconocidas coocurren con otra hedge cue en la oración.
+
+Lo primero que voy a hacer es solucionar lo de los entrelazados.
+
+Me encontré con un problema adicional: el postprocesamiento asume que siempre está la información de sintaxis, pero en las primeras pruebas no lo tenía. Lo resuelvo adaptando la configuración de aprendizaje, para que quede igual sin las columnas de sintaxis al final, y en el postprocesamiento pregunto si están, basándome en la cantidad de columnas. Tengo que cambiar todas las configuraciones, porque los campos quedaron en el medio. Soy un nabo.
+
+Bueno, metí mil cambios al postprocesamiento, imposible que ande. Probaremos.
+
+La parte de reconocer las hedge cues anduvo bien, y reconoció las 400 hedge cues (tengo que verificar que son 400 las del heldout corpus. SÍ SON.). Ahora tengo que hacer los scripts
+
+[30/05/2012]
+Terminé la sección de enrqiuecer el corpus y agregué la de separación de corpus en entrenamiento y testeo. Ahora sigo con cómo mejoramos el clasificador.
+[29/05/2012]
+Estoy armando la lista de las hedge cues en el corpus, pero me encontré con discrepancias en los números, por lo que estoy revisando los procesos de generación. En este momento, encontré que hay archivos que tienen menos oraciones parseadas que las que deberían.
+
+Hice un script (encontrar_diferencias.sh) que busca las que son diferentes. Por algún motivo, había 46 oraciones que no habían sido generadas. Ya regeneré todo, ahora me queda ver si lo levanto al corpus. Pero antes voy a ver la diferencia (mucho más grande) entre las hedge cues en la base  y las que hay en el xml. Sospecho que hay algunos casos anidados que no estoy levantando bien.
+
+Hice la tabla de las hedge cues más comunes (hice un script listar_hedge_cues.sh).
+
+Lo siguiente es levantar nuevamente los documentos a las tablas, y ver por qué algunas hedge cues no son levantadas.
+
+Hay 131 oraciones que no levanté a la BD! Decido reportarlas, son problemas al alinear los tokens.
+
+[28/05/2012]
+Plan: corregir observaciones de lo pasado hoy. Agregar los ejemplos. Seguir escribiendo sobre el reconocimiento de los HC.
+
+- Levantar las observaciones OK
+- Meter los ejemplos de hedge cues OK
+- Meter el texto para la parte de la información consolidada OK
+- Escribir sobre el clasificador base OK
+
+Nomenclatura:
+
+- Ejemplo original: example_S31.6_text
+- Ejemplo con los scopes: example_S31.6
+- Tabla con atributos de un ejemplo: table_S31.6_baseline (clasificador base)
+- Incluido en el texto: \citet{lakoff1973}
+- No incluido en el texto: \citep{lakoff1973}
+
+
+[27/05/2012]
+Estoy haciendo algunos cambios a la introducción (ejemplos, y eso). El ejemplo con el que estoy trabajando es el S31.6, del documento a1851858
+[25/05/2012]
+A ver si puedo arreglar lo de las referencias. Vamo arriba, pude con natbib. Agregué también lo de enriching, hay que revisarlo (sobre todo para que los ejemplos queden completos). Total de páginas hasta el momento:50.
+
+[24/05/2012]
+Tuve lío con los tildes,  y no pude arreglarlo. Creo que el tema es no editar utf-8 con putty cuando accedo a mac por la terminal.
+Sigo documentando.
+
+[23/05/2012]
+Bueno, objetivo para hoy: documentar lo de Bioscope. Y utilizar vi.
+Documenté en papellas secciones del capítulo 4 referentes al corpus y a cómo armé mi corpus dentrenamiento, held-out y evaluación.
+Para mañana, voy a hacer la parte de generar las instancias, ya documentar el aprendizaje de las hedge cues.
+
+[16/05/2012]
+Retomo con la tesis. Estoy viendo los temas que van en cada capítulo. Me está quedando la duda de dónde meter los resultados, si cuando muestro cómo resolví cada task, o en un capítulo aparte. El problema con el capítulo aparte es que en el medio hablo de la arquitectura, queda medio como descolgado. La otra es que hable _antes_ de la arquitectura, pero queda medio como raro. Hay que pensarlo. Después no tengo grandes dudas. Estoy viendo como colgar la tesis por partes para que se pueda leer, ver si se puede generar solamente parte.... sino cuelgo las versiones de los viernes completas.
+
+[09/05/2012]
+Estoy metiendo cambios para la versión camera ready del artículo.
+
+Modifico unas cuantas cosas en la parte de  la metodología.
+
+Pronto. Tareas para mañana: revisar lo escrito, especialmente la parte de los atributos para scope detection (podría ampliarse, quedó muy junto y 
+tengo todavía una página para escribir. Ver lo de la referencia de Aiala. Mandarle a ERJ la versión word para revisar.
+
+Listo:
+- Revisar lo de task 1 y task 2
+- Ver si incorporo una imagen del arbolito y de los atributos: no
+- Mejorar la justificación del método (siempre son atributos, pero lo pienso como reglas).
+- Ver lo de que en otro dominio sería knowledge domain, pero acá es lingí¼ístico
+- Distinguir y justificar reconocimiento de oración especulativa y hedge cues
+- Ver las medidas reportadas, ajustar en el estado del arte
+- Actualizar valores con los nuevos resultados?
+- Ver si no ajusto el criterio (ej: abstract) para concentrarme más en la tarea.
+
+[08/05/2012]
+Hoy dejé de sincronizar, soy un nabo. En fin. Estuve ajustando los scopes, ya tengo los resultados finales. Depsués de esto creo que no programo más (digo creo porque podría probar ver cuánto me da la comparación de especulaicón a nivel de oración en el CoNLL, para el paper).
+
+Increíblemente, saltó un error en la última evaluación. Estoy viendo cómo solucionarlo. S4.190
+
+- Fine tuning del CRF
+
+
+[06/05/2012]
+Después de tunear utilizando el attributes_tuning.sh, logré aumentar el reconocimiento de hc a 79.88 (3ro) y el de scopes a 55.23 (4to). Ahora tuneo de igual forma el aprendizaje de los scopes.
+Para tunear, simplemente, por cada atributo probé sacarlo, y achicar/agrandar la ventana. 
+
+Para los scopes, utilizo como base la 42 (aunque no mejoró la performance, estuvo cerca, y me gustaría ajustar el atributo para ver si no pasa algo).
+
+Revisando, encontré un error en el proceso de ajuste de la hedge cue, no creo que sea importante, pero como todo puntito vale, vuelvo a empezar. Uauaua.
+
+Mejoró, efectivamente estaba mal. Ahora tengo un problema, porque cuando quiero decirle que tome una ventana de tamaño 5 (para ver si mejora), me da error. Estoy bajando en el notebook el xcode para tener la nueva versión de CRF++ y ver si lo resuelve. Antes tengo que bajar el XCode... está en eso.
+
+[03/05/2012]
+Estoy modificando el learn_hedge_cues_tuning.sh para automatizar el proceso de pruebas
+
+
+[02/05/2012]
+Opa. Aceptaron el paper en Corea. Mientras tanto, estoy ajustando algunas cositas pero ya quiero redondear para empezar a escribir.
+
+Tengo algún problema en CONLL con el postproceso, ahora apareció la 12.140, y además los números en el conll bajaron bastante (no sé ni lo que había cambiado último, creo que lo de los casos raros). Creo que ya lo resolví, pero voy a probar hasta que ande, porque aparecieron otros errores "sorpresa".
+
+Luego de que quede pronto y medido en los tres corpus, la idea es:
+
+1. Probar usar ROOT si no hay S para nextSscope
+2. Organizar el tuning
+
+Hay varios niveles para el tuning
+
+1. Los parámetros de CRF
+2. Los atributos
+3. Las reglas de postproceso.
+
+Voy a empezar de atrás para adelante. Voy a probar cada regla, y ver si mejora la performance en el corpus heldout. Si no funcionan, la saco
+
+Luego voy por los atributos: para esto, la idea es partir de la mejor configuración conocida e ir trabajando:
+
+- Por cada atributo en ventana, probar sin el atributo y agrandar la ventana hasta por lo menos 3 y seguir mientras haya mejora. Quedarse con el mejor resultado (si el mejor resultado es 0, el atributo se quita). Esto hacerlo para todos los atributos.
+- Por cada atributo solitario, probar sacarlo. Si mejora, se quita
+- Probar quitar bigramas
+- Probar pares de atributos para la palabra actual.
+- Probar ternas de atributos para la palabra actual.
+
+Finalmente, ajusto los parámetros de CRF y me quedo con el mejor clasificador encontrado. Ahí pruebo en el corpus de evaluación y en el CoNLL
+
+
+Hecho:
+- Si es verbo en infinitivo (VBP), usar el S [336.8]. Ya lo incorporé, hay que probarlo
+- Paso 1: Además de S, puedo usar ROOT o SINV
+- Voy a empezar de atrás para adelante. Voy a probar cada regla, y ver si mejora la performance en el corpus heldout. Si no funcionan, la saco
+
+
+[01/05/2012]
+Bueno, actualizo los scopes según las reglas sugeridas. Hay alguna cosita con el probably, para mí ahí le erra. Veremos si se puede generalizar luego.
+
+Hecho:
+- Tendría que pulir el postproceso, para que use los scopes.
+- Habría que revisar lo de la voz pasiva
+- Podría hacer que en los casos "raros", use los scopes. Creo que tengo dos: cuando quedan afuera, y cuando al generar se solapan
+- Probar con la nueva next_scopeS como atributo, hoy no se usa
+
+[30/04/2012]
+Estoy corriendo todo desde 0 en la corrida 40, para después seguir. Me queda comprobar CONLL.
+
+Reglas sugeridas para cuando no se puede determinar el scope (usar el nexts, en realidad).
+
+- Por defecto es S o SBAR, excepto cuando:
+- RB=> NP o S (lo que esté primero)
+- JJ=> Idem RB
+- VB? (excepto VBN) => VP
+- Si es voz pasiva, cae en el valor por defecto (S)
+- Si es OR o EITHER o NEITHER => NP
+- Si es MD, utiliza el VP
+
+
+Hecho:
+- Agregar el diff al proceso
+
+
+[29/04/2012]
+
+Â¿Y meter lo de los scopes en el postprocesamiento? No parecen definir mucho el tema de cómo se elige el scope, Â¿no? El problema es que en el postprocesamiento no tenemos la estructura sintáctica, y eso hace las cosas un poco más compliadas. Lo que pasa es que algunas reglas van en el scope, pero otras no.  Capaz que podría dejar lo del principio en el scope, y lo del final sí ponerlo en el postproc.
+
+De todos modos, primero voy a tratar de reproducir resultados anteriores, porque para mí en el corpus general hay algo mal, porque los resultados no mejoran.
+
+Nada, están bien. El tema es que en el evaluation corpus, perdemos varias voces pasivas al agregar la regla de que use el abuelo. Lo veremos en el análisis de errores.
+
+Lo de poner como reglas de postproc no lo hago, cuando cambié la de los determinantes, perdí plata. Y teóricamente está bien como estaba, porque en realidad afecta a todos los scopes.
+
+- Agregar lo de los tatarabuelos: esto no lo voy a hacer.
+- Agregar lo de las referencias: hecho
+- Tendría que mejorar el reconocimiento de la voz pasiva: no estaba tan mal
+
+
+
+[27/04/2012]
+
+Intento consolidar lo de los attachments. Voy a probarlo bien sobre el corpus de evaluación antes de meterlo en el aprendizaje. La idea es ver qué ejemplos afecta cada cambio, usando el 
+add_scope... tuneado para que rinda.
+
+Bueno, al final con una solución mas simple de lo que había pensado, logré alguna mejora. 77.87% en el heldout.
+
+Me quedan los dos pendientes de arriba en una última iteración, y por ahí queda.
+
+Hecho
+- Incorporar scopes recortados
+- Revisar scopes de CC y cosas como likely. 
+-Ver lo de Velldal
+
+
+[26/04/2012]
+Voy a revisar si lo de los scopes está según lo pensado, y luego voy a revisar la lista de errores en el heldout corpus. También voy a correr sobre el corpus de evaluación para ver
+que resultados obtengo.
+
+Corregí un bug al calcular cuando incluir el PP hermano del padre, que me surgió de un error. Recalculo ahora. Regeneré los resultados, casos que no coinciden 15.45%, y ahora sí mejoró el reconocimientio
+en el corpus heldout: 76.94%
+
+Tendría que ajustar los errores y comenzar una nueva iteración
+
+Voy a terminar la iteración, y computar resultados en todos los corpus. íncluso ajustando lista de errores. También tengo que probar agregar bordes al postprocesamiento, aunque no veo mucho por qué. También agregar los tatarabuelos al aprendizaje.
+
+Vamos de a uno. Ajustada lista de errores. Resultados en todos los corpus (en CoNLL ya estoy casi en 52!). Lo del tatarabuelo y lo de los bordes lo dejo para más adelante. Quiero seguir con las correcciones de scopes, que me van a dar más resultado
+
+Estuve viendo, y hay poco más para agregar. Agregué una regla para is likely, y mejoré. Ahora hay casos en los que quiero eliminar cosas a la derecha de los scopes y ver cómo me va. No tengo mucho más para hacer, creo.
+
+Lo que está a la derecha puede estar anidado, digamos es el último PRN, pero no sé dónde está. Podría tomar el token de más a la derecha, y buscar el último scope que empieza después que el start y tiene el tipo que quiero. Podría probar con los PRN primero, para estar seguro de no introducir errores.
+
+Bueno, agregué lo del PRN. Esto deja mucho más lento el procesamiento (tiene que ir subiendo en la jerarquía desde la última hoja, para ver si encuentra un PRN, y tiene que hacerlo en todos los casos), pero parece estar andando. Si logro hacer eso, después es ver los casos en los que quiero sacar cosas a la derecha.
+
+Y creo que dejo por acá, después de agregar esto.
+
+
+[25/04/2012]
+Ya actualicé el campo con el tatarabuelo (solamente queda el 20% de casos en los que no coinciden con el scope). 
+Estoy probando un nuevo scope, que elimina los ADJP y los PP a la izquierda. Esto anduvo. Los casos que no coinciden bajaron a 18% y la performance en el heldout subió casi 2 puntos a 77.22
+Ahora estoy viendo el de los determinantes antse de los adjetivos, que no me está andando, y lo de agregar el PP a la derecha. Los casos que no coinciden bajaron a 15.5%, pero la performance empeoró a 76.40
+
+
+[24/04/2012]
+Planificación:
+1. - Incorporar los de los scopes "recortados". Hacer un análisis de cómo los scopes se relacionan con los constituyentes, y ver si se puede mejorar el ajuste. Ver cómo afecta los resultados.
+2.- Revisar los scopes de los CC y de cosas como "likely". Ver lo de Velldal. Ver cómo afectan los resultados
+3.- Escribir capítulo 3 y 4 al mismo tiempo
+Plazo: dos semanas.
+
+Hecho:
+- Ajustar para que los scripts corran desde otros directorios
+- Ver cómo hacer versiones del postprocesador. Idea: recibe un parámetro que le indica la versión que está corriendo. Dentro del código, tiene ifs que le indican a partir de qué versión se corre el postproceso correspondiente. Otra idea: cada vez que cambiamos el postproceso, guardamos una versión _vxx, donde xx es la última corrida que tuvo antes de cambiar. Usamos la segunda
+
+
+
+[23/04/2012]
+Actualicé la documentación. Actualicé el postproceso para que tenga en cuenta las voces pasivas. 
+
+
+[19/04/2012]
+Sigo analizando errores. Quedé con Dina en termnar esto y ver el artículo de Velldal. Una idea es relacionar constituyentes con scopes, viendo números.
+Agregué un pequeño caso, ahora pienso en marcar el S o SBAR más próximo como atributo, porque muchas veces toma el VP y generalmente no sirve.
+
+[18/04/2012]
+Incorporé algún manejo mejor para el postprocesamiento (las reglas para los casos en los que aparecía L pero no F) y tengo en el CONLL 48.23. Sigo analizando errores.
+
+
+[16/04/2012]
+Sigo mejorando, incorporando nuevos scopes. Ya logré en CONLL un 46.46 (3 puntos más que antes). Ahora voy a reanalizar los errores, porque no se me ocurre alog más para mejorar. Traté de mejorar el postprocesamiento para que si una F se reconocía, y coincidía con el comienzo de un scope, entonces la L era siempre el fin del scope. Perdí plata, así que hice rollback.
+
+Hecho:
+- Corregir el bug que marca como solamente L los constituyentes de una sola palabra. Tendría que ser F, aunque no creo que sirva para mucho
+- Quiero mejorar el postprocesamiento para que utilice los scopes.
+
+
+
+[14/04/2012]
+Logré mejorar 2 puntos la medida F incorporando el scope del abuelo. Ahora voy por el del bisabuelo a ver qué pasa. Mejoró también.
+Después tengo idea de mejorar el postprocesamiento, para que cuando no encuentra cosas se adapte a los scopes. 
+
+
+Completado:
+- Quiero agregar como atributos al abuelo y al bisabuelo en el arbol, y sus alcances.Â´
+- Hacer lo de cuáles entran y salen en cada clasificación.
+
+
+[13/04/2012]
+Agregué un log de los errores que comete en cada corrida, para ver qué va pasando con ellos. Quedó pronto, ahora hay que ver cómo usarlo.
+
+Consulta para ver errores en scope:
+
+select sc.sentence_id,sc.hc_token,sc.hc_parent_pos, sc.hc_start  from scope_learning_errors_heldout err, bioscope20_scope sc where sc.document_id=err.document_id and sc.sentence_id=err.sentence_id
+and sc.hc_start=err.hc_start group by sc.sentence_id,sc.hc_token,sc.hc_parent_pos,sc.hc_start order by hc_token
+
+[12/04/2012]
+Voy a revisar bien la comparación entre los escenarios 
+
+[10/04/2012]
+Estoy armando la evaluación sobre el corpus del shared task, entrenando y evaluando sobre los mismos archivos (antes entrenaba en mi corpus, y por lo tanto los resultados deberían ser peores porque eran menos datos y solamente abstracts).
+
+
+
+
+[29/03/2012]
+Terminar de:
+- Ajustar lo de los or
+- Hacer lo de cuáles entran y salen en cada clasificación.
+
+Hasta las 12!
+
+
+[28/03/2012]
+Tareas para hoy: 
+1. Terminar lo del shared task (máximo hasta las 14 horas)
+2. Escribir primera versión del paper
+
+Agregué lo de poner una versión "X" de la F, que diga "usar la subordinada": mejoró casi 2 puntos la medida F
+
+Estuve revisando lo del uso del hc_pos: si no adivina la hedge cue, no genera instancia. Si la inventa, no va a tener
+hc_pos, así que no es problema.
+
+Pronto:
+- Tendría que ver si puedo evaluar resultados en el corpus del shared task
+- Ver la oración 524.9, que en el guessed del 15 6 no genera el pos
+- Revisar bien lo de los pos, qué pasa si la cue es guessed
+
+
+
+[27/03/2012]
+Bueno, está generando, ya terminó el parseo. Ahora tengo que corregir algún errorcito al levantar los árboles (creo que es porque se quedó sin memoria en alguno de ellos).
+
+En paralelo, estoy viendo cómo funciona ARTool
+
+Bueno, ya hice (un esqueleto de) lo de las reglas de asociación. Mientras tanto, estoy intentando levantar la base de CoNLL, como siempre, hay problemas
+para levantar el parsing, tuve que borrar una oración que daba problemas de memoria. Ahora estoy viendo si genera bien.
+
+Antes de irme, voy a tratar de dejar incorporado al proceso lo de las reglas de asociación.
+
+Muchísimo trabajo hoy, ya quedó incorporado lo de las reglas de asociación, tenemos que ver cómo usarlo.
+
+Para mañana:
+1. Terminar con lo del shared task
+2. Escribir el artículo (todo el día).
+
+Resuelto:
+- Tengo que hacer lo de las association rules para elegir los errores más comunes y analizarlos
+
+
+[26/03/2012]
+
+Empiezo haciendo una corrida general para obtener resultados. Antes tengo que arreglar add_hyland hedges y add hc occurrences.
+Add hyland hedges no hay que cambiarlo. Y al otro tampoco!
+Están corriendo los números totales para las hedge cues. Mientras ajusto los implementation details.
+Pronta la documentación, me saltó un error en los totales (tiene que ver con la generación del xml). Vamos a solucionarlo.
+Ya estoy corriendo para las demás.
+Me traía dos falsos negativos en las golden hedge cues cuando hago la evaluación total: el problema es que quedaban anidadas de nivel 4, y el caso no está cubierto. Ahí los dejo.
+
+Bueno,después de pelearla bastante, tengo los números.
+
+Estuve también trabajando para levantar todo lo del shared task. Está quedando en la carpeta $CONLL, con la misma idea. Hay scripts _conll que hacen el proceso.
+
+
+Hecho:
+1.- Ajustar el tema de la evaluación sobre todo el corpus 
+1.5.- Ajustar la documentación de los implementation details cuando esté todo pronto
+- Tengo un problemita, en vez de poner O pongo N en el scope del padre (no debería afectar, pero tendría que verificarlo después de arreglarlo).
+- Me está trayendo dos falsos negativos en el gold standard
+- Ver la sugerencia de Aiala de poner FIL en vez de FOL en los atributos de sintaxis del padre...no me aportó nada, se ve que se da cuenta
+- Hacer la evaluación total de los scopes
+
+
+[25/03/2012]
+Tareas para esta semana:
+
+1.- Ajustar el tema de la evaluación sobre todo el corpus 
+1.5.- Ajustar la documentación de los implementation details cuando esté todo pronto
+2.- Escribir el paper
+3.- (Opcional 1): evaluar en el shared task
+4.- (Opcional 2): hacer lo de las association rules 
+
+Empiezo por 1, digo yo.
+
+Bastante bien, por el día de hoy. Ya logré correr para todo el corpus, me estarían quedando los add_hyland hedges y add hc occurrences en 
+sus versiones totales. Mañana dejo un script corriendo y mientras tanto voy actualizando lo de los implementation details. Con los resultados creo que tendría que empezar a escribir el paper... o capaz me pongo a hacer los pasos 3 y 4 a ver si llego lejos, y dejo lo de la escritura para el martes.
+
+
+[23/03/2012]
+Hoy estuve corriendo todo el día para obtener resultados, lo estoy dejando en una planilla.  En el caso de las hedge cues, es increíble, pero el mejor resultado en términos de medida-F es... palabra, lemma y pos. Logra un buen balance de P y R.
+
+Con los scopes veo cosas medio raras.
+
+Hecho:
+- Mejorar lo de los escenarios
+- Tunear las features CRF en el corpus de validación
+- Probar sacar los bigramas
+- Ver por qué precision y recall dan iguales!
+
+
+[22/03/2012]
+Problema con la oración 18.6, gold standar. Solución: estaba comiéndome una palabra del tail y del text, siempre que llegaba hasta el fin del scope.
+
+Pareciera que no hay más cangrejos bajo la piedra. Ahora voy a mejorar lo de los escenarios para automatizar los resultados, y después planificar
+una serie de pruebas. Me queda también hacer la evaluación total de los scopes.
+
+Estoy ajustando la forma de correr para que la configuración quede más sencilla y automática.
+
+Hecho:
+- Cambiar Dropbox de carpeta en C
+
+[21/03/2012]
+Bueno, luego de muchísimo trabajo para ajustar todo, ya tengo la evaluación (creo). Voy a empezar a tirar números, y luego hago la evaluación total.
+
+Hoy ha sido un día de porquería. Siguen saltando problemas. ahora estoy con al oración 526.9, que genera mal el gold standard (se ve que algo rompí).
+
+Seguí trabajando, y decidí reprogramar toda la generación del XML, porque seguía dando problemas. Ya lo implementé, mañana tengo que debuggearlo.
+
+Tareas:
+- Evaluar los escenarios nuevamente
+- Documentar
+- Hacer la evaluación total
+- Volver a documentar
+
+
+[20/03/2012]
+Empiezo a revisar el proceso de los scopes de nuevo, para ver cómo incorporo la evaluación.
+Incorporé lo de la sintaxis al proceso. Todo documentado hasta ahí
+
+Estuve trabajando en afinar todo para que corran los scripts del shared task, para evaluar resultados. Ya está andando, ahora voy a ponerlo en los
+scripts de aprendizaje y a obtener resultados. También tengo que documentar
+
+
+Hecho:
+- Eliminar completamente scripts.py
+- Tendría que evaluar utilizando el programita que viene con el corpus, no?
+
+
+[19/03/2012] 
+Sigo con el tema de generar el XML para evaluar. Espero terminar con ese tema hoy.
+Bueno, estuve todo el día programando, y ahora lo estoy probando. 
+Sigo en casa.
+Tenemos problemas con la 18.9, el tail scope de nivel2
+
+Bueno, creo que la generación quedó arreglada. Ahora hay que pensar cómo lo usamos, nomás (parametrizar y eso)
+
+
+
+
+[16/3/2012]
+Reviso totalmente el proceso de análisis de scopes. 
+Lo primero que hago es generar tablas de análisis más chicas. Listo, ahora reviso que haya quedado bien con los ejemplso que había armado en su momento. Por ahora estoy generando bioscope80_scope y bioscope20_scope. Listo, verificado.
+Ahora también genero ghc20_scope, utilizando la guessed hedge cue y sin marcar scope.
+
+Ya genero archivo de entrenamiento y de testeo. Ya no pongo en los de evaluación la clase que hay que aprender (porque no la sé). La evaluación no se va a hacer más vía el script de conll, sino sobre los xml generados, utilizando el script del shared task. Pero antes hay trabajo para hacer.
+
+Listo, pasos 1 y 2:
+1.- Correr crf_test sobre el archivo de evaluación, y generar el .crf_results
+2.- Aplicar las reglas de Roser Morante
+
+
+Ahora tengo que subir los resultados a la tabla original. Para eso, agrego una columna a bioscope20_scope y bioscope20_ghc_scope, y levanto el resultado del archivo generado en la evaluación. Listo:3.- Subir los resultados a la tabla original
+
+Ahora lo único (!) que queda es generar el xml destino y evaluar resultados (yahoo). Dejo por acá, estoy trabajando en el gen_xml_gold_standard.py
+
+Para evaluar, lo que tengo que hacer es lo siguiente:
+
+4.- Generar el xml
+5.- Evaluar
+
+
+
+Listo:
+- Ver cómo manejar el tema de cuando las hedge cues son adivinadas, y no se usa el gold standard.
+
+
+
+[14/03/2012]
+Tarea 1 para hoy: revisar los escenarios de scope y ajustar para ver que esté dando bien el tema de las hedge cues adivinadas y eso.
+Mirá que fácil: voy a suspender el tema de las hedge cues adivinadas, voy a trabajar con el gold standard. Para mí,
+
+
+[13/03/2012]
+
+
+Decido que voy a cambiar la forma de evaluación, utilizando los scripts provistos en el shared task. Esto me va a ahorrar problemas
+
+Empiezo con el tema de la generación de los scopes. La descripción parece estar correcta, veamos si funciona en todos los casos.
+
+Me di cuenta de que el geito no es generar con las hedge cues aprendidas, sino que tengo que generar siempre los scopes según el gold estándar, y usar (según el caso, la hedge cue original o la aprendida, para el aprendizaje, y comparar los resultados). Y tirar todas las tablas extras... voilí !
+
+Bien, la generación de los scopes estaría, ahora hay que resolver el tema del aprendizaje (debería ser más fácil que antes!)
+
+Bueno, tengo que terminar de medir los resultados con el scope, pero el proceso estaría determinado (no tengo bien claro si funciona completamente lo de la evaluación, espero terminarlo esta noche).
+
+
+
+
+Listo:
+0. Hacer el proceso para evaluar hedge cue detection en el corpus de evaluación (entrenando en todo el training)
+1. Mejorar el split, para que si regenero las tablas no lo pierda
+2. Evaluar si puedo empezar a escribir el paper con lo que tengo: capaz que sí, pero no tengo ganas. Tengo ganas de seguir programando. Así que sigo
+y postergo la decisión hasta mañana.
+1. Ver la generación de los scopes, con ejemplos. 
+- Separar lo del training y test, para poder regenerar
+
+
+
+
+[11/03/2012]
+- Tengo que describir los escenarios en algún lado, sino me voy a enloquecer: ya lo tengo en corridas.txt en work
+- No estoy usando el chunk en el aprendizaje
+- Bieeen, mejoró dos puntos la medida-F y 4 el recall agregando las palabras de Hyland.
+- Miro los errores
+
+Plan: 
+5. Hacer el proceso en el corpus de evaluación
+
+Análisis:
+se equivoca 5 veces con could 
+
+Hecho:
+0. Verificar que estoy aprendiendo solamente de los ejemplos train
+1. Documentar ejemplos
+2. Actualizar los implementation details
+4. Agregar lo de ocurrencia y coocurrencia en el training corpus
+3. Ajustar capítulo 1
+- Arreglé lo de las hedge cues múltiples a nivel de tablas
+- Documentar lo de las multiwords: agregue el script update_discontinuous_hc.py al de generación del corpus
+- Solucionar lo de las multwords
+4.5 Corregir lo de las múltiples y volver a evaluar todo
+
+
+
+[09/03/2012]
+Estoy corrigiendo la generación de los scopes, para que genere a partir de los scopes (no de las hc) así permitiendo que si hay dos hc en el mismo scope
+genere una única instancia para la evaluación. Para eso estoy cambiando gen_scope_corpus_db.py (además estoy sacando de la biblioteca scripts la función).
+
+Corregido, continúo con el proceso. Ya generados los corpus, tengo que revisar el proceso de aprendizaje. Primero veo si estoy aprendiendo bien las hedge cues
+(debería tener todo hecho!) Para eso, voy a fijar un escanario, según lo especificado (es decir con casi nada), y voy a ver qué números me da.
+
+Según la documentación, 
+# Escenario 0: se aprende hedge cue usando word, lemma, POS, CHUNK
+# Número de template:0
+# Las columnas son: document(0) sentence_id(1), token_num(2) word(3), lemma(4), pos(5), chunk(6), hedge_cue (7)
+
+
+
+[08/03/2012]
+Tenemos problemas cuando generamos los scopes para las que son broken-hc (either...or), tendría que generar un sólo ejemplo de entrenamiento para scopes,
+y genera 2.
+
+Para el documento definí la siguiente iteraciones:
+1. Hedge cues con palabras, scopes con syntactic units
+2. Agrego las HC de hyland
+3. Agrego los patrones de Holmes
+4. Si los datos lo sugieren, incorporo lo de coocurrencia
+
+Una vez finalidado, repetir la evaluación en el corpus de evaluación y reportar resultados (tendría que usar el script que da Bioscope, mejor).
+
+[15/02/2012]
+- Documento: a1386962 Oración: S152.8 Tipo: TEST, a "not clear" no le marca el pos del padre
+El problema es que en add_scope_att_hc_parent_db.py, cuando actualiza el pos del padre, primero pone todo en N y luego pone lo que está en el scope en Y.
+Trata luego de poner en el caso de la guessed cue el valor del pos del padre solamente cuando adivinó, pero se equivoca porque agrega la condición que 
+la hedge_cue sea igual a la guessed, y eso ocurre en todos los casos en que vale O. Para ajustar esto, deberíamos poner que esto se actualice 
+solamente si para la oración y hc_start se adivinó la hedge cue. Resuelto
+
+- EITHER..OR, no lo estoy analizando bien. Ejemplo S594.7
+No es fácil de corregir, porque en generate_scope_analysis_table leo la hedge cue, asumiendo que si hay dos, tienen diferente scope. 
+Tengo que incorporar las hedge_cue1,2,3
+
+
+[11/01/2012]
+- Cuando se genera la tabla de scopes, está generando el atributo hedge_cue para todas las hedge_cues del mismo nivel, no solamente para aquella que se está calculando el scope: en realidad esto está bien, porque es lo que hereda de la tabla anterior
+- Documenté las reglas para ajustar el scope
+
+[14/12/2011]
+Sigo armando el script show_sentence.py, que muestra el análisis realizado para una (o todas) las oraciones
+
+[7/12/2011]
+Arreglado lo de agregar la confianza del clasificador en las predicciones de los scopes. Documentado también.
+
+[29/11/2011]
+Listo, agregados los valores de confianza en las predicciones para la detección de las hedge cues, y modificados los scripts. Ahora tengo que hacer los mismo para los scopes. 
+
+[28/11/2011]
+Estoy probando cómo agregar la confianza de crf en la evaluación. Pruebo con el script
+ crf_test -m $BIOSCOPED/crf_models/model.1 $BIOSCOPED/crf_corpus/hc/1/test.data 
+Buenísimo, el siguiente paso es levantar estos valores, está bárbaro ver cómo el tipo duda en palabras como "unclear". Habría que agregar un campo con la seguridad de toda la oración, y el otro con la seguridad de cada token. La tabla correspondiente sería, si no me equivoco la primera, es decir bioscope. Por supuesto, solamente para las instancias de evaluación (que son las mismas que tienen cargado el campo guessed cue). Es más, el mismo proceso que carga eso debería cargar la seguirdad. Es el add_hedge_cue_predictions.py
+
+[24/11/2011]
+Documenté y ajusté el aprendizaje de los scopes y la actualización de los scopes aprendidos en las tablas.
+
+[23/11/2011]
+Documenté y ajusté el aprendizaje de los scopes. Me queda la última parte, que es levantar los datos finales a las tablas para seguir con el proceso. Tengo que revisar el tema de las corridas y cómo se especifican los valores (hoy está redundante lo que pasa en la corrida 1 y la 1.1. por ejemplo).
+
+[18/11/2011]
+Documenté y ajusté la generación del scope corpus. Me está quedando solamente el aprendizaje de los scopes (learn_scopes.sh). Ya hice la parte del aprendizje (tengo que documentarla), falta lo de actualizar en las tablas las columnas guessed.
+
+[18/11/2011]
+Ajusté y documenté el script learn_hedge_cues.sh. Lo siguiente es documentar la generación de los scopes, a partir del script gen_corpus_db.sh
+
+[17/11/2011]
+He estado documentando bastante y ordenando los procesos (nuevamente), pero ahora la documentación la tengo en LaTeX y está hecho con más cuidado. 
+Lo siguiente a documentar y ordenar es el proceso de aprender las hedge cues, a partir del script learn_hedge_cues.sh
+
+[19/10/2011]
+Día perdido. Aunque estuve leyendo un poco y tomando algunas ideas que me complican aún más la vida.
+
+[18/10/2011]
+Escribo sobre active learning, buscando cómo seleccionar los mejores errores a estudiar.
+
+[17/10/200]
+Me propongo para hoy: a) generar tablas de errores en el reconocimiento del scope (en base a BIOSCOPE20_SCOPE y BIOSCOPE20_ALL_SCOPES)
+b) Mejorar el script que muestra los datos de aprendizaje.
+Bueno, ambas tareas cumplidas, aunque al final el script parece haberse roto. Ahora tengo que ver cómo sigo.
+
+[14/10/2011]
+Estoy viendo los resultados, no me coinciden exactamente los valores de frases encontradas entre la corrida 1 y la 3. Tengo que verificar bien estos números, porque las siguientes fases implican medir mucho. Así que voy a intentar corregir todo.
+
+Viendo los números, veo que en BIOSCOPE20_Scope no tengo subido el scope aprendido, eso debería estar. Lo voy a corregir y luego sigo viendo los resultados.
+
+Bien, emprolijé varios temitas, y agregué las columnas que quería a BIOSCOPE20_SCOPE (bio_scope, bio_guessed_scope)
+
+
+[12/10/2011]
+Me anda lento el ./add_scope_att_hc_parent.sh, ya estaría para correr. 
+Opa, está andando.
+
+
+[10/10/2011]
+El paso para hoy consiste en agregar un atributo más para la clasificación, que dependa de la sintaxis. Un buen candidato es el padre de la hedge cue: a cada token le agregamos si está dentro del scope del padre de la hedge cue, y cuál es el POS de ese padre. Esto puede servir para muchos casos, supongo. De todos modos, lo que más me interesa en este caso es ver cómo agrego atributos en el proceso.
+
+Averiguo lo que es treeposition en el árbol: te da una lista de las ramas que se eligen para llegar al token (en el caso de las hojas).
+
+Listo, logré implementar lo que quería (esto me sirve mucho porque quiere decir que sé manipular el árbol sin mayores problemas). El problema es que está demorando mucho... aunque no sé cuánto demoraba originalmente en levantar todo el corpus a memoria (para eso hice esto de no regenerar todas las veces).
+
+Bueno, vengo bien, separando en scripts. Ya verifiqué todo lo anterior y tengo los nuevos atributos: los tengo que incorporar al aprendizaje del scope. Como las hedge cues no cambian, eso no debería tocarse.
+
+Corrida: 1.3
+
+Tengo que ver bien qué es lo que hace cuando no se adivina la hedge cue y eso.
+
+
+
+
+[10/10/2011]
+Estuve separando en scripts las etapas, quedaron como está documentado arriba. Con esto busco facilitar  la medida de cada etapa.
+Bueno, ahora que está ordenado, voy a tratar de agregar como atributo 
+[7/10/2011]
+Estoy pasando todo a scripts, tratando de levantar de variables de ambiente lo que hago siempre igual.
+
+Estuve trabajando en generar scripts independientes para cada tarea, con el objetivo de facilitar el trabajo (estoy eliminando la biblioteca scripts de pln_inco, es más lío del necesario).
+
+Pasé al nuevo formato la generación de imágenes. Empecé a corregir para volver a meter las variables en bcp. me quedan algunas.
+
+[3/10/2011]
+Sigo construyendo scripts para ver los datos de una oración y su avance en el análisis. Sincronicé todo con Dropbox, incluido bioscope
+- Tendría que hacer que cada corrida tenga los parámetros fijos, así no puede nunca quedarme inconsistente. Podría meter todo en un archivo yaml
+Bien, ahora empiezo a aplicar la metodología: lo primero que tengo que ver es dónde es que más se equivoca y analizar qué pasa ahí. La idea es buscar por un lado atributos y por el otro lado reglas.
+
+[28/9/2011]
+Estuve leyendo sobre modal logics y su aplicación a la lingí¼ística. Ahora decido estudiar el corpus y ver las cosas que hay.
+Para ayudarme, estoy haciendo scripts que me faciliten el análisis, están todos en $SRC/scripts.
+Arreglé el tema de las imagenes generando SVG, ahora queda mucho más liviano
+
+
+[14/9/2011]
+Retomo. Voy a tratar de escribir por un tiempo. Creo. También voy a buscar definir un operador genérico.
+
+http://www-personal.umich.edu/~jlawler/CELS-Negation.pdf - 
+
+1- Generalizar el problema de encontrar un scope, un alcance para un operador lingí¼ístico identificado. Distintos casos en la lengua: hedging, modalidad, polaridad, discurso reproducido, contextos "creadores de mundos" (creo, pienso, imagino, etc.). Distintos casos desde el punto de vista de la estructura: operador previo, operador infijo, operador posterior. Relación con la sintaxis: el scope coincide o no con un constituyente (maximal, intermedio).
+
+
+[9/8/2011]
+- Reviso aquellas que el token es "appears" y se equivocó al calcular el scope:
+
+select sentence_id,hc_start from bioscope20_all_scopes where bio_scope<>guessed_bio_scope  and hc_token='appears' group by sentence_id,hc_start
+
+La S117.7 es muy complicada.
+La s152.13  es más interesante: "Negative selection in the cortex <appears> to be a suicidal inversion of antigen responsiveness". Tenemos que el padre es un VP, y el abuelo es un S, el scope podría ser el alcance del padre, o del abuelo. Calculemos ambos y agreguémoslos como atributos.
+
+
+
+[4/8/2011]
+Hice unas consultas para ver cuáles son las hedge cues con las que más erra al calcular el scope. Quedan  en el Navicat, pero también las voy a exportar al final. Se llaman "Controles de Cantidades. La que más errores introduce es "may"
+
+Puta. Encontré un bug, en la oración 141.4 está poniendo mal el scope original. Estaba levantando mal los resultados finales.
+Ahora el nuevo ganador es or, seguido de may, seguido de appear. Voy por appears.
+
+
+
+
+
+[3/8/2011]
+- Agregar los campos con los scopes calculados, incluido el postprocesamiento
+- Tengo que revisar, porque hay alguna cosa rara en los scopes, por ejemplo ver el caso de 572.9 y hc_start 16, empieza el scope en el 13, algo está mal. No, está bien.
+
+Ahora sí, trato de buscar el error más común. Para eso, voy a buscar el hc_token que participa en más errores (debe ser or)
+Donde más se equivoca es con whether
+
+
+
+[2/8/2011]
+Ajusté todo, ahora en corridas.txt tengo los valores que me van dando. Parece haber un progreso.
+
+
+[30/7/2011]
+- Revisar si el campo GHC_SCOPE es necesario, y dónde. Ajustar el proceso. Eliminé el campo, no era necesario.
+- El postprocesamiento debería recibir los nombres de archivo desde analisis.sh
+- En el paso 8, hacer que el archivo quede en analisis.sh, y no se descifre adentro del script
+
+Ahora sí voy a hacer una pasada de control con los casos base y con la regla0, para imprimir los resultados, para después pasar (al fin, espero) a definir nuevos atributos según la regla 1.
+
+[29/07/2011]
+Resolví el problema, haciendo un tracing de todo lo que hacía. Era una pavada (estaba grabando un archivo donde no correspondía), pero me sirvió para hacer una serie de consultas (consultas.sql) que me sirven para testear la consistencia de lo que estoy haciendo. Además, agregué algunos todos.
+
+Para poder evaluar bien los errores, voy a agregar los campos calculados con los scopes (con el postprocesamiento incluido) a las tablas. 
+
+Para la guessed hedge cue scope, uso la tabla BIOSCOPE20_ALL_SCOPES (y levanto de adjusted_results_pp), para la hedge cue original uso BIOSCOPE20_SCOPE (y levanto de testx.data_pp).
+
+
+[28/07/2011]
+Sigo viendo si puedo arreglar el error
+
+
+[27/07/2011]
+Sigo viendo si puedo arreglar el error
+
+
+
+[26/7/2011]
+Configuro en la IM.
+gen_tablas...OK
+populate_tables...OK
+gen_hc_corpus...OK
+learn_hc...OK
+gen_scope_corpus...ok
+evaluar_crf_scope... OK
+update_guessed_scope...OK
+
+Bueno, todo probado. Volvemos a ver el tema de incorporar los atributos. En principio, yo no debería regenerar nunca BIOSCOPE20 y BIOSCOPE80. Entonces cómo hago si quiero agregar atributos: lo que pasa es que cuando 
+generao BIOSCOPE, borro todo, por lo que poner una marca para el split no tiene sentido, porque la perdería.
+
+Opción 1: no volver a generar BIOSCOPE, sino actualizar el atributo correspondiente
+Opción 2: cuando agrego atributos, agregar a todos => 1 incluye a 2, así que hago 1. 
+
+Entonces, voy a agregar un campo SENTENCE_TYPE que me dice si es para entrenar o evaluar. El procedimiento split lo divido en dos: uno que
+pone el valor de campo y otro que efectivamente hace el splitÂ·
+
+Cuando agregue atributos, levanto el árbol cada vez que quiero agregar un atributo y hago una recorrida especial para ese atributo, y actualizo el campo correspondienet en la tabla. Luego vuelvo a hacer el split (según el campo SENTENCE_TYPE)
+
+Ahora que pienso BIOSCOPE20 y BIOSCOPE80 dejan de ser necesarias, basta con recorrer BIOSCOPE y ver el campo SENTENCE_TYPE para tener uno u otro. Reviso los procesos para incluir el cambio.
+
+Hice los cambios, pero algo queda mal, porque al final la medida f me da 0.23 (antes andaba en 0.6, si mal no recuerdo. Tengo que revisar el proceso a ver si no introduje algún error. No está cargando los valores hc_start,hc_token y scope en BIOSCOPE80_SCOPE, algo quedó mal.
+ 
+
+[26/7/2011]
+Me dí cuenta que si hago resplit cada vez que agrego atributos a BIOSCOPE, no voy a poder comparar las medidas. Por eso lo que voy a hacer es que el resplit solamente asigne valores TRAIN, TEST a cada oración, y que haya un proceso separado que efectivamente cree BIOSCOPE80 y BIOSCOPE20. Está mal el razonamiento, lo que yo tengo que hacer es agregar los campos a BIOSCOPE80 y BIOSCOPE20, en lugar de a BIOSCOPE
+
+Bueno, entonces empiezo a trabajar sobre la regla1: el scope es la oración subordinada, en los casos en los que aplica. Empecemos por "suggest": si está seguido de that, entonces el alcance es el VP padre de suggest. Lo que voy a necesitar para esta regla, como atributos es: el tag del padre (fPOS), y si está bajo el alcance del padre de una SPECCUE (in_fcue_scope), que vale Y/N.
+
+[23/7/2011]
+Sigo documentando el proceso. Me surgieron algunas dudas al documentar respecto a las instancias que introduzco al final (aquellas que corresponden a los HC que no adiviné y que sumo para que falle siempre). Pensé en meterlo en el proceso de generación de las instancias, poniéndolas asociadas a una HC dummy, pero en realidad esto no me sirve porque podrían aprenderse "de casualidad" y esas deberían fallar siempre. 
+
+Bien, terminé de documentar. Voy a hacer los pendientes pequeños. 
+- Los nombres de archivos tendrían que estar todos especificados desde el script principal, así como todas las variables de configuración
+
+[16/7/2011]
+Pasé a Dropbox. Estuve hablando con Dina, y reafirmamos que lo importante del trabajo es la metodología, así que voy a trabajar en ese sentido. Por ahora, sigo con la agenda, probando algunas reglas y luego me voy a poner a escribir. Planifico 15 días más de pruebas para empezar a afinar el proceso de agregar nuevas reglas.
+
+[9/7/2011]
+Trato de documentar el proceso. El documento se llama proceso.txt
+
+[1/7/2011]
+Bien, proceso completado. Corrí primero sin la regla y obtuve una medida F de 61.46, para subirlo a 63.40 con la regla (todavía estoy lejos del 90 reportado por Morante en abstracts, pero también hay que tener en cuenta que no hice prácticamente nada para adivinar los scopes).
+- Cuando tenga más datos tengo que verificar que está andando bien la generación de las instancias para los casos en los que aprende mal
+la hedge cue
+
+
+[30/6/2011]
+Bueno, creo que tengo todo armado, ahora debería empezar a jugar con las diferentes pruebas.
+- Incorporar al aprendizaje la regla 0
+
+
+
+
+
+[29/6/2011]
+Estoy viendo que lo de los all scopes me parece que no es necesario. Sigo probando todos los casos, ahora tengo algo particular, me está dando mejor reconocimiento con la guessed hedge cue que con el gold standar, algo está mal.
+
+Resultados:
+Evaluating scope detection on testing corpus...
+processed 12700 tokens with 418 phrases; found: 409 phrases; correct: 280.
+[418 son los scopes originales, 409 son los que se aprendieron, de los cuales 280 son correctos]
+accuracy:  86.38%; precision:  68.46%; recall:  66.99%; FB1:  67.71
+        SPECXCOPE: precision:  68.46%; recall:  66.99%; FB1:  67.71  409
+Evaluating scope detection on testing corpus with guessed hedge cue...
+[318 son los scopes originales, 338 son los que se aprendieron (ghc_scope), de los cuales 239 son correctos]
+[O sea que metió más scopes que los originales, pero erró bastante. Sin embargo, al final el total le queda mejor]
+processed 10355 tokens with 318 phrases; found: 338 phrases; correct: 239.
+accuracy:  87.35%; precision:  70.71%; recall:  75.16%; FB1:  72.87
+        SPECXCOPE: precision:  70.71%; recall:  75.16%; FB1:  72.87  338
+
+Estoy ajustando, tengo problemas cuando en la misma oración hay un scope que adiviné y otro que no. En ese caso, trato de insertarlo
+como un error (toda la oración) y se repite. El problema está en la oración 512.10. El tema pasa por seleccionar solamente aquellas 
+instancias donde se aprendió una hedge cue innecesaria, y además el hc_start coincide con la hedge cue (para no confundirse con otr
+hedge cue en la misma oración).
+
+[29/6/2011]
+Sigo probando, ajustando,mintiendo, escapando. Me costó volver a entender cómo aprendía el scope. Ahora tengo que meter los casos en los que la HC no se aprende, ahí debería tener siempre scope O
+- Tengo que cambiar la forma de grabar los logs para que meta toda la información del proceso (log.$run y logx.$run-$runx debería ser el formato)
+
+[27/6/2011]
+Vamos a seguirle el camino a alguna oración porque sino me voy a marear.
+
+S1007.11: 
+
+[24/6/2011]
+Separar los corpus para las hc de los de los scopes (esto es para evitar tener que regenerar si quiero cambiar la corrida pero mantener
+las hc aprendidas). Para esto, voy a tener un número de corrida para hc y otro para scope.
+Bien ahora, en crf_corpus tengo un subdirectorio hc con los resultados de las corridas para aprendizaje de las hc (los $run), y otro scope para las corridas de los aprendizajes de los scopes (los $runx). Ahora vuelvo a terminar de aprender scopes con las reglas (que solo debería
+implicar cambiar la parte de scopes, tomando los archivos de las hc aprendidas antes.
+
+Completadas:
+- Separar los corpus para las hc de los de los scopes (esto es para evitar tener que regenerar si quiero cambiar la corrida pero mantener
+las hc aprendidas)
+
+
+
+
+[23/6/2011]
+Cree un modulo scope_rules dentro de bioscope donde iría el procesamiento para las reglas.
+Sí! logré incorporar la primera regla, y agregar un campo donde se pone el scope resultado de la aplicación de la regla
+Ahora tengo que ver de modificar el aprendizaje para que incorpore el campo como atributo y ver qué me da al aprender el scope
+- Regenerar el corpus de entrenamiento, imágenes y atributos
+
+
+[22/6/2011]
+Bueno, ahora sí incorporarmos las reglas. Â¿Cómo? son una columna más, del mismo tipo que las clase que queremos aprender (es decir, con sus mismos posibles valores y restricciones en la secuencia). Entonces, cuando una regla aplica, simplemente agrego un atributo para el aprendizaje. Si es buena predictora, el algoritmo debería utilizarlo para predecir, sino, lo va a recharar.
+
+No importa si el valor lo obtuvimos recorriendo el árbol o de otra forma. Siempre me lleva a lo mismo: un clasificador débil. 
+
+Trabajo para la primera regla con la palabra más cómun en las HC: suggest. Y sugiero: el scope comienza en la misma HC, y termina en un token antes que el punto final. Por ejemplo:
+
+"These results >>>suggest that expression of c-jun, jun B and jun D genes might be involved in terminal granulocyte differentiation or in regulating granulocyte functionality<<<."
+
+A eso le llamamos SCR0 (Scope rule 0). Vamos a ver si mejora el aprendizaje del scope.
+
+[20/6/2011]
+Ajusto lo que queda de las reglas de Morante. Voy a generar archivos diferentes en vez de mover
+- Incorporar las reglas de Morante (revisar el proceso para ver cómo afecta un cambio)
+- Tengo que incorporar el evaluar_modelo_hc
+- Quedó todo probado.
+
+[16/06/2011]
+Sigo trabajando en las reglas de Morante. Al final estoy metiendo todo en un postproceso del archivo de salida en formato Conll. Doy por buena la aplicación de las reglas porque estoy cansado.
+
+Bien, terminé el script, ahora tengo que incorporarlo al proceso. La idea es que el postproceso corra antes del conlleval del scope
+- Tuviste en cuenta que puede haber scopes con first>last?
+
+
+[14/06/2011]
+Estuve pensando como incorporar lo de Morante. Lo mejor es volver a formato FOL en las tablas y postprocesar los archivos generados para que, al mismo tiempo, convierta a BIO y aplique las reglas de Morante.
+
+OK, ya volví a formato FOL. Trabajo ahora en el postproceso.
+
+Tengo todo probado en desarrollo, queda ver en el corpus de entrenamiento/testeo, y sacar mensajes.
+
+[13/06/2011]
+1. Incorporar las reglas de Morante (revisar el proceso para ver cómo afecta un cambio)
+2. Regla 1: el scope por defecto es la oración subordinada, en los casos en los que aplica
+3. Revisar errores en la detección de hedge cues e incoroporar alguna regla
+
+Las reglas de Roser Morante en el paper de morante2009:
+
+OK 1.- If one token has been predicted as FIRST and one as LAST, the sequence is formed by the tokens between first and last.
+OK 2.- If one token has been predicted as FIRST and none has been predicted as LAST, the sequence is formed by the token predicted as FIRST.
+OK 3.- If one token has been predicted as LAST and none as FIRST, the sequence will start at the hedge cue and it will finish at the token predicted as LAST.
+OK 4.- If one token has been predicted as FIRST and more than one as LAST, the sequence will end with the first token predicted as LAST after the token predicted as FIRST, if there is one.
+OK - If one token has been predicted as LAST and more than one as FIRST, the sequence will start at the hedge signal.
+- If no token has been predicted as FIRST and more than one as LAST, the sequence will start at the hedge cue and will end at the first token
+predicted as LAST after the hedge signal.
+
+
+[10/6/2011]
+Retomo
+- Crear los scopes con FOL, y pasarlos a BIO en la generación.
+- El generate learning instances parece ser demasiado lento, ver si no se puede mejorar.
+- Generar directorios para las corridas
+
+
+[01/06/2011]
+Lo siguiente es implementar algunas reglas para reconocer scopes. Para eso, utilizo el método de Morante et al. de reconocer el primero y el último de la secuencia. Para
+eso, tengo que volver a implementar valores FOL en los campos de scope (en lugar de BIO). Para la evaluacion, ahí sí uso bio, pero lo convierto en 
+el momento de generar el archivo conll, nomás.
+
+No avancé mucho, no sé por qué no anda en Linux, parece ser un problema al crear la tabla bioscope20_ghc_scopes, que agrega la columna guessed_hedge_cue, pareciera que 
+después no lo copia por no tener tipo. Probando. Arreglado.
+
+Ya creé los scopes con FOL, ahora tengo que modificar la generación para quel os pase a BIO.
+
+
+[31/05/2011]
+Bueno, bueno, bueno. Ahora es tiempo de replanificar, documentar y empezar a hacer pruebas. Para eso, tengo que construir escenarios y templates. Los escenarios me permiten decir qué atributos utilizo, y los templates cómo los utiliza crf para aprender. Por ahora me voy a concentrar en los escenarios, y cuando tenga resultados razonables tuneo los templates.
+- Medio que refactorear los scripts para tener todo en el mismo script
+
+
+[30/05/2011]
+El problema con los scopes es que no aprende nada (tiene bastnate sentido, pero me complica para hacer debug). Sigo implementando y después veo.
+- Terminar de hacer andar y verificar el proceso de aprendizaje de los scopes: pensar primero, ver los casos después, validar luego. Vamos que es lo único que queda
+HISTí“RICO! TERMINí‰! AHORA SOLAMENTE ME QUEDA PROBAR ATRIBUTOS!
+- Verificar que no queden 'O' con marcas al final de las líneas en las tablas
+
+
+
+[26/05/2011]
+Me pongo a cambiar el proceso generate_scope_analysis_table para que ponga el scope en formato BIO. Quedó.
+- Incorporar índices a las tablas
+- Sacar las x de los xcope
+- Ver si no vale la pena meter todo el proceso de generación en un solo archivo, como se hace en el evaluar_modelo_hc.sh
+- Transformar los scopes al formato BIO, para evaluar bien.
+
+Agregué aprender el alcance desde el gold-standard, que no andaba. También tuve que limpiar con el mismo script clean_data.sh un par de líneas en el corpus de entrenamiento del scope que tenían valores en blanco.
+
+[25/5/2011]
+Agregando lo de los scopes al proceso.
+
+[23/05/2011]
+- Quité los warnings UnicodeWarning: hay problemas con los más menos, los ignoro y chau.
+- Estuve ordenando los mensajes, poniendo todo en inglés, documentando los pasos, etc.
+- Agregar la evaluación en el corpus de testeo del modelo aprendido sobre hedgedcues
+- El que genera los archivos se come el primer campo
+
+Con Escenario 0:
+Evaluating hedge_cue prediction resultsâ€¦
+processed 44592 tokens with 404 phrases; found: 315 phrases; correct: 297.
+accuracy:  99.71%; precision:  94.29%; recall:  73.51%; FB1:  82.61
+          SPECCUE: precision:  94.29%; recall:  73.51%; FB1:  82.61  315
+*** Evaluating hedge_cue prediction resultsâ€¦
+processed 57709 tokens with 516 phrases; found: 432 phrases; correct: 415.
+accuracy:  99.75%; precision:  96.06%; recall:  80.43%; FB1:  87.55
+          SPECCUE: precision:  96.06%; recall:  80.43%; FB1:  87.55  432
+
+Si, señor, podemos dar por culminada la etapa de automatización de la detección de las hedge cues. Ahora tengo que automatizar la detección de los scopes (los resultados seguro que no van a ser tan buenos).
+
+[18/5/2011]
+Pronto: - Generar test_ghc.adjusted_results
+- Hacer evaluación
+
+[12/5/2011]
+- generar bioscope20_all_scopes
+
+[11/5/2011]
+Quité la columna guessed_xcope de la tabla bioscope20_scope, porque no era necesario (esta columna aparece en bioscope20_all_scopes)
+
+[10/5/2011]
+Levanté a subversion. No sé para qué. A ver si me dejo de perder el tiempo y laburo. Voy a hacer commit :D
+
+Tareas OK:
+- levantar los resultados a bioscope_ghc_scope. Quedaron incorporados en el update_guessed_xcope.py, que es llamado desde el evaluar_crf_scope.sh
+
+
+
+[8/5/2011]
+Nuevamente intento ver si anda lo de subversion
+
+[3/5/2011]
+Tareas OK:
+- Generar archivo test_ghc.data, 
+- calcular los resultados aplicando crf
+
+
+[27/04/2011]
+bioscope20 tiene ya la guessed_hedge_cue
+
+Yo debería generar bioscope20_ghc_scope que toma la ghc, busca los scopes y los agrega. Si no corresponde a ningunga de hedge_cue1,2,3, entonces el scope es todo 20.
+
+Luego genero el archivo test_ghc.data y calculo el scope (test_ghc.crf_results), y levanto los resultados a bioscope_gch_scope como guessed_xcope. 
+
+A partir de bioscope20_all_scopes genero el archivo para evaluar performance (test_ghc.adjusted_results)
+
+Para identificar mejor las instancias, voy a identificarlas por hedge_cue_start en vez de numerarlas.
+
+Tareas OK
+- Cambiar instance num por hedge_cue start
+- Implementar la generación de bioscope20_ghc_scope
+
+
+[15/04/2011]
+Pruebo a ver si quedó bien lo de actualizar la hedge_cue. Listooou, está probadoooou, anda bien. Me queda generar el archivo testxg.
+Queda un problema por resolver: cuando detecto la hedge_cue, la agrego a la tabla bioscope20, pero cómo sé si está anidado el scope? Lo necesito? Tengo que pensar un poquito esto. Después de Turismo, I hope.
+
+[14/04/2011]
+Veo cómo testar. Tengo dos testeos de xcope: contra la hedge_cue original y contra la aprendida. Entonces, cargo primero la columna guessed_hedge_cue en bioscope20 (levanto su valor de test.data.1). Luego genero bioscope20.gscope igual que bioscope20.scope pero usando
+guessed_hedge_cue en vez de hedge_cue.
+
+Primero, para facilitar la levantada de datos, meto en test.data.1 document_id/sentence_id/token_num. Tengo que cambiar luego los templates
+crfs porque cambian los números de columna, y va a entrenar mal. Pronto.
+
+Listo lo de actualizar la hedge_cue, tengo que probarlo. Estoy cansado.
+
+[13/04/2011]
+Reacomodo la estructura. Vamos todavía! está quedando espectacular.
+
+
+[11/04/2011]
+Resolví unos bugs y estoy a punto de terminar de generar las instancias de entrenamiento para los scopes.
+Bueno! logré generar la tabla de las instancias de entrenamiento. Ahora tengo que generar el archivo de entrenamiento. Tiene
+que ser parecido (el mismo?) que para gen_conll_file
+
+Excelente, un pequeño cambio al gen_conll y ya genero.
+
+Bien, tendría que incorporar el entrenamiento del scope al proceso. Lo voy a dejar para que quede modular.
+
+
+[10/4/2011]
+Retomo corregir el tema de meter tres hedge_cues, tengo que volver a regenerar para incluirlo :(
+
+
+
+[8/4/2011]
+Estuve consultando con Roser Morante, y en realidad el formato de las tablas para evaluar el scope es otro. Lo muestro con un ejemplo:
+
+We expect that this cluster may   probably represent something
+O  B-SPE  O    O    O       B-SPE I-SPE    O         O
+
+Traduce en las siguientes instancias de entrenamiento
+
+We     expect that   this   cluster may    probably represent something
+expect expect expect expect expect  expect expect   exprect   expect
+O      F      O      O      O       O      O        O         O
+
+We           expect that   this   cluster may    probably represent something
+may_probably may_probably â€¦ 
+O            O      O      O      O       F      O        O         L
+
+Bueno , lo que voy a hacer es generar las instancias en bioscope80_scope
+
+Tengo que corregir la generación, porque sino no sé bien cuándo están anidadas. Para eso, genero campos hedge_cue1, hedge_cue3, hedge_cue3 para marcar hedges anidadas.
+
+
+[6/4/2011]
+
+
+We expected  that this cluster may       represent something.
+O  B-SPECCUE O    O    O       B-SPECCUE O         O        O
+O  B-XCOPE   I    I    I       I         I         I        I
+O  O         O    O    O       B-XCOPE   I         I        I
+
+Paso 1: Genero una nueva tabla (bioscope 80_scope,bioscope_20_scope), donde cree una oración por cada hedge cue, con su scope marcado en formato FOL
+
+Tendría que mantener en la tabla la referencia al archivo original (agregaría un diferenciador de instancia, que indique el número de 
+hedge cue en la oración).
+
+We expected  that this cluster may       represent something.
+O  B-SPECCUE O    O    O       O         O         O        O
+O  F   		 O    O    O       O         O         O        L
+1  1         1    1    1       1         1         1        1 
+
+We expected  that this cluster may       represent something.
+O  O         O    O    O       B-SPECCUE O         O        O
+O  O   		 O    O    O       F         O         O        L
+2  2         2    2    2       2         2         2        2 
+
+Paso 2 (ENTRENAR_HC) : genero el archivo de entrenamiento a partir de bioscope80 y entreno un modelo CRF para clasificar HC. 
+
+Paso 3 (ENTRENAR_SCOPE): genero el archivo de entrenamiento a partir de bioscope80_scope,  obtengo el modelo CRF para clasificar SCOPE.
+
+Paso 4 (CLASIFICAR, EVALUAR):
+
+- Genero un archivo CoNLL a partir de bioscope20_scope. Como voy a tener que levantar luego los resultados, genero
+como atributos el documento, la oración, el número de token y el diferenciador de instancia.
+
+- Le paso el modelo, y obtengo una clasificación para la HC (GUESSED_HC)
+
+- A partir del archivo generado en el punto anterior, utilizo la HC (gold standard) o la GUESSED_HC como atributo para aprender el scope
+
+Tengo
+
+		We expected  that this cluster may       represent something.
+HC		O  B-SPECCUE O    O    O       O         O         O        O
+GHC		O  B-SPECCUE O    O    O       O         O         O        O
+GXCOPE	O  F   		 O    O    O       O         O         O        L
+		1  1         1    1    1       1         1         1        1 
+
+
+Corrijo los scopes de ser necesario, incluso podría utilizar el anidamiento para corregir.
+
+Comparo XCOPE con GXCOPE para evaluar la performance.
+
+
+[30/03/2011]
+Veo como reconocer el alcance. Los pasos serían los siguientes:
+- Generar columnas (en el grafo, tenemos una lista de tags), suponiendo un máximo de anidamiento de 3 hedges
+- Cuando proceso las columnas para generar el archivo de entrenmiento, convierto a formato FOL, y generando una sola etiqueta con los tags separados por espacios
+- Luego del aprendizaje, tengo que hacer un postproceso que corrija el anidamiento cuando queda mal
+- Finalizada esta etapa, ahí sí (al fin) vamos a ver el aprendizaje y cómo corregirlo, utilizando el método sugerido.
+
+
+
+
+[28/03/2011]
+Hice un script que filtra los errores de los resultados
+Modifiqué para que tenga en cuenta cualesquiera de los tags (sin importar el anidamiento) para la hedge_cue
+Ahora tengo que empezar a escribir reglas para resolver los errores que comete.
+
+
+[22/03/2011]
+Incorporé yaml. Ahora sí puedo probar un caso concreto. Listo, resueltos algunos detalles, ya pude hacer la prueba.
+
+Lo que sigue ahora es hacer el script para ver los errores, ya lo tengo pensadito: recibe los atributos (es un escenario), crea
+una tabla de atributos, elimina las tuplas bien clasificadas, ordena por palabra frecuentemente errada.
+
+[21/03/2011]
+Construcción de un escenario
+
+-> Tomo el 80% del corpus de entrenamiento
+-> Selecciono algunos atributo sy aprendo sobre ellos
+-> Evalúo sobre el 20% restante
+-> Busco errores más comunes
+
+Tablas: bioscope, bioscope80, bioscope20
+Scripts:
+
+- split_training_corpus: lee de bioscope, escribe bioscope_80 y bioscope_20 PRONTO
+- gen_conll_file (bd, tabla, atributos) PRONTO
+- script unix para detectar errores
+
+[17/03/2011]
+Parametricé la generación, modificando la función que genera el archivo de atributos. Ahora tengo que permitir que algunas oraciones vayan a 
+un archivo de entrenamiento y otros al de evaluación, para poder evaluar solamente en el corpus de entrenamiento
+
+[14/3/2011]
+- Estuve viendo cómo seguir. Decidí, para facilitar la incorporación incremental de atributos, llevar la información en un RDBMS, en lugar de generar todo cada vez. De esta forma, tengo
+tablas donde a cada token se asocian los atributos a partir del análisis del árbol sintáctico anotado. 
+- Por otra parte, estuve pensando cómo elaborar las reglas, y se me ocurrió que una buena forma es partir de los errores que comete el algoritmo, para no escribir reglas que el aprendiz
+aprendió por sí mismo. Por supuesto, esto tendría que hacerse en el corpus de entrenamiento (una forma sería entrenar sobre un 80% y evaluar sobre el 20% restante).
+- Para reconocer el alcance, voy a usar etiquetas de la forma <BIO><BIO>...<BIO>, tantas como niveles de anidamiento se encuentre en el corpus de entrenamiento. De esta forma, pierdo el hecho
+de reconocerlo como spans, pero es la forma que encontré. Tendría que haber algoritmos de postprocesamiento que corrijan inconsistentes (por ejemplo, una I después de una O en cualquiera de los niveles). Ver los anales del shared task.
+
+- create table bioscope (document_id text, sentence_id text, token_num integer, token_text text,  primary key (document_id,sentence_id,token_num));
+
+Cree el crear_db.sql que tiene los comandos para crear la base de datos.
+
+cat crear_db.sql  | sqlite3 $BIOSCOPE/bioscope_devel/attributes.db
+
+Bien, ya está incorporado SQLite al proceso, ahora tengo que regenerar el proceso que tenía antes con el nuevo método (más flexible), y luego seguir avanzando según lo planificado. Anduvo
+
+
+
+
+[11/3/2011]
+Cambié el nombre del evaluar.sh a evaluar_svm.sh, porque ahora voy a hacer el de CRF.
+
+processed 61962 tokens with 422 phrases; found: 351 phrases; correct: 307.
+accuracy:  99.70%; precision:  87.46%; recall:  72.75%; FB1:  79.43
+          SPECCUE: precision:  87.46%; recall:  72.75%; FB1:  79.43  351
+
+Quedó. La forma de correrlo es ./evaluar_crf.sh <nro_prueba> <nro_modelo> <regenerar_corpus>
+
+[2/3/2011]
+Le agregué al evaluar un parámetro que permite generar corpus de testeo a partir del corpus de desarrollo para acelerar las pruebas. Basta con pasarle como parámetro develop en lugar de un número de corrida. Ahora no me anda, y no me acuerdo de por qué era.
+
+Bien, luego de corregir un problemita con gzip, pude correr el proceso completo en el notebook. Ahora voy a probar con el de trabajo, porque hay algo mal en los archivos, pero no me acuerdo cuál era.
+
+Es medio lenta la generación de los archivos, estoy viendo si grabando el contenido cada 100 no va un poco más rápido, porque libera memoria. No, no anda más rápido.
+
+processed 57709 tokens with 421 phrases; found: 398 phrases; correct: 340.
+accuracy:  99.71%; precision:  85.43%; recall:  80.76%; FB1:  83.03
+          SPECCUE: precision:  85.43%; recall:  80.76%; FB1:  83.03  398
+
+
+[15/02/2011]
+- Hice un evaluar.sh que automatiza el proceso
+
+
+[11/02/2011]
+Arreglé alguna cosita, ahora el make de yamcha lee la variable $SVM para saber dónde está el svm_learn y que quede independiente del sistema.
+Cree el gen_crf_corpus.py que levanta los corpus correspondientes y genera los archivos de entrenamiento. 
+
+accuracy:  99.74%; precision:  86.04%; recall:  80.33%; FB1:  83.09
+          SPECCUE: precision:  86.04%; recall:  80.33%; FB1:  83.09  394
+
+
+[10/02/2011]
+(en $SRC/yamcha)
+sh $SRC/clean_data $BIOSCOPE/crf_corpus/train.data.1
+make CORPUS=$BIOSCOPE/crf_corpus/train.data.1 MODEL=$BIOSCOPE/yamcha_models/modelo.1 train
+yamcha -m $BIOSCOPE/yamcha_models/modelo.1.model < $BIOSCOPE/crf_corpus/test.data.1 > $BIOSCOPE/crf_corpus/test.data.modelo.1.results
+$SRC/conlleval.pl -d '\t'  < $BIOSCOPE/crf_corpus/test.data.modelo.1.results
+
+Tengo que ajustar con esto los criterios de nomenclatura, para que ya queden. Tengo que ver también de evaluar contra el corpus de testing (generarlo y eso).
+
+
+A veces Genia tiene problemas y no genera el lema (por ejemplo, en el documento a7858491, genera un 5 nada POS', lo que hace que yamcha se maree. Cree el script $SRC/clean_data que permite limpiar el archivo de datos de estos errores (son muy poquitos, 5 en todo el corpus).
+
+
+[09/02/2011]
+- Los modelos van con el corpurs en $BIOSCOPE/yamcha_models, $BIOSCOPE/crf_models. Se llaman modelo.<numero de ensayo>
+- Los archivos de entrenamiento van en $BIOSCOPE/crf_corpus. El corpus de entrenamiento se llama train.data.<numero de ensayo> o test.data.<numero de ensayo>
+- Los scripts y demás parámetros van en $SRC/yamcha y $SRC/crf
+
+Bueno, bastante bien, ya generé el train desde python, y ahora voy a probar correr yamcha para ver qué da. Luego intentaré meterlo en python para correrlo desde ahí ya parametrizado.
+
+
+[08/02/2011]
+Finalmente arreglé lo de yamcha, sólo funciona con TinySVM, pude instalarlo en mac con fink. 
+
+Ahora: 
+- Voy a definir dónde van mis archivos de atributos, modelos y dema?
+- Voy a generar la primera versión para hacer la prueba con yamcha
+- Voy a probar con yamcha y ver qué da con los atributos que defina en primera instancia (pretendo que me sirva luego como baseline).
+- Tengo que generar el conjunto de development, ya lo voy a dejar pronto.
+
+
+[04/02/2011]
+Perdí los logs desde el último respaldo. Lo que estuve haciendo fue configurar svm_lihgt (sin problemas) y yamcha. En yamcha hay que cambiar unos headers, sino no anda (se busca el error en internet). De todos modos, yamcha con svm_light no funciona, y no pude instalar en mac tinysvm, voy a probar en linux.
+
+Estoy preparando la clase sobre SVM, voy a intentar probar con los archivos generados a partir de bioscope.
+
+Para arreglar yamcha:
+
+#include <cstdlib> en libexec/mkdarts.cpp
+#include  <string.h> en src/param.cpp
+
+
+
+[13/01/2011]
+Todo regenerado. Hay que armar el proceso (vacacioooones).
+
+
+[12/11/2010]
+Poniendo al día en linux. Instalando epydoc en ubuntu.
+
+Bien, estoy probando con crf_learn y funciona...
+También la evaluación:
+
+$SRC/../conlleval.pl -d '\t' < bioscope_test_result.txt
+crf_learn $SRC/../crf_templates/crf_template1 bioscope_training.txt crf_model
+
+Funcionoooooooooooo, entrena y evalúa en tiempos razonables!
+
+crf_test -m /home/gmoncecchi/bioscope/bioscope_train/crf_model /home/gmoncecchi/bioscope/bioscope_test/bioscope_training.txt > /home/gmoncecchi/bioscope/bioscope_test/bioscope_test_results.txt
+$SRC/../conlleval.pl -d '\t' < $BIOSCOPE/bioscope_test/bioscope_test_results.txt
+
+Primer resultadoooo: Medida F de 0.7922 para detectar la marca de especulación, entrenando sobre el train y probando sobre el test. 
+
+Ahora hay que sentarse a planificar.
+
+
+[10/01/2010]
+Estoy pasando todo a linux, y utilizando variables de ambiente. Ya lo hice para el notebook
+Pronto, quedó bien, estoy generado de nuevo el develope en el notebook.
+Bueno, después de bastante laburo (incluyebndo instalar mac python) pude volver a hacer andar todo
+Ahora voy por epydoc, que fue el motivo original. Excelente, hice un documentar.sh en el directorio src que genera la documentación
+
+Empiezo por generar los archivos con token/lemma/pos/chunk/NE/spec-cue para afinar el proceso. Después veo cómo evoluciono.
+
+
+[5/1/2010]
+En vez de tiniSVM, uso svmlight
+
+[4/1/2010]
+Terminé de generar el corpus. Espero no tener que tocarlo más.
+Las imágenes las voy a generar solamente en los discos (no en el pendrive), excepto las de development.
+Estoy instalando Yamtcha y CRF++. No pude terminar de compilar tiniSVM
+
+
+
+[2/1/2010]
+Regenero el corpus de evaluación. El de entrenamiento ya lo regeneré (sin las imágenes ni los atributos).
+
+[16/12/2010]
+
+Estoy generando todos los corpus de nuevo. Lo más pesado es el tagger y el parsing (obviamente)
+Listo:
+- Regenerar la documentación
+
+[15/12/2010]
+
+Listos:
+- Terminar de incorporar los scopes de negación
+
+[13/12/2010]
+Estoy redefiniendo los tags que muestro. Ahora puse un atributo para marca de negación (es uno solo, no lista, como en (Morante,2010))
+
+Queda hacer unos ajustes para poder mostrar los scopes bien (en get_bioscope_element_spec_tags), después tengo que ver cómo hago para que el primero quede diferente (por ahora son todos B-XCOPE). Quedó pronto.
+
+Listos:
+- Hacer que el hedge sea sólo una columna
+- Hacer que el scope sea sólo una columna
+- Mostrar bien los grafos
+
+[10/12/2010]
+
+Estoy estudiando la get_bioscope_element_spec_tags, para cambiarlos a que queden en el nuevo formato.
+
+- Poner que levante los documentos según un pattern OK
+- Tengo que ver que las correcciones al GENIA se incorporen al árbol OK
+
+[06/12/2010]
+Ahora voy de abajo para arriba, por las clases, viendo que la documentación quede toda bien.
+
+- BioscopeCorpusProcessor debería ir a util o a scripts
+- Tengo que separar los .genia de las oraciones de los de los documentos
+- Resolver el tema del stanford parser, para que llame bien
+
+
+
+
+
+[30/11/2010]
+Sigo factorizando y documentando.
+
+
+
+[24/11/2010]
+Generando en la im.
+
+gen_text_files OK
+gen_bioscope_files OK
+create_single_text_file OK
+copy genia_event_files OK
+gen_genia_files OK
+gen_parsed_files OK
+
+Pasé a un subpaquete util los scripts estos.
+
+Para continuar: ver ahora cómo levantar los documentos.
+
+
+
+
+[23/11/2010]
+Estoy pasando a epydoc, además de refactorear. python c:\python26\Scripts\epydoc.pyw (tengo un proyecto en la carpeta doc para generar). Todos los fuentes
+quedan en work\src, y la documentacion en work\doc. Estoy tratando de independizar las llamadas a graphviz y a las demás herramientas, y poner un módulo para cada una.
+
+Voy a ir corrigiendo guiándome por el proceso.
+
+gen_text_files OK
+gen_bioscope_files OK
+create_single_text_file OK
+copy genia_event_files OK
+gen_genia_files OK
+
+
+[18/11/2010]
+Incorporar lo del concordancer, s794.4 quedó mal marcada
+
+[21/10/2010]
+Retormo. Refactoreando.
+
+
+[26/08/2010]
+- Terminé de pasar al pendrive todo. Tuve que crear carpetas para poner los .genia, porque el formato FAT32 no alcanzaba.
+
+[18/08 - 16.29]
+
+Genero en la IMM 
+
+
+Tuve que eliminar a mano algunos documentos porque no se podía parsear alguna de las oraciones. Lo saqué de cada xml (train,test), no del principal. 
+
+- a9234742
+- a8108414
+- a8632999
+- a9120310
+
+
+En la IMM
+[train]
+- Genero archivos .txt OK
+- Genero archivos .bioscope OK
+- Genero archivo temporal para genia OK
+- Proceso con genia OK
+- Genero archivos .genia OK
+- Genero archivos .parsed OK
+- Genero los pickle y dibujos  OK
+- Copio los archivos de genia event
+
+
+[test]
+- Genero archivos .txt OK
+- Genero archivos .bioscope OK
+- Genero archivo temporal para genia OK
+- Proceso con genia OK
+- Genero archivos .genia OK
+- Genero archivos .parsed  OK
+- Genero los pickle y dibujos  OK
+- Copio los archivos de genia event
+
+
+[16/08 - 23.07 - 1.55 3 horas]
+
+========================
+
+Cumplido:
+
+- Agregar los links a Genia Event [00.00]
+- Dibujar solamente los grafos cuando hay hedging [1.56]
+========================
+
+Copié a C:\guillermo\work\bioscope los nuevos xml de entrenamiento y testeo (con lo de medline)
+
+En la IMM
+[train]
+- Genero archivos .txt OK
+- Genero archivos .bioscope OK
+- Genero archivo temporal para genia 
+- Proceso con genia 
+- Genero archivos .genia 
+- Genero archivos .parsed 
+- Genero los pickle y dibujos 
+
+
+[test]
+- Genero archivos .txt OK
+- Genero archivos .bioscope OK
+- Genero archivo temporal para genia 
+- Proceso con genia 
+- Genero archivos .genia 
+- Genero archivos .parsed 
+- Genero los pickle y dibujos 
+
+
+Sigo incorporando lo de Genia Event. Averigí¼é y todo el Genia Event está en Bioscope (aunque hay más abstracts en Bioscope. Va la respuesta
+de Verónica Vinze: 
+
+Thus, unfortunately, not all of the abstracts in BioScope are annotated for events in GENIA Event: however, the BioScope corpus contains all 
+the 1000 abstracts from Genia Event, although some of these (42) differ in their segmentation on the sentence level.
+
+Así que ahora voy a dejar todo para que se pueda ver la información asociada a Genia Event en los documentos de Bioscope. OK
+
+Ahora tengo que generar los archivos .parsed, solamente para las oraciones que tengan un tag de incertidumbre, sino no se procesan.
+Luego hago lo mismo con las imágenes. Para esto, tengo que correr el parser de stanford solamente cuando es un documento con marcas OK
+
+
+[12/08 -  23.00 - 2 horas ]
+
+========================
+Previsto:
+
+- Publicar transparencias y prácticos Intropln
+- Clase de francés
+- Plan para escribir Paris 
+
+Cumplido:
+
+- Publicar transparencias y prácticos Intropln [23.29]
+- Preparar la clase de Xerox [0.39]
+- Plan para escribir Paris [1.00]
+========================
+
+Tesis
+
+1. Introduction
+2. Machine learning methods for NLP
+	2.1. Statistical methods for classification
+		2.1.0 Introduction: generative and discriminative methods
+		2.1.1 Naive Bayes	
+		2.1.2 Maximum Entropy
+	2.2. Statistical methods for sequential classification
+		2.2.0 Introduction
+		2.2.1 Generative models: HMM
+		2.2.1 Discriminative models: MEMM, Graphical Models, CRF
+	2.3. Linear classifiers
+		2.3.0 Introduction
+		2.3.1 Perceptron & Voted Perceptron
+		2.3.2 Support Vector Machines
+		2.3.3 Kernel Methods
+
+3. Integrating information from different sources
+	3.1 Platforms
+	3.2 Lexical analysis
+	3.3 Syntactic analysis
+
+4. Modality & Hedging
+	4.1 Introduction
+	4.2 Hedging
+	4.3 Hedge detection
+	4.4 Negation detection
+	4.5 The Bioscope corpus
+
+5. Detecting hedge scopes
+	5.1 Information sources
+	5.2 Hedge detection rules
+	5.3 Hedge scope rules
+	5.4 Generalizing rules with secuencial classifiers
+	5.5 Results
+	
+6. Conclusions
+
+[12/08 - 0 hora ]
+
+[11/08 -  23.13 - 1 hora ]
+
+========================
+Previsto:
+
+- Mostrar en la página un link para ver los eventos del documento
+- Hacer una clase de francés
+
+Cumplido:
+- Hacer una clase de francés
+
+========================
+
+Hago un pequeño script que me pase desde el genia event los documentos de Genia Event correspondientes al corpus que estoy leyendo. 
+Tengo que agregar a la copia que agregue el css en el destino, para poder verlo más razonable. Esto podría en realidad hacerse sobre
+todo el corpus genia event.
+
+[10/8 - 23.31 - 2 horas]
+
+========================
+Previsto:
+
+- Sincronización entre Genia y Bioscope
+- Armar la lista de lectura y esquema de la tesis
+- Publicar transparencias del curso
+
+Cumplido:
+
+- Publicadas transparencias y prácticos del curso [23.49]
+- Investigado un poco de Genia Event, cómo mostrar y eso [1:00]
+
+========================
+[Hasta ahora, procedimiento]
+# Ojo si hay que cambiar el lexparser.bat
+python main.py
+
+Copiar el archivo original (abstracts.xml) al directorio de trabajo y agregarle para que lea el xslt: 
+<?xml-stylesheet type="text/xsl" href="bioscope.xsl"?>
+
+
+
+Sigo procesando lo anterior
+
+
+Primero genero los tres corpus [devel, train,test], para la nueva versión del corpus
+
+
+[devel]
+- Genero en el pendrive, en \bioscope_devel el nuevo abstracts_devl.xml, igual al anterior pero con los pmid
+- Genero archivos .txt OK
+- Genero archivos .bioscope OK
+- Genero archivo temporal para genia OK
+- Proceso con genia OK
+- Genero archivos .genia OK
+- Genero archivos .parsed OK
+- Genero los pickle y dibujos OK
+
+# Tengo en \bioscope_devel el trabajo reproducido, pero con el número de Pubmed, en lugar del de genia. Esto me va a permitir
+asociar esto con Genia Event, y es a eso a lo que me dedico.
+
+
+
+
+[09/08 - 22.34 - 3 horas]
+
+========================
+Previsto: 
+- Leer morfología
+- Preparar las presentaciones
+- Clase de francés
+
+Cumplido:
+
+- Armado la parte de morfología, me queda lo de Xerox [23.20]
+- Preparada presentación hasta morfología [23.20]
+- Clase 9 de francés completada [00:00]
+- Clase 10 de francés completada [0:36]
+========================
+
+
+
+
+
+
+
+==================================
+
+[06/8]
+Perdí un mes y medio. Increíble.
+Voy a generar todo de nuevo, pero incluyendo la versión nueva de bioscope (donde cambian los id, nada menos).
+
+Primero genero los tres corpus [devel, train,test], para la nueva versión del corpus
+
+- Genero en el pendrive, en \bioscope_devel el nuevo abstracts_devl.xml, igual al anterior pero con los pmid
+- Genero archivos .txt OK
+- Genero archivos .bioscope OK
+- Genero archivo temporal para genia OK
+- Proceso con genia OK
+
+
+==================================
+
+7para leer xml: c:\python\...\corpus\reader\xmldocs.py
+
+http://nltk.googlecode.com/svn/trunk/doc/howto/corpus.html#writing-new-corpus-readers
+http://nltk.googlecode.com/svn/trunk/doc/api/nltk.corpus.reader.xmldocs.XMLCorpusReader-class.html 
+http://docs.python.org/library/xml.etree.elementtree.html
+
+[nltk]
+(Creé una carpeta bioscope bajo corpora, y metí ahí abstracts.xml y full_papers.xml
+
+bioscope_dir=nltk.data.find('corpora/bioscope')
+my_bioscope=nltk.corpus.XMLCorpusReader(bioscope_dir,'.\*\.xml')
+print my_bioscope.xml('abstracts.xml')
+print my_bioscope.words('abstracts.xml')
+dir(my_bioscope) para saber los métodos
+print my_bioscope.__doc__ para ver los comentarios
+
+Hay declarado un words() en la documentación... pero no existe!
+Tenía una versión antediluviana, actualicé y anda perfecto.
+
+Ahora tengo que ver cómo leer xml.
+
+import xml.etree
+
+xmldocs=my_bioscope.xml('abstracts.xml')
+xml.etree.ElementTree.dump(xmldocs)
+
+
+xmldocs.getchildren()[0].getchildren()
+xmldocs.getchildren()[0].getchildren()[0].getchildren()
+
+18/2
+[Notebook] [ambiente]
+- Hice un script lexparser y lo agregué al PATH. Puse al stanford-parser en el classpath. Todo esto en el .bash_profile
+- Cree una variable $ambiente apuntando al pendrive
+- Moví todo a $ambiente/fing/work/bioscope
+- Interesante: ver el tema de la tokenizacion del GENIA, puede dársele un texto ya tokenizado. Usa el tokenizer de upenn
+- Agregué el geniatagger al path. Tuve que recompilar y cambiar los directorios a mano (una bestia) porque el tipo asume que el archivo a taggear
+está en el mismo directorio que el tagger, y no levanta los diccionarios. Por las dudas, los archivos originales están respaldados en los .original
+
+Por lo tanto, ahora haciendo lexparser archivo.txt o geniatagger archivo.txt hace lo que tiene que hacer
+
+- Instalé nltk, versión nueva en el notebook
+- Para bajar el corpus (de nuevo) use nltk.download. Quedo en ~guillermo/nltk_data, tal vez copie esa carpeta al pendrive
+- En esa carpeta me cree una carpeta bioscope y copié los xml, como había hecho en windows
+
+Reproduje sin problemas lo que hice en windows, aunque en el nb anda bastante más lento.
+
+
+[22/2]
+- Cree un test.parsed.txt salida de una ejecución del stanford parser sobre una oración del corpus. Mi idea es levantar eso con nltk y cargarlo en u
+árbol de parsing.
+
+http://nltk.googlecode.com/svn/trunk/doc/api/nltk.parse-module.html
+http://nltk.googlecode.com/svn/trunk/doc/api/nltk-module.html
+
+
+Opa!
+http://nltk.googlecode.com/svn/trunk/doc/api/nltk.corpus.reader.bracket_parse-module.html
+tree = nltk.bracket_parse('(NP (Adj old) (NP (N men) (Conj and) (N women)))')
+http://docs.huihoo.com/nltk/0.9.5/en/ch07.html
+
+Entonces, voy a tener un plan_bioscope, que va a ser un corpus de las oraciones del bioscope, planas. La idea es irlas leyendo de a una y 
+parseándolas, para luego leerlas con un bracket_parse reader, o algo así.
+
+(ROOT (S (NP (DT These) (NNS results))(VP (VBP indicate) (SBAR (IN that) (S (PP (IN in) (NP (JJ monocytic) (NN cell) (NN lineage)))(, ,)(NP (NN HIV-1))(VP (MD could)(VP (VB mimic)(NP (DT some) (NN differentiation\/activation) (NNS stimuli))(S(VP (VBG allowing)(NP (JJ nuclear) (NN NF-KB) (NN expression)))))))))(. .)))
+
+tree=nltk.tree.bracket_parse('(ROOT (S (NP (DT These) (NNS results))(VP (VBP indicate) (SBAR (IN that) (S (PP (IN in) (NP (JJ monocytic) (NN cell) (NN lineage)))(, ,)(NP (NN HIV-1))(VP (MD could)(VP (VB mimic)(NP (DT some) (NN differentiation\/activation) (NNS stimuli))(S(VP (VBG allowing)(NP (JJ nuclear) (NN NF-KB) (NN expression)))))))))(. .)))')
+tree.draw()
+
+-- Para levantar el corpus de mi directorio, modfico el data path de nlkt
+nltk.data.path.append('/Volumes/AMBIENTE/fing/work')
+plain_bioscope_dir=nltk.data.find('bioscope/bioscope')
+plain_bioscope=nltk.corpus.BracketParseCorpusReader(plain_bioscope_dir,'.\*\.parsed')
+
+[23/2]
+
+-- Para levantar el corpus de mi directorio, modfico el data path de nlkt
+nltk.data.path.append('/Volumes/AMBIENTE/fing/work')
+plain_bioscope_dir=nltk.data.find('bioscope/bioscope')
+plain_bioscope=nltk.corpus.BracketParseCorpusReader(plain_bioscope_dir,'.\*\.parsed')
+
+--Leer esto
+http://nltk.googlecode.com/svn/trunk/doc/howto/corpus.html
+
+
+[24/2]
+
+nltk.data.path.append('/Volumes/AMBIENTE/fing/work')
+plain_bioscope_dir=nltk.data.find('bioscope/bioscope')
+plain_bioscope=nltk.corpus.BracketParseCorpusReader(plain_bioscope_dir,'.\*\.parsed')
+pb=plain_bioscope
+
+
+# Bien, pruebo mostrar la lista de palabras y anda
+words=pb.words('s1.7.parsed')
+# Oraciones
+sents=pb.sents('s1.7.parsed')
+# írboles de parsing (esto trae una lista)
+t=pb.parsed_sents('s1.7.parsed')
+t[0].draw()
+
+>>> tr=t[0]
+>>> tr
+Tree('ROOT', [Tree('S', [Tree('NP', [Tree('DT', ['These']), Tree('NNS', ['results'])]), Tree('VP', [Tree('VBP', ['indicate']), Tree('SBAR', [Tree('IN', ['that']), Tree('S', [Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('JJ', ['monocytic']), Tree('NN', ['cell']), Tree('NN', ['lineage'])])]), Tree(',', [',']), Tree('NP', [Tree('NN', ['HIV-1'])]), Tree('VP', [Tree('MD', ['could']), Tree('VP', [Tree('VB', ['mimic']), Tree('NP', [Tree('DT', ['some']), Tree('NN', ['differentiation\\/activation']), Tree('NNS', ['stimuli'])]), Tree('S', [Tree('VP', [Tree('VBG', ['allowing']), Tree('NP', [Tree('JJ', ['nuclear']), Tree('NN', ['NF-KB']), Tree('NN', ['expression'])])])])])])])])]), Tree('.', ['.'])])])
+
+[03/03]
+Voy a pasar al pc de casa todo.
+
+Tuve que instalar python 2.6 para instalar pyyaml y creo que nltk también. Voy a actualizar todo a python 2.6
+
+[04/03]
+Quedó instalado en mi máquina. 
+Ya tengo todas las herramientas, ahora tengo que armar el proceso para el corpus.
+
+- Por cada documento del corpus, genero un txt con las oraciones, una oración por línea (se va a llamar 
+
+
+[11/03]
+
+- Por cada documento del corpus de abstracts, genero un txt con las oraciones, una oración por línea (se va a llamar absPMID.txt)
+
+
+Reconozco el documento que me interesa
+doc=docset[0].getchildren()[2]
+o=doc.getchildren()[2].getchildren()[1]
+
+Bueno, estoy generando a partir del corpus archivos de los documentos, con una oración por línea. El script es el gen_corpus.py. 
+El problema que tengo ahora es que cuando escribe no sabe que está escribiendo unicode. Je: lo arreglé usando codecs (qué grande)
+
+[15/03]
+
+Mi idea de cómo tiene que quedar
+
+Proceso doc XML de bioscope
+Genero un archivo .bioscope que tiene la oración con las marcas de bioscope (formato IdOracion -> Texto con tags)
+Genero un archivo .txt que tiene el texto de cada oración (formato solo Texto [el orden de las oraciones en el archivo es el mismo que en el bioscope])
+Genero un archivo .genia que tiene las oraciones analizadas con Genia (formato IdOracion\nPalabra\nPalabra\n...\n\nIdOracion, etc)
+Genero un archivo. parsed que tiene el análisis sintáctico con el parser de Stanford (formato IdOracion -> Análisis)
+
+
+A partir de esos 4 archivos genero un .analyzed que tiene el formado
+IdOracion
+Texto (Lista python)
+SentenceB (XML)
+SentenceG (Lista python)
+SentenceP (Tree)
+\\
+...
+
+Sobre este archivo voy a sincronizar.
+
+Mi primera prueba la hago con el abstracts.
+
+
+Listo .txt y .bioscope
+
+[16/03]
+Buen dato. La tokenizacion del Genia Tagger y el Stanford Parser debería ser la misma (la del Penn Treebank).
+
+[18/03]
+El genia_preproc.py se encarga de preprocesar los archivos para que el tagger de genia los tome. 
+La idea es simplemente pegarlos, con el nombre al principio y al final un "========="
+genia_postproc.py los separa
+
+La idea es
+python genia_preproc.py > temp.txt
+geniatagger temp.txt > temp.genia
+python genia_postproc.py
+
+(hay que configurar adentro los parámetros, pero es la idea).
+
+
+Bueno, quedó pronto el .genia, también. Ahora tengo que correrle el parser al temp.txt, no?
+
+
+[19/03]
+lexparser.bat:
+java -mx300m -cp "stanford-parser.jar;" edu.stanford.nlp.parser.lexparser.LexicalizedParser -outputFormat "penn" englishPCFG.ser.gz %1
+
+Bien, ya hice un script (el parse_files.py) que genera los parsed a partir de los txt, ejecutando el parser. 
+
+Lo siguiente va a ser crear un python que ejecute el proceso completamente (excepto lo del genia tagger, que corre en cygwin). 
+Después de eso, voy a recorrer las oraciones parseadas
+y las voy a convertir en dibujitos con el parse. Finalmente, voy a armar el archivo para procesar por python.
+
+
+[22/03]
+Estandaricé los procesos.
+Ahora voy a generar los dibujitos con el parse (debería ser una pavada con nltk)
+
+Lo que voy a tratar de hacer es lo siguiente:
+
+- abro el .bioscope y el .parse
+- Leo una oración a la vez
+- Genero jpg con iddoc+idoracion y la imagen del parse
+- Armo un xsl para que muestre la oración bonita, y un link al parse
+
+Antes voy a transformar el .bioscope en un xml válido... Listo.
+Ya tengo bastante avanzado el que reconoce el parse tree, el problema es que no sé cómo generar una imagen.  Pero lo importante es que ya sé
+recorrer (con la ayuda de nltk) los archivos generados, tanto xml como parsed. Digamos que ya estoy en condiciones de generar cualesquiera atributos
+(siempre y cuando esto esté tokenizado).
+
+Lo siguiente que voy a hacer, entonces, es pensar en generar un conjunto de atributos por cada palabra, con la idea de aprender con CRF++ o uno de esos.
+
+
+
+[26/04]
+Un mes después, retomo.
+Los dibujos los voy a generar generando un graphviz y compilando a jpg. Un dibujo por oración.
+
+[03/05]
+Ya tengo generados los dibujos. Ahora tengo que determinar bien qué mostrar
+Los archivos de imágenes van a ser <id_documento>.<id_oracion>.[dot | jpg]
+Listo el pollo!
+Ahora voy a generar un html que permita consultar los resultados, incluyendo las imágenes
+
+[04/05]
+Modifiqué el genia_postproc para que genere un .genia por oración, en lugar de por documento. Esto para facilitar el armado del documento
+que muestra todo.
+
+El documento que muestra todo va a ser un xml que tenga
+
+S1.7 -> These results indicate that	_link a genia_ _link a imagen stanford_
+
+indicate that está marcado como cue
+
+Lo que voy a hacer es generar un xml y procesarlo con css.
+
+Para generar, recorro el .bioscope y genero todo (ahí tengo todo)
+
+Bueno, quedó pronto. En realidad no generé un xml, sino que le agregué una transformación xsl y una hoja de estilo al corpus original, para
+mostrar las oraciones con marcas, y agregando links al análisis Genia y Stanford de cada oración.
+
+
+[05/05]
+Vamos a terminar con todo, procesando todos los archivos de los abstracts. Cuando esté eso pronto, se lo mando a Dina y Jean-Luc.
+Luego trabajo en generalizar al otro corpus, para tener todo prontito.
+
+... gen_corpus.py OK
+... genia_preproc.py OK
+... genia_postproc.py OK
+
+
+=======================================================================================================================================
+
+[06/05]
+Trato de levantar una versión en test para que dina vea el avance.
+Intento corregir el bug que hacía que juntaa oraciones. Uso la opcion -sentences newline para decirle que tengo una oración por linea
+Estudio la forma de que use el tagging del genia tagger (no el propio). Parece que habría que preprocesar el .genia
+
+
+Bueno, subí el ejemplo de test para que Dina vea cómo queda. Voy a dejar esta noche generando todos los archivos de parsing y sus imágenes correspondientes.
+
+[11/05]
+Tengo todo generado, creo que hay algunos bugs. Tengo que empezar a analizar las oraciones.
+Me voy a concentrar en los hedgings. 
+
+
+[14/5]
+Creo un ambiente para ver estudiar cómo se relaciona la uncertainty con los constituyentes del árbol sintáctico.
+
+Ej: 
+1. Tomo una oración y genero un patrón
+2. Â¿Cuántas veces se da el patrón en el corpus?
+3. Â¿Cuántas veces falla?
+4. Mejoro si es trivial y vuelvo a 1.
+
+Cada patrón es código python. Me pasan un árbol de pársing y devuelvo los subárboles correspondientes anotados además con marcas de hedging.
+Por ejemplo: si (VBP indicate) es una rama, y la otra es (SBAR (IN that)), entonces el VP que los cubre es incierto.
+
+1.Proceso una oración de lenguaje. Lo paso por cada patrón. Devuelvo la oración, con atributos H, BI, II, O por cada palabra (una palabra por línea).
+2. Comparo con la posta y tomo nota.
+
+[18/5]
+
+- Decidí reorganizar un poco los scripts para seguir adelante.
+- También voy a tratar de construir un array de árboles de parsing anotados, que tengan toda la información, para poder trabajar en memoria. De
+esta forma, el análisis de los patrones va a ser más rápido y probable
+- Nuevamente, voy a trabajar sobre el grupo test, hasta que tenga todo afinado, ahí recién empiezo a probar en serio con los patrones.
+
+
+[19/5]
+Sigo arreglando. Levanté un bug al generar los .genia
+Bueno, pasé todo el proceso al main.
+Solamente me queda revisar por qué algunos genia no lo tengo. PUta, sigue mal el proceso. trabajo para mañana
+
+Lo siguiente: pensar un ratito cómo seguir.
+
+[20/5]
+
+Levanté el bug que tenían los .genia. Aumenté la memoria al lexparser para que procese todo bien.
+OJO QUE TENGO QUE CAMBIAR EL LEXPARSER
+
+Lo siguiente que voy a intentar es que el parser levante el pos-tagging de genia, y ver si queda bien. De esta forma, tenemos todo tokenizado igual
+(bueno, excepto el bioscope). 
+Si resuelvo eso, entonces lo siguiente es armar algo que levante todo el corpus en memoria, una lista de arbolitos anotados con toda la información.
+Sobre eso voy a trabajar fácilmente los patrones
+
+
+[21/5]
+En http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/home/wiki.cgi?page=Part-of-Speech+Annotation dice que el corpus Genia utiliza los tags del PennTreeBank
+En http://nlp.stanford.edu/software/parser-faq.shtml#c dice que el parser de Stanford usa los mismos tags, o sea que venimos bien.
+Copie el stanford parser al pendrive, para tenerlo siempre presente
+
+
+Expresión para simplificar
+^([^\t]*)\t[^\t]*\t([^\t]*).*$
+
+Cree el lexparser_txt.bat para procesar los .txt
+El lexparser.bat queda para procesar los genia (postprocesados)
+
+Tengo http://www.cis.upenn.edu/~treebank/tokenization.html para ver el tema de la tokenización
+
+
+La cosa sería tomar el .genia y convertirlo al formato que me interesa, para luego parsearlo (utilizando el .genia en vez del txt). 
+
+
+Opa. Logré que el parser tome la tokenización de genia. Estuve mirando algunos ejemplos... y parece estar funcionando mejor que antes
+
+Perfecto, está resuelto. Me voy a dormir contento. El siguiente paso  es levantar el árbol de parsing y agregarle la información que proporciona
+gennia como atributos. Y luego (un poco más difícil, porque no lo tengo tokenizado) incorporar las marcas de bioscope como atributos.
+Después de eso, es cuestión de hacer patrones y ver qué valores dan. 
+
+
+Tengo que verificar que quedó bien el armado del .genia (ya lo hice).
+
+[24/5]
+Tengo líos con los brackets para stanford. El tipo espera:
+
+- Si es [ => -LRB-/-LRB-  => Genia lo hace bien para el tag, pero mal para el lemma, debería ser -LRB-
+- Si es { => -LCB-/-LRB-  =>
+- Si es ( => -LRB-/-LRB-
+
+Bueno, ahora sí podemos decir que está pronto la coordinación genia/stanford. Ahora el archivo genia generado está corregido para ser aceptado
+por el parser, y los árboles de parsing generados son utilizando los tags de genia (excepto cuando el parser tiene que reintentar porque lo 
+que le sugiere genia es absurdo, y  por lo  tanto, a partir de ahora el tag que tenemos en el árbol de parsig es el posta, mientras que lo 
+que dijo originalmente genia queda obsoleto).
+
+Ahora voy a intentar levantar el árbol de parsing del archivo, y etiquetarlo con los demás atributos generados por genia (chunk, ner, lemma)
+
+working_dir='i:\\fing\\work\\bioscope\\bioscope_test\\'
+pc=nltk.corpus.BracketParseCorpusReader(working_dir,'\*\.parsed')
+sent=pc.parsed_sents('a91079577.parsed')
+a=sent[0][0][0]
+b=sent[0][0][1] 
+c=sent[0][0][2]
+
+Con esto, lo que voy a hacer es tomar el árbol generado por el parsing y anotarlo con los atributos de la anotación de genia. Posteriormente voy
+a agregar las anotaciones de modalidad partiendo de los tags de bioscope.
+
+[27/5]
+Hice una funcion get_decorated_tree que recibe un documento, lee el arbol de parsing y le agrega atributos a partir de las palabras que 
+pude taggear con genia. Con esto, voy a modificar la salida graphviz para mostrarlos.
+
+[30/5]
+Estoy refactoreando.
+
+[31/5]
+Bueno, tengo pronto prolijito y dibujados los archivos. Ahora hago test de regresión antes de pasar al paso siguiente. Correcto.
+
+[1/6]
+Paso un resumen a Dina, Jean-Luc, con el plan a futuro
+
+Bueno, se me ocurrió algo: no tengo que incorporar lo de bioscope, sino crear un nuevo arbol con la estructura de bioscope. Ojo! tiene
+que tener la misma tokenización que tiene genia, para que sean comparables.
+Y el aprendizaje tiene que ser por kernels, no por atributos, o sea que mis patrones tienen que ser por similitud entre los arboles de parsing anotados
+y los árboles de bioscope.
+
+
+nltk tiene el TreebankWordTokenizer() que debería tokenizar igual, porque usa el mismo algoritmo!
+>>> wt=nltk.tokenize.TreebankWordTokenizer()
+>>> words=wt.tokenize('The production of human immunodeficiency virus type 1 (HIV-1) progeny was followed in the U937 promonocytic cell line after stimulation either with retinoic acid or PMA, and in purified human monocytes and macrophages.')
+>>> words
+['The', 'production', 'of', 'human', 'immunodeficiency', 'virus', 'type', '1', '(', 'HIV-1', ')', 'progeny', 'was', 'followed', 'in', 'the', 'U937', 'promonocytic', 'cell', 'line', 'after', 'stimulation', 'either', 'with', 'retinoic', 'acid', 'or', 'PMA', ',', 'and', 'in', 'purified', 'human', 'monocytes', 'and', 'macrophages', '.']
+>>> 
+
+
+[3/6]
+Creo que tengo todo. 
+a) Agregar en cada token atributos indicando si es una marca de especulación o negación según bioscope
+b) Agregar un atributo indicando si está dentro de un scope de especulación (FIRST, IN, LAST) y el id de comienzo de la marca
+c) Agregar un atributo indicando si está dentro de un scope de negación (FIRST, IN, LAST) y el id de comienzo de la marca
+d) Buscar patrones que indiquen si es una marca de especulación o negación, y su scope y evaluarlos
+e) Poner un atributo que indique si cumple alguno de los patrones que identifique como relevantes para detectar marca o scope
+f) Intentar aprender con SVM o CRF, o un metalearner 
+
+La tesis describiría las técnicas de aprendizaje, las características de modalidda y como aplican al aprendizaje de modalidad
+
+El siguiente paso es completar a) b) c)
+
+[7/6]
+Agrego los atributos
+
+La idea es agregar los siguientes atributos:
+
+NegCue: {O,B-NEGCUE,I-NEGCUE}
+NegCueRef: number
+NegXcope:{O,B-NEGXCOPE,I-NEGXCOPE}
+NegXcopeRef: number
+
+SpecCue: {O,B-SPECCUE, I-SPECCUE}
+SpecCueRef: number
+SpecXcope:{O,B-SPECXCOPE,I-SPECXCOPE}
+SpecXcopeRef: number 
+
+No pude terminar. La idea es recorrer el árbol e ir poniendo los tags que correspondan según el contexto 
+
+[10/6]
+Resolví el tema de los scopes de especulación. Ahora voy a agregar otros atributos para permitir scopes dentro de scopes (máximo 2,
+después veo si hay algún caso con 3). Bueno, lo de especulación quedó. Ahora lo incorporo al arbolito y así puedo dibujarlo y ver cómo queda.
+
+Bastante bien la generación, tengo algún caso en el que yo tokenizo diferente que Genia, lo que tengo que hacer es ignorar esos casos y reportarlos
+Así puedo seguir para adelante.
+
+[12/6]
+Intento hoy terminar de procesar el bioscope_test (marcando los que no andan). Luego trato de armar 10 grupos con el corpus completo, y preprocesar
+con lo hecho hasta ahora, detectando problemas. No voy a levantar las imágenes por defecto, porque sino va a pesar mucho. Si las necesito las veo.
+
+Quedó bien identificado qué proceso y qué no.
+
+[13/6]
+Pasé las imágenes a un subdirectorio. Tengo que modificar los scripts para que genere bien.
+Voy a tomar 400 documentos (el 80%) y voy a armar el corpus de entrenamiento. El de testeo por ahora no voy ni a mirarlo.
+
+[14/6]
+Empiezo a armar ambientes de testeo y train.
+La primera decisión es no trabajar sobre el pendrive hasta que vea el tema del espacio. Lo que hago es copiarme el directorio work a un c:\guillermo\work
+y editar ahí (respaldando solamente los fuentes en el pendrive).
+Voy a tener tres directorios: bioscope_devel, bioscope_train, bioscope_test. El primero es lo que hoy tengo como bioscope_test, el segundo tiene el 80% de los documentos
+y el tercero el 20% para probar.
+Cada paso lo corro primero sobre bioscope_devel, y cuando está pronto lo paso a los otros. Cuando completo un paso, paso al siguiente. Para devel trabajo
+sobre el pendrive, solamente paso el fuente para ejecutar al C:\ cuando quiero correr contra el posta (porque es muy grande).
+
+
+1. Archivos .txt generados sin problemas.
+2. Archivos .bioscope generados sin problemas.
+3. Archivos .genia generados sin problemas
+4. Dejo generando los parse
+
+
+[14/6]
+
+Todo bien.
+
+- Reviso la salida de los parsers, y borro a mano los que no anduvieron (tengo que asegurarme de borrar también en bioscope, sino se me dessincronizan).
+
+Oraciones eliminadas 
+S914.3  - 8632999 - 
+<sentence id="S914.3">Recently, a multivalent guanylhydrazone (CNI-1493) developed as an inhibitor of macrophage activation was shown to suppress TNF production and protect against tissue inflammation and endotoxin lethality [Bianchi, M., Ulrich, P., Bloom, O., Meistrell, M., Zimmerman, G.A., Schmidtmayerova, H., Bukrinsky, M., Donnelley, T., Bucala, R., Sherry, B., Manogue, K.R., Tortolani, A.J., Cerami, A.& Tracey, K.J.(1995) Mol.Med.1, 254-266, and Bianchi, M., Bloom, O., Raabe, T., Cohen, P. S., Chesney, J., Sherry, B., Schmidtmayerova, H., Zhang, X., Bukrinsky, M., Ulrich, P., Cerami, A.& Tracey, J.(1996) J.Exp.Med., in press].nce>
+
+S 1005.5 - 9120310
+<sentence id="S1005.5">We demonstrate that: 1) RANTES promoter activity is up-regulated by PMA plus ionomycin, coexpression of the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.nce>
+
+S318.6 - 94151327
+<sentence id="S318.6">Subsequent studies have revealed that ( i ) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; ( ii ) in contrast to RelA-I kappa B alpha, <xcope id="X318.6.2">RelA-p100 cytoplasmic complexes are <cue type="negation" ref="X318.6.2">not</cue> dissociated following tumor necrosis factor alpha activation</xcope>; ( iii ) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; ( iv ) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but <xcope id="X318.6.1"><cue type="negation" ref="X318.6.1">not</cue> the nuclear localization signal of RelA</xcope>, which is required for I kappa B alpha binding; ( v ) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and ( vi ) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.nce>
+
+S1068.4 - 9234742 (test)
+<sentence id="S1068.4">We here report that (i) like PML-RAR alpha expression, PLZF-RAR alpha expression blocks terminal differentiation of hematopoietic precursor cell lines (U937 and HL-60) in response to different stimuli (vitamin D3, transforming growth factor beta1, and dimethyl sulfoxide); (ii) PML-RAR alpha, but <xcope id="X1068.4.2"><cue type="negation" ref="X1068.4.2">not</cue> PLZF-RAR alpha</xcope>, increases RA sensitivity of hematopoietic precursor cells and restores RA sensitivity of RA-resistant hematopoietic cells; (iii) PML-RAR alpha and PLZF-RAR alpha have similar RA binding affinities; and (iv) PML-RAR alpha enhances the RA response of RA target genes (those for RAR beta, RAR gamma, and transglutaminase type II [TGase]) in vivo, while PLZF-RAR alpha expression has either <xcope id="X1068.4.1"><cue type="negation" ref="X1068.4.1">no</cue> effect (RAR beta)</xcope> or an inhibitory activity (RAR gamma and type II TGase).nce>
+
+
+Corrí el proceso y dieron algunos errores. Voy a intentar corregir la tokenización de bioscope cuando es diferente a la de los otros dos
+
+
+Estoy corriendo en directorios locales c:\guillermo\work\bioscope porque son muchos archivitos chicos.
+
+[16/6]
+Arreglé algunos temas de tokenización y di por terminado el tema. Ahora tengo que persistir el árbol. 
+Lo solucioné con pickle, y algún cambito. Mañana genero en la IM los pickle definitivos, y arranco a trabajar con las estadísticas. Ahora voy a armar
+los archivos para subir a dina y jean-luc
+
+[18/6]
+Voy a escribir un capítulo con el proceso.
+También voy a generar en casa todo el proceso, incluyendo la generación del .pickle para poder levantar todo el árbol a memoria, y generar los .jpg y los .html para consultar.
+
+
+[06/8]
+Perdí un mes y medio. Increíble.
+Voy a generar todo de nuevo, pero incluyendo la versión nueva de bioscope (donde cambian los id, nada menos).
+
+Primero genero los tres corpus [devel, train,test], para la nueva versión del corpus
+
+- Genero en el pendrive, en \bioscope_devel el nuevo abstracts_devl.xml, igual al anterior pero con los pmid
+- Genero archivos .txt OK
+- Genero archivos .bioscope OK
+- Genero archivo temporal para genia OK
+- Proceso con genia OK
+
+
+
+==============================================================================================================================
+
+[SCRIPTS]
+
+# Scripts de aprendizaje
+scripts/evaluate_hc_learning_test_set: entrena sobre el corpus de entrenamiento y evalúa en el de test (en desarrollo, puede andar mal)
+scripts/mostrar_hedge_cues.py: dada una oración, la muestra identificando la hc y la que (eventualmente) aprendió
+scripts/mostrar_hedge_scopes.py: Dada una oración y un hedge cue, muestra el scope correspondiente al hc 
+scripts/mostrar_hedge_scopes_ghc.py: igual al aneterior, pero muestra el hedge scope de la guessed hedge cue (coincide con la anterior, si adivinó la hc, y es todo O en caso contrario
+scripts/tipo_oracion.py: dada una oración, indica si es de entrenamiento o testeo (siempre considerando el corpus de entrenamiento dividido)
+scripts/show_sentence.py: muestra el resultado del análisis de una oración. Genera un html. Si no se le pasan parámetros, genera el html para todas las oraciones del corpus heldout
+
+Todos los scripts de entrenamiento están documentados en 
+
+
+train.data.total: archivo de entrenamiento, con todo el corpus de entrenamiento (HC)
+test.data.total: archivo de evaluación, con todo el corpus de evaluación (HC)
+
+corridas.txt : información de las corridas.
+
+EJEMPLOS DE ENTRENAMIENTO
+SELECT * FROM bioscope_train where sentence_type='TRAIN' limit 10
+
+
+EJEMPLOS DE HELDOUT
+SELECT * FROM bioscope_train where sentence_type='TEST' limit 10
+
+Adivinó correctamente:
+select count(*) from bioscope_train where sentence_type='TEST' and hedge_cue<>'O' and guessed_hedge_cue<>'O'
+Inventó:
+select count(*) from bioscope_train where sentence_type='TEST' and hedge_cue='O'  and guessed_hedge_cue<>'O')
+Se comió:
+select * from bioscope_train where sentence_type='TEST' and hedge_cue<>'O'  and guessed_hedge_cue='O'
+
+
+EJEMPLOS DE EVALUATION
+SELECT * FROM bioscope_test limit 10
+
+
+
+EJEMPLOS DE VERIFICACIí“N PARA VER Cí“MO SE GENERA EL SCOPE DETECTION CORPUS
+
+1. Sin hedging. S31.1 OK
+
+SELECT * FROM bioscope_train where document_id='a1851858' and sentence_id='S31.1'
+SELECT * FROM bioscope80_scope where document_id='a1851858' and sentence_id='S31.1' 
+(NO genera nada)
+
+
+2. Una HC S35.5 OK
+
+SELECT * FROM bioscope_train where document_id='a2039752' and sentence_id='S35.5'
+SELECT * FROM bioscope80_scope where document_id='a2039752' and sentence_id='S35.5' 
+hc_token=hypothesis, hc_start=4, scope=(4,19)
+
+3. Dos HC anidadas S43.8 OK
+
+SELECT * FROM bioscope_train where document_id='a1648430' and sentence_id='S43.8'
+SELECT * FROM bioscope80_scope where document_id='a1648430' and sentence_id='S43.8' and hc_start=24 
+hc_token=suggest,hc_start=24,scope=(24,37)
+SELECT * FROM bioscope80_scope where document_id='a1648430' and sentence_id='S43.8' and hc_start=32
+hc_token=may,hc_start=32,scope=(32,37)
+
+	
+4. Broken HC con una anidada 35.9 No queda igual porque hay un problema en el original
+
+SELECT * FROM bioscope_train where document_id='a2039752' and sentence_id='S35.9'
+SELECT * FROM bioscope80_scope where document_id='a2039752' and sentence_id='S35.9' and hc_start=6 
+hc_token=might_or, hc_start=6, scope=(6,32)
+SELECT * FROM bioscope80_scope where document_id='a2039752' and sentence_id='S35.9' and hc_start=25
+hc_token=might, hc_start=25, scope=(25,32)
+
+	
+5. Dos scopes separados en la misma oración S38.11 
+SELECT * FROM bioscope_train where document_id='a2050125' and sentence_id='S38.11'
+SELECT * FROM bioscope20_scope where document_id='a2050125' and sentence_id='S38.11' and hc_start=3 
+hc_token=suggest, hc_start=3, scope=(3,13)
+SELECT * FROM bioscope20_scope where document_id='a2050125' and sentence_id='S38.11' and hc_start=15
+hc_token=imply, hc_start=15, scope=(15.28) 
+
+6. Broken HC OK OK
+
+SELECT * FROM bioscope_train where document_id='a1901389' and sentence_id='S18.6'
+hc_token=either_or, hc_start=15, scope=(15,19)
+SELECT * FROM bioscope80_scope where document_id='a1901389' and sentence_id='S18.6'
+
+7. Dos HC anidada en otra S18.9 OK OK
+
+SELECT * FROM bioscope_train where document_id='a1901389' and sentence_id='S18.9'
+SELECT * FROM bioscope80_scope where document_id='a1901389' and sentence_id='S18.9' and hc_start=4
+hc_token=postulated, hc_start=4, scope=(4.46)
+SELECT * FROM bioscope80_scope where document_id='a1901389' and sentence_id='S18.9' and hc_start=21
+hc_token=_or, hc_start=21, scope=(14,27)
+SELECT * FROM bioscope80_scope where document_id='a1901389' and sentence_id='S18.9' and hc_start=32
+hc_token=might, hc_start=32, scope=(30,46)
+	
+8. Dos scopes, uno de ellos con otro anidado. S102.11 OK
+
+SELECT * FROM bioscope_train where document_id='a1782151' and sentence_id='S102.11'
+SELECT * FROM bioscope80_scope where document_id='a1782151' and sentence_id='S102.11' and hc_start=7
+hc_token=possible, hc_start=7, scope=(5,13)
+SELECT * FROM bioscope80_scope where document_id='a1782151' and sentence_id='S102.11' and hc_start=15
+hc_token=indicate_that, hc_start=15, scope=(15,26)
+SELECT * FROM bioscope80_scope where document_id='a1782151' and sentence_id='S102.11' and hc_start=19
+hc_token=may, hc_start=19, scope=(17,26)
+
+9. Una HC con dos HC anidadas S106.11 OK
+
+SELECT * FROM bioscope_train where document_id='a1740663' and sentence_id='S106.11'
+SELECT * FROM bioscope80_scope where document_id='a1740663' and sentence_id='S106.11' and hc_start=3
+hc_token=indicate_that, hc_start=3, scope=(3,36)
+SELECT * FROM bioscope80_scope where document_id='a1740663' and sentence_id='S106.11' and hc_start=10
+hc_token=may, hc_start=10, scope=(10,17)
+SELECT * FROM bioscope80_scope where document_id='a1740663' and sentence_id='S106.11' and hc_start=29
+hc_token=may, hc_start=29, scope=(29,36)
+
+10. Dos HC distintas, pero pegadas S141.3 
+
+SELECT * FROM bioscope_train where document_id='a1668145' and sentence_id='S141.3'
+SELECT * FROM bioscope20_scope where document_id='a1668145' and sentence_id='S141.3' and hc_start=18
+hc_token=might, hc_start=18, scope=(18,32)
+SELECT * FROM bioscope20_scope where document_id='a1668145' and sentence_id='S141.3' and hc_start=19
+hc_token=expect, hc_start=19, scope=(19,32)
+
+11. Una HC con otra broken HC anidada (either..or..or) S143.6 OK OK
+
+SELECT * FROM bioscope_train where document_id='a1620119' and sentence_id='S143.6'
+SELECT * FROM bioscope80_scope where document_id='a1620119' and sentence_id='S143.6' and hc_start=3
+hc_token=indicates, hc_start=3, scope=(3,25)
+SELECT * FROM bioscope80_scope where document_id='a1620119' and sentence_id='S143.6' and hc_start=6
+hc_token=either_or_or, hc_start=7, scope=(7,21)
+
+
+12. Dos niveles de anidamiento S61.6 OK OK
+SELECT * FROM bioscope_train where document_id='a1653950' and sentence_id='S61.6'
+SELECT * FROM bioscope80_scope where document_id='a1653950' and sentence_id='S61.6' and hc_start=5
+hc_token=suggested, hc_start=5, scope=(5,14)
+SELECT * FROM bioscope80_scope where document_id='a1653950' and sentence_id='S61.6' and hc_start=8
+hc_token=might, hc_start=8, scope=(8,14)
+SELECT * FROM bioscope80_scope where document_id='a1653950' and sentence_id='S61.6' and hc_start=11
+hc_token=or, hc_start=11, scope=(10,12)
+
+
+EJEMPLOS DE SCOPES GENERADOS, ADEMíS DE LOS DE ARRIBA
+
+HC no reconocida
+
+select * from bioscope20_scope where sentence_id='S152.4' 
+
+Caso interesante: inventó una hedge cue, en la misma oración había otra
+
+select * from bioscope20_scope where sentence_id='S605.5'
+
+Adivinia una sí y otra no
+SELECT * FROM bioscope20_scope where document_id='a1668145' and sentence_id='S141.3' and hc_start=19	
+
+EJEMPLOS DE APRENDIZAJE DE HEDGE CUES
+
+Correctamente aprendidos
+
+select * from bioscope_train where sentence_type='TEST' and hedge_cue<>'O'  and guessed_hedge_cue<>'O'
+SELECT * FROM bioscope20_scope where sentence_id='S327.10' and hc_start=3
+SELECT * FROM bioscope20_ghc_scope where sentence_id='S327.10' and hc_start=3
+
+Inventados
+
+select * from bioscope_train where sentence_type='TEST' and hedge_cue='O'  and guessed_hedge_cue<>'O'
+SELECT * FROM bioscope20_scope where sentence_id='S605.5' and hc_start=12
+SELECT * FROM bioscope20_ghc_scope where sentence_id='S605.5' and hc_start=12
+
+No aprendidos
+select * from bioscope_train where sentence_type='TEST' and hedge_cue<>'O'  and guessed_hedge_cue='O'
+SELECT * FROM bioscope20_scope where sentence_id='S152.4'
+SELECT * FROM bioscope20_ghc_scope where sentence_id='S152.4'
+(nada)
+
+[
+CONSULTAS
+
+-- Desaparecieron de una corrida a otra
+select sentence_id,hc_start, hc_token,hc_parent_pos,hc_gparent_pos from bioscope20_scope b where exists (select * from scope_learning_errors_heldout s1  where  s1.document_id=b.document_id and s1.sentence_id=b.sentence_id and s1.hc_start=b.hc_start and  runx=7 and not exists (select * from scope_learning_errors_heldout s2 where s1.document_id=s2.document_id and s1.sentence_id=s2.sentence_id and s1.hc_start=s2.hc_start and runx=16)) group by sentence_id,hc_start, hc_token,hc_parent_pos,hc_gparent_pos
+
+
+-- Aparecieron de una corrida a otra
+select sentence_id,hc_start, hc_token,hc_parent_pos,hc_gparent_pos from bioscope20_scope b where exists (select * from scope_learning_errors_heldout s1  where  s1.document_id=b.document_id and s1.sentence_id=b.sentence_id and s1.hc_start=b.hc_start and  runx=16 and not exists (select * from scope_learning_errors_heldout s2 where s1.document_id=s2.document_id and s1.sentence_id=s2.sentence_id and s1.hc_start=s2.hc_start and runx=7)) group by sentence_id,hc_start, hc_token,hc_parent_pos,hc_gparent_pos
+
+
+-- Aparecieron de una corrida a otra, corpus total
+select sentence_id,hc_start, hc_token,hc_parent_pos,hc_gparent_pos from bioscope_test_scope b where exists (select * from scope_learning_errors s1  where  s1.document_id=b.document_id and s1.sentence_id=b.sentence_id and s1.hc_start=b.hc_start and  runx=7 and not exists (select * from scope_learning_errors s2 where s1.document_id=s2.document_id and s1.sentence_id=s2.sentence_id and s1.hc_start=s2.hc_start and runx=16)) group by sentence_id,hc_start, hc_token,hc_parent_pos,hc_gparent_pos
+
+
+CONSULTA DE DISTRIBUCIí“N DE SCOPES
+
+-- Casos en los que el scope cincide con el parent_scope
+SELECT  hc_token,count(*) FROM bioscope80_SCOPE b1 where token_num=1 and  not exists (select * from bioscope20_scope b2 where b1.document_id=b2.document_id and b1.sentence_id=b2.sentence_id and b1.hc_start=b2.hc_start and b2.in_hc_parent_scope<>b2.scope) group by hc_token order by hc_token
+
+
+-- Coincide con el abuelo
+SELECT  hc_token,count(*) FROM bioscope80_SCOPE b1 where token_num=1 and  not exists (select * from bioscope20_scope b2 where b1.document_id=b2.document_id and b1.sentence_id=b2.sentence_id and b1.hc_start=b2.hc_start and b2.in_hc_gparent_scope<>b2.scope) group by hc_token order by hc_token
+
+-- Coincide con el bisabuelo
+SELECT  hc_token,count(*) FROM bioscope80_SCOPE b1 where token_num=1 and  not exists (select * from bioscope20_scope b2 where b1.document_id=b2.document_id and b1.sentence_id=b2.sentence_id and b1.hc_start=b2.hc_start and b2.in_hc_ggparent_scope<>b2.scope) group by hc_token order by hc_token
+
+
+-- May que conciden con el parent
+
+SELECT  * FROM bioscope20_SCOPE b1 where token_num=1 and hc_token='may' and   not exists (select * from bioscope20_scope b2 where b1.document_id=b2.document_id and b1.sentence_id=b2.sentence_id and b1.hc_start=b2.hc_start and b2.in_hc_parent_scope<>b2.scope)
+
+
+-- Casos en los que el scope cincide con un S o SBAR
+SELECT  hc_token,count(*) FROM bioscope80_SCOPE b1 where token_num=1 and  (not exists (select * from bioscope20_scope b2 where b1.document_id=b2.document_id and b1.sentence_id=b2.sentence_id and b1.hc_start=b2.hc_start and b2.in_hc_parent_scope<>b2.scope and b2.hc_parent_pos in ('S','SBAR')) 
+or not exists (select * from bioscope20_scope b3 where b1.document_id=b3.document_id and b1.sentence_id=b3.sentence_id and b1.hc_start=b3.hc_start and b3.in_hc_gparent_scope<>b2.scope and b3.hc_gparent_pos in ('S','SBAR')) or not exists (select * from bioscope20_scope b4 where b1.document_id=b4.document_id and b1.sentence_id=b4.sentence_id and b1.hc_start=b4.hc_start and b4.in_hc_ggparent_scope<>b4.scope and b4.hc_ggparent_pos in ('S','SBAR'))) group by hc_token order by hc_token
+
+
+
+[IDEAS]
+Sería interesante estudiar cómo el parsing mejora el tagging, y como usar el tagger genia mejora la precisión del parser. Posibilidad=tarea para el curso.
+
+[TIPS]
+type(pb) <class 'nltk.corpus.reader.bracket_parse.BracketParseCorpusReader'>
+pb.__doc__ para mostrar la documentación
+dir(t) para mostrar los atributos
+
+
+[LINKS]
+
+Python Quick reference http://rgruet.free.fr/PQR25/PQR2.5.html
+CSS Quick reference http://www.design215.com/toolbox/css_guide.php
+API nltk http://nltk.googlecode.com/svn/trunk/doc/api/index.html
+Introspection http://www.ibm.com/developerworks/library/l-pyint.html#h5
+XML http://docs.python.org/library/xml.etree.elementtree.html
+FAQ del Stanford parser http://nlp.stanford.edu/software/parser-faq.shtml#c
+GENIA Tagger http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/tagger/
+Tokenizador que usa el GENIA Tagger (precioso) http://www.cis.upenn.edu/~treebank/tokenizer.sed
+String Methods de python http://docs.python.org/library/stdtypes.html#string-methods
+package os http://docs.python.org/library/os.html?highlight=popen#os-file-dir
+Penn Treebank tags http://bulba.sdsu.edu/jeanette/thesis/PennTags.html
+La clase Tree http://nltk.googlecode.com/svn/trunk/doc/api/nltk.tree.Tree-class.html
+Ayuda sobre Corpus Readers http://nltk.sourceforge.net/corpus.html
+Epydoc Fields http://epydoc.sourceforge.net/manual-fields.html
+
+
+[INSTALACION]
+- Instalar python 2.6
+- Agregar el directorio de python al path
+- Instalar pyyaml
+- Instalar nltk
+- Instalar ipython
+- Bajar los datos (nltk.download()). El directorio debería ser siempre i:\fing\corpus\nltk_data
+- Definir la variable de ambiente NLTK_DATA en i:\fing\corpus\nltk_data
+- Instalar XMLView #Windows
+- Cambiando PYTHONPATH puedo agregar mi directorio de trabajo al path de python
+
+- Verificar:
+
+import nltk,xml.etree
+bioscope_dir=nltk.data.find('corpora/bioscope')
+my_bioscope=nltk.corpus.XMLCorpusReader(bioscope_dir,'.\*\.xml')
+xmldocs=my_bioscope.xml('abstracts.xml')
+xmldocs.getchildren()[0].getchildren()[0].getchildren()
+# nltk.data.path.append('/Volumes/AMBIENTE/fing/work') # Mac
+nltk.data.path.append("e:\\fing\\work") # Windows
+plain_bioscope_dir=nltk.data.find('bioscope/bioscope')
+pb=nltk.corpus.BracketParseCorpusReader(plain_bioscope_dir,'.\*\.parsed')
+t=pb.parsed_sents('s1.7.parsed')
+t[0].draw()
+
+[DATOS PARA LA INSCRIPCION+
+

@@ -1,0 +1,29 @@
+Caso de prueba
+==============
+
+1. Dedujo bien la HC
+
+S100.2 token 13 (may) scope:1-23. guessed=sí
+
+En BIOSCOPE20 aparece.
+En BIOSCOPE20_SCOPE se genera el scope correctamente.
+En BIOSCOPE20_GHC_SCOPE se genera el scope correctamente.
+En testx.ghc.data aparece con el scope 1-23
+Luego aprende el scope a partir de las columnas del template1
+
+Si miramos textx_ghc.data.crf_results, ahí el scope quedó 13-24
+Si miramos el textx.data.crf_results, también queda 13-24
+Cuando importamos los resultaods a bioscope20_ghc_scope, en el campo ghc_scope, vemos que solo adivino el L, pero el F se lo puso Morante.
+Esto podemos comprobarlo en el testx_ghc.data.crf_results. El error queda corregido en el _pp con el postproc de morante
+Por últiomo, debería aparecer en BIOSCOPE20_ALL_SCOPES… y efectivamente lo hace.
+
+O sea que todo bien en este caso.
+
+2. Inventó la hedge cue en el aprendizaje
+
+S1008.3, token 18 (noteworthy) scope: no. guessed=sí
+En bioscope20 aparece
+en bioscope20_scope no aparece
+en bioscope20_ghc_scope aparece, sin scope (por supuesto)
+en bioscop20_all_scopes lo incluye con un scope O y guesssed el que inventó
+Tendría que aparecer en el archivo final de evaluación, testx_ghc.data.adjusted_results_pp, y aparece!

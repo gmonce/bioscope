@@ -1,0 +1,54 @@
+# -*- coding: utf-8 -*- 
+# Script que toma la tabla base de entrenamiento (bioscope80) y genera las instancias de entrenamiento para el scope (bioscope80_scope)
+# Luego genera el archivo de entrenamiento correspondiente 
+# Uso: gen_scope_corpus.py corpus_type training_file scenario
+
+import pln_inco.bioscope.scripts
+import pln_inco.bioscope as bioscope
+import pln_inco.bioscope.util
+import os.path
+import time
+import sys
+import yaml
+
+
+corpus_type=sys.argv[1]
+print "Corpus type:",corpus_type
+
+# Escenario con los atributos de entrenamiento/ clase a aprender
+config_file=open(sys.argv[6])
+conf=yaml.load(config_file)
+xs=conf['xs']
+y=conf['y'] 
+
+if corpus_type=='TEST':
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_test')
+elif corpus_type=='TRAIN':
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_train')
+else:
+	working_dir=os.path.join(os.path.expandvars('$BIOSCOPE'),'bioscope_devel')
+
+dbname=os.path.join(working_dir,'attributes.db')
+training_file=os.path.join(os.path.expandvars('$BIOSCOPE'),'crf_corpus',sys.argv[2])
+test_file=os.path.join(os.path.expandvars('$BIOSCOPE'),'crf_corpus',sys.argv[3])
+results_hc_file=os.path.join(os.path.expandvars('$BIOSCOPE'),'crf_corpus',sys.argv[4])
+test_file_ghc=os.path.join(os.path.expandvars('$BIOSCOPE'),'crf_corpus',sys.argv[5])
+ 
+
+
+
+print "Generating scope learning instances..."
+pln_inco.bioscope.scripts.generate_scope_analysis_table(dbname,'bioscope80','bioscope80_scope')
+print "Generating training file…",training_file
+pln_inco.bioscope.scripts.gen_conll_file(dbname,'bioscope80_scope',training_file,xs,y,True)
+print "Generating scope testing instances..."
+pln_inco.bioscope.scripts.generate_scope_analysis_table(dbname,'bioscope20','bioscope20_scope')
+print "Generating test file…",test_file
+pln_inco.bioscope.scripts.gen_conll_file(dbname,'bioscope20_scope',test_file,xs,y,True)
+print "Including guessed hedge cue..."
+pln_inco.bioscope.scripts.add_guessed_hedge_cue(dbname,'bioscope20',results_hc_file)
+print "Generating scope testing instances, using guessed hedge cue..."
+pln_inco.bioscope.scripts.generate_scope_analysis_table(dbname,'bioscope20','bioscope20_ghc_scope', use_guessed_hedge_cue=True)
+print "Generating test file, guessed hedge_cue…",test_file_ghc
+pln_inco.bioscope.scripts.gen_conll_file(dbname,'bioscope20_ghc_scope',test_file_ghc,xs,y,True)
+print "Done"

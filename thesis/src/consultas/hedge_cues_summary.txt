@@ -1,0 +1,72 @@
+Hedge cue,TP,FN,FP,in_tc_as_hc,in_tc
+presumably,1,0,0,7,6
+unclear,2,0,1,7,9
+appear that,1,0,0,0,0
+can,1,5,0,37,312
+appeared,2,0,3,18,23
+supported,0,1,0,0,4
+indicated that,11,0,0,28,37
+not clear,0,2,0,2,4
+unlikely,0,1,0,1,2
+indicates,0,0,1,2,17
+clear,1,0,0,2,46
+likely,13,0,0,37,45
+Potential,0,1,0,0,0
+indicate that,22,0,0,96,103
+should,2,0,0,12,13
+apparently,1,2,0,2,13
+if,1,2,0,10,31
+indicating that,9,0,0,35,39
+considered,0,2,0,1,9
+and\/or,0,2,0,6,33
+would,2,0,0,4,10
+not known,0,1,0,3,6
+perhaps,1,1,0,5,7
+suggest,45,0,1,213,404
+hypothesize,0,1,0,1,9
+seems,2,0,0,17,16
+elucidated,0,1,0,1,5
+may clear,1,0,0,0,0
+indicate,0,1,1,3,173
+potential,4,3,3,25,96
+potentially,1,2,0,10,16
+advance the hypothesis,0,1,0,0,1
+whether or not,0,1,0,2,3
+suggesting,23,0,0,88,93
+seems clear,1,0,0,0,0
+seemed,1,0,0,2,3
+might,10,0,0,43,41
+infer,0,1,0,0,2
+indicating,2,1,2,8,54
+indicates that,2,0,0,14,14
+can be deduced,0,1,0,0,1
+putative,5,2,2,27,39
+may,78,0,0,336,339
+propose,1,0,0,24,30
+possible,6,0,0,28,30
+possibility,0,1,0,5,15
+hypothetically,0,1,0,0,1
+possibly,2,1,0,16,14
+hypothesis,0,1,2,10,16
+probably,2,0,0,12,11
+not,0,2,0,4,840
+suspected,0,1,0,1,1
+appears,12,0,0,59,70
+suggested,13,0,0,45,47
+no proof,0,1,0,0,2
+hypothesized,1,0,1,4,6
+implying,1,0,0,2,1
+whether,14,0,0,56,68
+could,2,8,0,39,113
+imply,1,0,0,9,9
+think,0,1,0,0,1
+thought,5,0,1,22,23
+suggests,13,0,0,41,47
+indication,0,1,0,0,1
+either,0,5,0,20,125
+unknown,0,3,1,11,34
+believed,2,1,0,5,9
+no evidence of,0,1,0,0,1
+no evidence,0,1,0,0,4
+or,3,12,0,92,803
+expect,0,1,0,0,10

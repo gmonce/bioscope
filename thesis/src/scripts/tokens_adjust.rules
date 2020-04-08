@@ -1,0 +1,56 @@
+# Por algún motivo, T-cell me trae problemas
+s/T-cell/T_cell/g
+s/anti-38,000M/anti-38_000M/g
+s/2,3,7,8\-/2_3_7_8\-/g
+# Sustituye las cosas de la forma [n,n,n-] por [n_n-]
+s/\([0-9][0-9]*\),\([0-9][0-9]*\),\([0-9][0-9]*\)\-/\1_\2_\3\-/g
+# Sustituye las cosas de la forma [n,n-] por [n_n-]
+s/\([0-9][0-9]*\),\([0-9][0-9]*\)\-/\1_\2\-/g
+# Elimina las palabras encerradas por comitas
+s/\'\([a-zA-Z_\ ][a-zA-Z_\ ]*\)\'/\1/g
+# Saca los mas menos, les pone mas nomás
+s/\+\/\-/\+/g
+# Convierte los protein-RNA en protein_RNA
+s/protein-RNA/protein_RNA/g
+# 
+s/sex-and/sex_and/g
+s/p65-selected/p65_selected/g
+# Saca los -- y los sustituye por un _
+s/--/_/g
+# Sustituye los alpha,25- por alpha_25-
+s/alpha\,25/alpha_25/g
+# Cuando hay un 1. al principio, saco el punto porque lo marea
+s/^\([0-9]\)\./\1/g
+#
+s/I\.Estrogens/I Estrogens/g
+s/NF-kappa/NF_kappa/g
+s/MHC I/MHC_I/g
+s/\+\//\//g
+s/\([0-9]\)\+/\1/g
+s/TPEN (N\,N,N\',N\'\-tetrakis \[2-pyridylmethyl\]ethylenediamine)/X/g
+s/\/\+/\//g
+s/as a 21 .. 21/as a 21 x 21/g
+s/2,969,958/2969958/g
+s/(i,j)/(ij)/g
+s/LR(f1,\.\.\..*\]/LR()/g
+s/module, ...... refers/module, refers/g
+s/bin and .*,.*,.* refer resp/bin and refer resp/g
+s/features), ... refers/features), refers/g
+s/T=.*where/T where/g
+s/shown that 16.*% of yeast/shown that 16 30% of yeast/g
+s/IUPAC characters R,Y, W, S, K or M/IUPAC characters R or M/g 
+s/31...44\%/31 44\%/g
+s/4...19\%/4 19\%/g
+s/A,T,C,G and/A T C G and/g
+s/domain...domain/domain domain/g
+s/protein...protein/protein protein/g
+s/GGAACCTCCCCC-3\'/GGAACCTCCCCC-3/g
+s/Ca2\+/Ca2/g
+s/U937,THP/U937THP/g
+s/sn\-1,2/sn-12/g
+s/3B\/D\+/3B\/D/g
+s/delta\+/delta/g
+s/1053\/\+/1053\//g
+s/1 alpha/alpha/g
+s/SK&F/SKF/g
+

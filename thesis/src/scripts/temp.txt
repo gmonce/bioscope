@@ -1,0 +1,1696 @@
+Directorio de trabajo: /home/im3669908/Dropbox//fing/work/thesis/src/
+/home/im3669908/Dropbox//fing/corpus/bioscope_develop/ abstracts_train.xml
+/home/im3669908/Dropbox//fing/corpus/bioscope_develop/ abstracts_test.xml
+Levanto el documento... a2024810 1  de  6
+Oración: S26.4 True
+Data loaded...
+digraph G{
+1 [label="ROOT"]
+2 [label="S"]
+3 [label="NP"]
+4 [label="NP"]
+5 [label="DT\nchunk:B-NP"]
+6 [label="The", shape=plaintext]
+5 -> 6
+4 -> 5
+7 [label="NN\nchunk:I-NP"]
+8 [label="concentration", shape=plaintext]
+7 -> 8
+4 -> 7
+3 -> 4
+9 [label="PP"]
+10 [label="IN\nchunk:B-PP"]
+11 [label="of", shape=plaintext]
+10 -> 11
+9 -> 10
+12 [label="NP"]
+13 [label="NP"]
+14 [label="NN\nchunk:B-NP"]
+15 [label="corticosteroid", shape=plaintext]
+14 -> 15
+13 -> 14
+12 -> 13
+16 [label="VP"]
+17 [label="VBG\nchunk:B-VP"]
+18 [label="producing", shape=plaintext]
+17 -> 18
+16 -> 17
+19 [label="NP"]
+20 [label="NP"]
+21 [label="ADJP"]
+22 [label="CD\nchunk:B-NP"]
+23 [label="50", shape=plaintext]
+22 -> 23
+21 -> 22
+24 [label="NN\nchunk:I-NP"]
+25 [label="%", shape=plaintext]
+24 -> 25
+21 -> 24
+20 -> 21
+26 [label="NN\nchunk:I-NP"]
+27 [label="inhibition", shape=plaintext]
+26 -> 27
+20 -> 26
+19 -> 20
+28 [label="PRN"]
+29 [label="-LRB-"]
+30 [label="-LRB-", shape=plaintext]
+29 -> 30
+28 -> 29
+31 [label="NP"]
+32 [label="NN\nchunk:B-NP"]
+33 [label="IC50", shape=plaintext]
+32 -> 33
+31 -> 32
+28 -> 31
+34 [label="-RRB-"]
+35 [label="-RRB-", shape=plaintext]
+34 -> 35
+28 -> 34
+19 -> 28
+16 -> 19
+12 -> 16
+9 -> 12
+3 -> 9
+2 -> 3
+36 [label="VP"]
+37 [label="VBD\nchunk:B-VP"]
+38 [label="was", shape=plaintext]
+37 -> 38
+36 -> 37
+39 [label="NP"]
+40 [label="NP"]
+41 [label="CD\nchunk:B-NP"]
+42 [label="600", shape=plaintext]
+41 -> 42
+40 -> 41
+43 [label="NN\nchunk:I-NP"]
+44 [label="nM", shape=plaintext]
+43 -> 44
+40 -> 43
+39 -> 40
+45 [label=","]
+46 [label=",", shape=plaintext]
+45 -> 46
+39 -> 45
+47 [label="NP"]
+48 [label="CD\nchunk:B-NP"]
+49 [label="70", shape=plaintext]
+48 -> 49
+47 -> 48
+50 [label="NN\nchunk:I-NP"]
+51 [label="nM", shape=plaintext]
+50 -> 51
+47 -> 50
+39 -> 47
+52 [label=","]
+53 [label=",", shape=plaintext]
+52 -> 53
+39 -> 52
+54 [label="CC"]
+55 [label="and", shape=plaintext]
+54 -> 55
+39 -> 54
+56 [label="NP"]
+57 [label="NP"]
+58 [label="CD\nchunk:B-NP"]
+59 [label="0.5", shape=plaintext]
+58 -> 59
+57 -> 58
+60 [label="NN\nchunk:I-NP"]
+61 [label="nM", shape=plaintext]
+60 -> 61
+57 -> 60
+56 -> 57
+62 [label="PP"]
+63 [label="IN\nchunk:B-PP"]
+64 [label="for", shape=plaintext]
+63 -> 64
+62 -> 63
+65 [label="NP"]
+66 [label="NP"]
+67 [label="NN\nchunk:B-NP"]
+68 [label="hydrocortisone", shape=plaintext]
+67 -> 68
+66 -> 67
+69 [label=","]
+70 [label=",", shape=plaintext]
+69 -> 70
+66 -> 69
+71 [label="NN\nchunk:B-NP"]
+72 [label="methylprednisolone", shape=plaintext]
+71 -> 72
+66 -> 71
+73 [label=","]
+74 [label=",", shape=plaintext]
+73 -> 74
+66 -> 73
+75 [label="CC"]
+76 [label="and", shape=plaintext]
+75 -> 76
+66 -> 75
+77 [label="NN\nchunk:B-NP"]
+78 [label="dexamethasone", shape=plaintext]
+77 -> 78
+66 -> 77
+79 [label=","]
+80 [label=",", shape=plaintext]
+79 -> 80
+66 -> 79
+65 -> 66
+81 [label="ADVP"]
+82 [label="RB\nchunk:B-ADVP"]
+83 [label="respectively", shape=plaintext]
+82 -> 83
+81 -> 82
+65 -> 81
+62 -> 65
+56 -> 62
+39 -> 56
+84 [label=","]
+85 [label=",", shape=plaintext]
+84 -> 85
+39 -> 84
+36 -> 39
+86 [label="PP"]
+87 [label="IN\nchunk:B-PP"]
+88 [label="in", shape=plaintext]
+87 -> 88
+86 -> 87
+89 [label="NP"]
+90 [label="NP"]
+91 [label="NNS\nchunk:B-NP\nentity:B-cell_type"]
+92 [label="monocytes", shape=plaintext]
+91 -> 92
+90 -> 91
+89 -> 90
+93 [label="PP"]
+94 [label="IN\nchunk:B-PP"]
+95 [label="from", shape=plaintext]
+94 -> 95
+93 -> 94
+96 [label="NP"]
+97 [label="JJ\nchunk:B-NP"]
+98 [label="CS", shape=plaintext]
+97 -> 98
+96 -> 97
+99 [label="NNS\nchunk:I-NP"]
+100 [label="individuals", shape=plaintext]
+99 -> 100
+96 -> 99
+93 -> 96
+89 -> 93
+86 -> 89
+36 -> 86
+2 -> 36
+101 [label="."]
+102 [label=".", shape=plaintext]
+101 -> 102
+2 -> 101
+1 -> 2
+}
+Oración: S26.5 True
+Data loaded...
+digraph G{
+1 [label="ROOT"]
+2 [label="S"]
+3 [label="NP"]
+4 [label="EX\nchunk:B-NP"]
+5 [label="There", shape=plaintext]
+4 -> 5
+3 -> 4
+2 -> 3
+6 [label="VP"]
+7 [label="VBD\nchunk:B-VP"]
+8 [label="was", shape=plaintext]
+7 -> 8
+6 -> 7
+9 [label="NP"]
+10 [label="NP"]
+11 [label="RB\nchunk:B-NP"]
+12 [label="only", shape=plaintext]
+11 -> 12
+10 -> 11
+13 [label="JJ\nchunk:I-NP"]
+14 [label="weak", shape=plaintext]
+13 -> 14
+10 -> 13
+15 [label="NN\nchunk:I-NP"]
+16 [label="inhibition", shape=plaintext]
+15 -> 16
+10 -> 15
+9 -> 10
+17 [label="PP"]
+18 [label="IN\nchunk:B-PP"]
+19 [label="of", shape=plaintext]
+18 -> 19
+17 -> 18
+20 [label="NP"]
+21 [label="NP"]
+22 [label="DT\nchunk:B-NP"]
+23 [label="the", shape=plaintext]
+22 -> 23
+21 -> 22
+24 [label="NN\nchunk:I-NP"]
+25 [label="generation", shape=plaintext]
+24 -> 25
+21 -> 24
+20 -> 21
+26 [label="PP"]
+27 [label="IN\nchunk:B-PP"]
+28 [label="of", shape=plaintext]
+27 -> 28
+26 -> 27
+29 [label="NP"]
+30 [label="NN\nchunk:B-NP"]
+31 [label="enhancing", shape=plaintext]
+30 -> 31
+29 -> 30
+32 [label="NN\nchunk:I-NP"]
+33 [label="activity", shape=plaintext]
+32 -> 33
+29 -> 32
+26 -> 29
+20 -> 26
+17 -> 20
+9 -> 17
+6 -> 9
+34 [label="PP"]
+35 [label="IN\nchunk:B-PP"]
+36 [label="by", shape=plaintext]
+35 -> 36
+34 -> 35
+37 [label="NP"]
+38 [label="NP"]
+39 [label="DT\nchunk:B-NP"]
+40 [label="the", shape=plaintext]
+39 -> 40
+38 -> 39
+41 [label="NNS\nchunk:I-NP"]
+42 [label="corticosteroids", shape=plaintext]
+41 -> 42
+38 -> 41
+37 -> 38
+43 [label="PP"]
+44 [label="IN\nchunk:B-PP"]
+45 [label="in", shape=plaintext]
+44 -> 45
+43 -> 44
+46 [label="NP"]
+47 [label="DT\nchunk:B-NP"]
+48 [label="the", shape=plaintext]
+47 -> 48
+46 -> 47
+49 [label="JJ\nchunk:I-NP"]
+50 [label="CR", shape=plaintext]
+49 -> 50
+46 -> 49
+51 [label="JJ\nchunk:I-NP"]
+52 [label="asthmatic", shape=plaintext]
+51 -> 52
+46 -> 51
+53 [label="NNS\nchunk:I-NP"]
+54 [label="individuals", shape=plaintext]
+53 -> 54
+46 -> 53
+43 -> 46
+37 -> 43
+34 -> 37
+6 -> 34
+2 -> 6
+55 [label="."]
+56 [label=".", shape=plaintext]
+55 -> 56
+2 -> 55
+1 -> 2
+}
+Oración: S26.6 True
+Data loaded...
+digraph G{
+1 [label="ROOT"]
+2 [label="S"]
+3 [label="NP"]
+4 [label="DT\nchunk:B-NP"]
+5 [label="The", shape=plaintext]
+4 -> 5
+3 -> 4
+6 [label="NN\nchunk:I-NP"]
+7 [label="dexamethasone", shape=plaintext]
+6 -> 7
+3 -> 6
+8 [label="NN\nchunk:I-NP"]
+9 [label="Kd", shape=plaintext]
+8 -> 9
+3 -> 8
+2 -> 3
+10 [label="VP"]
+11 [label="VBD\nchunk:B-VP"]
+12 [label="was", shape=plaintext]
+11 -> 12
+10 -> 11
+13 [label="NP"]
+14 [label="NP"]
+15 [label="NP"]
+16 [label="CD\nchunk:B-NP"]
+17 [label="2.45", shape=plaintext]
+16 -> 17
+15 -> 16
+14 -> 15
+18 [label="SBAR"]
+19 [label="S"]
+20 [label="VP"]
+21 [label="SYM"]
+22 [label="±", shape=plaintext]
+21 -> 22
+20 -> 21
+23 [label="NP"]
+24 [label="CD\nchunk:B-NP"]
+25 [label="0.58", shape=plaintext]
+24 -> 25
+23 -> 24
+26 [label="NN\nchunk:I-NP"]
+27 [label="nM", shape=plaintext]
+26 -> 27
+23 -> 26
+20 -> 23
+19 -> 20
+18 -> 19
+14 -> 18
+13 -> 14
+28 [label="PRN"]
+29 [label="-LRB-"]
+30 [label="-LRB-", shape=plaintext]
+29 -> 30
+28 -> 29
+31 [label="NP"]
+32 [label="NP"]
+33 [label="NP"]
+34 [label="NN\nchunk:B-NP"]
+35 [label="mean", shape=plaintext]
+34 -> 35
+33 -> 34
+36 [label="NN\nchunk:I-NP"]
+37 [label="±", shape=plaintext]
+36 -> 37
+33 -> 36
+38 [label="NN\nchunk:I-NP"]
+39 [label="SEM", shape=plaintext]
+38 -> 39
+33 -> 38
+32 -> 33
+40 [label=","]
+41 [label=",", shape=plaintext]
+40 -> 41
+32 -> 40
+42 [label="NP"]
+43 [label="NN\nchunk:B-NP"]
+44 [label="n", shape=plaintext]
+43 -> 44
+42 -> 43
+32 -> 42
+31 -> 32
+45 [label="NP"]
+46 [label="JJ\nchunk:B-VP"]
+47 [label="=", shape=plaintext]
+46 -> 47
+45 -> 46
+48 [label="CD\nchunk:B-NP"]
+49 [label="6", shape=plaintext]
+48 -> 49
+45 -> 48
+31 -> 45
+28 -> 31
+50 [label="-RRB-"]
+51 [label="-RRB-", shape=plaintext]
+50 -> 51
+28 -> 50
+13 -> 28
+10 -> 13
+52 [label="PP"]
+53 [label="IN\nchunk:B-PP"]
+54 [label="in", shape=plaintext]
+53 -> 54
+52 -> 53
+55 [label="NP"]
+56 [label="NP"]
+57 [label="DT"]
+58 [label="the", shape=plaintext]
+57 -> 58
+56 -> 57
+59 [label="JJ\nchunk:B-NP"]
+60 [label="CS", shape=plaintext]
+59 -> 60
+56 -> 59
+61 [label="NN\nchunk:B-NP"]
+62 [label="group", shape=plaintext]
+61 -> 62
+56 -> 61
+55 -> 56
+63 [label="CC"]
+64 [label="and", shape=plaintext]
+63 -> 64
+55 -> 63
+65 [label="NP"]
+66 [label="NP"]
+67 [label="NP"]
+68 [label="CD\nchunk:B-NP"]
+69 [label="1.6", shape=plaintext]
+68 -> 69
+67 -> 68
+66 -> 67
+70 [label="PP"]
+71 [label="HYPH\nchunk:I-NP"]
+72 [label="±", shape=plaintext]
+71 -> 72
+70 -> 71
+73 [label="NP"]
+74 [label="NP"]
+75 [label="CD\nchunk:I-NP"]
+76 [label="0.35", shape=plaintext]
+75 -> 76
+74 -> 75
+77 [label="NN\nchunk:I-NP"]
+78 [label="nM", shape=plaintext]
+77 -> 78
+74 -> 77
+79 [label="PRN"]
+80 [label="-LRB-"]
+81 [label="-LRB-", shape=plaintext]
+80 -> 81
+79 -> 80
+82 [label="NP"]
+83 [label="NP"]
+84 [label="NP"]
+85 [label="NN\nchunk:B-NP"]
+86 [label="mean", shape=plaintext]
+85 -> 86
+84 -> 85
+87 [label="NN\nchunk:I-NP"]
+88 [label="±", shape=plaintext]
+87 -> 88
+84 -> 87
+89 [label="NN\nchunk:I-NP"]
+90 [label="SEM", shape=plaintext]
+89 -> 90
+84 -> 89
+83 -> 84
+91 [label=","]
+92 [label=",", shape=plaintext]
+91 -> 92
+83 -> 91
+93 [label="NP"]
+94 [label="NN\nchunk:B-NP"]
+95 [label="n", shape=plaintext]
+94 -> 95
+93 -> 94
+83 -> 93
+82 -> 83
+96 [label="NP"]
+97 [label="JJ\nchunk:B-VP"]
+98 [label="=", shape=plaintext]
+97 -> 98
+96 -> 97
+99 [label="CD\nchunk:B-NP"]
+100 [label="6", shape=plaintext]
+99 -> 100
+96 -> 99
+82 -> 96
+79 -> 82
+101 [label="-RRB-"]
+102 [label="-RRB-", shape=plaintext]
+101 -> 102
+79 -> 101
+74 -> 79
+73 -> 74
+103 [label="PP"]
+104 [label="IN\nchunk:B-PP"]
+105 [label="in", shape=plaintext]
+104 -> 105
+103 -> 104
+106 [label="NP"]
+107 [label="NP"]
+108 [label="DT\nchunk:B-NP"]
+109 [label="the", shape=plaintext]
+108 -> 109
+107 -> 108
+110 [label="JJ\nchunk:I-NP"]
+111 [label="CR", shape=plaintext]
+110 -> 111
+107 -> 110
+112 [label="NN\nchunk:I-NP"]
+113 [label="group", shape=plaintext]
+112 -> 113
+107 -> 112
+106 -> 107
+114 [label="PP"]
+115 [label="IN\nchunk:B-PP"]
+116 [label="of", shape=plaintext]
+115 -> 116
+114 -> 115
+106 -> 114
+103 -> 106
+73 -> 103
+70 -> 73
+66 -> 70
+65 -> 66
+117 [label="NP"]
+118 [label="NP"]
+119 [label="NNS\nchunk:B-NP"]
+120 [label="patients", shape=plaintext]
+119 -> 120
+118 -> 119
+117 -> 118
+121 [label="-LRB-"]
+122 [label="-LRB-", shape=plaintext]
+121 -> 122
+117 -> 121
+123 [label="NP"]
+124 [label="NP"]
+125 [label="NN\nchunk:B-NP"]
+126 [label="p", shape=plaintext]
+125 -> 126
+124 -> 125
+123 -> 124
+127 [label="SBAR"]
+128 [label="S"]
+129 [label="VP"]
+130 [label="SYM\nchunk:B-VP"]
+131 [label="=", shape=plaintext]
+130 -> 131
+129 -> 130
+132 [label="NP"]
+133 [label="CD\nchunk:B-NP"]
+134 [label="0.14", shape=plaintext]
+133 -> 134
+132 -> 133
+129 -> 132
+128 -> 129
+127 -> 128
+123 -> 127
+117 -> 123
+135 [label="-RRB-"]
+136 [label="-RRB-", shape=plaintext]
+135 -> 136
+117 -> 135
+65 -> 117
+55 -> 65
+52 -> 55
+10 -> 52
+2 -> 10
+137 [label="."]
+138 [label=".", shape=plaintext]
+137 -> 138
+2 -> 137
+1 -> 2
+}
+Oración: S26.7 True
+Data loaded...
+digraph G{
+1 [label="ROOT"]
+2 [label="S"]
+3 [label="NP"]
+4 [label="NP"]
+5 [label="DT\nchunk:B-NP"]
+6 [label="The", shape=plaintext]
+5 -> 6
+4 -> 5
+7 [label="NN\nchunk:I-NP"]
+8 [label="Ro", shape=plaintext]
+7 -> 8
+4 -> 7
+3 -> 4
+9 [label="PP"]
+10 [label="IN\nchunk:B-PP"]
+11 [label="in", shape=plaintext]
+10 -> 11
+9 -> 10
+12 [label="NP"]
+13 [label="DT\nchunk:B-NP"]
+14 [label="the", shape=plaintext]
+13 -> 14
+12 -> 13
+15 [label="NN\nchunk:I-NP"]
+16 [label="CS", shape=plaintext]
+15 -> 16
+12 -> 15
+17 [label="NN\nchunk:I-NP"]
+18 [label="group", shape=plaintext]
+17 -> 18
+12 -> 17
+9 -> 12
+3 -> 9
+2 -> 3
+19 [label="VP"]
+20 [label="VBD\nchunk:B-VP"]
+21 [label="was", shape=plaintext]
+20 -> 21
+19 -> 20
+22 [label="NP"]
+23 [label="NP"]
+24 [label="CD\nchunk:B-NP"]
+25 [label="3,605", shape=plaintext]
+24 -> 25
+23 -> 24
+22 -> 23
+26 [label="CC\nchunk:I-NP\nentity:B-DNA"]
+27 [label="±", shape=plaintext]
+26 -> 27
+22 -> 26
+28 [label="NP"]
+29 [label="NP"]
+30 [label="CD\nchunk:I-NP\nentity:I-DNA"]
+31 [label="984", shape=plaintext]
+30 -> 31
+29 -> 30
+32 [label="VBG\nchunk:I-NP\nentity:I-DNA"]
+33 [label="binding", shape=plaintext]
+32 -> 33
+29 -> 32
+34 [label="NNS\nchunk:I-NP\nentity:I-DNA"]
+35 [label="sites", shape=plaintext]
+34 -> 35
+29 -> 34
+28 -> 29
+36 [label="PP"]
+37 [label="IN\nchunk:B-PP"]
+38 [label="per", shape=plaintext]
+37 -> 38
+36 -> 37
+39 [label="NP"]
+40 [label="NP"]
+41 [label="NP"]
+42 [label="NP"]
+43 [label="NP"]
+44 [label="NP"]
+45 [label="NN\nchunk:B-NP"]
+46 [label="nucleus", shape=plaintext]
+45 -> 46
+44 -> 45
+43 -> 44
+47 [label="PRN"]
+48 [label="-LRB-"]
+49 [label="-LRB-", shape=plaintext]
+48 -> 49
+47 -> 48
+50 [label="NP"]
+51 [label="NP"]
+52 [label="NP"]
+53 [label="NN\nchunk:B-NP"]
+54 [label="mean", shape=plaintext]
+53 -> 54
+52 -> 53
+55 [label="NN\nchunk:I-NP"]
+56 [label="±", shape=plaintext]
+55 -> 56
+52 -> 55
+57 [label="NN\nchunk:I-NP"]
+58 [label="SEM", shape=plaintext]
+57 -> 58
+52 -> 57
+51 -> 52
+59 [label=","]
+60 [label=",", shape=plaintext]
+59 -> 60
+51 -> 59
+61 [label="NP"]
+62 [label="NN\nchunk:B-NP"]
+63 [label="n", shape=plaintext]
+62 -> 63
+61 -> 62
+51 -> 61
+50 -> 51
+64 [label="NP"]
+65 [label="JJ\nchunk:B-VP"]
+66 [label="=", shape=plaintext]
+65 -> 66
+64 -> 65
+67 [label="CD\nchunk:B-NP"]
+68 [label="6", shape=plaintext]
+67 -> 68
+64 -> 67
+50 -> 64
+47 -> 50
+69 [label="-RRB-"]
+70 [label="-RRB-", shape=plaintext]
+69 -> 70
+47 -> 69
+43 -> 47
+42 -> 43
+71 [label="CC"]
+72 [label="and", shape=plaintext]
+71 -> 72
+42 -> 71
+73 [label="NP"]
+74 [label="CD\nchunk:B-NP"]
+75 [label="4,757", shape=plaintext]
+74 -> 75
+73 -> 74
+42 -> 73
+41 -> 42
+76 [label="CC\nchunk:I-NP\nentity:B-DNA"]
+77 [label="±", shape=plaintext]
+76 -> 77
+41 -> 76
+78 [label="NP"]
+79 [label="NP"]
+80 [label="CD\nchunk:I-NP\nentity:I-DNA"]
+81 [label="692", shape=plaintext]
+80 -> 81
+79 -> 80
+82 [label="VBG\nchunk:I-NP\nentity:I-DNA"]
+83 [label="binding", shape=plaintext]
+82 -> 83
+79 -> 82
+84 [label="NNS\nchunk:I-NP\nentity:I-DNA"]
+85 [label="sites", shape=plaintext]
+84 -> 85
+79 -> 84
+78 -> 79
+86 [label="PP"]
+87 [label="IN\nchunk:B-PP"]
+88 [label="per", shape=plaintext]
+87 -> 88
+86 -> 87
+89 [label="NP"]
+90 [label="NN\nchunk:B-NP"]
+91 [label="nucleus", shape=plaintext]
+90 -> 91
+89 -> 90
+86 -> 89
+78 -> 86
+41 -> 78
+40 -> 41
+92 [label="PRN"]
+93 [label="-LRB-"]
+94 [label="-LRB-", shape=plaintext]
+93 -> 94
+92 -> 93
+95 [label="NP"]
+96 [label="NP"]
+97 [label="NP"]
+98 [label="NN\nchunk:B-NP"]
+99 [label="mean", shape=plaintext]
+98 -> 99
+97 -> 98
+100 [label="NN\nchunk:I-NP"]
+101 [label="±", shape=plaintext]
+100 -> 101
+97 -> 100
+102 [label="NN\nchunk:I-NP"]
+103 [label="SEM", shape=plaintext]
+102 -> 103
+97 -> 102
+96 -> 97
+104 [label=","]
+105 [label=",", shape=plaintext]
+104 -> 105
+96 -> 104
+106 [label="NP"]
+107 [label="NN\nchunk:B-NP"]
+108 [label="n", shape=plaintext]
+107 -> 108
+106 -> 107
+96 -> 106
+95 -> 96
+109 [label="NP"]
+110 [label="JJ\nchunk:B-VP"]
+111 [label="=", shape=plaintext]
+110 -> 111
+109 -> 110
+112 [label="CD\nchunk:B-NP"]
+113 [label="6", shape=plaintext]
+112 -> 113
+109 -> 112
+95 -> 109
+92 -> 95
+114 [label="-RRB-"]
+115 [label="-RRB-", shape=plaintext]
+114 -> 115
+92 -> 114
+40 -> 92
+39 -> 40
+116 [label="PP"]
+117 [label="IN\nchunk:B-PP"]
+118 [label="in", shape=plaintext]
+117 -> 118
+116 -> 117
+119 [label="NP"]
+120 [label="DT\nchunk:B-NP"]
+121 [label="the", shape=plaintext]
+120 -> 121
+119 -> 120
+122 [label="NP"]
+123 [label="NP"]
+124 [label="JJ\nchunk:I-NP"]
+125 [label="CR", shape=plaintext]
+124 -> 125
+123 -> 124
+126 [label="NN\nchunk:I-NP"]
+127 [label="group", shape=plaintext]
+126 -> 127
+123 -> 126
+122 -> 123
+128 [label="-LRB-"]
+129 [label="-LRB-", shape=plaintext]
+128 -> 129
+122 -> 128
+130 [label="NP"]
+131 [label="NP"]
+132 [label="NN\nchunk:B-NP"]
+133 [label="p", shape=plaintext]
+132 -> 133
+131 -> 132
+130 -> 131
+134 [label="SBAR"]
+135 [label="S"]
+136 [label="VP"]
+137 [label="SYM\nchunk:B-VP"]
+138 [label="=", shape=plaintext]
+137 -> 138
+136 -> 137
+139 [label="NP"]
+140 [label="CD\nchunk:B-NP"]
+141 [label="0.23", shape=plaintext]
+140 -> 141
+139 -> 140
+136 -> 139
+135 -> 136
+134 -> 135
+130 -> 134
+122 -> 130
+142 [label="-RRB-"]
+143 [label="-RRB-", shape=plaintext]
+142 -> 143
+122 -> 142
+119 -> 122
+116 -> 119
+39 -> 116
+36 -> 39
+28 -> 36
+22 -> 28
+19 -> 22
+2 -> 19
+144 [label="."]
+145 [label=".", shape=plaintext]
+144 -> 145
+2 -> 144
+1 -> 2
+}
+Oración: S26.1 True
+Data loaded...
+digraph G{
+1 [label="ROOT"]
+2 [label="NP"]
+3 [label="NP"]
+4 [label="NN\nchunk:B-NP\nentity:B-protein"]
+5 [label="Glucocorticoid", shape=plaintext]
+4 -> 5
+3 -> 4
+6 [label="NN\nchunk:I-NP\nentity:I-protein"]
+7 [label="receptor", shape=plaintext]
+6 -> 7
+3 -> 6
+8 [label="NNS\nchunk:I-NP"]
+9 [label="characteristics", shape=plaintext]
+8 -> 9
+3 -> 8
+2 -> 3
+10 [label="PP"]
+11 [label="IN\nchunk:B-PP"]
+12 [label="in", shape=plaintext]
+11 -> 12
+10 -> 11
+13 [label="NP"]
+14 [label="NNS\nchunk:B-NP\nentity:B-cell_type"]
+15 [label="monocytes", shape=plaintext]
+14 -> 15
+13 -> 14
+10 -> 13
+2 -> 10
+16 [label="PP"]
+17 [label="IN\nchunk:B-PP"]
+18 [label="of", shape=plaintext]
+17 -> 18
+16 -> 17
+19 [label="NP"]
+20 [label="NP"]
+21 [label="NNS\nchunk:B-NP"]
+22 [label="patients", shape=plaintext]
+21 -> 22
+20 -> 21
+19 -> 20
+23 [label="PP"]
+24 [label="IN\nchunk:B-PP"]
+25 [label="with", shape=plaintext]
+24 -> 25
+23 -> 24
+26 [label="NP"]
+27 [label="JJ\nchunk:B-NP"]
+28 [label="corticosteroid-resistant", shape=plaintext]
+27 -> 28
+26 -> 27
+29 [label="JJ\nchunk:I-NP"]
+30 [label="bronchial", shape=plaintext]
+29 -> 30
+26 -> 29
+31 [label="NN\nchunk:I-NP"]
+32 [label="asthma", shape=plaintext]
+31 -> 32
+26 -> 31
+23 -> 26
+19 -> 23
+16 -> 19
+2 -> 16
+33 [label="."]
+34 [label=".", shape=plaintext]
+33 -> 34
+2 -> 33
+1 -> 2
+}
+Oración: S26.2 True
+Data loaded...
+digraph G{
+1 [label="ROOT"]
+2 [label="S"]
+3 [label="NP"]
+4 [label="NP"]
+5 [label="DT\nchunk:B-NP"]
+6 [label="The", shape=plaintext]
+5 -> 6
+4 -> 5
+7 [label="NN\nchunk:I-NP"]
+8 [label="mechanism", shape=plaintext]
+7 -> 8
+4 -> 7
+3 -> 4
+9 [label="PP"]
+10 [label="IN\nchunk:B-PP"]
+11 [label="of", shape=plaintext]
+10 -> 11
+9 -> 10
+12 [label="NP"]
+13 [label="NP"]
+14 [label="NN\nchunk:B-NP"]
+15 [label="corticosteroid", shape=plaintext]
+14 -> 15
+13 -> 14
+16 [label="NN\nchunk:I-NP"]
+17 [label="resistance", shape=plaintext]
+16 -> 17
+13 -> 16
+12 -> 13
+18 [label="PP"]
+19 [label="IN\nchunk:B-PP"]
+20 [label="in", shape=plaintext]
+19 -> 20
+18 -> 19
+21 [label="NP"]
+22 [label="JJ\nchunk:B-NP"]
+23 [label="bronchial", shape=plaintext]
+22 -> 23
+21 -> 22
+24 [label="NN\nchunk:I-NP"]
+25 [label="asthma", shape=plaintext]
+24 -> 25
+21 -> 24
+18 -> 21
+12 -> 18
+9 -> 12
+3 -> 9
+2 -> 3
+26 [label="VP"]
+27 [label="VBZ\nchunk:B-VP"]
+28 [label="has", shape=plaintext]
+27 -> 28
+26 -> 27
+29 [label="VP"]
+30 [label="VBN\nchunk:I-VP"]
+31 [label="been", shape=plaintext]
+30 -> 31
+29 -> 30
+32 [label="VP"]
+33 [label="VBN\nchunk:I-VP"]
+34 [label="studied", shape=plaintext]
+33 -> 34
+32 -> 33
+35 [label="PP"]
+36 [label="IN\nchunk:B-PP"]
+37 [label="by", shape=plaintext]
+36 -> 37
+35 -> 36
+38 [label="S"]
+39 [label="VP"]
+40 [label="VBG\nchunk:B-VP"]
+41 [label="determining", shape=plaintext]
+40 -> 41
+39 -> 40
+42 [label="NP"]
+43 [label="NP"]
+44 [label="DT\nchunk:B-NP"]
+45 [label="the", shape=plaintext]
+44 -> 45
+43 -> 44
+46 [label="NN\nchunk:I-NP"]
+47 [label="rank", shape=plaintext]
+46 -> 47
+43 -> 46
+48 [label="NN\nchunk:I-NP"]
+49 [label="order", shape=plaintext]
+48 -> 49
+43 -> 48
+42 -> 43
+50 [label="PP"]
+51 [label="IN\nchunk:B-PP"]
+52 [label="of", shape=plaintext]
+51 -> 52
+50 -> 51
+53 [label="NP"]
+54 [label="NN\nchunk:B-NP"]
+55 [label="potency", shape=plaintext]
+54 -> 55
+53 -> 54
+50 -> 53
+42 -> 50
+39 -> 42
+56 [label="PP"]
+57 [label="IN\nchunk:B-PP"]
+58 [label="for", shape=plaintext]
+57 -> 58
+56 -> 57
+59 [label="NP"]
+60 [label="JJ\nchunk:B-NP"]
+61 [label="different", shape=plaintext]
+60 -> 61
+59 -> 60
+62 [label="NNS\nchunk:I-NP"]
+63 [label="corticosteroids", shape=plaintext]
+62 -> 63
+59 -> 62
+56 -> 59
+39 -> 56
+64 [label="PP"]
+65 [label="IN\nchunk:B-PP"]
+66 [label="in", shape=plaintext]
+65 -> 66
+64 -> 65
+67 [label="S"]
+68 [label="VP"]
+69 [label="VBG\nchunk:B-VP"]
+70 [label="inhibiting", shape=plaintext]
+69 -> 70
+68 -> 69
+71 [label="NP"]
+72 [label="NP"]
+73 [label="DT\nchunk:B-NP"]
+74 [label="the", shape=plaintext]
+73 -> 74
+72 -> 73
+75 [label="NN\nchunk:I-NP"]
+76 [label="generation", shape=plaintext]
+75 -> 76
+72 -> 75
+71 -> 72
+77 [label="PP"]
+78 [label="IN\nchunk:B-PP"]
+79 [label="of", shape=plaintext]
+78 -> 79
+77 -> 78
+80 [label="NP"]
+81 [label="DT\nchunk:B-NP"]
+82 [label="a", shape=plaintext]
+81 -> 82
+80 -> 81
+83 [label="CD\nchunk:I-NP"]
+84 [label="3", shape=plaintext]
+83 -> 84
+80 -> 83
+85 [label="NN\nchunk:I-NP"]
+86 [label="kD", shape=plaintext]
+85 -> 86
+80 -> 85
+87 [label="NN\nchunk:I-NP"]
+88 [label="molecule", shape=plaintext]
+87 -> 88
+80 -> 87
+77 -> 80
+71 -> 77
+68 -> 71
+89 [label="PP"]
+90 [label="IN\nchunk:B-PP"]
+91 [label="from", shape=plaintext]
+90 -> 91
+89 -> 90
+92 [label="NP"]
+93 [label="NP"]
+94 [label="JJ\nchunk:B-NP\nentity:B-cell_type"]
+95 [label="peripheral", shape=plaintext]
+94 -> 95
+93 -> 94
+96 [label="NN\nchunk:I-NP\nentity:I-cell_type"]
+97 [label="blood", shape=plaintext]
+96 -> 97
+93 -> 96
+98 [label="NNS\nchunk:I-NP\nentity:I-cell_type"]
+99 [label="monocytes", shape=plaintext]
+98 -> 99
+93 -> 98
+92 -> 93
+100 [label="VP"]
+101 [label="VBN\nchunk:B-VP"]
+102 [label="isolated", shape=plaintext]
+101 -> 102
+100 -> 101
+103 [label="PP"]
+104 [label="IN\nchunk:B-PP"]
+105 [label="from", shape=plaintext]
+104 -> 105
+103 -> 104
+106 [label="NP"]
+107 [label="NP"]
+108 [label="ADJP"]
+109 [label="ADJP"]
+110 [label="ADJP"]
+111 [label="JJ"]
+112 [label="corticosteroid-sensitive", shape=plaintext]
+111 -> 112
+110 -> 111
+109 -> 110
+113 [label="PRN"]
+114 [label="-LRB-"]
+115 [label="-LRB-", shape=plaintext]
+114 -> 115
+113 -> 114
+116 [label="ADJP"]
+117 [label="JJ\nchunk:B-ADJP"]
+118 [label="CS", shape=plaintext]
+117 -> 118
+116 -> 117
+113 -> 116
+119 [label="-RRB-"]
+120 [label="-RRB-", shape=plaintext]
+119 -> 120
+113 -> 119
+109 -> 113
+108 -> 109
+121 [label="CC"]
+122 [label="and", shape=plaintext]
+121 -> 122
+108 -> 121
+123 [label="ADJP"]
+124 [label="ADJP"]
+125 [label="JJ"]
+126 [label="corticosteroid-resistant", shape=plaintext]
+125 -> 126
+124 -> 125
+123 -> 124
+127 [label="PRN"]
+128 [label="-LRB-"]
+129 [label="-LRB-", shape=plaintext]
+128 -> 129
+127 -> 128
+130 [label="ADJP"]
+131 [label="JJ\nchunk:B-ADJP"]
+132 [label="CR", shape=plaintext]
+131 -> 132
+130 -> 131
+127 -> 130
+133 [label="-RRB-"]
+134 [label="-RRB-", shape=plaintext]
+133 -> 134
+127 -> 133
+123 -> 127
+108 -> 123
+107 -> 108
+135 [label="JJ\nchunk:B-NP"]
+136 [label="asthmatic", shape=plaintext]
+135 -> 136
+107 -> 135
+137 [label="NNS\nchunk:I-NP"]
+138 [label="subjects", shape=plaintext]
+137 -> 138
+107 -> 137
+106 -> 107
+139 [label=","]
+140 [label=",", shape=plaintext]
+139 -> 140
+106 -> 139
+141 [label="SBAR"]
+142 [label="WHNP"]
+143 [label="WDT\nchunk:B-NP"]
+144 [label="which", shape=plaintext]
+143 -> 144
+142 -> 143
+141 -> 142
+145 [label="S"]
+146 [label="VP"]
+147 [label="VBZ\nchunk:B-VP"]
+148 [label="augments", shape=plaintext]
+147 -> 148
+146 -> 147
+149 [label="NP"]
+150 [label="NN\nchunk:B-NP"]
+151 [label="leukotriene", shape=plaintext]
+150 -> 151
+149 -> 150
+152 [label="NN\nchunk:I-NP"]
+153 [label="B4", shape=plaintext]
+152 -> 153
+149 -> 152
+146 -> 149
+154 [label="PRN"]
+155 [label="-LRB-"]
+156 [label="-LRB-", shape=plaintext]
+155 -> 156
+154 -> 155
+157 [label="NP"]
+158 [label="NN\nchunk:B-NP"]
+159 [label="LTB4", shape=plaintext]
+158 -> 159
+157 -> 158
+154 -> 157
+160 [label="-RRB-"]
+161 [label="-RRB-", shape=plaintext]
+160 -> 161
+154 -> 160
+146 -> 154
+162 [label="PP"]
+163 [label="NP"]
+164 [label="NN\nchunk:B-NP"]
+165 [label="generation", shape=plaintext]
+164 -> 165
+163 -> 164
+162 -> 163
+166 [label="IN\nchunk:B-PP"]
+167 [label="by", shape=plaintext]
+166 -> 167
+162 -> 166
+168 [label="NP"]
+169 [label="NP"]
+170 [label="JJ\nchunk:B-NP\nentity:B-cell_type"]
+171 [label="human", shape=plaintext]
+170 -> 171
+169 -> 170
+172 [label="NNS\nchunk:I-NP\nentity:I-cell_type"]
+173 [label="neutrophils", shape=plaintext]
+172 -> 173
+169 -> 172
+168 -> 169
+174 [label="PRN"]
+175 [label="-LRB-"]
+176 [label="-LRB-", shape=plaintext]
+175 -> 176
+174 -> 175
+177 [label="NP"]
+178 [label="NN\nchunk:B-NP\nentity:B-cell_type"]
+179 [label="PMN", shape=plaintext]
+178 -> 179
+177 -> 178
+174 -> 177
+180 [label="-RRB-"]
+181 [label="-RRB-", shape=plaintext]
+180 -> 181
+174 -> 180
+168 -> 174
+182 [label="VP"]
+183 [label="VBN\nchunk:B-VP"]
+184 [label="stimulated", shape=plaintext]
+183 -> 184
+182 -> 183
+185 [label="PP"]
+186 [label="IN\nchunk:B-PP"]
+187 [label="by", shape=plaintext]
+186 -> 187
+185 -> 186
+188 [label="NP"]
+189 [label="NN\nchunk:B-NP"]
+190 [label="calcium", shape=plaintext]
+189 -> 190
+188 -> 189
+191 [label="NN\nchunk:I-NP"]
+192 [label="ionophore", shape=plaintext]
+191 -> 192
+188 -> 191
+185 -> 188
+182 -> 185
+168 -> 182
+162 -> 168
+146 -> 162
+145 -> 146
+141 -> 145
+106 -> 141
+103 -> 106
+100 -> 103
+92 -> 100
+89 -> 92
+68 -> 89
+67 -> 68
+64 -> 67
+39 -> 64
+38 -> 39
+35 -> 38
+32 -> 35
+29 -> 32
+26 -> 29
+2 -> 26
+193 [label="."]
+194 [label=".", shape=plaintext]
+193 -> 194
+2 -> 193
+1 -> 2
+}
+Oración: S26.3 True
+Data loaded...
+digraph G{
+1 [label="ROOT"]
+2 [label="S"]
+3 [label="PP"]
+4 [label="IN\nchunk:B-PP"]
+5 [label="In", shape=plaintext]
+4 -> 5
+3 -> 4
+6 [label="NP"]
+7 [label="NN\nchunk:B-NP"]
+8 [label="addition", shape=plaintext]
+7 -> 8
+6 -> 7
+3 -> 6
+2 -> 3
+9 [label=","]
+10 [label=",", shape=plaintext]
+9 -> 10
+2 -> 9
+11 [label="NP"]
+12 [label="NP"]
+13 [label="VBG\nchunk:B-NP"]
+14 [label="binding", shape=plaintext]
+13 -> 14
+12 -> 13
+15 [label="NNS\nchunk:I-NP"]
+16 [label="studies", shape=plaintext]
+15 -> 16
+12 -> 15
+11 -> 12
+17 [label="PP"]
+18 [label="IN\nchunk:B-PP"]
+19 [label="with", shape=plaintext]
+18 -> 19
+17 -> 18
+20 [label="NP"]
+21 [label="PRN"]
+22 [label="-LRB-\nchunk:B-NP"]
+23 [label="-LRB-", shape=plaintext]
+22 -> 23
+21 -> 22
+24 [label="NP"]
+25 [label="NN\nchunk:I-NP"]
+26 [label="3H", shape=plaintext]
+25 -> 26
+24 -> 25
+21 -> 24
+27 [label="-RRB-\nchunk:I-NP"]
+28 [label="-RRB-", shape=plaintext]
+27 -> 28
+21 -> 27
+20 -> 21
+29 [label="NN\nchunk:I-NP"]
+30 [label="dexamethasone", shape=plaintext]
+29 -> 30
+20 -> 29
+17 -> 20
+11 -> 17
+2 -> 11
+31 [label="VP"]
+32 [label="VBP\nchunk:B-VP"]
+33 [label="have", shape=plaintext]
+32 -> 33
+31 -> 32
+34 [label="VP"]
+35 [label="VBN\nchunk:I-VP"]
+36 [label="been", shape=plaintext]
+35 -> 36
+34 -> 35
+37 [label="VP"]
+38 [label="VBN\nchunk:I-VP"]
+39 [label="performed", shape=plaintext]
+38 -> 39
+37 -> 38
+40 [label="S"]
+41 [label="VP"]
+42 [label="TO\nchunk:B-VP"]
+43 [label="to", shape=plaintext]
+42 -> 43
+41 -> 42
+44 [label="VP"]
+45 [label="VB\nchunk:I-VP"]
+46 [label="determine", shape=plaintext]
+45 -> 46
+44 -> 45
+47 [label="NP"]
+48 [label="NP"]
+49 [label="NP"]
+50 [label="DT\nchunk:B-NP"]
+51 [label="the", shape=plaintext]
+50 -> 51
+49 -> 50
+52 [label="NN\nchunk:I-NP"]
+53 [label="dissociation", shape=plaintext]
+52 -> 53
+49 -> 52
+54 [label="NN\nchunk:I-NP"]
+55 [label="constant", shape=plaintext]
+54 -> 55
+49 -> 54
+48 -> 49
+56 [label="PRN"]
+57 [label="-LRB-"]
+58 [label="-LRB-", shape=plaintext]
+57 -> 58
+56 -> 57
+59 [label="NP"]
+60 [label="NN\nchunk:B-NP"]
+61 [label="Kd", shape=plaintext]
+60 -> 61
+59 -> 60
+56 -> 59
+62 [label="-RRB-"]
+63 [label="-RRB-", shape=plaintext]
+62 -> 63
+56 -> 62
+48 -> 56
+47 -> 48
+64 [label="CC"]
+65 [label="and", shape=plaintext]
+64 -> 65
+47 -> 64
+66 [label="NP"]
+67 [label="NP"]
+68 [label="NN\nchunk:B-NP"]
+69 [label="receptor", shape=plaintext]
+68 -> 69
+67 -> 68
+70 [label="NNS\nchunk:I-NP"]
+71 [label="numbers", shape=plaintext]
+70 -> 71
+67 -> 70
+66 -> 67
+72 [label="PRN"]
+73 [label="-LRB-"]
+74 [label="-LRB-", shape=plaintext]
+73 -> 74
+72 -> 73
+75 [label="NP"]
+76 [label="NN\nchunk:B-NP"]
+77 [label="Ro", shape=plaintext]
+76 -> 77
+75 -> 76
+72 -> 75
+78 [label="-RRB-"]
+79 [label="-RRB-", shape=plaintext]
+78 -> 79
+72 -> 78
+66 -> 72
+47 -> 66
+44 -> 47
+80 [label="PP"]
+81 [label="IN\nchunk:B-PP"]
+82 [label="in", shape=plaintext]
+81 -> 82
+80 -> 81
+83 [label="NP"]
+84 [label="NP"]
+85 [label="DT\nchunk:B-NP"]
+86 [label="the", shape=plaintext]
+85 -> 86
+84 -> 85
+87 [label="NNS\nchunk:I-NP\nentity:B-cell_type"]
+88 [label="monocytes", shape=plaintext]
+87 -> 88
+84 -> 87
+83 -> 84
+89 [label="PP"]
+90 [label="IN\nchunk:B-PP"]
+91 [label="of", shape=plaintext]
+90 -> 91
+89 -> 90
+92 [label="NP"]
+93 [label="NP"]
+94 [label="DT\nchunk:B-NP"]
+95 [label="these", shape=plaintext]
+94 -> 95
+93 -> 94
+96 [label="CD\nchunk:I-NP"]
+97 [label="two", shape=plaintext]
+96 -> 97
+93 -> 96
+98 [label="NNS\nchunk:I-NP"]
+99 [label="groups", shape=plaintext]
+98 -> 99
+93 -> 98
+92 -> 93
+100 [label="PP"]
+101 [label="IN\nchunk:B-PP"]
+102 [label="of", shape=plaintext]
+101 -> 102
+100 -> 101
+103 [label="NP"]
+104 [label="NNS\nchunk:B-NP"]
+105 [label="subjects", shape=plaintext]
+104 -> 105
+103 -> 104
+100 -> 103
+92 -> 100
+89 -> 92
+83 -> 89
+80 -> 83
+44 -> 80
+41 -> 44
+40 -> 41
+37 -> 40
+34 -> 37
+31 -> 34
+2 -> 31
+106 [label="."]
+107 [label=".", shape=plaintext]
+106 -> 107
+2 -> 106
+1 -> 2
+}
+Oración: S26.8 True
+Data loaded...
+digraph G{
+1 [label="ROOT"]
+2 [label="S"]
+3 [label="NP"]
+4 [label="DT\nchunk:B-NP"]
+5 [label="These", shape=plaintext]
+4 -> 5
+3 -> 4
+6 [label="NNS\nchunk:I-NP"]
+7 [label="findings", shape=plaintext]
+6 -> 7
+3 -> 6
+2 -> 3
+8 [label="VP"]
+9 [label="VBP\nchunk:B-VP\nspecCue:B-SPECCUE\nspecXcope:B-SPECXCOPE"]
+10 [label="indicate", shape=plaintext]
+9 -> 10
+8 -> 9
+11 [label="SBAR"]
+12 [label="IN\nchunk:B-SBAR\nspecCue:I-SPECCUE\nspecXcope:I-SPECXCOPE"]
+13 [label="that", shape=plaintext]
+12 -> 13
+11 -> 12
+14 [label="S"]
+15 [label="NP"]
+16 [label="NP"]
+17 [label="NN\nchunk:B-NP\nspecXcope:I-SPECXCOPE\nnegXcope:B-NEGXCOPE"]
+18 [label="corticosteroid", shape=plaintext]
+17 -> 18
+16 -> 17
+19 [label="NN\nchunk:I-NP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+20 [label="resistance", shape=plaintext]
+19 -> 20
+16 -> 19
+15 -> 16
+21 [label="PP"]
+22 [label="IN\nchunk:B-PP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+23 [label="in", shape=plaintext]
+22 -> 23
+21 -> 22
+24 [label="NP"]
+25 [label="JJ\nchunk:B-NP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+26 [label="bronchial", shape=plaintext]
+25 -> 26
+24 -> 25
+27 [label="NN\nchunk:I-NP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+28 [label="asthma", shape=plaintext]
+27 -> 28
+24 -> 27
+21 -> 24
+15 -> 21
+14 -> 15
+29 [label="VP"]
+30 [label="MD\nchunk:B-VP\nnegCue:B-NEGCUE\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+31 [label="can", shape=plaintext]
+30 -> 31
+29 -> 30
+32 [label="RB\nchunk:I-VP\nnegCue:I-NEGCUE\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+33 [label="not", shape=plaintext]
+32 -> 33
+29 -> 32
+34 [label="VP"]
+35 [label="VB\nchunk:I-VP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+36 [label="be", shape=plaintext]
+35 -> 36
+34 -> 35
+37 [label="VP"]
+38 [label="VBN\nchunk:I-VP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+39 [label="explained", shape=plaintext]
+38 -> 39
+37 -> 38
+40 [label="PP"]
+41 [label="IN\nchunk:B-PP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+42 [label="by", shape=plaintext]
+41 -> 42
+40 -> 41
+43 [label="NP"]
+44 [label="NP"]
+45 [label="NNS\nchunk:B-NP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+46 [label="abnormalities", shape=plaintext]
+45 -> 46
+44 -> 45
+43 -> 44
+47 [label="PP"]
+48 [label="IN\nchunk:B-PP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+49 [label="in", shape=plaintext]
+48 -> 49
+47 -> 48
+50 [label="NP"]
+51 [label="NN\nchunk:B-NP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+52 [label="corticosteroid", shape=plaintext]
+51 -> 52
+50 -> 51
+53 [label="NN\nchunk:I-NP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+54 [label="receptor", shape=plaintext]
+53 -> 54
+50 -> 53
+55 [label="NNS\nchunk:I-NP\nspecXcope:I-SPECXCOPE\nnegXcope:I-NEGXCOPE"]
+56 [label="characteristics", shape=plaintext]
+55 -> 56
+50 -> 55
+47 -> 50
+43 -> 47
+40 -> 43
+37 -> 40
+34 -> 37
+29 -> 34
+14 -> 29
+11 -> 14
+8 -> 11
+2 -> 8
+57 [label="."]
+58 [label=".", shape=plaintext]
+57 -> 58
+2 -> 57
+1 -> 2
+}
